@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Support SLA Customer --></label>
+        <name>Support_SLA_Customer__c</name>
+        <picklistValues>
+            <masterLabel>SLA Reporting</masterLabel>
+            <translation><!-- SLA Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Credits</masterLabel>
+            <translation><!-- Service Credits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Credits and SLA Reporting</masterLabel>
+            <translation><!-- Service Credits and SLA Reporting --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
