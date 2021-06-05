@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <header>Campaigns owned by Marketo</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>400.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#33726B</indicatorLowColor>
+                <indicatorMiddleColor>#C23934</indicatorMiddleColor>
+                <metricLabel>Ownership needs to be changed</metricLabel>
+                <report>Marketing_Reports/MKG_Campaigns_owned_by_Marketo</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <header>Campaigns not marked complete</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#33726B</indicatorLowColor>
+                <indicatorMiddleColor>#C23934</indicatorMiddleColor>
+                <metricLabel>Need to update &quot;Progress status&quot;</metricLabel>
+                <report>Marketing_Reports/MKG_Campaigns_not_marked_complete</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>CAMPAIGN_TYPE</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>grouping</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CAMPAIGN_NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>grouping</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>RowCount</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>aggregate</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                    <groupingSorts>
+                        <groupingLevel>g2</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>Campaign &quot;Responded&quot; Check</header>
+                <report>Marketing_Reports/Bizible_Responded_Check_Yulian</report>
+                <title>Update &quot;Responded&quot; checkbox</title>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>17</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <header>Completed events with no cost</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#33726B</indicatorLowColor>
+                <indicatorMiddleColor>#C23934</indicatorMiddleColor>
+                <metricLabel>Update &quot;Actual Cost in Campaign&quot;</metricLabel>
+                <report>Marketing_Reports/MKG_Completed_events_w_no_cost</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>5</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <header>&quot;Enable Bizible Touchpoints&quot; blank</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#33726B</indicatorLowColor>
+                <indicatorMiddleColor>#C23934</indicatorMiddleColor>
+                <metricLabel>Complete &quot;Enable Bizible Touchpoints&quot;</metricLabel>
+                <report>Marketing_Reports/MKG_Campaigns_Biz_TP_check</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>5</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <header>Campaigns missing information</header>
+                <indicatorBreakpoint1>200.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>300.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <report>Marketing_Reports/MKG_Campaigns_missing_inform</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>10</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>james_gunn@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>MKG_Campaign admin</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

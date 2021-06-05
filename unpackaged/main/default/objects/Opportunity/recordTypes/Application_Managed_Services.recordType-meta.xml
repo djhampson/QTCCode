@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Managed_Services</fullName>
+    <active>true</active>
+    <businessProcess>TechOne Version 2</businessProcess>
+    <label>Application Managed Services</label>
+    <picklistValues>
+        <picklist>AMS_Program_Type__c</picklist>
+        <values>
+            <fullName>New Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uplift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AMS_Rollover_of_Hours__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AMS_Service_Period__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AMS_Term__c</picklist>
+        <values>
+            <fullName>1 year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 years</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ARR_Movement_Category__c</picklist>
+        <values>
+            <fullName>Cancelled Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled Modules%2C Products%2C Reductions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Currency Movement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indexation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Movements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - LARR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T1 Foundation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ARR_Sub_Movement_Category__c</picklist>
+        <values>
+            <fullName>Amalgamation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled Module%2Fs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled Product%2Fs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled SaaS Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled SaaS Platform environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled everything except SaaS Platform environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concession</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Currency Movement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indexation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Movements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SaaS Platform environment expiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SaaS Platform environment reduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - Add Product%2C Users%2C Uplift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - DXP early adopter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - LARR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - New logo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - Novation of Licences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - Product uptake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - SaaS extension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - SaaS extras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - SaaS flips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - SaaS to On Premise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce Opportunity - Spatial renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Settlement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T1 Foundation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Acquisition__c</picklist>
+        <values>
+            <fullName>DMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JRA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Auto_Renewal_Treatment__c</picklist>
+        <values>
+            <fullName>Auto-Create Opportunity and Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto-Renew continuously %E2%80%93 12 months</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Do Not Auto-Renew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CR_Product__c</picklist>
+        <values>
+            <fullName>AMS Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asset Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Process Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Performance Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise Content Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources and Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property and Rating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stakeholder Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain Management</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cloud_Complexity_Level__c</picklist>
+        <values>
+            <fullName>Major</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cloud_Term__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Years</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Consulting_Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved after deal signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved before deal signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No approval submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Status__c</picklist>
+        <values>
+            <fullName>Contract Drafted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Negotiation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final paperwork with customer for signing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Type__c</picklist>
+        <values>
+            <fullName>Customer Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote to be signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TechOne Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Variation to existing agreement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deal_Type__c</picklist>
+        <values>
+            <fullName>AMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perpetual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perpetual on Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Delayed_Payment_Term__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exceed_Ratio_Category__c</picklist>
+        <values>
+            <fullName>Complex Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Additional Requirements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licence Discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Concurrent User Count</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Readiness%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>CAM Initiated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Converted Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Initiated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inco %28UK Only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDM Initiated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Industry__c</picklist>
+        <values>
+            <fullName>Asset Intensive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health and Community Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Intensive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opportunity_Region__c</picklist>
+        <values>
+            <fullName>01 - QLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 - SA %26 NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 - WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - ACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 - TAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 - NZN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 - NZS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 - SEAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23 - UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opt_Out_No_Bid_Reason__c</picklist>
+        <values>
+            <fullName>No real opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postponed Indefinitely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replaced with different opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to meet requirements</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owner_Commit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PC_Laptop_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_Stage_Completed__c</picklist>
+        <values>
+            <fullName>Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handover and Closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Projector_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RM_Forecast_Confirm__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Renewal_Pricing_Method__c</picklist>
+        <values>
+            <fullName>List</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Uplift</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Risk_Profile_Rating__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SaaS_Term__c</picklist>
+        <values>
+            <fullName>1 Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Years</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scheduled_In_Clarity__c</picklist>
+        <values>
+            <fullName>Assignment complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Named resource assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource demand created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource requirement sent to PMO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Solution__c</picklist>
+        <values>
+            <fullName>OneAgedCare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneAirport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneBanking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneCommunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneCorporate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneCouncil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneEducation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneEnergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneEntertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneGovernment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneHealth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneHousing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneInsurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneMembership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OnePolytechnic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OnePort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneProject</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneResearch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneTAFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneUniversity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneWater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OneWealth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent to Opportunity Owner for Input</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tender_Expected__c</picklist>
+        <values>
+            <fullName>BAFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PQQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade Proposal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Training_Room_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New to Existing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Whiteboard_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>sbaa__ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recalled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

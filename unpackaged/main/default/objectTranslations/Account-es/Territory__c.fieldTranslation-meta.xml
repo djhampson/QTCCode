@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Territory --></label>
+        <name>Territory__c</name>
+        <picklistValues>
+            <masterLabel>ACT - GOV - 1</masterLabel>
+            <translation><!-- ACT - GOV - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACT - GOV - 2</masterLabel>
+            <translation><!-- ACT - GOV - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACT - GOV - 3</masterLabel>
+            <translation><!-- ACT - GOV - 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - ASI - 1</masterLabel>
+            <translation><!-- NSW - ASI - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - EDU - 1</masterLabel>
+            <translation><!-- NSW - EDU - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - EDU - 2</masterLabel>
+            <translation><!-- NSW - EDU - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - FIN - 1</masterLabel>
+            <translation><!-- NSW - FIN - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - GOVCORP - 1</masterLabel>
+            <translation><!-- NSW - GOVCORP - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - HCS - 1</masterLabel>
+            <translation><!-- NSW - HCS - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - LG - 1</masterLabel>
+            <translation><!-- NSW - LG - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - LG - 2</masterLabel>
+            <translation><!-- NSW - LG - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - LG - 3</masterLabel>
+            <translation><!-- NSW - LG - 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW - LG - 4</masterLabel>
+            <translation><!-- NSW - LG - 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ - ASI - 1</masterLabel>
+            <translation><!-- NZ - ASI - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ - EDU - 1</masterLabel>
+            <translation><!-- NZ - EDU - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ - GOV - 1</masterLabel>
+            <translation><!-- NZ - GOV - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ - HCS - 1</masterLabel>
+            <translation><!-- NZ - HCS - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ - LG - 1</masterLabel>
+            <translation><!-- NZ - LG - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ - LGFINCORP - 1</masterLabel>
+            <translation><!-- NZ - LGFINCORP - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD - ASIFINCORP - 1</masterLabel>
+            <translation><!-- QLD - ASIFINCORP - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD - EDU - 1</masterLabel>
+            <translation><!-- QLD - EDU - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD - GOV - 1</masterLabel>
+            <translation><!-- QLD - GOV - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD - HCSFINCORP - 1</masterLabel>
+            <translation><!-- QLD - HCSFINCORP - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD - LG - 1</masterLabel>
+            <translation><!-- QLD - LG - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD - LG - 2</masterLabel>
+            <translation><!-- QLD - LG - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD - LG - 3</masterLabel>
+            <translation><!-- QLD - LG - 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANT - LG - 1</masterLabel>
+            <translation><!-- SANT - LG - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANT - MISC - 1</masterLabel>
+            <translation><!-- SANT - MISC - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR - 1</masterLabel>
+            <translation><!-- SDR - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR - 2</masterLabel>
+            <translation><!-- SDR - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDR - 3</masterLabel>
+            <translation><!-- SDR - 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1D - 1</masterLabel>
+            <translation><!-- T1D - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1D - 2</masterLabel>
+            <translation><!-- T1D - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1D - 3</masterLabel>
+            <translation><!-- T1D - 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1D - 4</masterLabel>
+            <translation><!-- T1D - 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1D - 5</masterLabel>
+            <translation><!-- T1D - 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1D - 6</masterLabel>
+            <translation><!-- T1D - 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1D - 7</masterLabel>
+            <translation><!-- T1D - 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAS - 1</masterLabel>
+            <translation><!-- TAS - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK - 1</masterLabel>
+            <translation><!-- UK - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK - 2</masterLabel>
+            <translation><!-- UK - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK - 3</masterLabel>
+            <translation><!-- UK - 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK - 4</masterLabel>
+            <translation><!-- UK - 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK - 5</masterLabel>
+            <translation><!-- UK - 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - ASIFINCORP - 1</masterLabel>
+            <translation><!-- VIC - ASIFINCORP - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - EDU - 1</masterLabel>
+            <translation><!-- VIC - EDU - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - EDU - 2</masterLabel>
+            <translation><!-- VIC - EDU - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - HCS - 1</masterLabel>
+            <translation><!-- VIC - HCS - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - HCS - 2</masterLabel>
+            <translation><!-- VIC - HCS - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - LG - 1</masterLabel>
+            <translation><!-- VIC - LG - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - LG - 2</masterLabel>
+            <translation><!-- VIC - LG - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC - LGGOV - 1</masterLabel>
+            <translation><!-- VIC - LGGOV - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - EDU - 1</masterLabel>
+            <translation><!-- WA - EDU - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - LG - 1</masterLabel>
+            <translation><!-- WA - LG - 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - LG - 2</masterLabel>
+            <translation><!-- WA - LG - 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - MISC - 1</masterLabel>
+            <translation><!-- WA - MISC - 1 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

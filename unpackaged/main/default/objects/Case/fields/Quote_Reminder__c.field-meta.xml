@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Reminder__c</fullName>
+    <description>The date/time that a reminder will be sent to the customer if there has been no response to the intial quote. The field is calculated via workflow field update.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date/time that a reminder will be sent to the customer if there has been no response to the initial quote.</inlineHelpText>
+    <label>Quote Reminder</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apps__c</fullName>
+    <externalId>false</externalId>
+    <label>Apps</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounts Receivable Processing</fullName>
+                <default>false</default>
+                <label>Accounts Receivable Processing</label>
+            </value>
+            <value>
+                <fullName>Animals</fullName>
+                <default>false</default>
+                <label>Animals</label>
+            </value>
+            <value>
+                <fullName>Asset Booking</fullName>
+                <default>false</default>
+                <label>Asset Booking</label>
+            </value>
+            <value>
+                <fullName>Assets Core</fullName>
+                <default>false</default>
+                <label>Assets Core</label>
+            </value>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>Business ETL</fullName>
+                <default>false</default>
+                <label>Business ETL</label>
+            </value>
+            <value>
+                <fullName>Business Intelligence</fullName>
+                <default>false</default>
+                <label>Business Intelligence</label>
+            </value>
+            <value>
+                <fullName>Catalogues and Suppliers</fullName>
+                <default>false</default>
+                <label>Catalogues and Suppliers</label>
+            </value>
+            <value>
+                <fullName>Charts</fullName>
+                <default>false</default>
+                <label>Charts</label>
+            </value>
+            <value>
+                <fullName>Ci Anywhere Compatibility</fullName>
+                <default>false</default>
+                <label>Ci Anywhere Compatibility</label>
+            </value>
+            <value>
+                <fullName>Ci Anywhere Hybrid Runtime</fullName>
+                <default>false</default>
+                <label>Ci Anywhere Hybrid Runtime</label>
+            </value>
+            <value>
+                <fullName>Ci Anywhere Web Runtime</fullName>
+                <default>false</default>
+                <label>Ci Anywhere Web Runtime</label>
+            </value>
+            <value>
+                <fullName>CMIS</fullName>
+                <default>false</default>
+                <label>CMIS</label>
+            </value>
+            <value>
+                <fullName>Common Business</fullName>
+                <default>false</default>
+                <label>Common Business</label>
+            </value>
+            <value>
+                <fullName>Connected Content</fullName>
+                <default>false</default>
+                <label>Connected Content</label>
+            </value>
+            <value>
+                <fullName>Contracts</fullName>
+                <default>false</default>
+                <label>Contracts</label>
+            </value>
+            <value>
+                <fullName>Corporate Directory</fullName>
+                <default>false</default>
+                <label>Corporate Directory</label>
+            </value>
+            <value>
+                <fullName>CPM Core</fullName>
+                <default>false</default>
+                <label>CPM Core</label>
+            </value>
+            <value>
+                <fullName>CRM System Management</fullName>
+                <default>false</default>
+                <label>CRM System Management</label>
+            </value>
+            <value>
+                <fullName>Crystal Reports</fullName>
+                <default>false</default>
+                <label>Crystal Reports</label>
+            </value>
+            <value>
+                <fullName>Data Entry</fullName>
+                <default>false</default>
+                <label>Data Entry</label>
+            </value>
+            <value>
+                <fullName>Debtors</fullName>
+                <default>false</default>
+                <label>Debtors</label>
+            </value>
+            <value>
+                <fullName>Distributed Processor</fullName>
+                <default>false</default>
+                <label>Distributed Processor</label>
+            </value>
+            <value>
+                <fullName>Dynamic Entities</fullName>
+                <default>false</default>
+                <label>Dynamic Entities</label>
+            </value>
+            <value>
+                <fullName>ECM Core</fullName>
+                <default>false</default>
+                <label>ECM Core</label>
+            </value>
+            <value>
+                <fullName>ECM Tasks</fullName>
+                <default>false</default>
+                <label>ECM Tasks</label>
+            </value>
+            <value>
+                <fullName>Enterprise Budgeting</fullName>
+                <default>false</default>
+                <label>Enterprise Budgeting</label>
+            </value>
+            <value>
+                <fullName>Expense Reporting</fullName>
+                <default>false</default>
+                <label>Expense Reporting</label>
+            </value>
+            <value>
+                <fullName>Financials Management</fullName>
+                <default>false</default>
+                <label>Financials Management</label>
+            </value>
+            <value>
+                <fullName>Financials Security</fullName>
+                <default>false</default>
+                <label>Financials Security</label>
+            </value>
+            <value>
+                <fullName>Fixed Assets</fullName>
+                <default>false</default>
+                <label>Fixed Assets</label>
+            </value>
+            <value>
+                <fullName>Forms</fullName>
+                <default>false</default>
+                <label>Forms</label>
+            </value>
+            <value>
+                <fullName>HRP Core</fullName>
+                <default>false</default>
+                <label>HRP Core</label>
+            </value>
+            <value>
+                <fullName>Infringements</fullName>
+                <default>false</default>
+                <label>Infringements</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Leave</fullName>
+                <default>false</default>
+                <label>Leave</label>
+            </value>
+            <value>
+                <fullName>Ledgers</fullName>
+                <default>false</default>
+                <label>Ledgers</label>
+            </value>
+            <value>
+                <fullName>My CRM</fullName>
+                <default>false</default>
+                <label>My CRM</label>
+            </value>
+            <value>
+                <fullName>My Workflow</fullName>
+                <default>false</default>
+                <label>My Workflow</label>
+            </value>
+            <value>
+                <fullName>Nucleus</fullName>
+                <default>false</default>
+                <label>Nucleus</label>
+            </value>
+            <value>
+                <fullName>Operating Assets</fullName>
+                <default>false</default>
+                <label>Operating Assets</label>
+            </value>
+            <value>
+                <fullName>Organisation Management</fullName>
+                <default>false</default>
+                <label>Organisation Management</label>
+            </value>
+            <value>
+                <fullName>P&amp;R Management</fullName>
+                <default>false</default>
+                <label>P&amp;R Management</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>People Management</fullName>
+                <default>false</default>
+                <label>People Management</label>
+            </value>
+            <value>
+                <fullName>Performance Planning</fullName>
+                <default>false</default>
+                <label>Performance Planning</label>
+            </value>
+            <value>
+                <fullName>Posting</fullName>
+                <default>false</default>
+                <label>Posting</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Projects</fullName>
+                <default>false</default>
+                <label>Projects</label>
+            </value>
+            <value>
+                <fullName>Property | Land | Address | Name</fullName>
+                <default>false</default>
+                <label>Property | Land | Address | Name</label>
+            </value>
+            <value>
+                <fullName>Property Core</fullName>
+                <default>false</default>
+                <label>Property Core</label>
+            </value>
+            <value>
+                <fullName>Property Regulatory</fullName>
+                <default>false</default>
+                <label>Property Regulatory</label>
+            </value>
+            <value>
+                <fullName>Purchase Cards</fullName>
+                <default>false</default>
+                <label>Purchase Cards</label>
+            </value>
+            <value>
+                <fullName>Purchasing</fullName>
+                <default>false</default>
+                <label>Purchasing</label>
+            </value>
+            <value>
+                <fullName>Reconciliation</fullName>
+                <default>false</default>
+                <label>Reconciliation</label>
+            </value>
+            <value>
+                <fullName>Rendering</fullName>
+                <default>false</default>
+                <label>Rendering</label>
+            </value>
+            <value>
+                <fullName>Safety</fullName>
+                <default>false</default>
+                <label>Safety</label>
+            </value>
+            <value>
+                <fullName>SCM Core</fullName>
+                <default>false</default>
+                <label>SCM Core</label>
+            </value>
+            <value>
+                <fullName>Stock Requisitions</fullName>
+                <default>false</default>
+                <label>Stock Requisitions</label>
+            </value>
+            <value>
+                <fullName>Stored Scripts</fullName>
+                <default>false</default>
+                <label>Stored Scripts</label>
+            </value>
+            <value>
+                <fullName>Student Core</fullName>
+                <default>false</default>
+                <label>Student Core</label>
+            </value>
+            <value>
+                <fullName>Student Curriculum</fullName>
+                <default>false</default>
+                <label>Student Curriculum</label>
+            </value>
+            <value>
+                <fullName>Student Finance</fullName>
+                <default>false</default>
+                <label>Student Finance</label>
+            </value>
+            <value>
+                <fullName>Student Portal Configuration</fullName>
+                <default>false</default>
+                <label>Student Portal Configuration</label>
+            </value>
+            <value>
+                <fullName>Student Progressions</fullName>
+                <default>false</default>
+                <label>Student Progressions</label>
+            </value>
+            <value>
+                <fullName>Student Scholarships</fullName>
+                <default>false</default>
+                <label>Student Scholarships</label>
+            </value>
+            <value>
+                <fullName>Student Studies</fullName>
+                <default>false</default>
+                <label>Student Studies</label>
+            </value>
+            <value>
+                <fullName>Student Timetabling</fullName>
+                <default>false</default>
+                <label>Student Timetabling</label>
+            </value>
+            <value>
+                <fullName>System Integration</fullName>
+                <default>false</default>
+                <label>System Integration</label>
+            </value>
+            <value>
+                <fullName>System Management</fullName>
+                <default>false</default>
+                <label>System Management</label>
+            </value>
+            <value>
+                <fullName>System Security</fullName>
+                <default>false</default>
+                <label>System Security</label>
+            </value>
+            <value>
+                <fullName>Talent Management</fullName>
+                <default>false</default>
+                <label>Talent Management</label>
+            </value>
+            <value>
+                <fullName>Timesheets</fullName>
+                <default>false</default>
+                <label>Timesheets</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Water Management</fullName>
+                <default>false</default>
+                <label>Water Management</label>
+            </value>
+            <value>
+                <fullName>Work Orders</fullName>
+                <default>false</default>
+                <label>Work Orders</label>
+            </value>
+            <value>
+                <fullName>Workplace</fullName>
+                <default>false</default>
+                <label>Workplace</label>
+            </value>
+            <value>
+                <fullName>Work Requests</fullName>
+                <default>false</default>
+                <label>Work Requests</label>
+            </value>
+            <value>
+                <fullName>Works Core</fullName>
+                <default>false</default>
+                <label>Works Core</label>
+            </value>
+            <value>
+                <fullName>XLOne</fullName>
+                <default>false</default>
+                <label>XLOne</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

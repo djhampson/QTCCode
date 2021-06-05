@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Tags__c</fullName>
+    <description>Used to categorise a user for reporting purposes. EG ability to have users tagged as HRP.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to categorise a user for reporting purposes. EG ability to have users tagged as HRP.  Please keep tags meaningful but short as all tags need to fit within a 255 character field. There is no limit to the number of tags.</inlineHelpText>
+    <label>Reporting Tags</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

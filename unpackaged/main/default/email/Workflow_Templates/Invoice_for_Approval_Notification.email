@@ -1,0 +1,5 @@
+{!Today}
+
+Dear {!NullValue(Contact.FirstName, "Sir or Madam")},
+
+Invoice {!blng__Invoice__c.Name} is waiting for approval. This is a testing email template and need to be further edited.

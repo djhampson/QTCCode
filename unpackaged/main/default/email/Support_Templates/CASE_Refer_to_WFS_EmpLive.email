@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div style="background-image: url({!$Setup.EmailTemplateFields__c.T1_Logo__c});background-size: 340px;background-repeat: no-repeat; background-position: center;width: 900px;height: 70px">
+</div>
+<div style="width: 900px;">
+  
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi Support Desk,
+<br>
+<br>
+In relation to the below case, we have investigated and believe the reported issue related to EmpLive.
+<br><br>
+<b>Our Analysis:</b>
+<br>
+{!Case.Support_Analysis__c}<br><br>
+</p>
+<table  style = "width: 100%;line-height:100%;font-family:calibri;font-size:16px;">
+<tr><td style = "width: 20%;"><b>Case Number: </b></td><td>{!Case.CaseNumber}</td></tr>
+<tr><td style = "width: 20%;"><b>Case Subject: </b></td><td>{!Case.Subject}</td></tr>
+<tr><td style = "width: 20%;"><b>Priority: </b></td><td>{!Case.Priority}</td></tr>
+<tr><td style = "width: 20%;"><b>Created By: </b></td><td>{!Case.Contact}</td></tr>
+<tr><td style = "width: 20%;"><b>Customer Name: </b></td><td>{!Case.Account}</td></tr>
+<tr><td style = "width: 20%;"><b>Created Date: </b></td><td>{!Case.CreatedDate}</td></tr>
+<tr><td style = "width: 20%;"><b>Customer Reference: </b></td><td>{!Case.Customer_Reference__c}</td></tr>
+</table>
+<br>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+Please provide any updates or request further details by responding to this email. 
+<br><br>
+</p>
+<p style = "font-family:calibri;font-size:16px;">
+Kind regards,<br>
+{!User.Name}<br><br>
+<b>TechnologyOne Support Centre</b><br><br>{!$Setup.EmailTemplateFields__c.Phone_Nos__c}<br></p>
+<p style = "font-family:calibri;font-size:12px;">
+<br>
+{!$Setup.EmailTemplateFields__c.FooterText1__c}<br> 
+{!$Setup.EmailTemplateFields__c.FooterText2__c}<br>
+{!$Setup.EmailTemplateFields__c.FooterURL__c}<br><br>
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_2__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_3__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+</p>
+
+<p style = "line-height:100%;font-family:calibri;font-size:10px;">
+TechnologyOne accepts no liability for this email or its attachments.<br>
+It is for the intended recipient only. <a href="https://technologyonecorp.com/terms-of-use" target="_blank" style="color:#00B4D0">
+<span>More info</span></a><br> 
+<a style="color:#00B4D0" href="mailto:Stop_Spam@TechnologyOneCorp.com">Stop_Spam@TechnologyOneCorp.com</a></p>
+
+</div>
+</body>
+</html>

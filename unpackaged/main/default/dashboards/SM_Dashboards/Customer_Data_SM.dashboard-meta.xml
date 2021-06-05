@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Bond University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Box Hill Institute</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Central Queensland University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Curtin University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Curtin University Sarawak (Miri)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Department of Defence</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Department of Education &amp; Training Qld</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Federation Training</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Flinders University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>GoTafe (Goulburn Ovens Inst. of TAFE)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Insearch Ltd</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>James Cook University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>La Trobe University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Macquarie University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Queensland University of Technology</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Solomon Islands National University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Southern Cross University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>South West Institute of TAFE</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sunraysia Institute of TAFE</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Swinburne University of Technology</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>TAFE Queensland</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Tafe WA</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>The Gordon</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>The University of Dundee</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Lincoln</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Melbourne</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Sussex</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Tasmania</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Technology Sydney</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Victoria University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>William Angliss Institute of TAFE</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Wodonga TAFE</values>
+        </dashboardFilterOptions>
+        <name>Customer</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ci</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ci Anywhere</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cloud</values>
+        </dashboardFilterOptions>
+        <name>Found Technology</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>800.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>1500.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF4731</indicatorHighColor>
+                <indicatorLowColor>#0EA318</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open</metricLabel>
+                <report>SM_Reports/SM_Open_Cases1</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Active Bugs</metricLabel>
+                <report>SM_Reports/SM_JIRA_Active_Bug_User_Story</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>true</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>SM_Reports/SM_Open_Case_Age</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>Open Case Age - Medium and High</title>
+                <useReportChart>true</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <componentType>Column</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>true</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>SM_Reports/Case_Counts_by_Priority_Area</report>
+                <showPercentage>false</showPercentage>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>Open Cases by Found Technology</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>W/ AMS</metricLabel>
+                <report>SM_Reports/SM_Open_Cases_with_AMS</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>1</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Active US</metricLabel>
+                <report>SM_Reports/SM_JIRA_Active_User_Story</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>1</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>W/ Consulting</metricLabel>
+                <report>SM_Reports/SM_Open_Cases_with_Consulting</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Active Q&#39;s</metricLabel>
+                <report>SM_Reports/SM_JIRA_Active_Question</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>W/ JIRA</metricLabel>
+                <report>SM_Reports/SM_Open_Cases_with_Jira</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>3</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>S&amp;E Triage</metricLabel>
+                <report>SM_Reports/SM_JIRA_in_Support_Triage</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>3</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>No JIRA</metricLabel>
+                <report>SM_Reports/SM_No_JIRA_All</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>R&amp;D Triage</metricLabel>
+                <report>SM_Reports/SM_JIRA_in_R_D_Triage</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>true</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>SM_Reports/SM_Open_Case_Age_Urgent_Critical</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>Open Case Age - Critical and Urgent</title>
+                <useReportChart>true</useReportChart>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>true</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingSortProperties />
+                <legendPosition>Bottom</legendPosition>
+                <report>SM_Reports/SM_JIRA_Closed_Bug_User_Story_Fixed_Vers</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>Fixed Version of Closed Bug/User Story</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>AC/On Hold</metricLabel>
+                <report>SM_Reports/SM_Open_Cases_Awaiting_Customer_On_Hol</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>5</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Closed JIRAs</metricLabel>
+                <report>SM_Reports/Jira_Issues_Closed_Case_Open_SM</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>5</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Data-fix</metricLabel>
+                <report>SM_Reports/Datafix_Closed</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Closed Bug/US</metricLabel>
+                <report>SM_Reports/SM_JIRA_Closed_Bug_User_Story</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case.CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>50.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>P1 and P2</metricLabel>
+                <report>SM_Reports/SM_Open_P1_and_P2</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>7</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$CTechnology__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties />
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Closed Q&#39;s</metricLabel>
+                <report>SM_Reports/SM_Jira_Closed_Question</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>7</rowIndex>
+            <rowSpan>1</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>9</numberOfColumns>
+        <rowHeight>80</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>hayden_watt@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Customer Data - SM</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

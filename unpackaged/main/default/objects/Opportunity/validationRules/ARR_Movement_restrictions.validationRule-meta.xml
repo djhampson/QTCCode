@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARR_Movement_restrictions</fullName>
+    <active>true</active>
+    <description>Do not allow alteration of ARR Movement fields unless the Opportunity is at Stage Won.</description>
+    <errorConditionFormula>(ISCHANGED(ARR_Movement_Category__c) ||
+ISCHANGED(ARR_Sub_Movement_Category__c))
+&amp;&amp; NOT(IsWon)
+&amp;&amp; $Profile.Name &lt;&gt; &quot;System Administrator&quot; 
+&amp;&amp; $Profile.Name &lt;&gt; &quot;Operations&quot;</errorConditionFormula>
+    <errorMessage>ARR Movement Category values can only be altered on Won opportunities</errorMessage>
+</ValidationRule>

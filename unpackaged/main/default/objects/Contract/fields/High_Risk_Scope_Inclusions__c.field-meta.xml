@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Risk_Scope_Inclusions__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>High Risk register scope inclusions e.g. data migration (beyond provision of toolkits/templates), integration (beyond provision of toolkits/templates), organisation change, customer UAT and end user training</inlineHelpText>
+    <label>High Risk Scope Inclusions</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Not specified by business</fullName>
+                <default>false</default>
+                <label>Not specified by business</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

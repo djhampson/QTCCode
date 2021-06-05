@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>SM Action Current Case Dashboard</description>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>Datafixes Closed</header>
+            <indicatorBreakpoint2>1.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#FFFFFF</indicatorMiddleColor>
+            <metricLabel>Datafixes closed</metricLabel>
+            <report>SM_Reports/Datafix_Closed</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>Questions Closed</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Questions Closed</metricLabel>
+            <report>SM_Reports/SM_Jira_Closed_Question1</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>JIRA Rejected</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>JIRA Rejected</metricLabel>
+            <report>SM_Reports/SM_Jira_Rejected_Ci</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>Completed Bugs with Fixed Releases</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Completed Bugs with Fixed Releases</metricLabel>
+            <report>SM_Reports/SM_Jira_Closed_Bug_Ci</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <header>Completed Bugs with Fixed Releases Ci</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>SM_Reports/SM_Jira_Closed_Bug_Ci</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Component</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>SM_Reports/SM_Jira_Closed_Bug_Fixed_Version</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Version</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>Questions Closed CiA</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Questions Closed</metricLabel>
+            <report>SM_Reports/SM_Jira_Closed_Question_CiA</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>JIRA Rejected  CiA</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>JIRA Rejected</metricLabel>
+            <report>SM_Reports/SM_Jira_Rejected_CiA</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>Completed Bugs with Fixed Releases CiA</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Completed Bugs with Fixed Releases</metricLabel>
+            <report>SM_Reports/SM_Jira_Closed_Bug_CiA</report>
+            <showRange>false</showRange>
+        </components>
+    </rightSection>
+    <runningUser>gabriel_fawkes@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>SM Action To Close Cases Dashboard</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

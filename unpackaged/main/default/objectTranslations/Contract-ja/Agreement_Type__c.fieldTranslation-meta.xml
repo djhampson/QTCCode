@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Agreement Type --></label>
+        <name>Agreement_Type__c</name>
+        <picklistValues>
+            <masterLabel>AMS Agreement</masterLabel>
+            <translation><!-- AMS Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMS Temporary Uplift</masterLabel>
+            <translation><!-- AMS Temporary Uplift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APUC</masterLabel>
+            <translation><!-- APUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Contract</masterLabel>
+            <translation><!-- Customer Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Access Agreement</masterLabel>
+            <translation><!-- Data Access Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Processor Agreement</masterLabel>
+            <translation><!-- Data Processor Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deed</masterLabel>
+            <translation><!-- Deed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G-Cloud</masterLabel>
+            <translation><!-- G-Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GITC</masterLabel>
+            <translation><!-- GITC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heads of Agreement</masterLabel>
+            <translation><!-- Heads of Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Agreement (Not Varying Existing Contract)</masterLabel>
+            <translation><!-- Letter of Agreement (Not Varying Existing Contract) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProcureIT</masterLabel>
+            <translation><!-- ProcureIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QITC</masterLabel>
+            <translation><!-- QITC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller Order (e.g. Chartis/XY Mapping)</masterLabel>
+            <translation><!-- Reseller Order (e.g. Chartis/XY Mapping) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SourceIT</masterLabel>
+            <translation><!-- SourceIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Licence Agreement</masterLabel>
+            <translation><!-- T1 Licence Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Service Order Form</masterLabel>
+            <translation><!-- T1 Service Order Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Solutions Agreement</masterLabel>
+            <translation><!-- T1 Solutions Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variation/Change Order</masterLabel>
+            <translation><!-- Variation/Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WALGA</masterLabel>
+            <translation><!-- WALGA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Products &amp; Services --></label>
+        <name>Products_Services_Id__c</name>
+        <relationshipLabel><!-- P&amp;S Survey Recipients --></relationshipLabel>
+    </CustomFieldTranslation>

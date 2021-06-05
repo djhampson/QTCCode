@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Module Type --></label>
+        <name>Module_Type__c</name>
+        <picklistValues>
+            <masterLabel>Asset Management</masterLabel>
+            <translation><!-- Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing &amp; Revenue Management</masterLabel>
+            <translation><!-- Billing &amp; Revenue Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Relationship Management</masterLabel>
+            <translation><!-- Community Relationship Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connectors</masterLabel>
+            <translation><!-- Connectors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core</masterLabel>
+            <translation><!-- Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Self Serv</masterLabel>
+            <translation><!-- Employee Self Serv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extensions</masterLabel>
+            <translation><!-- Extensions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Web Service</masterLabel>
+            <translation><!-- External Web Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS/Mapping</masterLabel>
+            <translation><!-- GIS/Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Included MyModules</masterLabel>
+            <translation><!-- Included MyModules --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrations</masterLabel>
+            <translation><!-- Integrations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optional</masterLabel>
+            <translation><!-- Optional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Connectors</masterLabel>
+            <translation><!-- Product Connectors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Execution &amp; Delivery</masterLabel>
+            <translation><!-- Project Execution &amp; Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Management</masterLabel>
+            <translation><!-- Regulatory Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAM Asset Management</masterLabel>
+            <translation><!-- SAM Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Management</masterLabel>
+            <translation><!-- Work Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XML Interfaces</masterLabel>
+            <translation><!-- XML Interfaces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eProperty Online Services</masterLabel>
+            <translation><!-- eProperty Online Services --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

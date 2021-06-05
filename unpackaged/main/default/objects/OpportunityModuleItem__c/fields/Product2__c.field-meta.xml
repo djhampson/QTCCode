@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>read only permission for end users</description>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Opportunity Module Items</relationshipLabel>
+    <relationshipName>Opportunity_Module_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

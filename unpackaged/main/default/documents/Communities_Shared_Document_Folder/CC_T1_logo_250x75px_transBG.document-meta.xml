@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>T1 logo 250x75px transparent background, black text.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>CC_T1_logo_250x75px_transBG</name>
+    <public>true</public>
+</Document>

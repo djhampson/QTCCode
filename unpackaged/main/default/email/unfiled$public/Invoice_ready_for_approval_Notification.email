@@ -1,0 +1,3 @@
+Hi Revenue Manager,
+
+invoice {!blng__Invoice__c.Name} is waiting for your approval. This is a testing email template and need to be edited further.

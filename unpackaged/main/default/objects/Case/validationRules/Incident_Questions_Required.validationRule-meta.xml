@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident_Questions_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.Name = &#39;I am experiencing an issue&#39; &amp;&amp;  
+(ISCHANGED(Steps_to_reproduce__c) || ISNEW() = true) &amp;&amp;
+LEN( Steps_to_reproduce__c ) &lt; 10 &amp;&amp;
+NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorMessage>Please identify the Steps required to reproduce this Incident. Minimum of 10 characters required.</errorMessage>
+</ValidationRule>

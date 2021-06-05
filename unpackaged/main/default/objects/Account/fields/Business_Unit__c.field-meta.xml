@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>106</fullName>
+                <default>false</default>
+                <label>106</label>
+            </value>
+            <value>
+                <fullName>102</fullName>
+                <default>false</default>
+                <label>102</label>
+            </value>
+            <value>
+                <fullName>104</fullName>
+                <default>false</default>
+                <label>104</label>
+            </value>
+            <value>
+                <fullName>101</fullName>
+                <default>false</default>
+                <label>101</label>
+            </value>
+            <value>
+                <fullName>107</fullName>
+                <default>false</default>
+                <label>107</label>
+            </value>
+            <value>
+                <fullName>103</fullName>
+                <default>false</default>
+                <label>103</label>
+            </value>
+            <value>
+                <fullName>105</fullName>
+                <default>false</default>
+                <label>105</label>
+            </value>
+            <value>
+                <fullName>108</fullName>
+                <default>false</default>
+                <label>108</label>
+            </value>
+            <value>
+                <fullName>109</fullName>
+                <default>false</default>
+                <label>109</label>
+            </value>
+            <value>
+                <fullName>111</fullName>
+                <default>false</default>
+                <label>111</label>
+            </value>
+            <value>
+                <fullName>110</fullName>
+                <default>false</default>
+                <label>110</label>
+            </value>
+            <value>
+                <fullName>112</fullName>
+                <default>false</default>
+                <label>112</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Kiribati</controllingFieldValue>
+            <controllingFieldValue>Timor-Leste</controllingFieldValue>
+            <controllingFieldValue>PNG</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Solomon Islands</controllingFieldValue>
+            <controllingFieldValue>Vanuatu</controllingFieldValue>
+            <controllingFieldValue>Nauru</controllingFieldValue>
+            <controllingFieldValue>Tonga</controllingFieldValue>
+            <controllingFieldValue>Fiji</controllingFieldValue>
+            <controllingFieldValue>Samoa</controllingFieldValue>
+            <valueName>112</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Indonesia</controllingFieldValue>
+            <controllingFieldValue>Malaysia</controllingFieldValue>
+            <controllingFieldValue>Mongolia</controllingFieldValue>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <controllingFieldValue>Vietnam</controllingFieldValue>
+            <controllingFieldValue>Philippines</controllingFieldValue>
+            <controllingFieldValue>Sri Lanka</controllingFieldValue>
+            <controllingFieldValue>Cook Islands</controllingFieldValue>
+            <valueName>110</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tasmania</controllingFieldValue>
+            <valueName>107</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK PS South</controllingFieldValue>
+            <controllingFieldValue>UK PS Central</controllingFieldValue>
+            <controllingFieldValue>UK HE</controllingFieldValue>
+            <controllingFieldValue>UK North &amp; Scotland</controllingFieldValue>
+            <controllingFieldValue>UK Other</controllingFieldValue>
+            <valueName>111</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Victoria</controllingFieldValue>
+            <valueName>103</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <controllingFieldValue>Queensland</controllingFieldValue>
+            <valueName>101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Western Australia</controllingFieldValue>
+            <valueName>105</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Zealand North</controllingFieldValue>
+            <valueName>108</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Zealand South</controllingFieldValue>
+            <valueName>109</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ACT</controllingFieldValue>
+            <valueName>106</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New South Wales</controllingFieldValue>
+            <valueName>102</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Northern Territory</controllingFieldValue>
+            <controllingFieldValue>South Australia</controllingFieldValue>
+            <valueName>104</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

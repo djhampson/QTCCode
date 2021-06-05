@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Key_Activities_MP</fullName>
+    <active>true</active>
+    <description>Key Activity is required for Mobilisation Plan Type</description>
+    <errorConditionFormula>$Profile.Name &lt;&gt; &#39;System Administrator&#39; &amp;&amp; 
+ TEXT(Type) = &#39;Mobilisation Plan&#39; &amp;&amp;
+ ISBLANK(TEXT(Key_Activities__c))</errorConditionFormula>
+    <errorDisplayField>Key_Activities__c</errorDisplayField>
+    <errorMessage>Please select a Key Activity for Mobilisation Plan Type</errorMessage>
+</ValidationRule>

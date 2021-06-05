@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What T1 can and cannot charge for, if prior approval required, how to request payment, receipts to be provided, any estimates provided and process to manage estimates etc. --></help>
+        <label><!-- Expenses Detail --></label>
+        <name>Expenses_Detail__c</name>
+    </CustomFieldTranslation>

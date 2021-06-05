@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>PCSM_Visit_Cyc__c.Current_Release__c</field>
+    </columns>
+    <columns>
+        <field>USERS.NAME</field>
+    </columns>
+    <columns>
+        <field>PCSM_Visit_Cyc__c.Frequency__c</field>
+    </columns>
+    <columns>
+        <field>PCSM_Visit_Cyc__c.Notes__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>SDM Report</description>
+    <filter>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PCSM_Visit_Cyc__c.Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>TechnologyOne Financials</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PCSM_Visit_Cyc__c.Current_Release__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>11.09.04.011</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.SDM__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Customer Release Info</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$PCSM_Visit_Cyc__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

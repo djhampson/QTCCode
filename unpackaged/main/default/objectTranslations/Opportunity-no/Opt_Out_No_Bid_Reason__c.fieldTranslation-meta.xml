@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Opt Out / No Bid Reason --></label>
+        <name>Opt_Out_No_Bid_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Converted to Project</masterLabel>
+            <translation><!-- Converted to Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No real opportunity</masterLabel>
+            <translation><!-- No real opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postponed Indefinitely</masterLabel>
+            <translation><!-- Postponed Indefinitely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replaced with different opportunity</masterLabel>
+            <translation><!-- Replaced with different opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to meet requirements</masterLabel>
+            <translation><!-- Unable to meet requirements --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

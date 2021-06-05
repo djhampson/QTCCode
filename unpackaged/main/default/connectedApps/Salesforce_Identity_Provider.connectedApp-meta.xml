@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>grant_hamlyn@technologyonecorp.com</contactEmail>
+    <label>Salesforce Identity Provider</label>
+    <oauthConfig>
+        <callbackUrl>https://technologyone.my.salesforce.com--icagentconsole.na63.visual.force.com/apex/icagentconsole__authcallback</callbackUrl>
+        <consumerKey>3MVG9mQWF42jKQUoz93iRMjGumsLvG8dlm7ZcSLIaUf8nEafDvIX07J9ybR5HdtA2kkWDB2XDgEncKhKdWBIu</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>Support</profileName>
+</ConnectedApp>

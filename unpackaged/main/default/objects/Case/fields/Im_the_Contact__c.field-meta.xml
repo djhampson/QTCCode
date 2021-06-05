@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Im_the_Contact__c</fullName>
+    <externalId>false</externalId>
+    <formula>LEN(ContactId) &gt; 0 &amp;&amp; ContactId = $User.ContactId</formula>
+    <label>Im the Contact</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

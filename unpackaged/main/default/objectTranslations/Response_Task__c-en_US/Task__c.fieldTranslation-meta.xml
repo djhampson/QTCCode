@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Task --></label>
+        <name>Task__c</name>
+        <picklistValues>
+            <masterLabel>AMS Pricing and Responses</masterLabel>
+            <translation><!-- AMS Pricing and Responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appendices</masterLabel>
+            <translation><!-- Appendices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appendix C - Roles and Deliverables</masterLabel>
+            <translation><!-- Appendix C - Roles and Deliverables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appendix D - Indicative Project Plan</masterLabel>
+            <translation><!-- Appendix D - Indicative Project Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud Pricing</masterLabel>
+            <translation><!-- Cloud Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud Responses</masterLabel>
+            <translation><!-- Cloud Responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collate Responses</masterLabel>
+            <translation><!-- Collate Responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Responses</masterLabel>
+            <translation><!-- Corporate Responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cover Letter</masterLabel>
+            <translation><!-- Cover Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Schedule</masterLabel>
+            <translation><!-- Document Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Summary</masterLabel>
+            <translation><!-- Executive Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Format Documents</masterLabel>
+            <translation><!-- Format Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation Pricing</masterLabel>
+            <translation><!-- Implementation Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment Summary</masterLabel>
+            <translation><!-- Investment Summary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Terms and Conditions</masterLabel>
+            <translation><!-- Legal Terms and Conditions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License Pricing</masterLabel>
+            <translation><!-- License Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Responses</masterLabel>
+            <translation><!-- Product Responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Pricing</masterLabel>
+            <translation><!-- Services Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Responses</masterLabel>
+            <translation><!-- Services Responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution Overview</masterLabel>
+            <translation><!-- Solution Overview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Standard Response Document, Section 3, SIM 9 update</masterLabel>
+            <translation><!-- T1 Standard Response Document, Section 3, SIM 9 update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Responses</masterLabel>
+            <translation><!-- Technical Responses --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

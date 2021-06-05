@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Engagement_Activity__c$Case__c</field>
+    </columns>
+    <columns>
+        <field>Engagement_Activity__c$Case__c.Subject</field>
+    </columns>
+    <columns>
+        <field>Engagement_Activity__c$Name</field>
+    </columns>
+    <columns>
+        <field>Engagement_Activity__c$Resource__c</field>
+    </columns>
+    <columns>
+        <field>Engagement_Activity__c$Start_Date__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Engagement_Activity__c$Activity_Total__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <format>Tabular</format>
+    <name>engagement activities this quarter</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Engagement_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Engagement_Activity__c$Start_Date__c</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

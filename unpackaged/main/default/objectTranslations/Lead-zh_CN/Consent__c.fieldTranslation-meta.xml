@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please advise yes or no if you have taken action to seek consent from the contact in collecting, storing or transferring their personal information. --></help>
+        <label><!-- Consent --></label>
+        <name>Consent__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Be Confirmed</masterLabel>
+            <translation><!-- To Be Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

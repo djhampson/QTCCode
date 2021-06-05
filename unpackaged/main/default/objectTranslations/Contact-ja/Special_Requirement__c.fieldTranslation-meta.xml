@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Special Requirement when attending to event, ie. vegetarian --></help>
+        <label><!-- Special Requirement --></label>
+        <name>Special_Requirement__c</name>
+    </CustomFieldTranslation>

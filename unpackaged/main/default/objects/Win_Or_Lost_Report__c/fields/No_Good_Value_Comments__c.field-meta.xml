@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Good_Value_Comments__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Was it considered that our price represented good value for money? If &#39;No&#39;, add comments.</inlineHelpText>
+    <label>No to Good Value Comments</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

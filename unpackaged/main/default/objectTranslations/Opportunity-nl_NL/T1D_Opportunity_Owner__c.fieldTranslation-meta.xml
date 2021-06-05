@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- T1D Opportunity Owner --></label>
+        <name>T1D_Opportunity_Owner__c</name>
+        <relationshipLabel><!-- Opportunities (T1D Opportunity Owner) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+The following opportunity has reached {!Opportunity.StageName} and is for vertical market {!Opportunity.Vertical_Market__c}.
+
+Opportunity:  {!Opportunity.Name} 
+Amount: {!Opportunity.Amount}
+Country: {!Opportunity.Country_Area__c}
+Region: {!Opportunity.Region__c}
+Opportunity CDM/CAM: {!Opportunity.OwnerFullName}
+Close Date: {!Opportunity.CloseDate}
+Vertical Market: {!Opportunity.Vertical_Market__c}
+Account: {!Opportunity.Account}
+
+Link: {!Opportunity.Link}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Received confirmation from customer that technical requirements are met? --></help>
+        <label><!-- Confirmation Received --></label>
+        <name>Confirmation_Received__c</name>
+    </CustomFieldTranslation>

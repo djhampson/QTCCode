@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARR__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Licence_Model__c), 
+&#39;Perpetual &amp; Cloud Uplift&#39;,Amount_1__c * 0.225*2.25,
+&#39;SaaS&#39; , Amount_1__c * (0.225*2.25+1/4),
+&#39;SaaS Flip&#39;, Amount_1__c * (0.225*2.25+1/4)+ Cloud_Service_Fee_per_year__c,
+&#39;Cloud&#39;,Cloud_Service_Fee_per_year__c,
+ Amount_1__c * 0.225)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Cloud: Annual Cloud Fee
+Perpetual&amp;Subscription&amp;Term: Amount1 * 0.225
+Perpetual &amp; Cloud Uplift: Amount1 * 0.225 * 2.25
+SaaS:  Amount1 * 0.225 * 2.25 + Amount1 / 4
+SaaS Flip: Amount1*0.225*2.25+Amount1/4+Annual Cloud Fee</inlineHelpText>
+    <label>ARR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

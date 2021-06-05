@@ -1,0 +1,19 @@
+<apex:page standardController="Case" extensions="MyExtension">
+    <apex:form >
+        <apex:pageBlock title="Re-assign Case">
+            <apex:pageMessages />
+            <apex:pageBlockButtons >
+                <apex:commandLink value="Save" target="_parent" styleClass="btn" action="{!save}" style="text-decoration:none;padding:4px;"/> 
+                <apex:outputPanel id="refreshPanel" rendered="{!refreshPage}">
+                    <script>
+                        location.reload();
+                    </script>
+                </apex:outputPanel>   
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:inputField value="{!Case.OwnerID}"/> <br></br>
+                <apex:inputField value="{!Case.Case_Comment_Reassign__c}" required="true" style="width:100%; height:150%;"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>   
+</apex:page>

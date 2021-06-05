@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Resolution_Target__c</fullName>
+    <description>Final Resolution Target date from Case Milestone.  Updated via Flow and Process.</description>
+    <externalId>false</externalId>
+    <label>Final Resolution Target</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

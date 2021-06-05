@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incumbent_Product_Name__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Incumbent Product Name</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Vendor_Product__c.System_Vendor__r.Id</field>
+            <operation>equals</operation>
+            <valueField>$Source.Incumbent__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Vendor_Product__c</referenceTo>
+    <relationshipLabel>Win Or Lost Reports</relationshipLabel>
+    <relationshipName>Win_Or_Lost_Reports</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,31 @@
+<apex:page standardcontroller="Opportunity" showheader="true" tabstyle="Opportunity">
+   <apex:tabpanel switchtype="client" selectedtab="tabdetails" id="OpportunityTabPanel">
+      <apex:tab label="Opportunity" name="OpportunityDetails" id="Opportunitydetails">
+         <apex:detail relatedlist="false" title="true">
+      </apex:detail></apex:tab>
+       <apex:tab label="Products/Modules" name="Product2" id="Product2">
+         <apex:relatedlist subject="{!Opportunity}" list="OpportunityLineItems">
+      </apex:relatedlist></apex:tab> 
+       <apex:tab label="Contacts" name="Contacts" id="Contacts">
+         <apex:relatedlist subject="{!Opportunity}" list="OpportunityContactRoles">
+      </apex:relatedlist></apex:tab>
+      <apex:tab label="Open Activities" name="Activities" id="Actvitites">
+         <apex:relatedlist subject="{!Opportunity}" list="OpenActivities">
+      </apex:relatedlist></apex:tab>
+      <apex:tab label="Completed Activities" name="Activities_H" id="Actvitites_H">
+         <apex:relatedlist subject="{!Opportunity}" list="ActivityHistories">
+      </apex:relatedlist></apex:tab>
+      <apex:tab label="Attachments" name="CombinedAttachments" id="CombinedAttachments">
+         <apex:relatedlist subject="{!Opportunity}" list="CombinedAttachments">
+      </apex:relatedlist></apex:tab>
+      <apex:tab label="Win Reports" name="WR" id="WR">
+         <apex:relatedlist subject="{!Opportunity}" list="Win_Or_Lost_Reports__r">
+      </apex:relatedlist></apex:tab>
+      <apex:tab label="Bids" name="Bids" id="tabOpp">
+         <apex:relatedlist subject="{!Opportunity}" list="Bids__r">
+      </apex:relatedlist></apex:tab>
+      <apex:tab label="Chatter" name="Chatter" id="tabChatter">
+          <chatter:feed entityId="{!Opportunity.Id}"/>
+      </apex:tab>
+   </apex:tabpanel>
+</apex:page>

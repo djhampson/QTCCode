@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OLDVAL</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Case.Priority_Indicator__c</field>
+    </columns>
+    <columns>
+        <field>Case.Support_SLA_Customer_Indicator__c</field>
+    </columns>
+    <columns>
+        <field>CASE_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Case transfer history</description>
+    <filter>
+        <criteriaItems>
+            <column>field_key</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>case owner</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>NEWVAL</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Grant Godley,Matthew Finch,Kent Yeo,Thomas Shortt,John-Paul Cherry,Rosalyne Maina,Andrew Bock</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CASE_OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Grant Godley,Matthew Finch,Kent Yeo,Thomas Shortt,John-Paul Cherry,Rosalyne Maina,Andrew Bock</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>NEWVAL</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>RECORDTYPE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cases taken tech</name>
+    <params>
+        <name>units</name>
+        <value>m</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseAuditHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CREATED_DATE</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

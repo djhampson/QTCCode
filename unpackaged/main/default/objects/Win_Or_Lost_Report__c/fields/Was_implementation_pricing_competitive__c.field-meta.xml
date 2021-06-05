@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Was_implementation_pricing_competitive__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Implementation pricing.  Was it competitive in terms of number of days and daily rate?</inlineHelpText>
+    <label>Was implementation pricing competitive?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_or_No</valueSetName>
+    </valueSet>
+</CustomField>

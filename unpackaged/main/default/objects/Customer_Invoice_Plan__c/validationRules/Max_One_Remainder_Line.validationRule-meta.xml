@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_One_Remainder_Line</fullName>
+    <active>true</active>
+    <description>One plan should have maximum 1 line with Type = Remainder.</description>
+    <errorConditionFormula>Remainder_Line_Count__c &gt; 1</errorConditionFormula>
+    <errorMessage>Each plan should have maximum one line of which Type is Remainder.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Customer_Success_Survey_1</fullName>
+        <description>Customer Success Survey 1</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>customeradvocacy@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Customer_Success_Survey_1</template>
+    </alerts>
+    <alerts>
+        <fullName>Customer_Success_Survey_2</fullName>
+        <description>Customer Success Survey 2</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>customeradvocacy@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Customer_Success_Survey_2</template>
+    </alerts>
+    <alerts>
+        <fullName>Customer_Success_Survey_3</fullName>
+        <description>Customer Success Survey 3</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>customeradvocacy@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Customer_Success_Survey_3</template>
+    </alerts>
+    <rules>
+        <fullName>Customer Success Survey 1</fullName>
+        <active>true</active>
+        <formula>ISBLANK(Survey_1__c) = False  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Customer_Success_Survey_1</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>P_S_Survey_Recipient__c.Survey_1__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Customer Success Survey 2</fullName>
+        <active>true</active>
+        <formula>ISBLANK(Survey_2__c) = False  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Customer_Success_Survey_2</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>P_S_Survey_Recipient__c.Survey_2__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Customer Success Survey 3</fullName>
+        <active>false</active>
+        <formula>ISBLANK(Survey_3__c) = False  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Customer_Success_Survey_3</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>P_S_Survey_Recipient__c.Survey_3__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

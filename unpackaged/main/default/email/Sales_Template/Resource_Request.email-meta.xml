@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Consulting Services Request from Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>Notify for Resourcing</name>
+    <style>freeForm</style>
+    <subject>Resource Request for {!Opportunity.Region__c} - {!Opportunity.Account}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

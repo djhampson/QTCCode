@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>false</active>
+    <businessHours>New Zealand 7-7 M-F</businessHours>
+    <description>Wellington 7-7 M-F NZ
+Annual Support Maintenance 
+P1 - 30 min first response - 720 min Int
+P2 - 2 hr first response - 1440 min Int
+P3 - 4 hr first response - 3600 min Int
+P4 - 1 day first response</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.Exit_Entitlement_Process__c</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <milestones>
+        <milestoneCriteriaFormula>TEXT(Priority) = &#39;Critical&#39; &amp;&amp;
+(RecordType.Name = &#39;I am experiencing an issue&#39; ||
+RecordType.Name = &#39;I require an AMS service&#39;)</milestoneCriteriaFormula>
+        <milestoneName>Response</milestoneName>
+        <minutesToComplete>30</minutesToComplete>
+        <successActions>
+            <name>First_Response_True</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <successActions>
+            <name>Response_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Critical_Case_Milestone_Violated</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Response_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-15</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>TEXT(Priority) = &#39;Critical&#39; &amp;&amp;
+RecordType.Name = &#39;I am experiencing an issue&#39;</milestoneCriteriaFormula>
+        <milestoneName>Interim Resolution</milestoneName>
+        <minutesToComplete>720</minutesToComplete>
+        <successActions>
+            <name>Interim_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Interim_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Interim_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Interim_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-120</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Critical_Case_Milestone_Violated</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp;
+ISPICKVAL(Priority , &#39;Critical&#39;) &amp;&amp;
+NOT(BEGINS(Service_Category__r.Name, &#39;Adv&#39;)) &amp;&amp;
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>720</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Critical_Case_Milestone_Violated</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-120</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp;
+ISPICKVAL(Priority , &#39;Critical&#39;) &amp;&amp;
+BEGINS(Service_Category__r.Name, &#39;Adv&#39;) &amp;&amp;
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>2160</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Critical_Case_Milestone_Violated</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-120</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>TEXT(Priority) = &#39;Urgent&#39; &amp;&amp;
+(RecordType.Name = &#39;I am experiencing an issue&#39; ||
+RecordType.Name = &#39;I require an AMS service&#39;)</milestoneCriteriaFormula>
+        <milestoneName>Response</milestoneName>
+        <minutesToComplete>120</minutesToComplete>
+        <successActions>
+            <name>First_Response_True</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <successActions>
+            <name>Response_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Response_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-60</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>TEXT(Priority) = &#39;Urgent&#39; &amp;&amp;
+RecordType.Name = &#39;I am experiencing an issue&#39;</milestoneCriteriaFormula>
+        <milestoneName>Interim Resolution</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <successActions>
+            <name>Interim_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Interim_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Interim_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Interim_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-360</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp; 
+ISPICKVAL(Priority , &#39;Urgent&#39;) &amp;&amp; 
+NOT(BEGINS(Service_Category__r.Name, &#39;Adv&#39;)) &amp;&amp; 
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-360</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp; 
+ISPICKVAL(Priority , &#39;Urgent&#39;) &amp;&amp; 
+BEGINS(Service_Category__r.Name, &#39;Adv&#39;) &amp;&amp; 
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>3600</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-360</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>TEXT(Priority) = &#39;High&#39; &amp;&amp;
+(RecordType.Name = &#39;I am experiencing an issue&#39; ||
+RecordType.Name = &#39;I require an AMS service&#39;)</milestoneCriteriaFormula>
+        <milestoneName>Response</milestoneName>
+        <minutesToComplete>240</minutesToComplete>
+        <successActions>
+            <name>First_Response_True</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <successActions>
+            <name>Response_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Response_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-120</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>TEXT(Priority) = &#39;High&#39; &amp;&amp;
+RecordType.Name = &#39;I am experiencing an issue&#39;</milestoneCriteriaFormula>
+        <milestoneName>Interim Resolution</milestoneName>
+        <minutesToComplete>3600</minutesToComplete>
+        <successActions>
+            <name>Interim_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Interim_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Interim_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Interim_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-1800</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp; 
+ISPICKVAL(Priority , &#39;High&#39;) &amp;&amp; 
+NOT(BEGINS(Service_Category__r.Name, &#39;Adv&#39;)) &amp;&amp; 
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>3600</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-1800</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp; 
+ISPICKVAL(Priority , &#39;High&#39;) &amp;&amp; 
+BEGINS(Service_Category__r.Name, &#39;Adv&#39;) &amp;&amp; 
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>7200</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-1800</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>TEXT(Priority) = &#39;Medium&#39; &amp;&amp;
+(RecordType.Name = &#39;I am experiencing an issue&#39; ||
+RecordType.Name = &#39;I require an AMS service&#39;)</milestoneCriteriaFormula>
+        <milestoneName>Response</milestoneName>
+        <minutesToComplete>720</minutesToComplete>
+        <successActions>
+            <name>First_Response_True</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <successActions>
+            <name>Response_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Response_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Response_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-360</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp; 
+ISPICKVAL(Priority , &#39;Medium&#39;) &amp;&amp; 
+NOT(BEGINS(Service_Category__r.Name, &#39;Adv&#39;)) &amp;&amp; 
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>7200</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-1800</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFormula>RecordType.Name = &#39;I require an AMS service&#39; &amp;&amp; 
+ISPICKVAL(Priority , &#39;Medium&#39;) &amp;&amp; 
+BEGINS(Service_Category__r.Name, &#39;Adv&#39;) &amp;&amp; 
+NOT(ISNULL(Service_Category__c))</milestoneCriteriaFormula>
+        <milestoneName>Resolution AMS Service Request</milestoneName>
+        <minutesToComplete>10800</minutesToComplete>
+        <successActions>
+            <name>Final_Resolution_MS_Warning_False</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Case_Owner</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_Milestone_Warning_Management</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Final_Resolution_MS_Warning_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-1800</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <name>Wellington NZ</name>
+    <versionMaster>552K0000000CbKF</versionMaster>
+    <versionNotes>Move to Formula</versionNotes>
+    <versionNumber>8</versionNumber>
+</EntitlementProcess>

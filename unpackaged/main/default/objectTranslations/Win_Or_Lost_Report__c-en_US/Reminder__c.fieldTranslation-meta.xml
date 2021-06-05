@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Ensure you update the total opportunity value
+Deal Value (Solution) or Total Licence Fee Price (Product) --></help>
+        <label><!-- z_Reminder --></label>
+        <name>Reminder__c</name>
+    </CustomFieldTranslation>

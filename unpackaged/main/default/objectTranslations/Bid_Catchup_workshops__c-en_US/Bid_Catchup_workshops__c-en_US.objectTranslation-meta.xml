@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Catchup and Workshop</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Catchup and Workshops</value>
+    </caseValues>
+    
+    
+    
+    
+    <layouts>
+        <layout>Bid_Catchup_workshops Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

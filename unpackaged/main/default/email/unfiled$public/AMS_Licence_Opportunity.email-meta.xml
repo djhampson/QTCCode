@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification when AMS is ticked on Licence Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TechOne_LH</letterhead>
+    <name>AMS Licence Opportunity</name>
+    <style>freeForm</style>
+    <subject>{!Opportunity.Account} - Opportunity {!Opportunity.Name} - AMS</subject>
+    <textOnly>Hi
+
+This opportunity also has AMS interest, please review and create an  AMS opportunity with relevant info, to be discussed with CDM/CAM
+
+Opportunity: {!Opportunity.Name}
+Amount: {!Opportunity.Amount}
+Country: {!Opportunity.Country_Area__c}
+Region: {!Opportunity.Region__c}
+Opportunity CDM/CAM: {!Opportunity.OwnerFullName}
+Close Date: {!Opportunity.CloseDate}
+Vertical Market: {!Opportunity.Vertical_Market__c}
+
+Link: {!Opportunity.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

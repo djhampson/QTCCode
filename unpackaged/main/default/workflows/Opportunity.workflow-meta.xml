@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Lost_Licence_Fee_RM_100</fullName>
+        <description>Email Lost Licence Fee - RM over $100K</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>OO_Sales</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>alan_ford@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>brett_hooker@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jim_antliff@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>libby_duffey@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>mike_alafaci@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>peter_gill@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>peter_suchting@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>richard_nicol@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>stuart_macdonald@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>t1salesandmarketinghelpdesk@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>yulian_wu@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Opportunity_Licence_Fee</fullName>
+        <description>Email Opportunity Licence Fee</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jim_antliff@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>libby_duffey@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_ACT</fullName>
+        <description>Email RM - ACT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ACT_Regional_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_NSW</fullName>
+        <description>Email RM - NSW</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>NSW_Regional_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_NZN</fullName>
+        <description>Email RM - NZN</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jen_verity@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_NZS</fullName>
+        <description>Email RM - NZS</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>New_Zealand_South_Regional_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_QLD</fullName>
+        <description>Email RM - QLD</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>QLD_Regional_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>paul_james@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_UK</fullName>
+        <description>Email RM - UK</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>RM_UK</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>UK_Executive</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_VIC</fullName>
+        <description>Email RM - VIC</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>SM_VIC</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>Victoria_Regional_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_RM_WA</fullName>
+        <description>Email RM - WA</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Western_Australia_Regional_Manager</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Lost_Opt_Out_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Won_AMS</fullName>
+        <ccEmails>t1licencingmailbox@technologyonecorp.com</ccEmails>
+        <description>Email Won AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>chris_kelly@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Won_Opportunity_AMS</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Won_Licence_Fee</fullName>
+        <ccEmails>Amity_Sturwohld@technologyonecorp.com</ccEmails>
+        <description>Email Won Licence Fee</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>darren_needhamwalker@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>david_frangiosa@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>emma_crichton@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jibran_farid@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jim_antliff@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>john_tuuholoaki@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>libby_duffey@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>nicole_daly@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rebecca_magill@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>richard_nicol@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>tony_wright@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Won_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>LG_Won_Opportunity</fullName>
+        <description>LG Won Opportunity</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>peter_suchting@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Won_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>SaaS_Closed_Won_Opportunity</fullName>
+        <description>SaaS Closed Won Opportunity</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>christina_sweett@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>craig_taylor@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>daniel_sultana@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>deanne_hargreaves@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>eugene_luongo@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pavan_sathar@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>teena_glassick@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Email_Won_Licence_Fee</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Cloud_Readiness_Email</fullName>
+        <description>Send Cloud Readiness Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Customer_Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>alan_ford@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jesse_edwards@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>paul_james@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Cloud_BDM__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Cloud_Assessment</template>
+    </alerts>
+    <alerts>
+        <fullName>Service_Opportunity_Close_notify_contact</fullName>
+        <description>Sent Customer Survey - notify contact</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Customer_Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Service_Opp_Closure_AUTO</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Bizible_Opp_Amount</fullName>
+        <field>bizible2__Bizible_Opportunity_Amount__c</field>
+        <formula>ARR1__c</formula>
+        <name>Bizible Opp Amount</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Increment_Push_Counter_Field</fullName>
+        <description>Increment the Push Counter by 1</description>
+        <field>Push_Counter__c</field>
+        <formula>IF( ISNULL( Push_Counter__c ), 
+1, 
+Push_Counter__c + 1 
+)</formula>
+        <name>Increment Push Counter Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_ASM</fullName>
+        <field>Total_ASM_Amount_Quoted__c</field>
+        <formula>Amount_1__c *0.225</formula>
+        <name>Update ASM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Annual_Licence_Fee</fullName>
+        <description>Amount / 4 (Average Year)</description>
+        <field>Annual_SaaS_Licence_Value__c</field>
+        <formula>Amount /4</formula>
+        <name>Update Annual Licence Fee</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Estimated_Travel_Charge</fullName>
+        <field>Estimated_Daily_Travel_Charge__c</field>
+        <formula>Account.Estimated_Daily_Travel_Charge__c</formula>
+        <name>Update Estimated Travel Charge</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Opportunity_Amount_Service_Cons</fullName>
+        <description>Update Opportunity Amount - Service/Consulting</description>
+        <field>Amount</field>
+        <formula>Total_Service_Consulting_Fee__c</formula>
+        <name>Update Opportunity Amount - Service/Cons</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_SaaS_ASM</fullName>
+        <field>Annual_SaaS_ASM__c</field>
+        <formula>Total_ASM_Amount_Quoted__c</formula>
+        <name>Update SaaS ASM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_SaaS_Licence_Value</fullName>
+        <field>Annual_SaaS_Licence_Value__c</field>
+        <formula>Amount / SaaS_Term_Avg_Year__c</formula>
+        <name>Update SaaS Licence Value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_SaaS_Term_Avg_Year</fullName>
+        <description>Update SaaS Term Avg Year</description>
+        <field>SaaS_Term_Avg_Year__c</field>
+        <formula>CASE(TEXT ( SaaS_Term__c), 
+&#39;1 Year&#39;, 3, 
+&#39;2 Years&#39;, 3, 
+&#39;3 Years&#39;, 3, 
+&#39;4 Years&#39;, 3, 
+&#39;5 Years&#39;, 4, 
+&#39;6 Years&#39;, 5, 0 
+)</formula>
+        <name>Update SaaS Term Avg Year</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sent_Customer_Survey</fullName>
+        <field>Send_Feedback_Survey__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Sent Customer Survey</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Stage_Modified_Date</fullName>
+        <field>Stage_Modified_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Stage Modified Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Push Counter</fullName>
+        <actions>
+            <name>Increment_Push_Counter_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Increment the Push Counter field by 1</description>
+        <formula>IF( CloseDate &gt; PRIORVALUE( CloseDate ), IF (MONTH(CloseDate) &lt;&gt; MONTH(PRIORVALUE( CloseDate )) , TRUE, FALSE), FALSE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Sent Customer Survey - notify contact</fullName>
+        <actions>
+            <name>Service_Opportunity_Close_notify_contact</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>Generate an email to Contact when Service Opportunity Stage = Won</description>
+        <formula>Record_Type__c = &#39;Services Only / Consulting request&#39; 
+&amp;&amp; TEXT(StageName) =&#39;Stage 9 - Won&#39; 
+&amp;&amp; TEXT(PRIORVALUE(Scheduled_In_Clarity__c)) &lt;&gt; &#39;Assignment Complete&#39; 
+&amp;&amp; ISPICKVAL(Scheduled_In_Clarity__c, &#39;Assignment Complete&#39;) 
+&amp;&amp; NOT ISBLANK(  Customer_Contact_Email__c  )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update ASM</fullName>
+        <actions>
+            <name>Update_ASM</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Update ASM for no pricebook overwritten</description>
+        <formula>NOT (IsClosed) &amp;&amp;  NOT (Pricebook_Overridden__c) &amp;&amp;   Record_Type__c = &#39;Licence Fee&#39;</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Annual Licence Fee</fullName>
+        <actions>
+            <name>Update_Annual_Licence_Fee</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Licence Fee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Licence_Model__c</field>
+            <operation>equals</operation>
+            <value>SaaS,SaaS Flip</value>
+        </criteriaItems>
+        <description>Update Annual Licence Fee for an Open SaaS/SaaS Flip Opportunity</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Bizible Opportunity Amount</fullName>
+        <actions>
+            <name>Bizible_Opp_Amount</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.ARR1__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Estimated Daily Travel Charge</fullName>
+        <actions>
+            <name>Update_Estimated_Travel_Charge</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Will default value from account once saved.</description>
+        <formula>NOT ISBLANK(Account.Estimated_Daily_Travel_Charge__c)  &amp;&amp; ISBLANK(Estimated_Daily_Travel_Charge__c)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Opportunity Amount - Service%2FConsulting</fullName>
+        <actions>
+            <name>Update_Opportunity_Amount_Service_Cons</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Opportunity Amount - for record type - Service/Consulting</description>
+        <formula>Record_Type__c = &#39;Services Only / Consulting request&#39;
+&amp;&amp; ISCHANGED(Total_Service_Consulting_Fee__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update SaaS Term Avg Year</fullName>
+        <actions>
+            <name>Update_SaaS_Term_Avg_Year</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Update SaaS Term Avg Year based on SaaS Term</description>
+        <formula>(TEXT(PRIORVALUE(SaaS_Term__c)) &lt;&gt; TEXT(SaaS_Term__c) 
+|| ISNEW() )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Sent Customer Survey</fullName>
+        <actions>
+            <name>Update_Sent_Customer_Survey</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Tick Sent Customer Survey check box when Closed Won and Assignment complete</description>
+        <formula>Record_Type__c = &#39;Services Only / Consulting request&#39; 
+&amp;&amp; Not (Send_Feedback_Survey__c) 
+&amp;&amp;  ISPICKVAL(StageName, &#39;Stage 9 - Won&#39;) 
+&amp;&amp;  ISPICKVAL(Scheduled_In_Clarity__c,&#39;Assignment complete&#39;)
+&amp;&amp; TEXT(PRIORVALUE(Scheduled_In_Clarity__c)) &lt;&gt; &#39;Assignment Complete&#39; 
+&amp;&amp; NOT ISBLANK( Customer_Contact_Email__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Stage Modified Date</fullName>
+        <actions>
+            <name>Update_Stage_Modified_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( StageName)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Cloud_Assessment_Email_Sent</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Email sent to the contact with the Cloud Assessment templates to be completed for review.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>Cloud Assessment Email Sent</subject>
+    </tasks>
+</Workflow>

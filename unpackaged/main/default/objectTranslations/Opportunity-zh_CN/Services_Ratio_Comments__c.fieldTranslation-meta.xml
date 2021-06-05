@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If ratio exceeds target, please provide further details to explain the reason for selecting the “exceed ratio category” --></help>
+        <label><!-- Additional Ratio Comments --></label>
+        <name>Services_Ratio_Comments__c</name>
+    </CustomFieldTranslation>

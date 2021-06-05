@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>dark</chartTheme>
+    <colorPalette>tropic</colorPalette>
+    <dashboardChartTheme>dark</dashboardChartTheme>
+    <dashboardColorPalette>tropic</dashboardColorPalette>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Application Managed Services</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Business Analytics</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Ci -&gt; CiA</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Consulting</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>DxP</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Enterprise Asset Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Enterprise Budgeting</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Enterprise Cash Receipting</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Enterprise Content Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Financials</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Human Resources</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Payroll</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Performance Planning</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Project Lifecycle Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Property and Rating</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>SaaS</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Spatial</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Stakeholder Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Strategic Asset Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Student Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Supply Chain Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Support.</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Other</values>
+        </dashboardFilterOptions>
+        <name>Referenceable Product</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Articles or Publications</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Case study material</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Logo usage</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Media announcements</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Quotes</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Reference calls</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Research</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Site visits</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Speaking at events</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Usage of name in tenders</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Video Testimonials</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Webinar</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>Other</values>
+        </dashboardFilterOptions>
+        <name>Reference Activity</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <dashboardFilterColumns>
+                    <column>CustomerStory__c.Products__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>CustomerStory__c.Reference_Activity__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>CustomerStory__c.Vertical__c</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>References by Industry</header>
+                <legendPosition>Right</legendPosition>
+                <maxValuesDisplayed>6</maxValuesDisplayed>
+                <report>unfiled$public/New_Reference_Customers_Report</report>
+                <showPercentage>false</showPercentage>
+                <showTotal>true</showTotal>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <dashboardFilterColumns>
+                    <column>CustomerStory__c.Products__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>CustomerStory__c.Reference_Activity__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>CustomerStory__c.Region__c</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>References by Region</header>
+                <legendPosition>Right</legendPosition>
+                <maxValuesDisplayed>6</maxValuesDisplayed>
+                <report>unfiled$public/New_Reference_Customers_Report</report>
+                <showPercentage>false</showPercentage>
+                <showTotal>true</showTotal>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>CustomerStory__c.Products__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>CustomerStory__c.Reference_Activity__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>CustomerStory__c.Contact__c</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>RowCount</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>Nomination Leaderboard</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>unfiled$public/New_Reference_Customers_Report</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>natalie_campbell@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Reference Customers</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

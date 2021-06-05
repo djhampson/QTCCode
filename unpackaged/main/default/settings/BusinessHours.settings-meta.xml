@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessHoursSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>00:00:00.000Z</fridayEndTime>
+        <fridayStartTime>00:00:00.000Z</fridayStartTime>
+        <mondayEndTime>00:00:00.000Z</mondayEndTime>
+        <mondayStartTime>00:00:00.000Z</mondayStartTime>
+        <name>24x7</name>
+        <saturdayEndTime>00:00:00.000Z</saturdayEndTime>
+        <saturdayStartTime>00:00:00.000Z</saturdayStartTime>
+        <sundayEndTime>00:00:00.000Z</sundayEndTime>
+        <sundayStartTime>00:00:00.000Z</sundayStartTime>
+        <thursdayEndTime>00:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>00:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Brisbane</timeZoneId>
+        <tuesdayEndTime>00:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>00:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>00:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>00:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Australian Capital Territory 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Australian Capital Territory 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Australian Capital Territory 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>false</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Default</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Brisbane</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>New South Wales 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>New South Wales 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>New South Wales 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>New Zealand 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Pacific/Auckland</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>New Zealand 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Pacific/Auckland</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>New Zealand 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Pacific/Auckland</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Northern Territory 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Darwin</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Northern Territory 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Darwin</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Northern Territory 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Darwin</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Pacific 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Pacific/Fiji</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Pacific 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Pacific/Fiji</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Pacific 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Pacific/Fiji</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>true</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Queensland 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Brisbane</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Queensland 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Brisbane</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Queensland 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Brisbane</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>SE Asia 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Asia/Singapore</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>SE Asia 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Asia/Singapore</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>SE Asia 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Asia/Singapore</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>South Australia 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Adelaide</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>South Australia 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Adelaide</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>South Australia 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Adelaide</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Tasmania 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Tasmania 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Tasmania 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>United Kingdom 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/London</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>United Kingdom 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/London</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>United Kingdom 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Europe/London</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Victoria 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Victoria 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Victoria 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Sydney</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>19:00:00.000Z</fridayEndTime>
+        <fridayStartTime>07:00:00.000Z</fridayStartTime>
+        <mondayEndTime>19:00:00.000Z</mondayEndTime>
+        <mondayStartTime>07:00:00.000Z</mondayStartTime>
+        <name>Western Australia 7-7 M-F</name>
+        <thursdayEndTime>19:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>07:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Perth</timeZoneId>
+        <tuesdayEndTime>19:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>07:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>19:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>07:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>18:00:00.000Z</fridayEndTime>
+        <fridayStartTime>08:00:00.000Z</fridayStartTime>
+        <mondayEndTime>18:00:00.000Z</mondayEndTime>
+        <mondayStartTime>08:00:00.000Z</mondayStartTime>
+        <name>Western Australia 8-6 M-F</name>
+        <thursdayEndTime>18:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>08:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Perth</timeZoneId>
+        <tuesdayEndTime>18:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>08:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>18:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>08:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <businessHours>
+        <active>true</active>
+        <default>false</default>
+        <fridayEndTime>17:00:00.000Z</fridayEndTime>
+        <fridayStartTime>09:00:00.000Z</fridayStartTime>
+        <mondayEndTime>17:00:00.000Z</mondayEndTime>
+        <mondayStartTime>09:00:00.000Z</mondayStartTime>
+        <name>Western Australia 9-5 M-F</name>
+        <thursdayEndTime>17:00:00.000Z</thursdayEndTime>
+        <thursdayStartTime>09:00:00.000Z</thursdayStartTime>
+        <timeZoneId>Australia/Perth</timeZoneId>
+        <tuesdayEndTime>17:00:00.000Z</tuesdayEndTime>
+        <tuesdayStartTime>09:00:00.000Z</tuesdayStartTime>
+        <wednesdayEndTime>17:00:00.000Z</wednesdayEndTime>
+        <wednesdayStartTime>09:00:00.000Z</wednesdayStartTime>
+    </businessHours>
+    <holidays>
+        <activityDate>2016-09-30</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>AFL GF Day Vic 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-09-28</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>AFL GF Day Vic 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-04-25</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Anzac Day 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-04-25</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Anzac Day 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-04-25</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Anzac Day 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-04-27</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Anzac Day WA NZ</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-08-03</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>August Bank Hol UK</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-08-26</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>August Bank Hol UK 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-01-27</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Australia Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-01-26</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Australia Day 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-01-26</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Australia Day 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-01-28</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Australia Day 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-12-28</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Boxing Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-12-26</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Boxing Day 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-12-26</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Boxing Day 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-12-26</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Boxing Day 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-12-26</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Boxing Day 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-03-09</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Canberra Day ACT</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-03-13</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Canberra Day ACT 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-03-12</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>Canberra Day ACT 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-03-11</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Canberra Day ACT 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-01-02</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Day after New Years NZ</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-01-02</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Day after New Years NZ 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-05-01</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Early May Bank Holiday UK 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-05-07</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Early May Bank Holiday UK 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-06-04</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Early May Bank Holiday UK 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-04-13</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Easter Monday</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-04-17</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Easter Monday 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-04-02</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Easter Monday 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-04-22</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Easter Monday 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-03-13</activityDate>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Eight Hour Day TAS 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-03-09</activityDate>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Eight Hours Day TAS</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-03-12</activityDate>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Eight Hours Day TAS 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-03-11</activityDate>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Eight Hours Day TAS 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-09-26</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Family &amp; Comm Day ACT 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-04-10</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Good Friday</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-04-14</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Good Friday 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-03-30</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Good Friday 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-04-19</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Good Friday 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-10-03</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-10-02</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-10-01</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <description>ACT NSW &amp; SA</description>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-10-01</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <description>ACT NSW &amp; SA</description>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-10-05</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <description>ACT NSW SA</description>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day ACT NSW SA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-10-07</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <description>ACT NSW &amp; SA</description>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day ACT NSW SA 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-10-26</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day NZ</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-10-23</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day NZ 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-10-22</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day NZ 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-10-28</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day NZ 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-05-04</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day Qld</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-05-01</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day Qld 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-05-07</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day Qld 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-05-06</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day Qld 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-03-09</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day VIC</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-03-13</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day Vic 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-03-12</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day Vic 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-03-11</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day Vic 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-03-02</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day WA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-03-06</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day WA 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-03-05</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day WA 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-03-02</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Labour Day WA 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-05-27</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Late May Bank Hol 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-05-25</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Late May Bank Hol UK</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-03-09</activityDate>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>March Public Hol SA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-03-13</activityDate>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>March Public Hol SA 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-03-12</activityDate>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>March Public Hol SA 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-03-11</activityDate>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>March Public Hol SA 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-05-04</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>May Day NT</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-05-01</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>May Day NT 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-05-07</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>May Day NT 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-05-06</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>May Day NT 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-05-04</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>May Day UK</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-05-06</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>May Day UK 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-11-03</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Melbourne Cup Day Vic 2020</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-11-01</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Melbourne Cup Vic 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-11-07</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Melbourne Cup Vic 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-11-06</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Melbourne Cup Vic 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-11-05</activityDate>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Melbourne Cup Vic 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-01-01</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>New Years</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-01-02</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>New Years 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-01-01</activityDate>
+        <isRecurring>false</isRecurring>
+        <name>New Years 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-01-01</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>New Years 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-08-03</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Picnic Day NT</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-08-01</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Picnic Day NT 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-08-07</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Picnic Day NT 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-08-06</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Picnic Day NT 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-08-05</activityDate>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Picnic Day NT 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2014-06-09</activityDate>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-06-08</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <description>Excl WA &amp; QLD</description>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-06-12</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <description>Excludes WA &amp; Qld</description>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-06-11</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <description>Excludes WA &amp; Qld</description>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-06-10</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <description>Excludes WA &amp; Qld</description>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-06-01</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday NZ</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-06-05</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday NZ 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-06-04</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday NZ 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-06-03</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday NZ 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-10-05</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday QLD</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-10-03</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday Qld 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-10-01</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday Qld 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-10-07</activityDate>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday Qld 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-09-28</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday WA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-09-26</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday WA 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-09-24</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday WA 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-09-30</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Queens Birthday WA 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-06-01</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Reconciliation Day ACT</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-05-28</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Reconciliation Day ACT 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-05-27</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Reconciliation Day ACT 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-05-29</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Spring Bank Holiday UK 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-05-28</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Spring Bank Holiday UK 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-08-29</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Summer Bank Holiday UK 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-08-28</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Summer Bank Holiday UK 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-08-27</activityDate>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Summer Bank Holiday UK 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-02-06</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Waitangi Day NZ</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-02-06</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Waitangi Day NZ 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-02-06</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Waitangi Day NZ 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-02-06</activityDate>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Waitangi Day NZ 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-06-01</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Western Australia Day WA</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-06-05</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Western Australia Day WA 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-06-04</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Western Australia Day WA 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-06-03</activityDate>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Western Australia Day WA 2019</name>
+    </holidays>
+    <holidays>
+        <activityDate>2020-12-25</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Xmas Day</name>
+    </holidays>
+    <holidays>
+        <activityDate>2016-12-27</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Xmas Day 2016</name>
+    </holidays>
+    <holidays>
+        <activityDate>2017-12-25</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Xmas Day 2017</name>
+    </holidays>
+    <holidays>
+        <activityDate>2018-12-25</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Xmas Day 2018</name>
+    </holidays>
+    <holidays>
+        <activityDate>2019-12-25</activityDate>
+        <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+        <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+        <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+        <businessHours>New South Wales 7-7 M-F</businessHours>
+        <businessHours>New South Wales 8-6 M-F</businessHours>
+        <businessHours>New South Wales 9-5 M-F</businessHours>
+        <businessHours>New Zealand 7-7 M-F</businessHours>
+        <businessHours>New Zealand 8-6 M-F</businessHours>
+        <businessHours>New Zealand 9-5 M-F</businessHours>
+        <businessHours>Northern Territory 7-7 M-F</businessHours>
+        <businessHours>Northern Territory 8-6 M-F</businessHours>
+        <businessHours>Northern Territory 9-5 M-F</businessHours>
+        <businessHours>Pacific 7-7 M-F</businessHours>
+        <businessHours>Pacific 8-6 M-F</businessHours>
+        <businessHours>Pacific 9-5 M-F</businessHours>
+        <businessHours>Queensland 7-7 M-F</businessHours>
+        <businessHours>Queensland 8-6 M-F</businessHours>
+        <businessHours>Queensland 9-5 M-F</businessHours>
+        <businessHours>SE Asia 7-7 M-F</businessHours>
+        <businessHours>SE Asia 8-6 M-F</businessHours>
+        <businessHours>SE Asia 9-5 M-F</businessHours>
+        <businessHours>South Australia 7-7 M-F</businessHours>
+        <businessHours>South Australia 8-6 M-F</businessHours>
+        <businessHours>South Australia 9-5 M-F</businessHours>
+        <businessHours>Tasmania 7-7 M-F</businessHours>
+        <businessHours>Tasmania 8-6 M-F</businessHours>
+        <businessHours>Tasmania 9-5 M-F</businessHours>
+        <businessHours>United Kingdom 7-7 M-F</businessHours>
+        <businessHours>United Kingdom 8-6 M-F</businessHours>
+        <businessHours>United Kingdom 9-5 M-F</businessHours>
+        <businessHours>Victoria 7-7 M-F</businessHours>
+        <businessHours>Victoria 8-6 M-F</businessHours>
+        <businessHours>Victoria 9-5 M-F</businessHours>
+        <businessHours>Western Australia 7-7 M-F</businessHours>
+        <businessHours>Western Australia 8-6 M-F</businessHours>
+        <businessHours>Western Australia 9-5 M-F</businessHours>
+        <isRecurring>false</isRecurring>
+        <name>Xmas Day 2019</name>
+    </holidays>
+</BusinessHoursSettings>

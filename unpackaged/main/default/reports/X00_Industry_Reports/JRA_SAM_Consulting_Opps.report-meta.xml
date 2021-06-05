@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Opportunities$Amount</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$StageName</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$T1_Close_Month__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$CloseDate</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Owner</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.Opportunities$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Opportunity.Services_Only_Consulting_request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Type</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No business fit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities$CR_Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>JRA AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Lost,Opt Out / No Bid</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Opportunities$Forecast_Level__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>JRA - SAM Consulting Opps</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Opportunities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Opportunities$CloseDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

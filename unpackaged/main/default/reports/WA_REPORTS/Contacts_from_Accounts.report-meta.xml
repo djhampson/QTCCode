@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B1</blockId>
+            <joinTable>c</joinTable>
+        </blockInfo>
+        <columns>
+            <field>FIRST_NAME</field>
+        </columns>
+        <columns>
+            <field>LAST_NAME</field>
+        </columns>
+        <columns>
+            <field>TITLE</field>
+        </columns>
+        <columns>
+            <field>Contact.Job_Classification__c</field>
+        </columns>
+        <columns>
+            <field>Account.Vertical_Market__c</field>
+        </columns>
+        <columns>
+            <field>Account.Region__c</field>
+        </columns>
+        <columns>
+            <field>EMAIL</field>
+        </columns>
+        <currency>AUD</currency>
+        <filter>
+            <criteriaItems>
+                <column>Contact.CDM_CAM__c</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>Andrew Boyce</value>
+            </criteriaItems>
+            <criteriaItems>
+                <column>Account.Region__c</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>Western Australia</value>
+            </criteriaItems>
+        </filter>
+        <format>Tabular</format>
+        <name>Contacts &amp; Accounts block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>ContactList</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <timeFrameFilter>
+            <dateColumn>CREATED_DATE</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>c</joinTable>
+    </blockInfo>
+    <description>Contacts from Accounts with particular Products</description>
+    <format>MultiBlock</format>
+    <name>Contacts from Accounts</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <showDetails>true</showDetails>
+</Report>

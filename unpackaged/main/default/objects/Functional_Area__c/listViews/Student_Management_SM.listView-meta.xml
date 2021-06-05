@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Management_SM</fullName>
+    <columns>NAME</columns>
+    <columns>Usage__c</columns>
+    <columns>Possible_Found_Technology__c</columns>
+    <columns>Product_Affected__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Affected__c</field>
+        <operation>equals</operation>
+        <value>Supply Chain Management (SCM)</value>
+    </filters>
+    <label>Supply Chain Management (SCM)</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

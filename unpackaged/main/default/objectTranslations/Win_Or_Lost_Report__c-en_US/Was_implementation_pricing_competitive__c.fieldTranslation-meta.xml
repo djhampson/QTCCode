@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Implementation pricing.  Was it competitive in terms of number of days and daily rate? --></help>
+        <label><!-- Was implementation pricing competitive? --></label>
+        <name>Was_implementation_pricing_competitive__c</name>
+    </CustomFieldTranslation>

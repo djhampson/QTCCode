@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Module Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset Management</fullName>
+                <default>false</default>
+                <label>Asset Management</label>
+            </value>
+            <value>
+                <fullName>Billing &amp; Revenue Management</fullName>
+                <default>false</default>
+                <label>Billing &amp; Revenue Management</label>
+            </value>
+            <value>
+                <fullName>Community Relationship Management</fullName>
+                <default>false</default>
+                <label>Community Relationship Management</label>
+            </value>
+            <value>
+                <fullName>Connectors</fullName>
+                <default>false</default>
+                <label>Connectors</label>
+            </value>
+            <value>
+                <fullName>Core</fullName>
+                <default>false</default>
+                <label>Core</label>
+            </value>
+            <value>
+                <fullName>Employee Self Serv</fullName>
+                <default>false</default>
+                <label>Employee Self Serv</label>
+            </value>
+            <value>
+                <fullName>eProperty Online Services</fullName>
+                <default>false</default>
+                <label>eProperty Online Services</label>
+            </value>
+            <value>
+                <fullName>Extensions</fullName>
+                <default>false</default>
+                <label>Extensions</label>
+            </value>
+            <value>
+                <fullName>External Web Service</fullName>
+                <default>false</default>
+                <label>External Web Service</label>
+            </value>
+            <value>
+                <fullName>GIS/Mapping</fullName>
+                <default>false</default>
+                <label>GIS/Mapping</label>
+            </value>
+            <value>
+                <fullName>Included MyModules</fullName>
+                <default>false</default>
+                <label>Included MyModules</label>
+            </value>
+            <value>
+                <fullName>Integrations</fullName>
+                <default>false</default>
+                <label>Integrations</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Optional</fullName>
+                <default>false</default>
+                <label>Optional</label>
+            </value>
+            <value>
+                <fullName>Product Connectors</fullName>
+                <default>false</default>
+                <label>Product Connectors</label>
+            </value>
+            <value>
+                <fullName>Project Execution &amp; Delivery</fullName>
+                <default>false</default>
+                <label>Project Execution &amp; Delivery</label>
+            </value>
+            <value>
+                <fullName>Regulatory Management</fullName>
+                <default>false</default>
+                <label>Regulatory Management</label>
+            </value>
+            <value>
+                <fullName>SAM Asset Management</fullName>
+                <default>false</default>
+                <label>SAM Asset Management</label>
+            </value>
+            <value>
+                <fullName>Work Management</fullName>
+                <default>false</default>
+                <label>Work Management</label>
+            </value>
+            <value>
+                <fullName>XML Interfaces</fullName>
+                <default>false</default>
+                <label>XML Interfaces</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

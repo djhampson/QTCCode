@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CPQ Contract Layout</layout>
+        <sections>
+            <label><!-- Amendments --></label>
+            <section>Amendments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Salesforce CPQ Information --></label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Info --></label>
+            <section>System Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contract Layout</layout>
+        <sections>
+            <label><!-- AMS --></label>
+            <section>AMS</section>
+        </sections>
+        <sections>
+            <label><!-- Cloud Terms --></label>
+            <section>Cloud Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Early Adopter --></label>
+            <section>Early Adopter</section>
+        </sections>
+        <sections>
+            <label><!-- Escrow --></label>
+            <section>Escrow</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Commercial Details --></label>
+            <section>Finance Commercial Details</section>
+        </sections>
+        <sections>
+            <label><!-- Future Functionality --></label>
+            <section>Future Functionality</section>
+        </sections>
+        <sections>
+            <label><!-- Initial Implementation --></label>
+            <section>Initial Implementation</section>
+        </sections>
+        <sections>
+            <label><!-- Legal Terms --></label>
+            <section>Legal Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Privacy/GDPR --></label>
+            <section>Privacy/GDPR</section>
+        </sections>
+        <sections>
+            <label><!-- Risk and Compliance --></label>
+            <section>Risk and Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- SaaS Commercial Details --></label>
+            <section>SaaS Commercial Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Commercial Details --></label>
+            <section>Sales Commercial Details</section>
+        </sections>
+        <sections>
+            <label><!-- Support Terms --></label>
+            <section>Support Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Third Party Products --></label>
+            <section>Third Party Products</section>
+        </sections>
+        <sections>
+            <label><!-- Use of Customer Data --></label>
+            <section>Use of Customer Data</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

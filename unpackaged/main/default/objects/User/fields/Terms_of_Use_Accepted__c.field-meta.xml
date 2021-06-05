@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terms_of_Use_Accepted__c</fullName>
+    <description>The date and time the user accepted the Terms of Use for the Customer Community</description>
+    <externalId>false</externalId>
+    <label>Terms of Use Accepted</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>DateTime</type>
+</CustomField>

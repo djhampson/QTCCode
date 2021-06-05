@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Rate Card Specified --></label>
+        <name>Rate_Card_Specified__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Period</masterLabel>
+            <translation><!-- Fixed Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Scope Only</masterLabel>
+            <translation><!-- Initial Scope Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Scope and Variations</masterLabel>
+            <translation><!-- Initial Scope and Variations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life of Contract</masterLabel>
+            <translation><!-- Life of Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

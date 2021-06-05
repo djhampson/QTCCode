@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical_Consulting_NEW_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Customer_Product__c</columns>
+    <columns>Customer_Reply_Action_Needed__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>NAME</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Resolved,Closed</value>
+    </filters>
+    <label>Technical Consulting - NEW</label>
+    <queue>Technical_Consulting_NEW</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

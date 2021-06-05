@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>Solution</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Solution - eMinisterials</fullName>
+                <default>false</default>
+                <label>Solution - eMinisterials</label>
+            </value>
+            <value>
+                <fullName>Solution - OneAirport</fullName>
+                <default>false</default>
+                <label>Solution - OneAirport</label>
+            </value>
+            <value>
+                <fullName>Solution - OneBanking</fullName>
+                <default>false</default>
+                <label>Solution - OneBanking</label>
+            </value>
+            <value>
+                <fullName>Solution - OneCare</fullName>
+                <default>false</default>
+                <label>Solution - OneCare</label>
+            </value>
+            <value>
+                <fullName>Solution - OneCommunity</fullName>
+                <default>false</default>
+                <label>Solution - OneCommunity</label>
+            </value>
+            <value>
+                <fullName>Solution - OneCorporate</fullName>
+                <default>false</default>
+                <label>Solution - OneCorporate</label>
+            </value>
+            <value>
+                <fullName>Solution - OneCouncil</fullName>
+                <default>false</default>
+                <label>Solution - OneCouncil</label>
+            </value>
+            <value>
+                <fullName>Solution - OneEducation</fullName>
+                <default>false</default>
+                <label>Solution - OneEducation</label>
+            </value>
+            <value>
+                <fullName>Solution - OneEnergy</fullName>
+                <default>false</default>
+                <label>Solution - OneEnergy</label>
+            </value>
+            <value>
+                <fullName>Solution - OneGovernment</fullName>
+                <default>false</default>
+                <label>Solution - OneGovernment</label>
+            </value>
+            <value>
+                <fullName>Solution - OneHealth</fullName>
+                <default>false</default>
+                <label>Solution - OneHealth</label>
+            </value>
+            <value>
+                <fullName>Solution - OneHousing</fullName>
+                <default>false</default>
+                <label>Solution - OneHousing</label>
+            </value>
+            <value>
+                <fullName>Solution - OneInsurance</fullName>
+                <default>false</default>
+                <label>Solution - OneInsurance</label>
+            </value>
+            <value>
+                <fullName>Solution - OneMembership</fullName>
+                <default>false</default>
+                <label>Solution - OneMembership</label>
+            </value>
+            <value>
+                <fullName>Solution - OnePolytechnic</fullName>
+                <default>false</default>
+                <label>Solution - OnePolytechnic</label>
+            </value>
+            <value>
+                <fullName>Solution - OnePort</fullName>
+                <default>false</default>
+                <label>Solution - OnePort</label>
+            </value>
+            <value>
+                <fullName>Solution - OneProject</fullName>
+                <default>false</default>
+                <label>Solution - OneProject</label>
+            </value>
+            <value>
+                <fullName>Solution - OneResearch</fullName>
+                <default>false</default>
+                <label>Solution - OneResearch</label>
+            </value>
+            <value>
+                <fullName>Solution - OneTAFE</fullName>
+                <default>false</default>
+                <label>Solution - OneTAFE</label>
+            </value>
+            <value>
+                <fullName>Solution - OneUniversity</fullName>
+                <default>false</default>
+                <label>Solution - OneUniversity</label>
+            </value>
+            <value>
+                <fullName>Solution - OneWater</fullName>
+                <default>false</default>
+                <label>Solution - OneWater</label>
+            </value>
+            <value>
+                <fullName>Solution - OneWealth</fullName>
+                <default>false</default>
+                <label>Solution - OneWealth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

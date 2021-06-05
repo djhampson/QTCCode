@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Concurrent</fullName>
+        <default>false</default>
+        <label>Concurrent</label>
+    </customValue>
+    <customValue>
+        <fullName>Rateable Properties</fullName>
+        <default>false</default>
+        <label>Rateable Properties</label>
+    </customValue>
+    <customValue>
+        <fullName>Named Users</fullName>
+        <default>false</default>
+        <label>Named Users</label>
+    </customValue>
+    <customValue>
+        <fullName>Systems</fullName>
+        <default>false</default>
+        <label>Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Employees</fullName>
+        <default>false</default>
+        <label>Employees</label>
+    </customValue>
+    <customValue>
+        <fullName>Beds</fullName>
+        <default>false</default>
+        <label>Beds</label>
+    </customValue>
+    <customValue>
+        <fullName>Counters/Concurrent</fullName>
+        <default>false</default>
+        <label>Counters/Concurrent</label>
+    </customValue>
+    <customValue>
+        <fullName>Escrow</fullName>
+        <default>false</default>
+        <label>Escrow</label>
+    </customValue>
+    <customValue>
+        <fullName>Lanes</fullName>
+        <default>false</default>
+        <label>Lanes</label>
+    </customValue>
+    <customValue>
+        <fullName>Units</fullName>
+        <default>false</default>
+        <label>Units</label>
+    </customValue>
+    <customValue>
+        <fullName>Servers</fullName>
+        <default>false</default>
+        <label>Servers</label>
+    </customValue>
+    <customValue>
+        <fullName>EFTS</fullName>
+        <default>false</default>
+        <label>EFTS</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Request</fullName>
+        <default>false</default>
+        <label>Service Request</label>
+    </customValue>
+    <masterLabel>Basis Description</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

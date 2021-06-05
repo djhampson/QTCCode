@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_81932886</developerName>
+        <masterLabel>Lead Handover Result</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Activity.Call_Result__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Completed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Opportunity Created</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Meeting held</sourceValue>
+            </sourceValues>
+            <value>Accepted</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Not Available</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Could not connect</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cancelled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>No real opportunity</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Returned to Marketing</sourceValue>
+            </sourceValues>
+            <value>Rejected</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_74447212</developerName>
+        <masterLabel>SDRs/CAMs</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>OWNER_ROLE</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>CDM T1D</sourceValue>
+            </sourceValues>
+            <value>SDR</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>BucketField_74447212</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>ACTIVITY_ID</field>
+    </columns>
+    <columns>
+        <field>Activity.Call_Result__c</field>
+    </columns>
+    <columns>
+        <field>ASSIGNED</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT</field>
+    </columns>
+    <columns>
+        <field>CONTACT</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>TASK_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Lead Handover</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_81932886</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STATUS</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Tasks - Leads Handover</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

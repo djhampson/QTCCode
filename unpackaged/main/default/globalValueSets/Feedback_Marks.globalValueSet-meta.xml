@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Excellent</fullName>
+        <default>false</default>
+        <label>Excellent</label>
+    </customValue>
+    <customValue>
+        <fullName>Very Good</fullName>
+        <default>false</default>
+        <label>Very Good</label>
+    </customValue>
+    <customValue>
+        <fullName>Good</fullName>
+        <default>false</default>
+        <label>Good</label>
+    </customValue>
+    <customValue>
+        <fullName>Satisfactory</fullName>
+        <default>false</default>
+        <label>Satisfactory</label>
+    </customValue>
+    <customValue>
+        <fullName>Unsatisfactory</fullName>
+        <default>false</default>
+        <label>Unsatisfactory</label>
+    </customValue>
+    <customValue>
+        <fullName>Poor</fullName>
+        <default>false</default>
+        <label>Poor</label>
+    </customValue>
+    <customValue>
+        <fullName>No feedback provided</fullName>
+        <default>false</default>
+        <label>No feedback provided</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <masterLabel>Feedback Marks</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Was there anything that particularly impressed the customer/prospect with our competitors’ products or ours? --></help>
+        <label><!-- How did our competitor products compare? --></label>
+        <name>How_did_our_competitor_products_compare__c</name>
+    </CustomFieldTranslation>

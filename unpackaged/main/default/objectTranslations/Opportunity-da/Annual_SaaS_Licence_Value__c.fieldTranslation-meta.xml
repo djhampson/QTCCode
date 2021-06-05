@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Amount / Term Avg Year --></help>
+        <label><!-- Annual Licence --></label>
+        <name>Annual_SaaS_Licence_Value__c</name>
+    </CustomFieldTranslation>

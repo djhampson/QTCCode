@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Asset Management (AM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Business Process Management (BPM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Corporate Performance Management (CPM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Customer Relationship Management (CRM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Enterprise Cash Receipting (ECR),Supply Chain Management (SCM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Enterprise Content Management (ECM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Financials (FIN)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Human Resource &amp; Payroll (HRP)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Property &amp; Rating (P&amp;R)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Student Management (SM)</values>
+        </dashboardFilterOptions>
+        <name>Product</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Geoff W,FIN,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Suzanne W,FIN,SCM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Kim S,SCM,ECR</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Stephen M,SCM,ECR</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Parvin K,HRP</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>William M,FIN,SCM,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Peter G,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Josh S,FIN,SCM,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Manjinder B,HRP</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Ajay,SM,CRM,BPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Ruth A,FIN,SCM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Samantha W,HRP</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Maggy,FIN</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Phil N,SCM,FIN,ECR</values>
+        </dashboardFilterOptions>
+        <name>Person</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>to be reviewed and updated daily</footer>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Critical_Cases</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Critical cases in Product (review daily)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>to be reviewed, acknowledged and flag removed when actioned</footer>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Priority_has_Changed</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Priority has changed (action daily)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Update found technology on each applicable case this appears in board reports.</footer>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Missing_Found_Technology</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Missing Found Tech (for action weekly)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties />
+            <indicatorBreakpoint1>20.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>30.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Cases_Currently_Open_by_agent2</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowValueAscending</sortBy>
+            <title>Total Cases by Case Owner (info)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties />
+            <indicatorBreakpoint1>20.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>30.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Cases_Open_by_Agent_not_Jira</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowValueAscending</sortBy>
+            <title>Cases by owner no Jira (info)</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>to be reviewed and missing Jira number added or picked up and triaged</footer>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Cases_by_Product_Q</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>In Product with No Jira (action daily)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Customer_Activity_on_Closed_Product</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Closed Case Activity (for action daily)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Update Internal Functional Area, this is used by many teams and yourselves when performing functional area analysis.</footer>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Missing_Functional_Areas</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Missing Internal FAs (for action weekly)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties />
+            <indicatorBreakpoint1>5.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>15.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Cases_Closed_WTD_Product</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Cases closed WTD by agent (info)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>FK_$Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>FK_CASE_OWNER_NAME</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Surveys_Prdouct</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Surveys This Month (info)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties />
+            <indicatorBreakpoint1>10.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>20.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>20</maxValuesDisplayed>
+            <report>Product_Support/Top_Customers_by_Open_Cases_in_our_Space</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Top Customers in our Space (info)</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>acknowledge the customer update (email, post, comment) and set yourself a task if you can&#39;t provide an immediate update/fix</footer>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Case_Activity_Product</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Activity on Queues (for action daily)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>acknowledge the customer update (email, post, comment) and set yourself a task if you can&#39;t provide an immediate update/fix</footer>
+            <groupingSortProperties />
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Product_Queue_Activity</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Case Activity (for action daily)</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <dashboardFilterColumns>
+                <column>Case$Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Case$Owner</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <footer>If resolved in patch and it is available to customer resolve case. If a future release advise customer it has been scheduled for release X and as it progresses an update will be provided.</footer>
+            <groupingSortProperties />
+            <header>Completed Jira with a Package Fix (review/action weekly)</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Total Number of Completed Development Items with a Package Fix</metricLabel>
+            <report>Product_Support/Dev_Items_Closed_with_Package</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <dashboardFilterColumns>
+                <column>Case$Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>Case$Owner</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <footer>Check if this was a rejection and work with customer / Dev to get a result and case closed.</footer>
+            <groupingSortProperties />
+            <header>Completed Jira with no Package Fix (review/action weekly)</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Total Number of Completed Development Items with no Package Fix</metricLabel>
+            <report>Product_Support/Dev_Items_Closed_without_Package</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Case.Customer_Product__c</column>
+            </dashboardFilterColumns>
+            <dashboardFilterColumns>
+                <column>OWNER</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties />
+            <indicatorBreakpoint1>10.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>20.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>20</maxValuesDisplayed>
+            <report>Product_Support/Top_Customers_by_Open_Cases3</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Top Customers by Open Cases (info)</title>
+        </components>
+    </rightSection>
+    <runningUser>roxanne_hoare@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Product Support</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

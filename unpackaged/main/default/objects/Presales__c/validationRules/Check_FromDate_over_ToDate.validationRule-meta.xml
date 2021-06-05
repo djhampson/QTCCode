@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_FromDate_over_ToDate</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT (ISBLANK(To_Date__c)) &amp;&amp; 
+(Activity_Date__c &gt; To_Date__c)</errorConditionFormula>
+    <errorDisplayField>Activity_Date__c</errorDisplayField>
+    <errorMessage>From Date can&#39;t be over To Date.</errorMessage>
+</ValidationRule>

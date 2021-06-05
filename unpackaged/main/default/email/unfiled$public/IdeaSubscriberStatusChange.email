@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div style="background-image: url({!$Setup.EmailTemplateFields__c.T1_Logo__c});background-size: 340px;background-repeat: no-repeat; background-position: center;width: 900px;height: 70px">
+</div>
+<div style="width: 900px;">
+
+
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+To view the comment that was added please click the link below:<br><br>
+<a href="{!Idea_Email_Notification__c.Idea_URL__c}">{!Idea_Email_Notification__c.Idea_Number__c} - {!Idea_Email_Notification__c.Idea_Title__c}</a>
+<br><br>
+Status - {!Idea_Email_Notification__c.Idea_Status__c}
+<br><br>
+If you wish to stop receiving these notifications simply unsubscribe to this Idea.
+<br>
+<br>
+</p>
+<p style = "font-family:calibri;font-size:16px;">
+Kind regards,<br><br>
+<b>TechnologyOne</b><br><br>{!$Setup.EmailTemplateFields__c.Phone_Nos__c}<br></p>
+
+<p style = "font-family:calibri;font-size:12px;">
+<br>
+{!$Setup.EmailTemplateFields__c.FooterText1__c}<br> 
+{!$Setup.EmailTemplateFields__c.FooterText2__c}<br>
+{!$Setup.EmailTemplateFields__c.FooterURL__c}<br><br>
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_2__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_3__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+</p>
+
+<p style = "line-height:100%;font-family:calibri;font-size:10px;">
+TechnologyOne accepts no liability for this email or its attachments.<br>
+It is for the intended recipient only. <a href="https://technologyonecorp.com/terms-of-use" target="_blank" style="color:#00B4D0">
+<span>More info</span></a><br> 
+<a style="color:#00B4D0" href="mailto:Stop_Spam@TechnologyOneCorp.com">Stop_Spam@TechnologyOneCorp.com</a><br>
+</p>
+</div>
+</body>
+</html>

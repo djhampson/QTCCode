@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>madeline_broadbent@technologyonecorp.com</contactEmail>
+    <label>eazyBI JiraDev Code One</label>
+    <oauthConfig>
+        <callbackUrl>https://jiradev.code.one/plugins/servlet/eazybi/source_applications/auth/rest_api/callback</callbackUrl>
+        <consumerKey>3MVG9mQWF42jKQUoz93iRMjGumixJusCstp3jiY3LGGGshPk9YC0GN7kj80kW5YildM.6sl2Nov7EZloTS742</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <sessionPolicy>
+        <sessionTimeout>720</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>

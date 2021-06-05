@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_2087709</developerName>
+        <masterLabel>Pipeline v Won</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>1 - Discovery</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2 - Qualify</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>3 - Proposal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>4 - Shortlisted</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>5 - Preferred</sourceValue>
+            </sourceValues>
+            <value>Pipeline</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>6 - Sales Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>7 - Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stage 9 - Won</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Opt Out / No Bid</sourceValue>
+            </sourceValues>
+            <value>Out</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity.Group_Region__c</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Vertical_Market__c</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_OWNER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Licence_Model__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Forecast_Level__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.ARR1__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Amount_1__c.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Cloud_Service_Fee_per_year__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>FISCAL_QUARTER</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Primary_Campaign_Name__c</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <booleanFilter>((1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7) AND 8) AND 9) AND 10</booleanFilter>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Marketing Qualified Lead</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPPORTUNITY_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Opportunity.Licence_Fee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPPORTUNITY_OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Sales Operations</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>TechnologyOne</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>apples ltd (TEST)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Amount_1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>AUD 100000</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.ARR1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>AUD 50000</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CLOSE_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPPORTUNITY_CLOSED</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Opt Out / No Bid</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FISCAL_YEAR</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>WON</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Win/Loss Ratio by MQL</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2015-10-01</startDate>
+    </timeFrameFilter>
+</Report>

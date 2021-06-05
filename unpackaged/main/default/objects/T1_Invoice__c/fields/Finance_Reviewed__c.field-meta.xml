@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finance_Reviewed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Finance Reviewed checkbox will stop the integration from syncing the invoicing until Finance have reviewed and updated the Purchase Order Number.</description>
+    <externalId>false</externalId>
+    <label>Finance Reviewed</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

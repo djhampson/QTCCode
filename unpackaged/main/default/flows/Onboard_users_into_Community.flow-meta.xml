@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Add user to group based on their selection</description>
+        <name>Add_user_to_group</name>
+        <label>Add user to group</label>
+        <locationX>173</locationX>
+        <locationY>325</locationY>
+        <actionName>CollaborationGroup.NewGroupMember</actionName>
+        <actionType>quickAction</actionType>
+        <connector>
+            <targetReference>Success</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Failure</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>MemberId</name>
+            <value>
+                <elementReference>$User.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <elementReference>Groups_Variable_Store_ID.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>50.0</apiVersion>
+    <description>Add members into groups based on their selection. Provide important getting started information and welcome new users.</description>
+    <dynamicChoiceSets>
+        <name>CommunityGroups</name>
+        <dataType>String</dataType>
+        <displayField>Name</displayField>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Financials</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Security</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Student Management</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>TechnologyOne Announcements</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Corporate Performance Management</stringValue>
+            </value>
+        </filters>
+        <object>CollaborationGroup</object>
+        <outputAssignments>
+            <assignToReference>Groups_Variable_Store_ID.Id</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+        <valueField>Name</valueField>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <description>Display groups to join</description>
+        <name>Groups_Choice</name>
+        <dataType>String</dataType>
+        <displayField>Name</displayField>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Financials</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Spatial</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Supply Chain Management</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Enterprise Asset Management</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Security</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>TechnologyOne Announcements</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>Platform &amp; Product Enablement</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>Student Management</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>Corporate Performance Management</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Name</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>SaaS</stringValue>
+            </value>
+        </filters>
+        <object>Group</object>
+        <outputAssignments>
+            <assignToReference>Groups_Variable_Store_ID.Id</assignToReference>
+            <field>Id</field>
+        </outputAssignments>
+        <sortField>Name</sortField>
+        <sortOrder>Asc</sortOrder>
+        <valueField>Name</valueField>
+    </dynamicChoiceSets>
+    <interviewLabel>Onboard users into Community {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Onboard users into Community</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <description>Failure after attempting to join</description>
+        <name>Failure</name>
+        <label>Failure</label>
+        <locationX>295</locationX>
+        <locationY>329</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Search</targetReference>
+        </connector>
+        <fields>
+            <name>Failure_Message</name>
+            <fieldText>&lt;p&gt;You are already in that Group, please try and join another group. &lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>Tips for searching community</description>
+        <name>Search</name>
+        <label>Searching</label>
+        <locationX>166</locationX>
+        <locationY>601</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Searching</name>
+            <fieldText>&lt;p&gt;&lt;b&gt;Searching in the Community&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;We know there is a lot of great information available in the Customer&amp;nbsp;Community,&amp;nbsp;but the key is knowing how to find it!&amp;nbsp;Not all knowledge is documented as an article. It could be a discussion or even an idea. Therefore, searching is often the best approach.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black;&quot;&gt;We have put together some tips to help you in your searching&amp;nbsp;endeavours.&amp;nbsp;You can watch a demonstration with some explanations&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://vimeo.com/461693601&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;span style=&quot;color: black;&quot;&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;We have also put together these resources&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://customercommunity.technologyonecorp.com/s/article/Guide-to-Searching-in-the-Customer-Community&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: Calibri; font-size: 11pt;&quot;&gt;Guide to searching in the Customer Community&lt;/a&gt;&lt;span style=&quot;font-family: Calibri; font-size: 11pt; color: black;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://customercommunity.technologyonecorp.com/s/article/Customer-Community-Search-Options&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: Calibri; font-size: 11pt;&quot;&gt;Customer Community Search Options&lt;/a&gt;&lt;span style=&quot;font-family: Calibri; font-size: 11pt; color: black;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
+        <description>Success message after adding member to group</description>
+        <name>Success</name>
+        <label>Success</label>
+        <locationX>173</locationX>
+        <locationY>454</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Success_Message</name>
+            <fieldText>&lt;p&gt;Awesome! You are a now member, it&#39;s time to start collaborating with other community users. &lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>Welcome to the Customer Community, lets help you get started!</description>
+        <name>Welcome_Screen</name>
+        <label>Welcome Screen</label>
+        <locationX>172</locationX>
+        <locationY>180</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Add_user_to_group</targetReference>
+        </connector>
+        <fields>
+            <name>Text</name>
+            <fieldText>&lt;p&gt;Welcome to the Customer Community! To help you get started, let&#39;s join some Groups. Groups allow you to connect with other product users and TechnologyOne experts. Ask questions, contribute to discussion and be notified of informant product news.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Select_Groups</name>
+            <choiceReferences>CommunityGroups</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Select Groups</fieldText>
+            <fieldType>MultiSelectPicklist</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Welcome_Screen</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <description>Store Group ID for adding members to the group</description>
+        <name>Groups_Variable_Store_ID</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Group</objectType>
+    </variables>
+</Flow>

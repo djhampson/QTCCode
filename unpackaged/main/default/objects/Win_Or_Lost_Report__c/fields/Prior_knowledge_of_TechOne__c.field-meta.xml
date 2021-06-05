@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_knowledge_of_TechOne__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What did the customer/prospect know about us before they started the selection process?</inlineHelpText>
+    <label>Prior knowledge of TechOne</label>
+    <length>1000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

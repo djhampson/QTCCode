@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPS_Score_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NPS_Score__c &gt; 8, IMAGE(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000001fSs0d&amp;oid=00D2O0000009e0J&quot;, &quot;Promoter&quot;), 
+IF(NPS_Score__c &lt; 7, IMAGE(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000001fSrzL&amp;oid=00D2O0000009e0J&quot;, &quot;Detractor&quot;),
+IF(AND(NPS_Score__c &gt; 6, NPS_Score__c &lt; 9), IMAGE(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000001fSs0K&amp;oid=00D2O0000009e0J&quot;, &quot;Passive&quot;), &quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NPS Score Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

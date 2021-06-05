@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Asset Management</label>
+                <name>Asset_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Work Management</label>
+                <name>Work_Management</name>
+            </dataCategory>
+            <label>Enterprise Asset Management</label>
+            <name>Enterprise_Asset_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Business Process Automation</label>
+                <name>Business_Process_Automation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Forms</label>
+                <name>Forms</name>
+            </dataCategory>
+            <label>Business Process Management</label>
+            <name>Business_Process_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Ideas</label>
+                <name>Ideas</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cases</label>
+                <name>Cases</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Knowledge</label>
+                <name>Knowledge</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Groups</label>
+                <name>Groups</name>
+            </dataCategory>
+            <label>Community</label>
+            <name>Community</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Enterprise Budgeting</label>
+                <name>Enterprise_Budgeting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Performance Planning</label>
+                <name>Performance_Planning</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reporting &amp; Analytics</label>
+                <name>Reporting_Analytics</name>
+            </dataCategory>
+            <label>Corporate Performance Management</label>
+            <name>Corporate_Performance_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Enterprise Cash Receipting</label>
+            <name>Enterprise_Cash_Receipting</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Document Management</label>
+                <name>Document_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Records Management</label>
+                <name>Records_Management</name>
+            </dataCategory>
+            <label>Enterprise Content Management</label>
+            <name>Enterprise_Content_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Accounts Payable (AP)</label>
+                <name>Accounts_Payable_AP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Accounts Receivable (AR)</label>
+                <name>Accounts_Receivable_AR</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Asset Accounting</label>
+                <name>Asset_Accounting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Banking</label>
+                <name>Banking</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Charges &amp; Billing</label>
+                <name>Charges_Billing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Data Entry</label>
+                <name>Data_Entry</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Debt Management</label>
+                <name>Debt_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Financials API Services</label>
+                <name>Financials_API_Services</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Financial System Administration</label>
+                <name>Financial_System_Administration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>General Ledger (GL)</label>
+                <name>General_Ledger</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Taxation</label>
+                <name>Taxation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Travel &amp; Expenses (T&amp;E)</label>
+                <name>Travel_Expenses_T_E</name>
+            </dataCategory>
+            <label>Financials</label>
+            <name>Financials</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Organisation Management</label>
+                <name>Organisation_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payroll</label>
+                <name>Payroll</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recruitment</label>
+                <name>Recruitment</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Safety</label>
+                <name>Safety</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Talent &amp; Succession</label>
+                <name>Talent_Succession</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Training</label>
+                <name>Training</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Workforce Management</label>
+                <name>Workforce_Management</name>
+            </dataCategory>
+            <label>Human Resource &amp; Payroll</label>
+            <name>Human_Resource_Payroll</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Animals</label>
+                <name>Animals</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Debtors</label>
+                <name>Debtors</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Infringements</label>
+                <name>Infringements</name>
+            </dataCategory>
+            <dataCategory>
+                <label>P&amp;R Billing</label>
+                <name>P_R_Billing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Policy &amp; Compliance</label>
+                <name>Policy_Compliance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Property Management</label>
+                <name>Property_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Service Management</label>
+                <name>Service_Management</name>
+            </dataCategory>
+            <label>Property &amp; Rating</label>
+            <name>Property_Rating</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>IntraMaps</label>
+                <name>IntraMaps</name>
+            </dataCategory>
+            <dataCategory>
+                <label>MapManager</label>
+                <name>MapManager</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Miscellaneous</label>
+                <name>Miscellaneous</name>
+            </dataCategory>
+            <label>Spatial</label>
+            <name>Spatial</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Interactions &amp; Correspondence</label>
+                <name>Interactions_Correspondence</name>
+            </dataCategory>
+            <dataCategory>
+                <label>CRM Services</label>
+                <name>CRM_Services</name>
+            </dataCategory>
+            <label>Stakeholder Management</label>
+            <name>Stakeholder_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Admissions &amp; Enrolments</label>
+                <name>Admissions_Enrolments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Curriculum</label>
+                <name>Curriculum</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Education Administration</label>
+                <name>Education_Administration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Progressions &amp; Completions</label>
+                <name>Progressions_Completions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Research &amp; Candidature</label>
+                <name>Research_Candidature</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Student Administration</label>
+                <name>Student_Administration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Student Portal</label>
+                <name>Student_Portal</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Student Recruitment</label>
+                <name>Student_Recruitment</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Student Stakeholders Portal</label>
+                <name>Student_Stakeholders_Portal</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Teaching &amp; Learning</label>
+                <name>Teaching_Learning</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Scholarships</label>
+                    <name>Scholarships</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Education Finance</label>
+                    <name>Education_Finance</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Education Compliance</label>
+                    <name>Education_Compliance</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Education Scheduling</label>
+                    <name>Education_Scheduling</name>
+                </dataCategory>
+                <label>Other</label>
+                <name>Other</name>
+            </dataCategory>
+            <label>Student Management</label>
+            <name>Student_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Contracts</label>
+                <name>Contracts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Inventory</label>
+                <name>Inventory</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Purchasing</label>
+                <name>Purchasing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reviews</label>
+                <name>Reviews</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sourcing</label>
+                <name>Sourcing</name>
+            </dataCategory>
+            <label>Supply Chain Management</label>
+            <name>Supply_Chain_Management</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Access Management</label>
+                <name>Access_Management</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Authentication</label>
+                <name>Authentication</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Distributed Processor (DP)</label>
+                <name>Distributed_Processor_DP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Users</label>
+                <name>Users</name>
+            </dataCategory>
+            <label>System Administration</label>
+            <name>System_Administration</name>
+        </dataCategory>
+        <dataCategory>
+            <label>SaaS</label>
+            <name>SaaS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Database</label>
+                <name>Database</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Infrastructure</label>
+                <name>Infrastructure</name>
+            </dataCategory>
+            <label>Technical</label>
+            <name>Technical</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Security</label>
+            <name>Security</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Category</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+        <object>Question</object>
+    </objectUsage>
+</DataCategoryGroup>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Billing Order Product Layout</layout>
+        <sections>
+            <label>Informations sur la fréquence de facturation</label>
+            <section>Billing Frequency Information</section>
+        </sections>
+        <sections>
+            <label>Métriques de facturation</label>
+            <section>Billing Metrics</section>
+        </sections>
+        <sections>
+            <label>Informations sur la règle de facturation</label>
+            <section>Billing Rule Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur le regroupement de calcul</label>
+            <section>Calculation Grouping Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur la date</label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur la règle du Grand livre</label>
+            <section>GL Rule Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur l’exécution de factures</label>
+            <section>Invoice Run Info</section>
+        </sections>
+        <sections>
+            <label>Informations sur les prix</label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur le devis et l&#39;abonnement</label>
+            <section>Quote and Subscription Information</section>
+        </sections>
+        <sections>
+            <label>Information sur la comptabilisation du revenu</label>
+            <section>Revenue Recognition Information</section>
+        </sections>
+        <sections>
+            <label>Informations fiscales</label>
+            <section>Tax Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur la facturation d’utilisation</label>
+            <section>Usage Billing Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Order Product Layout</layout>
+        <sections>
+            <label>Informations sur la tarification</label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur le contrat</label>
+            <section>Contracting Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur les prix</label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label>Informations sur le devis et l&#39;abonnement</label>
+            <section>Quote and Subscription Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TechOne Order Product Layout</layout>
+        <sections>
+            <label><!-- Billing Frequency Information --></label>
+            <section>Billing Frequency Information</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Metrics --></label>
+            <section>Billing Metrics</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Rule Information --></label>
+            <section>Billing Rule Information</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- GL Rule Information --></label>
+            <section>GL Rule Information</section>
+        </sections>
+        <sections>
+            <label><!-- Invoice Run Info --></label>
+            <section>Invoice Run Info</section>
+        </sections>
+        <sections>
+            <label><!-- Price Information --></label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label><!-- Quote and Subscription Information --></label>
+            <section>Quote and Subscription Information</section>
+        </sections>
+        <sections>
+            <label><!-- Revenue Recognition Information --></label>
+            <section>Revenue Recognition Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

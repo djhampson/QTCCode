@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Future discounts or guaranteed pricing --></help>
+        <label><!-- Future Discounts Detail --></label>
+        <name>Future_Discounts_Details__c</name>
+    </CustomFieldTranslation>

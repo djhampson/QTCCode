@@ -1,0 +1,64 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false">
+    <html>
+        <head>
+            <title>Call Script</title>
+        </head>
+        <body>
+        <font face="arial">External Impacts</font>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td width="60%"><font color="darkblue" weight="bold" face="arial">ISSUE</font></td>
+                    <td><font color="red" weight="bold" face="arial">QUESTIONS</font></td>
+                    
+                </tr>
+                <tr>
+                    <td><font face="arial">Higher interest rates can increase the cost of funding the ownership, construction or upgrading of premises. On the other hand, hostel residents who are not financially disadvantaged may be charged a refundable entry contribution after entry to the aged care facility, with the facility able to retain interest earnings on the contribution and deduct a set administration charge amount depending on the resident's length of stay. In addition, the Commonwealth offers zero-interest loans to support the development of aged care places in areas of high need.
+                    </font></td>
+                    <td><font face="arial">Do you have sufficient capacity to support more residents?<br></br>
+                    Does the organisation have adequate funds to expand<br></br>
+                    Is the organisation prepared to meet government conditions and regulations to qualify for zero-interest loans?
+                    </font></td>
+                </tr>
+                <tr>
+                    <td><font face="arial">The number of aged people in the community and the level of disability among the aged affects demand for accommodation.
+                    </font></td>
+                    <td><font face="arial">What proportion of your residents are currently in this age group? <br></br>
+                    How is this group growing? What factors will increase or decrease the number of people within this age group?
+                    </font></td>
+                </tr>
+                <tr>
+                    <td><font face="arial">The level of government recurrent and capital subsidies for accommodation for the aged is positive for demand. In contrast, government funding that is provided to assist aged people stay in their own homes (e.g. meals on wheels, home nursing and carer payments) can reduce demand for accommodation for the aged.</font></td>
+                    <td><font face="arial">Does your organisation utilise a high proportion of government funding? How does this affect your cost structure?<br></br>To what extent does this dictate your operations?</font></td>
+                </tr>
+            </table>
+            <br></br>
+            <font face="arial">Internal Issues</font>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <td width="60%"><font color="darkblue" weight="bold" face="arial">ISSUE</font></td>
+                    <td><font color="red" weight="bold" face="arial">QUESTIONS</font></td>
+                    
+                </tr>
+                <tr>
+                    <td><font face="arial">Attracting and retaining good staff is important</font></td>
+                    <td><font face="arial">How can the organisation increase access to skilled workers<br></br>
+                    How can you speed up the rate workers acquire skills?<br></br>
+                    What steps do you take to keep your skilled workers?</font></td>
+                </tr>
+                <tr>
+                    <td><font face="arial">Organisations need to keep operating costs to a minimum while still providing the required level of care.</font></td>
+                    <td><font face="arial">What cost controls did your organisation implement over the past five years? <br></br>
+                    How does your cost structure compare to your competitors? <br></br>
+                    What steps can your organisation take to find further cost reductions?</font></td>
+                </tr>
+                <tr>
+                    <td><font face="arial">Hostels must be licensed, therefore an understanding of and compliance with government funding programs, legislation and regulations is imperative.</font></td>
+                    <td><font face="arial">What measures does your business take to ensure it is up to date and compliant with government regulations? 
+                    How can you reduce the costs associated with regulations? <br></br>
+                    What new regulations will likely affect your organisation? <br></br>
+                    How is the business preparing?</font></td>
+                </tr>
+            </table>
+        </body>
+    </html>
+</apex:page>

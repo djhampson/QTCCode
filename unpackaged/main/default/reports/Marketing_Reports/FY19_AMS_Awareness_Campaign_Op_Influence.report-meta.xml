@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CAMPAIGN.NAME</field>
+    </columns>
+    <columns>
+        <field>OPP.NAME</field>
+    </columns>
+    <columns>
+        <field>CM.RESPONDED</field>
+    </columns>
+    <columns>
+        <field>PRIMARY</field>
+    </columns>
+    <columns>
+        <field>CONTACT.FULL_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>OPP.AMOUNT</field>
+    </columns>
+    <columns>
+        <field>OPP.CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>OPP.CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>OPP.STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>This shows opportunities where a customer that engaged in the AMS awareness campaign  is attached to an opportunity as a contact role.     It only shows opportunities that have been created since the first day of the campaign.</description>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3) AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <column>CAMPAIGN.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Email_FY19_AMS_Awareness Campaign</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CM.STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Call to action</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PRIMARY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPP.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>ams</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPP.CREATED_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>1/11/2019 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>FY19_AMS Awareness Campaign_Op Influence</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CampaignInfluence</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>OPP.STAGE_NAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+</Report>

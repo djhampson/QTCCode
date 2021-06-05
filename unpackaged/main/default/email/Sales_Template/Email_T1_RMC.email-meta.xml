@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to T1 RMC - Used in Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>Email T1 RMC</name>
+    <style>freeForm</style>
+    <subject>T1 RMC - Notification of new deal for {!Opportunity.Account} {!Opportunity.Opportunity_ID__c}</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

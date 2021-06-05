@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proposed_Customer_Discount__c</fullName>
+    <description>While the behavioural discounting model may allow for a certain % depending on the construct of an opportunity, there will be times where we may hold back offering the discount or go in with a lower discount (i.e 15% instead of the allowed 20%).  Exec want to capture where we are closing opportunities at book price or where pre-approved discounts were allowed but not used or reduced.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sales Operations / Pricing is responsible for entering the data after approval at Clearing House</inlineHelpText>
+    <label>Clearing House Approved Discount %</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

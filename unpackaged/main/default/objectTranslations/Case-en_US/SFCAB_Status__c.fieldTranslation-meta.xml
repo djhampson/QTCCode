@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- State of Salesforce Change Request --></help>
+        <label><!-- State --></label>
+        <name>SFCAB_Status__c</name>
+        <picklistValues>
+            <masterLabel>Applied PROD</masterLabel>
+            <translation><!-- Applied PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Applied UAT</masterLabel>
+            <translation><!-- Applied UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved PROD</masterLabel>
+            <translation><!-- Approved PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved UAT</masterLabel>
+            <translation><!-- Approved UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMPLETE</masterLabel>
+            <translation><!-- COMPLETE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev</masterLabel>
+            <translation><!-- Dev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev Completed</masterLabel>
+            <translation><!-- Dev Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending PROD</masterLabel>
+            <translation><!-- Pending PROD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending UAT</masterLabel>
+            <translation><!-- Pending UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REJECTED</masterLabel>
+            <translation><!-- REJECTED --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

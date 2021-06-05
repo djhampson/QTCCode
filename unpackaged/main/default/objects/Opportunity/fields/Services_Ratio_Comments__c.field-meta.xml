@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services_Ratio_Comments__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If ratio exceeds target, please provide further details to explain the reason for selecting the “exceed ratio category”</inlineHelpText>
+    <label>Additional Ratio Comments</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

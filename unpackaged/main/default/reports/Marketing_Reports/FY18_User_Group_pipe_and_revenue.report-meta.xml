@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_28873042</developerName>
+        <masterLabel>Pipe v Won</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>1 - Discovery</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2 - Qualify</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>3 - Proposal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>4 - Shortlisted</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>5 - Preferred</sourceValue>
+            </sourceValues>
+            <value>Pipe</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>6 - Sales Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>7 - Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stage 9 - Won</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Opt Out / No Bid</sourceValue>
+            </sourceValues>
+            <value>Out</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT_OWNER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.ARR__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Account.Group_Region__c</field>
+    </columns>
+    <columns>
+        <field>Account.Vertical_Market__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Event_FY18_Brisbane User Group,Event_FY18_Adelaide User Group,Event_FY18_User Group UK_Feb,FY18_LG_National User Group Event,FY18_Asset Intensive User Group,Event_FY18_HCS User Group_Melbourne_August,Event_FY18_Sponsored User Group_SIG_MBRC,FY18_EDU_User Group,Event_FY18_Perth User Group,Event_FY18_Sponsored User Group_NQ,Event_FY18_Sponsored User Group_Central QLD,Event_FY18_ALM_User group SA Q1,Event_FY18_NZ User Groups_Auckland,Event_FY18_NZ User Groups_Wellington,IntraMaps User Group (Vic),ACT User Group - December</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_28873042</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CAMPAIGN_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>FY18_User Group pipe and revenue</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityCampaign</reportType>
+    <roleHierarchyFilter>CEO</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>STAGE_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CAMPAIGN_STARTDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

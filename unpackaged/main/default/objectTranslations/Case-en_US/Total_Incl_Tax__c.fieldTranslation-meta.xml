@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total price of engagement excluding travel expenses --></help>
+        <label><!-- Total Incl Tax --></label>
+        <name>Total_Incl_Tax__c</name>
+    </CustomFieldTranslation>

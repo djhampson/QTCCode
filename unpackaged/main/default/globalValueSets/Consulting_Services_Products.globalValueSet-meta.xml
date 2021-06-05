@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>true</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <customValue>
+        <fullName>Asset Management (AM)</fullName>
+        <default>false</default>
+        <label>Asset Management (AM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Process Management (BPM)</fullName>
+        <default>false</default>
+        <label>Business Process Management (BPM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Performance Management (CPM)</fullName>
+        <default>false</default>
+        <label>Corporate Performance Management (CPM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Relationship Management (CRM)</fullName>
+        <default>false</default>
+        <label>Customer Relationship Management (CRM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise Cash Receipting (ECR)</fullName>
+        <default>false</default>
+        <label>Enterprise Cash Receipting (ECR)</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise Content Management (ECM)</fullName>
+        <default>false</default>
+        <label>Enterprise Content Management (ECM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Financials (FIN)</fullName>
+        <default>false</default>
+        <label>Financials (FIN)</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Resource &amp; Payroll (HRP)</fullName>
+        <default>false</default>
+        <label>Human Resource &amp; Payroll (HRP)</label>
+    </customValue>
+    <customValue>
+        <fullName>Property &amp; Rating (P&amp;R)</fullName>
+        <default>false</default>
+        <label>Property &amp; Rating (P&amp;R)</label>
+    </customValue>
+    <customValue>
+        <fullName>Student Management (SM)</fullName>
+        <default>false</default>
+        <label>Student Management (SM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Supply Chain Management (SCM)</fullName>
+        <default>false</default>
+        <label>Supply Chain Management (SCM)</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise App Store</fullName>
+        <default>false</default>
+        <label>Enterprise App Store</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Community</fullName>
+        <default>false</default>
+        <label>Customer Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Spatial</fullName>
+        <default>false</default>
+        <label>Spatial</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical</fullName>
+        <default>false</default>
+        <label>Technical</label>
+    </customValue>
+    <customValue>
+        <fullName>Project Management</fullName>
+        <default>false</default>
+        <label>Project Management</label>
+    </customValue>
+    <description>Consulting Services Products</description>
+    <masterLabel>Consulting Services Products</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

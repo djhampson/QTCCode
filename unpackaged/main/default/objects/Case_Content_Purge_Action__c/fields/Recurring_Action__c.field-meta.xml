@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_Action__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked this causes the Closed Date To to be recalculated after each process using Case Content Retention Months from T1 Control Setting. This allows for continuous processing based on age.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked this causes the Closed Date To to be recalculated after each process using Case Content Retention Months from T1 Control Setting. This allows for continuous processing based on age.</inlineHelpText>
+    <label>Recurring Action</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

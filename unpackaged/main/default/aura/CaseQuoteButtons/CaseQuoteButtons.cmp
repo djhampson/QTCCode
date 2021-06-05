@@ -1,0 +1,30 @@
+<aura:component controller="caseQuoteButtonsController_Apex" implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:handler event="force:refreshView" action="{!c.isRefreshed}" />
+    <aura:attribute name="case" type="Case"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="hasError" type="Boolean" default="false"/>
+    <aura:attribute name="errorMessage" type="String"/>
+    <aura:if isTrue="{!v.case.Status == 'Awaiting Quote Approval'}">
+        <div>
+        	<ui:button aura:id="acceptbtn"  label="Accept Quote" press="{!c.onclick}"/>
+        	<ui:button aura:id="declinebtn" label="Decline Quote" press="{!c.onclick2}"/>
+        </div>
+    </aura:if>
+     <aura:if isTrue="{!v.hasError}">
+        <div role="dialog" tabindex="-1" aria-labelledby="header43" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header">
+                    <h2 id="header43" class="slds-text-heading--medium">Error</h2>
+                </div>
+                <div class="slds-modal__content slds-p-around--medium">
+                    <p>{!v.errorMessage}</p>
+                </div>
+                <div class="slds-modal__footer">
+                    <button class="slds-button slds-button--neutral" onclick="{!c.dismissError}">OK</button>
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop--open"></div>
+    </aura:if>
+</aura:component>

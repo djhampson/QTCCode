@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exit_Entitlement_Process__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to determine when the Entitlement process will be exited. This is required to overcome an issue with Competing Milestones after a Case has been closed.</description>
+    <externalId>false</externalId>
+    <label>Exit Entitlement Process</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

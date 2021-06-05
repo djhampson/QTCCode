@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Priority_Customer__c</baseObject>
+    <category>admin</category>
+    <deployed>false</deployed>
+    <description>Priority Customers</description>
+    <label>Priority Customers</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account__c</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account_Name__c</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CurrencyIsoCode</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Priority_Customer__c</table>
+        </columns>
+        <masterLabel>Priority Customers</masterLabel>
+    </sections>
+</ReportType>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For other, refer DRaaS Non-Standard Clauses --></help>
+        <label><!-- DRaaS Compliance Retention Period --></label>
+        <name>DRaaS_Compliance_Retention_Period__c</name>
+        <picklistValues>
+            <masterLabel>10 years</masterLabel>
+            <translation><!-- 10 years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 years</masterLabel>
+            <translation><!-- 15 years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 years</masterLabel>
+            <translation><!-- 7 years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

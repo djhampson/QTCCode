@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Order with RenewalReduction is created</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Order with RenewalReduction Notification</name>
+    <style>none</style>
+    <subject>Order {!Order.OrderNumber} - {!Order.Name} is created with RenewalReduction</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

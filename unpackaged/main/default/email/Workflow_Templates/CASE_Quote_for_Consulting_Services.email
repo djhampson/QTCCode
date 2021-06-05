@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div style="background-image: url({!$Setup.EmailTemplateFields__c.T1_Logo__c});background-size: 340px;background-repeat: no-repeat; background-position: center;width: 900px;height: 70px">
+</div>
+<div style="width: 900px;">
+
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi {!Contact.FirstName},
+<br>
+<br>
+Thank you for the opportunity to provide you with a quote for TechnologyOne Consulting Services.<br><br>
+
+During Covid-19 we have continued to deliver successful outcomes to our customers remotely, in fact there has not been any engagements that we have not been able to complete via this mode.   TechnologyOne continues to have restrictions in place for the safety of their employees; these restrictions apply to business travel and to customer site visits. <br><br>
+
+Please use the following <a href="{!Case.CaseURL__c}">link</a> to review the details and accept or decline this quote.<br><br>
+<table  style = "width:100%; line-height:100%;font-family:calibri;font-size:16px;">
+<tr><td style = "width: 25%;"><b>Case Number: </b></td><td>{!Case.CaseNumber}</td></tr>
+<tr><td style = "width: 25%;"><b>Case Subject: </b></td><td>{!Case.Subject}</td></tr>
+<tr><td style = "width: 25%;"><b>Customer Reference: </b></td><td>{!Case.Customer_Reference__c}</td></tr>
+<tr><td style = "width: 25%;"><b>Scope of Work: </b></td><td>{!Case.Scope_of_Work__c}</td></tr>
+<tr><td style = "width: 25%;"><b>Estimated Days (inclusive of travel time if applicable): </b></td><td>{!Case.Total_Engagement_Days__c}</td></tr>
+<tr><td style = "width: 25%;"><b>Total Price (inclusive of tax): </b></td><td>{!Case.Total_Incl_Tax_Out__c}</td></tr>
+<tr><td style = "width: 25%;"><b>Estimated Travel Expense: </b></td><td>{!Case.Estimated_Travel_Expense__c}</td></tr>
+<tr><td style = "width: 25%;"><b>Assumptions</b></td><td>{!Case.Assumptions__c}</td></tr>
+</table>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+If you have a purchase order number, this can be added to the Customer Reference field on the case.<br><br>
+Once approved, you will be notified once a consultant has been scheduled.<br>
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:12px;">
+Terms and Conditions:<br>
+1. Acceptance of this quote means that you have authority within your organisation to approve purchasing the consulting services described.<br>
+2. The services will be provided in accordance with the terms of the written agreement already in place between you and TechnologyOne providing for consulting services, and if no such agreement exists then TechnologyOne's standard terms for the supply of consulting services (a copy of which is available from TechnologyOne upon request) shall apply.<br> 
+3. All Service Requests should be accompanied by a purchase order. Any inclusion of or reference to terms and conditions (other than the existing contract between you and TechnologyOne) in the purchase order shall not apply to the provision of the consulting services described.<br>
+4. TechnologyOne will invoice you, and you agree to pay for all reasonable travel expenses incurred in carrying out the consulting services (including airfares, accommodation, mileage, daily allowances and parking).<br>
+5. Where consultants are required to travel by air to site they will work in minimum three (3) day blocks and, unless otherwise specifically agreed in advance, will return home for weekends.<br>
+6. A normal working day means 7.5 hours, inclusive of time spent travelling to and from customer premises, where this travel time exceeds one (1) hour each way.<br> 
+7. Where a consultant spends more than 7.5 hours in any normal day then additional time will be charged at hourly rates without any additional loading or penalties.
+</p>
+<br><br>
+<p style = "font-family:calibri;font-size:16px;">
+Kind regards,<br>
+<b>TechnologyOne Consulting Services</b><br><br>{!$Setup.EmailTemplateFields__c.Phone_Nos__c}<br></p>
+<p style = "font-family:calibri;font-size:12px;">
+<br>
+{!$Setup.EmailTemplateFields__c.FooterText1__c}<br> 
+{!$Setup.EmailTemplateFields__c.FooterText2__c}<br>
+{!$Setup.EmailTemplateFields__c.FooterURL__c}<br><br>
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_2__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_3__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+</p>
+
+<p style = "line-height:100%;font-family:calibri;font-size:10px;">
+TechnologyOne accepts no liability for this email or its attachments.<br>
+It is for the intended recipient only. <a href="https://technologyonecorp.com/terms-of-use" target="_blank" style="color:#00B4D0">
+<span>More info</span></a><br> 
+<a style="color:#00B4D0" href="mailto:Stop_Spam@TechnologyOneCorp.com">Stop_Spam@TechnologyOneCorp.com</a><br>
+{!Case.Thread_Id}</p>
+</div>
+</body>
+</html>

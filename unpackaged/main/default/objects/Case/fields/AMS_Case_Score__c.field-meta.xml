@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMS_Case_Score__c</fullName>
+    <description>This field has been created for the AMS scoring to be uploaded against the case. This will be calculated and pushed into SF using an ETL. 
+The AMS Case Score is used by AMS to determine which case should be actioned next. The higher the score, the higher the priority.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is read-only as it will be automatically populated.</inlineHelpText>
+    <label>AMS Case Score</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

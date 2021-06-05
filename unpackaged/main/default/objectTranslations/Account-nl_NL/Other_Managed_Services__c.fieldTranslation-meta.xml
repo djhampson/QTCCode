@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub Segment --></label>
+        <name>Other_Managed_Services__c</name>
+        <picklistValues>
+            <masterLabel>ADCC and Community Services</masterLabel>
+            <translation><!-- ADCC and Community Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airports</masterLabel>
+            <translation><!-- Airports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Services</masterLabel>
+            <translation><!-- Construction Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continuous Processing</masterLabel>
+            <translation><!-- Continuous Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District Health Board</masterLabel>
+            <translation><!-- District Health Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electricity</masterLabel>
+            <translation><!-- Electricity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Services</masterLabel>
+            <translation><!-- Emergency Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering Services</masterLabel>
+            <translation><!-- Engineering Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farming, Processing, Manufacturing, Distribution</masterLabel>
+            <translation><!-- Farming, Processing, Manufacturing, Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas</masterLabel>
+            <translation><!-- Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health &amp; Home Care</masterLabel>
+            <translation><!-- Health &amp; Home Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - Other</masterLabel>
+            <translation><!-- Health - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &amp; Disability Care</masterLabel>
+            <translation><!-- Home &amp; Disability Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Care</masterLabel>
+            <translation><!-- Home Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILU only</masterLabel>
+            <translation><!-- ILU only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT and Telecommunications</masterLabel>
+            <translation><!-- IT and Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infrastructure Development</masterLabel>
+            <translation><!-- Infrastructure Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Services</masterLabel>
+            <translation><!-- Maintenance Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mining</masterLabel>
+            <translation><!-- Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Service Providers</masterLabel>
+            <translation><!-- Other Service Providers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plant &amp; Fleet</masterLabel>
+            <translation><!-- Plant &amp; Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ports</masterLabel>
+            <translation><!-- Ports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Health Network</masterLabel>
+            <translation><!-- Primary Health Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private &amp; Public Hospital Group</masterLabel>
+            <translation><!-- Private &amp; Public Hospital Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Hospital</masterLabel>
+            <translation><!-- Private Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Hospital &amp; ADCC</masterLabel>
+            <translation><!-- Private Hospital &amp; ADCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Hospital &amp; Residential</masterLabel>
+            <translation><!-- Private Hospital &amp; Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Hospital Group</masterLabel>
+            <translation><!-- Private Hospital Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Services and Recruitment</masterLabel>
+            <translation><!-- Professional Services and Recruitment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Development</masterLabel>
+            <translation><!-- Property Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Investment</masterLabel>
+            <translation><!-- Property Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Hospital</masterLabel>
+            <translation><!-- Public Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Hospital Group &amp; ADCC</masterLabel>
+            <translation><!-- Public Hospital Group &amp; ADCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rail</masterLabel>
+            <translation><!-- Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewables</masterLabel>
+            <translation><!-- Renewables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Institution</masterLabel>
+            <translation><!-- Research Institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential &amp; Home Care</masterLabel>
+            <translation><!-- Residential &amp; Home Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Care</masterLabel>
+            <translation><!-- Residential Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential, Home &amp; Disability Care</masterLabel>
+            <translation><!-- Residential, Home &amp; Disability Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road</masterLabel>
+            <translation><!-- Road --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stadiums &amp; Facilities</masterLabel>
+            <translation><!-- Stadiums &amp; Facilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transport and Logistics</masterLabel>
+            <translation><!-- Transport and Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water</masterLabel>
+            <translation><!-- Water --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

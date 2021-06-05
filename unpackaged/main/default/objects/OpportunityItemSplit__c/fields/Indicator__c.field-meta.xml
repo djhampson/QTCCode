@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indicator__c</fullName>
+    <externalId>false</externalId>
+    <label>Indicator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Connector Product Price</fullName>
+                <default>false</default>
+                <label>Connector Product Price</label>
+            </value>
+            <value>
+                <fullName>GL Product Price</fullName>
+                <default>false</default>
+                <label>GL Product Price</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_11812412</developerName>
+        <masterLabel>Actioned by CAM?</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Contact.Lifecycle_Stage__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | SAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | SQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Disqualified</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Recycled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Known</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Engaged</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | MQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SDR AL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SDR QL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Disqualified</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Recycled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Known</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Engaged</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Ex-customer</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Lost Opportunity</sourceValue>
+            </sourceValues>
+            <value>Yes</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | MQL</sourceValue>
+            </sourceValues>
+            <value>No</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_72452186</developerName>
+        <masterLabel>Lead Type</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>SUBJECT</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Marketing Qualified Lead</sourceValue>
+            </sourceValues>
+            <value>Customer lead - MQL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lead Handover</sourceValue>
+            </sourceValues>
+            <value>Prospect lead - SDR QL</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>BucketField_11812412</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>Account.Vertical_Market__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Lifecycle_Stage__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>List of SaaS flip enquiries from the COVID-19 Together as One campaign</description>
+    <filter>
+        <criteriaItems>
+            <column>EMAIL</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>test.com,technologyonecorp.com</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>DESCRIPTION</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Web_FY20_COVID-19_TogetherasOne_SaaS flip</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact.Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT_OWNER_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Web_FY20_COVID-19_SaaS flip enquiries</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

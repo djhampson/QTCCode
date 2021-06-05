@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Finance Revenue Recognised Amount on ARR --></help>
+        <label><!-- Finance Rev Rec Amount (ARR) --></label>
+        <name>Finance_Amount_ARR__c</name>
+    </CustomFieldTranslation>

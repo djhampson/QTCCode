@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Region__c</field>
+    </columns>
+    <columns>
+        <field>Account.Sector__c</field>
+    </columns>
+    <columns>
+        <field>Account.T1_Industry__c</field>
+    </columns>
+    <columns>
+        <field>PCSM_Visit_Cyc__c.Assigned_User__c</field>
+    </columns>
+    <columns>
+        <field>PCSM_Visit_Cyc__c.Customer_Rating__c</field>
+    </columns>
+    <crossFilters>
+        <operation>with</operation>
+        <primaryTableColumn>ACCOUNT_ID</primaryTableColumn>
+        <relatedTable>PCSM_Visit_Cyc__c</relatedTable>
+        <relatedTableJoinColumn>Account__c</relatedTableJoinColumn>
+    </crossFilters>
+    <currency>AUD</currency>
+    <description>AMS - All AMS Customers with SDM</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.QUEUE_Allocation__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>AMS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PCSM_Visit_Cyc__c.Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>Application Managed Services</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.SDM__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>AMS - All AMS Customers with SDM</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$PCSM_Visit_Cyc__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incumbent__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Incumbent</label>
+    <referenceTo>T1_Competitor__c</referenceTo>
+    <relationshipLabel>Win Or Lost Reports (Incumbent)</relationshipLabel>
+    <relationshipName>Win_Or_Lost_Reports2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

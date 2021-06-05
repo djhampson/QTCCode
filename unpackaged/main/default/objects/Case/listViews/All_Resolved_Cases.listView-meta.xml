@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Resolved_Cases</fullName>
+    <columns>Customer_Product__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Customer_Reference__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Priority_Indicator__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Type_Indicator__c</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>NAME</columns>
+    <columns>Resolved_Date__c</columns>
+    <columns>CASES.REASON</columns>
+    <columns>Delivered_Release__c</columns>
+    <columns>Resolution__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Resolved</value>
+    </filters>
+    <label>All Resolved Cases</label>
+</ListView>

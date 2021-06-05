@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For other, See Other Non-Standard Legal Terms --></help>
+        <label><!-- Media/Press Statements --></label>
+        <name>Media_Press_Statements__c</name>
+        <picklistValues>
+            <masterLabel>Customer permitted - T1 gagged</masterLabel>
+            <translation><!-- Customer permitted - T1 gagged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not permitted without consent</masterLabel>
+            <translation><!-- Not permitted without consent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not specified - consent recommended</masterLabel>
+            <translation><!-- Not specified - consent recommended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permitted consent not required</masterLabel>
+            <translation><!-- Permitted consent not required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 permitted - Customer gagged</masterLabel>
+            <translation><!-- T1 permitted - Customer gagged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

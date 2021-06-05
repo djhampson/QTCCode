@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Asset Intensive,Project Intensive</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Education</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Health and Community Services</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Financial Services,Government,Corporate</values>
+        </dashboardFilterOptions>
+        <name>by IL (excl. LG)</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>NSW - LG - 1,NSW - LG - 2,NSW - LG - 3,NSW - LG - 4,VIC - LG - 1,VIC - LG - 2,TAS - 1</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>QLD - LG - 1,QLD - LG - 2,QLD - LG - 3,SANT - LG - 1</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>WA - LG - 1,WA - LG - 2,NZ - LG - 1,UK - 1,UK - 2,UK - 3,UK - 4,UK - 5</values>
+        </dashboardFilterOptions>
+        <name>by IL (LG only)</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Imraan Alexander</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Kelly</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Julie Holwell</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Niki Johnson</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Di Keough</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Wansink</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Warren Sullivan</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alan Uzarevic</values>
+        </dashboardFilterOptions>
+        <name>by SDM</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>9</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>Account.Vertical_Market__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.Territory__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Customer_Product__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>STATUS</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>SUBJECT</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.AMS_Comment__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>ACCOUNT.NAME</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>escalation AMS</header>
+                <report>X00_T1_AMS_RB_Reports/escalation_AMS</report>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>9</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>Account.Vertical_Market__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.Territory__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Customer_Product__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>SUBJECT</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.AMS_Comment__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>STATUS</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>ACCOUNT.NAME</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>priorities AMS</header>
+                <report>X00_T1_AMS_RB_Reports/priorities_AMS</report>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>tania_howarth@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>AMS escalations and priorities</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

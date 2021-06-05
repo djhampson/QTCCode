@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ci to Cia product pulse check questionaire</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Pulse Questionaire</name>
+    <style>none</style>
+    <subject>Product Pulse Check Questionaire Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Please find attached the &quot;Product Pulse Questionnaire for &quot;xxxxxx&quot;. Please have the business complete this questionnaire with as much information as possible. In the questionnaire, where possible we have provided context to the question. Once complete please attach this information to the case record. Once received will look to schedule the 1/2 day workshop (minimum) to review the details.  
+
+Please let us know if you require any assistance with the completion of the questionnaire, we are always happy to provide assistance.  L
+
+Lastly, please advise your approval to progress the case once the questionnaire has been received..  
+
+Case Number: {!Case.CaseNumber}
+Product: {!Case.Customer_Product__c}
+Case Subject: {!Case.Subject}
+Priority: {!Case.Priority}
+Created By: {!Case.Contact}
+Created Date: {!Case.CreatedDate}
+Customer Reference: {!Case.Customer_Reference__c}
+
+You can access your case at any time using the following link.
+
+Kind regards,
+{!User.Name}
+
+{!Case.EmailSig__c}
+
+Ph: AUS 1300 735 130/ NZ 0800 174 091/ MAL 1800 818 451/ UK 0808 1012 743/ FIJI 008 002 188
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for any damage caused by this email or its attachments.
+The information in this email is only for the intended recipient and may contain confidential and/or
+privileged material. If you received this in error, please kindly notify the sender by return email
+and delete this email and any attachments from your system.  Opinions, conclusions and other
+information in this message that do not relate to the official business of the company shall
+be understood as neither given nor endorsed by it.  If you believe that you have been spammed please
+email Stop_Spam@TechnologyOneCorp.com to report your complaint.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

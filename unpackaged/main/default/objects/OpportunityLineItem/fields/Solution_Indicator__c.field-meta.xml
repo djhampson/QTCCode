@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Indicator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicate if the product or module is part of the solution.</description>
+    <externalId>false</externalId>
+    <label>Solution Indicator</label>
+    <type>Checkbox</type>
+</CustomField>

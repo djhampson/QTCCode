@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The owner of the idea raised when it does not fall into a product.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To be used where an Idea is lacking ownership.</inlineHelpText>
+    <label>Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Ideas</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

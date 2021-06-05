@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Relationship Status --></label>
+        <name>Relationship_Status__c</name>
+        <picklistValues>
+            <masterLabel>Negative</masterLabel>
+            <translation><!-- Negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive</masterLabel>
+            <translation><!-- Positive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slightly Negative</masterLabel>
+            <translation><!-- Slightly Negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slightly Positive</masterLabel>
+            <translation><!-- Slightly Positive --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

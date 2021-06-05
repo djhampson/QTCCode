@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Requirement__c</fullName>
+    <description>Special Requirement when attending to event</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Special Requirement when attending to event, ie. vegetarian</inlineHelpText>
+    <label>Special Requirement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

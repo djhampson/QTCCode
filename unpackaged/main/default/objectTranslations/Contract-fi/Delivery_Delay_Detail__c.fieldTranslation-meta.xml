@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How delay of project is managed, how T1 can recover costs for customer delays etc. --></help>
+        <label><!-- Delivery Delay Detail --></label>
+        <name>Delivery_Delay_Detail__c</name>
+    </CustomFieldTranslation>

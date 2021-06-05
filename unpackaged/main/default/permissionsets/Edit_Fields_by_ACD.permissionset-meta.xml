@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Opportunity -  Send Customer Survey  - in Clarity and Account - Estimated Travel Charge</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Estimated_Daily_Travel_Charge__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Acquisition__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Scheduled_In_Clarity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Send_Feedback_Survey__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Edit Fields by ACD</label>
+    <license>Salesforce</license>
+</PermissionSet>

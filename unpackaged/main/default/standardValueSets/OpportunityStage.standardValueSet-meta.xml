@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>1 - Discovery</fullName>
+        <default>false</default>
+        <label>1 - Discovery</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>30</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>2 - Qualify</fullName>
+        <default>false</default>
+        <label>2 - Qualify</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>40</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>3 - Proposal</fullName>
+        <default>false</default>
+        <label>3 - Proposal</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>4 - Shortlisted</fullName>
+        <default>false</default>
+        <label>4 - Shortlisted</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>70</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>5 - Preferred</fullName>
+        <default>false</default>
+        <label>5 - Preferred</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>6 - Sales Closed</fullName>
+        <default>false</default>
+        <label>6 - Sales Closed</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>7 - Closed</fullName>
+        <default>false</default>
+        <label>7 - Closed</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost</fullName>
+        <color>#2F5D85</color>
+        <default>false</default>
+        <label>Lost</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt Out / No Bid</fullName>
+        <color>#AFCADF</color>
+        <default>false</default>
+        <label>Opt Out / No Bid</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Stage 9 - Won</fullName>
+        <color>#F96FB7</color>
+        <default>false</default>
+        <label>Stage 9 - Won</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Fee table clause reference and page number --></help>
+        <label><!-- Fee Table Clause Ref --></label>
+        <name>Fee_Table_Clause_Ref__c</name>
+    </CustomFieldTranslation>

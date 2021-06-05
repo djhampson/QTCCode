@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Outstanding Activities to be performed by Client --></help>
+        <label><!-- Outstanding Activities by Client --></label>
+        <name>Outstanding_Activities_by_Client__c</name>
+    </CustomFieldTranslation>

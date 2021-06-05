@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Request Status --></label>
+        <name>Request_Status__c</name>
+        <picklistValues>
+            <masterLabel>CRC Approved for Implementation</masterLabel>
+            <translation><!-- CRC Approved for Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRC Conditional Approval</masterLabel>
+            <translation><!-- CRC Conditional Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRC Denied</masterLabel>
+            <translation><!-- CRC Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRC Presentation</masterLabel>
+            <translation><!-- CRC Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campaign Approval</masterLabel>
+            <translation><!-- Campaign Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Accepted (Closed)</masterLabel>
+            <translation><!-- Customer Accepted (Closed) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Response Approval</masterLabel>
+            <translation><!-- Executive Response Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer Required - Withdrawn</masterLabel>
+            <translation><!-- No Longer Required - Withdrawn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positional Delegation Approval</masterLabel>
+            <translation><!-- Positional Delegation Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Cancelled</masterLabel>
+            <translation><!-- Request Cancelled --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,28 @@
+<messaging:emailTemplate subject="Approval Request for {!relatedTo.Quote_Number__c}: {!relatedTo.Name} is {!relatedTo.sbaa__Status__c}." recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:plainTextEmailBody >
+Dear,
+
+This quote requires your approval. Please find more information below:
+
+Opportunity Name: {!relatedTo.Opportunity_Name__c}
+Opportunity Owner: {!relatedTo.Opportunity_Owner__c}
+Opportunity Amount: {!relatedTo.Opportunity_Amount__c}
+
+Account Name: {!relatedTo.Account_Name__c}
+Quote Number: {!relatedTo.Quote_Number__c}
+Requested By: {!relatedTo.Requested_by_Name__c} 
+Approval Number: {!relatedTo.Name}
+Approval Status: {!relatedTo.sbaa__Status__c}
+Approval Description: {!relatedTo.Description__c}
+
+Approval Chain: {!relatedTo.Approval_Chain_Name__c}: 
+Link to approval :  {!relatedTo.Approval_URL__c}/lightning/r/sbaa__Approval__c/{!relatedTo.Id}/view
+
+
+
+Kind Regards,
+
+<p> “style=color:white” ”apex:outputText” value=”{!relatedTo.ID}” </p>
+
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

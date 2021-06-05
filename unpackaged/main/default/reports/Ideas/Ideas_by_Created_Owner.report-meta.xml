@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Idea*Idea$Idea_Number__c</field>
+    </columns>
+    <columns>
+        <field>Idea$Id</field>
+    </columns>
+    <columns>
+        <field>Idea$Title</field>
+    </columns>
+    <columns>
+        <field>Idea$Categories</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Functional_Area__c</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Account_Name_from_Account__c</field>
+    </columns>
+    <columns>
+        <field>Idea$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Idea$Status</field>
+    </columns>
+    <columns>
+        <field>Idea$WeightedSum</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>All Ideas created by same user</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Idea$CreatedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Ideas by Created Owner</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Ideas_Comments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Idea$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

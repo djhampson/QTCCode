@@ -1,0 +1,13 @@
+Hi {!Receiving_User.FirstName},
+
+Welcome to the TechnologyOne Customer Community - your gateway to TechnologyOne Support. 
+
+Please verify your login and discover what this community will provide.  As you log in you will be asked to create and confirm a password, then click on the Change Password button and the Customer Community Home Page will be displayed.
+
+You will find a Getting Started and User Guide on the Home Page. Other important information for the TechnologyOne Customer Community can be found in the left hand panel under "Custom Links".
+
+To get started, go to {!Community_Url}
+
+Thanks,
+
+TechnologyOne Support

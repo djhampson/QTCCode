@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice_Terms__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If bespoke, refer Other Non-Standard Payment Terms Detail</inlineHelpText>
+    <label>z_Invoice Terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>14 days from date of invoice</fullName>
+                <default>false</default>
+                <label>14 days from date of invoice</label>
+            </value>
+            <value>
+                <fullName>30 days from date of invoice</fullName>
+                <default>false</default>
+                <label>30 days from date of invoice</label>
+            </value>
+            <value>
+                <fullName>45 days from date of invoice</fullName>
+                <default>false</default>
+                <label>45 days from date of invoice</label>
+            </value>
+            <value>
+                <fullName>60 days from date of invoice</fullName>
+                <default>false</default>
+                <label>60 days from date of invoice</label>
+            </value>
+            <value>
+                <fullName>20 days from end of month of date of invoice</fullName>
+                <default>false</default>
+                <label>20 days from end of month of date of invoice</label>
+            </value>
+            <value>
+                <fullName>14 days from receipt of invoice</fullName>
+                <default>false</default>
+                <label>14 days from receipt of invoice</label>
+            </value>
+            <value>
+                <fullName>30 days from receipt of invoice</fullName>
+                <default>false</default>
+                <label>30 days from receipt of invoice</label>
+            </value>
+            <value>
+                <fullName>45 days from receipt of invoice</fullName>
+                <default>false</default>
+                <label>45 days from receipt of invoice</label>
+            </value>
+            <value>
+                <fullName>Bespoke</fullName>
+                <default>false</default>
+                <label>Bespoke</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+                <label>Not Specified</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Idea*Idea$Idea_Number__c</field>
+    </columns>
+    <columns>
+        <field>Idea$Title</field>
+    </columns>
+    <columns>
+        <field>Idea$Categories</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Functional_Area__c</field>
+    </columns>
+    <columns>
+        <field>Idea$WeightedSum</field>
+    </columns>
+    <columns>
+        <field>Idea.Votes$Value</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>report filtered on Financials for Matt</description>
+    <filter>
+        <criteriaItems>
+            <column>Idea$Categories</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>~ Financials</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Idea*Idea$Idea_Number__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>E</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Idea.Votes$CreatedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Users x ideas they have voted on FIN</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Ideas_Votes__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Idea$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

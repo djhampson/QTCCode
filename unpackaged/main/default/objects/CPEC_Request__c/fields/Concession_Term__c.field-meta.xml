@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concession_Term__c</fullName>
+    <externalId>false</externalId>
+    <label>Concession Term</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>6 months</fullName>
+                <default>false</default>
+                <label>6 months</label>
+            </value>
+            <value>
+                <fullName>1 year</fullName>
+                <default>false</default>
+                <label>1 year</label>
+            </value>
+            <value>
+                <fullName>2 year</fullName>
+                <default>false</default>
+                <label>2 year</label>
+            </value>
+            <value>
+                <fullName>3 year</fullName>
+                <default>false</default>
+                <label>3 year</label>
+            </value>
+            <value>
+                <fullName>4 year</fullName>
+                <default>false</default>
+                <label>4 year</label>
+            </value>
+            <value>
+                <fullName>5 year</fullName>
+                <default>false</default>
+                <label>5 year</label>
+            </value>
+            <value>
+                <fullName>once-off</fullName>
+                <default>false</default>
+                <label>once-off</label>
+            </value>
+            <value>
+                <fullName>on-going</fullName>
+                <default>false</default>
+                <label>on-going</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

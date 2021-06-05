@@ -1,0 +1,7 @@
+Change Request {!Case.CaseNumber} has been set back to Dev.
+
+Subject: {!Case.Subject}
+
+You should have more information regarding why this was set back to Dev, most likely due to a test failure and/or more development work required to support the change before setting the state back to "Pending UAT".
+
+Link to the change request is: {!Case.Link}

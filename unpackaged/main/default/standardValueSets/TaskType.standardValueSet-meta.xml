@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>true</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Discovery Call/Meeting</fullName>
+        <default>false</default>
+        <label>Discovery Call/Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mobilisation Plan</fullName>
+        <default>false</default>
+        <label>Mobilisation Plan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Letter</fullName>
+        <default>false</default>
+        <label>Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulting</fullName>
+        <default>false</default>
+        <label>Consulting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Handover</fullName>
+        <default>false</default>
+        <label>Lead Handover</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Formal Engagement</fullName>
+        <default>false</default>
+        <label>Formal Engagement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Engagement</fullName>
+        <default>false</default>
+        <label>Social Engagement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ad Hoc Engagement</fullName>
+        <default>false</default>
+        <label>Ad Hoc Engagement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Post Engagement</fullName>
+        <default>false</default>
+        <label>Post Engagement</label>
+    </standardValue>
+</StandardValueSet>

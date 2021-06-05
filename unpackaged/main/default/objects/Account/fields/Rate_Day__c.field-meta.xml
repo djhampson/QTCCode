@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rate_Day__c</fullName>
+    <description>Special Consulting Rate per Day</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Special Consulting Rate per Day</inlineHelpText>
+    <label>Consulting Rate/Day</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

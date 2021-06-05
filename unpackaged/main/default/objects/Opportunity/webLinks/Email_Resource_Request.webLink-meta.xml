@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Resource_Request</fullName>
+    <availability>online</availability>
+    <description>Email Resource Request to PMO Team on Service Only/Consulting Request Layout</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Notify for Resourcing</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/_ui/core/email/author/EmailAuthor?rtype=003&amp;p2_lkid=003G000002HNMCN&amp;p3_lkid={!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}&amp;p4=&quot;t1resourcemanagement@technologyonecorp.com&quot;&amp;p5={!$User.Email}&amp;template_id=00XG0000002JsC8</url>
+</WebLink>

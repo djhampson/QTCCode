@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T1_only_for_Consultant_Q_or_I</fullName>
+    <active>true</active>
+    <description>Consultant Question or Issue Cases can only be raised against the TechnologyOne account.</description>
+    <errorConditionFormula>RecordType.Name = &#39;Consultant Question or Issue&#39; 
+&amp;&amp; NOT(Account.Name = &#39;TechnologyOne&#39;)
+&amp;&amp; NOT(Account.Name = &#39;TechnologyOne - UK&#39;)
+&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Invalid Account for this Case Record Type. Please use TechnologyOne - UK for UK region and TechnologyOne for all other regions.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Reason_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Text(Status) = &#39;Disqualified&#39; 
+|| Text(Status) = &#39;Returned to Marketing&#39;)
+&amp;&amp; ISBLANK(Text(Status_Reason__c))</errorConditionFormula>
+    <errorDisplayField>Status_Reason__c</errorDisplayField>
+    <errorMessage>Please select a Status Reason</errorMessage>
+</ValidationRule>

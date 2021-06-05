@@ -1,0 +1,85 @@
+<aura:component controller="t1EditController" implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="case" type="Case"/>
+    <!--aura:handler event="force:refreshView" action="{!c.isRefreshed}" /-->
+    <lightning:recordEditForm recordId="{!v.recordId}" objectApiName="Case" recordTypeId="{!v.case.RecordTypeId}" onsuccess="{!c.navHome}">
+        <lightning:messages />
+            <lightning:card iconName="action:edit" title="Edit Case">
+            <div class="slds-var-m-top_small slds-align_absolute-center">
+                <lightning:button variant="brand" type="submit" name="update2" label="Save"/> 
+                <lightning:button  variant="brand" label="Cancel" onclick="{!c.navHome}"/> 
+            </div>     
+            <aura:if isTrue="{!v.case.RecordType.Name == 'I am experiencing an issue'}">
+                <lightning:inputField fieldName="Subject"/>
+                <lightning:inputField fieldName="Description" required="true"/>
+                <lightning:inputField fieldName="Customer_Reference__c" />
+                <lightning:inputField fieldName="Additional_Reference_Details__c" />
+                <lightning:inputField fieldName="Customer_Product__c" />
+                <lightning:inputField fieldName="CFunctional_Area__c" />
+                <lightning:inputField fieldName="Priority" />
+                <lightning:inputField fieldName="Priority_Change_Comment__c" />
+                <lightning:inputField fieldName="Affected_Version__c"/>
+                <lightning:inputField fieldName="Affected_Release__c"/>
+                <!-- SCE-589 removed fields, shuffled, added new-->
+                <lightning:inputField fieldName="Steps_to_reproduce__c" required="true"/>
+                <lightning:inputField fieldName="Work_around_Details__c"/>
+                <lightning:inputField fieldName="User_Interface__c"/>
+            </aura:if>           
+                    
+            <aura:if isTrue="{!v.case.RecordType.Name == 'I have a Question'}">
+                <lightning:inputField fieldName="Subject"/>
+                <lightning:inputField fieldName="Description" required="true"/>
+                <lightning:inputField fieldName="Customer_Reference__c" />
+                <lightning:inputField fieldName="Additional_Reference_Details__c" />
+                <lightning:inputField fieldName="Customer_Product__c" />
+                <lightning:inputField fieldName="CFunctional_Area__c" />
+                <lightning:inputField fieldName="Priority" />
+                <lightning:inputField fieldName="Priority_Change_Comment__c" />
+                <lightning:inputField fieldName="Affected_Version__c"/>
+                <lightning:inputField fieldName="Affected_Release__c"/>
+            </aura:if>           
+    
+            <aura:if isTrue="{!v.case.RecordType.Name == 'I require Consulting services'}">
+                <lightning:inputField fieldName="Subject"/>
+                <lightning:inputField fieldName="Description" required="true"/>
+                <lightning:inputField fieldName="Customer_Reference__c" />
+                <lightning:inputField fieldName="Additional_Reference_Details__c" />                
+                <lightning:inputField fieldName="Customer_Product__c" />
+                <lightning:inputField fieldName="Engagement_Location__c" />
+                <lightning:inputField fieldName="Address_of_Engagement__c" />
+            </aura:if>           
+            
+            <aura:if isTrue="{!v.case.RecordType.Name == 'I require a TechnologyOne Cloud service'}">
+                <lightning:inputField fieldName="Subject"/>
+                <lightning:inputField fieldName="Description" required="true"/>
+                <lightning:inputField fieldName="Customer_Reference__c" />
+                <lightning:inputField fieldName="Additional_Reference_Details__c" />                
+                <lightning:inputField fieldName="Customer_Product__c" />
+                <lightning:inputField fieldName="Priority" />
+                <lightning:inputField fieldName="Priority_Change_Comment__c" />
+                <!-- SCE-484 Start -->
+                <lightning:inputField fieldName="SaaS_Service_Request_Type__c"/>
+                <lightning:inputField fieldName="Preferred_Date__c"/>
+                <lightning:inputField fieldName="Target_Environment__c" />
+                <lightning:inputField fieldName="Source_Environment__c" />
+                <lightning:inputField fieldName="Environment_Upgrade_Version__c" />
+                <!-- SCE-484 End -->
+             </aura:if> 
+            
+            <aura:if isTrue="{!v.case.RecordType.Name == 'I require an AMS service'}">
+                <lightning:inputField fieldName="Subject"/>
+                <lightning:inputField fieldName="Description" required="true"/>
+                <lightning:inputField fieldName="Customer_Reference__c" />
+                <lightning:inputField fieldName="Additional_Reference_Details__c" />                
+                <lightning:inputField fieldName="Customer_Product__c" />
+                <lightning:inputField fieldName="Priority" />
+                <lightning:inputField fieldName="Priority_Change_Comment__c" />
+            </aura:if>
+          
+            <div class="slds-var-m-top_small slds-align_absolute-center">
+                <lightning:button  variant="brand" type="submit" name="update" label="Save"/>
+                <lightning:button  variant="brand" label="Cancel" onclick="{!c.navHome}"/>
+            </div>
+            </lightning:card>
+	   </lightning:recordEditForm>
+</aura:component>

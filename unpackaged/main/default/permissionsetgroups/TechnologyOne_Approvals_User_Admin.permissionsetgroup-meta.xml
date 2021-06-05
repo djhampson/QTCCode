@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>TechnologyOne Approvals User Admin</label>
+    <permissionSets>T1_CPQ_read_access_and_base_field_permissions</permissionSets>
+    <permissionSets>sbaa__AdvancedApprovalsAdmin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

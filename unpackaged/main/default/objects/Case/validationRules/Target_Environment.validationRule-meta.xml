@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Environment</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Environment Refresh&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Environment Upgrade&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;eService Configuration Update&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Email Configuration&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Move from Mainline to Fastline&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Move from Fastline to Mainline&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;SFTP&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Scanwatcher&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Drag-it-in&#39;) ||
+ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Crystal Desktop&#39;)) &amp;&amp;
+ISBLANK(Target_Environment__c)&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c)</errorConditionFormula>
+    <errorDisplayField>Target_Environment__c</errorDisplayField>
+    <errorMessage>Please complete the target environment</errorMessage>
+</ValidationRule>

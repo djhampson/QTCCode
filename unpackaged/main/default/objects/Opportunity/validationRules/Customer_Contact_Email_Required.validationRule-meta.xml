@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Contact_Email_Required</fullName>
+    <active>true</active>
+    <description>Customer Email address is required for emailing CSR form or Cloud Readiness  Assessment</description>
+    <errorConditionFormula>(Record_Type__c = &#39;Services Only / Consulting request&#39; 
+||  TEXT(Cloud_Assessment_Type__c) = &#39;Assessment Sent&#39; ) 
+&amp;&amp; ISBLANK(Customer_Contact_Email__c)
+&amp;&amp; $Profile.Name &lt;&gt; &#39;System Administrator&#39;</errorConditionFormula>
+    <errorDisplayField>Customer_Contact__c</errorDisplayField>
+    <errorMessage>Please add customer contact and email address.</errorMessage>
+</ValidationRule>

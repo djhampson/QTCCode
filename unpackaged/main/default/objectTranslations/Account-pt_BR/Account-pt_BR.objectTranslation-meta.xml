@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Account Layout - Employee Community</layout>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Profile --></label>
+            <section>Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout - LEX</layout>
+        <sections>
+            <label><!-- CPQ &amp; Billing Information --></label>
+            <section>CPQ &amp; Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo Sales Insights --></label>
+            <section>Marketo Sales Insights</section>
+        </sections>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+        <sections>
+            <label><!-- Profile --></label>
+            <section>Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Billing Account Layout</layout>
+        <sections>
+            <label>Informações adicionais</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informações de renovação/encerramento combinado</label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Account Layout</layout>
+        <sections>
+            <label>Informações adicionais</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informações de renovação/encerramento combinado</label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Community Layout</layout>
+        <sections>
+            <label><!-- Overview --></label>
+            <section>Overview</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Account Details --></label>
+        <name>Account_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Case --></label>
+        <name>Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Contact --></label>
+        <name>Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Company Profile --></label>
+        <name>Update_Company_Profile</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- You can not add a Price Book that has no Equivalent Basis value. --></errorMessage>
+        <name>Need_Equivalent_Basis_on_Enterprise_PB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. NZ numbers must have prefix +64. Area Code to exclude leading 0. Examples: +64 4 913 8300, +64 800 123 456, +64 21 345 6879 --></errorMessage>
+        <name>Phone_No_Format_NZ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. UK numbers must have prefix +44. Area Code to exclude leading 0. Examples: +44 1628 591160, +44 7911 123456, +44 800 123 4567, +44 800 1111 --></errorMessage>
+        <name>Phone_No_Format_UK</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. Phone numbers must have Country code prefix followed by Area Code (where applicable) excluding leading 0, followed by subscriber number. Examples: +60 3 1234 5678, +675 123 5678 --></errorMessage>
+        <name>Phone_No_Format_for_AsiaPacific</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. AU numbers must have prefix +61. Area Code to exclude leading 0. Examples: +61 7 3167 7300 or +61 1300 784 388 or +61 13 12 12 or +61 439 545 333 --></errorMessage>
+        <name>Phone_No_Format_for_Australia</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please contact Sales Operations to transfer this account. --></errorMessage>
+        <name>Restrict_Account_Owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to change the Account Type. Please contact t1salesandmarketinghelpdesk@technologyonecorp.com for assistance. --></errorMessage>
+        <name>Restrict_Customer_Account_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the ex-customer&apos;s Termination Date. --></errorMessage>
+        <name>Termination_Date_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ASM_Listing --></label>
+        <name>ASM_Listing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ASM_Listing_LEX --></label>
+        <name>ASM_Listing_LEX</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_Enquiry --></label>
+        <name>Account_Enquiry</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Account_History_Report --></label>
+        <name>Account_History_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Activity_History_Report --></label>
+        <name>Activity_History_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- All_Open_Opportunities_Report --></label>
+        <name>All_Open_Opportunities_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ECM_Search --></label>
+        <name>ECM_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Get_All_Contacts --></label>
+        <name>Get_All_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Maps_Billing --></label>
+        <name>Maps_Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Maps_Shipping --></label>
+        <name>Maps_Shipping</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Cases_with_AMS --></label>
+        <name>Open_Cases_with_AMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Cases_with_AMS_Consulting --></label>
+        <name>Open_Cases_with_AMS_Consulting</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Support_Cases_by_Product --></label>
+        <name>Open_Support_Cases_by_Product</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Support_Cases_by_Technology --></label>
+        <name>Open_Support_Cases_by_Technology</name>
+    </webLinks>
+</CustomObjectTranslation>

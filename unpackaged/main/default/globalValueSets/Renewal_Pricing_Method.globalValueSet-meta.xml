@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>List</fullName>
+        <default>false</default>
+        <label>List</label>
+    </customValue>
+    <customValue>
+        <fullName>Uplift</fullName>
+        <default>true</default>
+        <label>Uplift</label>
+    </customValue>
+    <description>Custom Renewal Pricing field because OOTB functionality does not meet business requirement to represent detailed pricing.</description>
+    <masterLabel>Renewal Pricing Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

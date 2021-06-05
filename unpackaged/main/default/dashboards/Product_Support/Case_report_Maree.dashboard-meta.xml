@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Total Open Cases</header>
+            <indicatorBreakpoint1>300.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>800.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Total Open Cases</metricLabel>
+            <report>Product_Support/All_open</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>300.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>1000.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Total Open CiA</metricLabel>
+            <report>Product_Support/All_Open_CiA</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>300.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>800.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Total Open Cloud</metricLabel>
+            <report>Product_Support/All_Open_Cloud</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Cases with a Jira</header>
+            <indicatorBreakpoint1>20.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>50.0</indicatorBreakpoint2>
+            <indicatorHighColor>#FFFFFF</indicatorHighColor>
+            <indicatorLowColor>#FFFFFF</indicatorLowColor>
+            <indicatorMiddleColor>#FFFFFF</indicatorMiddleColor>
+            <metricLabel>Cases with a Jira</metricLabel>
+            <report>Product_Support/Cases_With_Jira1</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>10.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>500.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Open Cases closed Jira</metricLabel>
+            <report>Best_Practice_Service_Reports/Open_Cases_with_Closed_Dev_Tickets</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Product_Support/Open_Cases_by_Priority1</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Open Cases by Priority</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>5.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>10.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>40</maxValuesDisplayed>
+            <report>Product_Support/Top_Customers_by_Cases_MTD</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Customers by Cases MTD</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Case Average Age (days)</header>
+            <indicatorBreakpoint1>50.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>200.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Case Avg Age</metricLabel>
+            <report>Product_Support/Open_Cases_Avg_Age1</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Average Case Resolution Time days MTD</header>
+            <indicatorBreakpoint1>20.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>50.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Average Case Resolution Time MTD</metricLabel>
+            <report>Product_Support/Closed_Cases_Avg_Age_MTD1</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Historical Case Resolution Age days</header>
+            <indicatorBreakpoint1>20.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>50.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Historical Case Resolution Age</metricLabel>
+            <report>Product_Support/Historical_Case_Resolution_Age1</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <groupingSortProperties/>
+            <header>Cases with Consulting</header>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Cases with Consulting</metricLabel>
+            <report>Product_Support/Cases_with_consulting</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>true</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Product_Support/Open_Cases_by_Type_and_Status1</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Open Cases by Type</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>40.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <maxValuesDisplayed>40</maxValuesDisplayed>
+            <report>Product_Support/Top_Customers_By_Open_Cases2</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Top Customers by Open Cases</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Cases Created this Month</header>
+            <indicatorBreakpoint1>300.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>600.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Cases Created this Month</metricLabel>
+            <report>Product_Support/Cases_Opened_this_month</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Cases Closed Month to Date</header>
+            <indicatorBreakpoint1>150.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>450.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>Cases Closed Month to Date</metricLabel>
+            <report>Product_Support/Cases_Closed_MTD6</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <groupingSortProperties/>
+            <header>Chatter Group Members</header>
+            <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>1.0</indicatorBreakpoint2>
+            <indicatorHighColor>#FFFFFF</indicatorHighColor>
+            <indicatorLowColor>#FFFFFF</indicatorLowColor>
+            <indicatorMiddleColor>#FFFFFF</indicatorMiddleColor>
+            <metricLabel>Chatter Group Members</metricLabel>
+            <report>Product_Support/Chatter_Group_Members2</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/All_Ideas2</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Ideas Created Last 30 Days</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Pie</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Since 1 June 2015</footer>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Product_Support/Case_Per_Month</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Cases by Month</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </rightSection>
+    <runningUser>maree_eager@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Case report (Maree)</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Confirmed scheduled date of this request. --></help>
+        <label><!-- Confirmed Scheduled Date --></label>
+        <name>Confirmed_Scheduled_Date__c</name>
+    </CustomFieldTranslation>

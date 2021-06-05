@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What did the customer/prospect know about us before they started the selection process?
+First Contact Date, Demo date etc --></help>
+        <label><!-- TechOne Engagement History --></label>
+        <name>T1_Engagement_History__c</name>
+    </CustomFieldTranslation>

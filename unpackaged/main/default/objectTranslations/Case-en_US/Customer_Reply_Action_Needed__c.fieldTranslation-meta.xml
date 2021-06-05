@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A green flag indicates that a new reply been received from the customer via email, case comment or case attachment --></help>
+        <label><!-- Customer Reply - Action Needed --></label>
+        <name>Customer_Reply_Action_Needed__c</name>
+    </CustomFieldTranslation>

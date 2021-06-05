@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Rating_P_R</fullName>
+    <columns>NAME</columns>
+    <columns>Usage__c</columns>
+    <columns>Possible_Found_Technology__c</columns>
+    <columns>Product_Affected__c</columns>
+    <columns>ALL__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Affected__c</field>
+        <operation>equals</operation>
+        <value>Student Management (SM)</value>
+    </filters>
+    <label>Student Management (SM)</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

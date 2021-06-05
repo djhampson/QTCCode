@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Opportunity_Pipeline</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>ARR1__c</columns>
+    <columns>Amount_1__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>RM_Forecast_Confirm__c</columns>
+    <columns>Owner_Commit__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Application_Managed_Services,Opportunity.Licence_Fee</value>
+    </filters>
+    <label>My Opportunity Pipeline</label>
+</ListView>

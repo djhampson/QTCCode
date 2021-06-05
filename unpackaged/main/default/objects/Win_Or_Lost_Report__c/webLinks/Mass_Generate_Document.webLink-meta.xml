@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mass_Generate_Document</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Mass Generate Documents</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/26.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/support/console/26.0/integration.js&quot;)}
+
+var ids = {!GETRECORDIDS($ObjectType.Win_Or_Lost_Report__c)};
+if (!ids || ids.length &lt; 1)
+    alert(&quot;Please select at least one record.&quot;);
+else
+{
+    var redirectUrl = &quot;/apex/loop__masslooplus?retURL=&quot; + encodeURI(window.location.pathname+window.location.search);
+    redirectUrl += &quot;&amp;recordIds=&quot;+ids.join(&quot;,&quot;);
+        window.location.href = redirectUrl;
+}</url>
+</WebLink>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Confirmed Risk Finalised</masterLabel>
+            <translation><!-- Confirmed Risk Finalised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed Risk Under Investigation</masterLabel>
+            <translation><!-- Confirmed Risk Under Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Risk Identified</masterLabel>
+            <translation><!-- No Risk Identified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential Risk</masterLabel>
+            <translation><!-- Potential Risk --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

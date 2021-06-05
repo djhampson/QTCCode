@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ideas_with_more_than_100_votes</fullName>
+    <columns>Idea_Number__c</columns>
+    <columns>IDEA.CREATED_DATE</columns>
+    <columns>IDEA.TITLE</columns>
+    <columns>IDEA.CREATED_BY_NICKNAME</columns>
+    <columns>Account_Name_from_Account__c</columns>
+    <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+    <columns>IDEA.NUM_COMMENTS</columns>
+    <columns>IDEA.STATUS</columns>
+    <columns>IDEA.CATEGORIES</columns>
+    <columns>COMMUNITY.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>VOTE_STATS.WEIGHTED_SUM</field>
+        <operation>greaterThan</operation>
+        <value>20</value>
+    </filters>
+    <filters>
+        <field>COMMUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Customer</value>
+    </filters>
+    <label>Customer Ideas with more than 20 points</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

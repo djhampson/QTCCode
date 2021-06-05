@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response Milestone Warning Notification to Case Owner</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Response Milestone Warning - Case Owner</name>
+    <style>none</style>
+    <subject>Response Milestone Warning {!Case.Account} {!Case.Customer_Product__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

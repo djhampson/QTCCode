@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DevAnalysisVal__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox that will set to true on a case if the &quot;Developer Analysis&quot; field on the case has a value. NOTE The Developer Analysis field on an &quot;Jira Dev Issue&quot; record related to the case is not in scope. This field should NOT be made visible to the customer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checkbox that will set to true on a case if the &quot;Developer Analysis&quot; field on the case has a value.</inlineHelpText>
+    <label>DevAnalysisVal</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

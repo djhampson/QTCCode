@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Entity_3P_Use_Detail__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Related entity / third party use permitted detail</inlineHelpText>
+    <label>Related Entity / 3P Use Detail</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

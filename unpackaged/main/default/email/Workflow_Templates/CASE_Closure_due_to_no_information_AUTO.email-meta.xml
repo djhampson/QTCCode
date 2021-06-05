@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic email sent on closure when customer does not provide timely info</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Closure due to no information AUTO</name>
+    <style>none</style>
+    <subject>Final request for information regarding Case {!Case.CaseNumber} {!Case.Subject} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+We are contacting you to let you know that this case is now being auto-closed as there has been no response.
+
+If your case requires further attention, please do not hesitate to contact us.
+
+Case Number:  {!Case.CaseNumber}
+Product:  {!Case.Customer_Product__c}
+Functional Area:  {!Case.Functional_Area__c}
+Case Subject:  {!Case.Subject}
+Priority:  {!Case.Priority}
+Customer Reference:  {!Case.Customer_Reference__c}
+
+Kind regards,
+
+{!Case.EmailSig__c}
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What were our main functional advantages/disadvantages? --></help>
+        <label><!-- Functional Advantages/Disadvantage --></label>
+        <name>Functional_Advantages_Disadvantage__c</name>
+    </CustomFieldTranslation>

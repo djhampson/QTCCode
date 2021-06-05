@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- indicate users impacted e.g. Support consultant, Customer, Sales --></help>
+        <label><!-- Who will be impacted? --></label>
+        <name>Who_will_be_impacted__c</name>
+    </CustomFieldTranslation>

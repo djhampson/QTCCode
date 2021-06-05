@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Software Change Resolution</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Software Change Resolution</name>
+    <style>none</style>
+    <subject>Request for environment access: Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi,
+
+This issue has been addressed via a software change. The case will be set to Resolved.
+
+Release Notes Reference: &lt;Insert Jira #&gt;
+
+Snapshot Detail: &lt;Release and Snapshot #&gt;
+
+App/Package Detail: &lt;App/Package detail&gt;
+
+For more information about this update please review the Release Notes here https://customercommunity.technologyonecorp.com/s/article/Release-Notes
+
+SaaS Customers:
+
+Deployment of Fastline snapshots are posted regularly in the TechnologyOne Announcements Group in the Customer Community https://customercommunity.technologyonecorp.com/s/group/0F90f000000DEHlCAO/technologyone-announcements
+
+Mainline updates are posted in the SaaS Group: https://customercommunity.technologyonecorp.com/s/group/0F9G00000000BkeKAE/saas
+
+Information on the SaaS Snapshot Release Process is available here: https://customercommunity.technologyonecorp.com/s/article/Snapshot-Release
+
+Identifying which Snapshot you have:
+2020A and above: https://customercommunity.technologyonecorp.com/s/article/What-Snapshot-am-I-on-2020A-and-above
+
+2019B and above: https://customercommunity.technologyonecorp.com/s/article/What-Snapshot-and-I-On-2019B-and-above
+
+On-Premise Customers:
+The relevant Apps/Packages are now available for download from enterprise App Store.
+
+
+Kind regards,
+TechnologyOne Support
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

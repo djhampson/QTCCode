@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Interest rate on late payment details --></help>
+        <label><!-- Interest On Late Payment Detail --></label>
+        <name>Interest_On_Late_Payment_Detail__c</name>
+    </CustomFieldTranslation>

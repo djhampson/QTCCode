@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Losing_Competitor__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter Losing Competitor. If no losing competitor, then select None record.</inlineHelpText>
+    <label>z_Losing Competitor</label>
+    <referenceTo>T1_Competitor__c</referenceTo>
+    <relationshipLabel>Competitor Losses</relationshipLabel>
+    <relationshipName>Win_Or_Lost_Reports1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

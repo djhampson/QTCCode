@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This date will be used to select closed cases for email archive purposes. --></help>
+        <label><!-- Closed Date for Archiving Email --></label>
+        <name>Closed_Date_for_Archiving_Email__c</name>
+    </CustomFieldTranslation>

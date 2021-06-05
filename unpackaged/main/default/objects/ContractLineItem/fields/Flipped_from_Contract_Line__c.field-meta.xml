@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flipped_from_Contract_Line__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Flipped from Contract Line</label>
+    <referenceTo>ContractLineItem</referenceTo>
+    <relationshipLabel>Contract Line Items (Flipped from Contract Line)</relationshipLabel>
+    <relationshipName>Contract_Line_Items</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

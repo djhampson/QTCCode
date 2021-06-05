@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interim_Resolution_Target__c</fullName>
+    <description>Target Date from Interim Resolution Milestone. Updated from Flow called by Process</description>
+    <externalId>false</externalId>
+    <label>Interim Resolution Target</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

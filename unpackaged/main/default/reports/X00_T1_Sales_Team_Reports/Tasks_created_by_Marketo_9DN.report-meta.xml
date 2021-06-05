@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_53600990</developerName>
+        <masterLabel>Task Owner</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>ASSIGNED</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Marketo Salesforce</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>James Gunn</sourceValue>
+            </sourceValues>
+            <value>1.Marketo &amp; MKT</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Sales Operations</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Salesforce Administrator</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Grant Hamlyn</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Service Cloud Administrator</sourceValue>
+            </sourceValues>
+            <value>3. Admin Users</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Jacob Coetzee</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cordelia Xiberras</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Moses Alofokhai</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Krishan Reddy</sourceValue>
+            </sourceValues>
+            <value>2. SDR</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACTIVITY_ID</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>WHAT_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY</field>
+    </columns>
+    <columns>
+        <field>CONTACT</field>
+    </columns>
+    <columns>
+        <field>LEAD</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>PRIORITY</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>CREATED_BY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Marketo Salesforce</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>STATUS</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_53600990</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ASSIGNED</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Tasks created by Marketo</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

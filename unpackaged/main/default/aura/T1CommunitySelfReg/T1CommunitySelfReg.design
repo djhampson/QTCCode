@@ -1,0 +1,12 @@
+<design:component>
+    <design:attribute name="email" />
+    <design:attribute name="fname"  />
+    <design:attribute name="lname" />
+    <design:attribute name="password" />
+    <design:attribute name="accountId" />
+    <design:attribute name="orgkey" />
+    <design:attribute name="title" />
+    <design:attribute name="phone" />
+    <design:attribute name="op_url" label="User created"/>
+    <design:attribute name="company" label="company" />
+</design:component>

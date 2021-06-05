@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Payment terms, management of time &amp; materials estimates and delays --></help>
+        <label><!-- Implementation Fee Detail --></label>
+        <name>Implementation_Fee_Details__c</name>
+    </CustomFieldTranslation>

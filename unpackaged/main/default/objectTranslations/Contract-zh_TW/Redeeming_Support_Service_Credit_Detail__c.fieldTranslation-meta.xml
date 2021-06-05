@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Redeeming Support Service Credit Detail --></label>
+        <name>Redeeming_Support_Service_Credit_Detail__c</name>
+    </CustomFieldTranslation>

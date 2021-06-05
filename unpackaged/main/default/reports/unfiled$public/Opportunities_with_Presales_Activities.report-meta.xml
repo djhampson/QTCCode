@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>FK_$Opportunity.ARR__c.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>FK_OPP_AMOUNT</field>
+    </columns>
+    <columns>
+        <field>FK_OPP_CLOSE_DATE</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No Opportunity</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_OPP_STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>6 - Sales Closed,7 - Closed,Lost,Opt Out / No Bid,Stage 9 - Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Presales__c.AssignedTo__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Alan Ford,David Ockenden,Charles Murray,David Pirie,Simone Longden,Kylie Perry,Mick Cowper,Timothy Finch</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Presales__c.AssignedTo__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_OPP_STAGE_NAME</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Opportunities with Presales Activities</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntity$Presales__c@Presales__c.Opportunity__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>FK_OPP_CLOSE_DATE</dateColumn>
+        <endDate>2020-09-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2020-05-21</startDate>
+    </timeFrameFilter>
+</Report>

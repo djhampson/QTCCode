@@ -1,0 +1,18 @@
+{!Case.Link}
+Case Number: {!Case.CaseNumber}
+Date/Time Opened: {!Case.CreatedDate}
+
+Priority: {!Case.Priority}
+Reason: {!Case.Priority_Change_Comment__c} 
+
+Account: {!Case.Account}
+{!Case.Contact}
+{!Contact.Phone}
+
+Type: {!Case.Type}
+Product: {!Case.Customer_Product__c} 
+Functional Area: {!Case.CFunctional_Area__c}
+Currently Assigned To: {!Case.OwnerFullName}
+
+Subject: {!Case.Subject}
+Details: {!Case.Description}

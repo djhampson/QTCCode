@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+        <picklistValues>
+            <masterLabel>OneAgedCare</masterLabel>
+            <translation><!-- OneAgedCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneAirport</masterLabel>
+            <translation><!-- OneAirport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneBanking</masterLabel>
+            <translation><!-- OneBanking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneCommunity</masterLabel>
+            <translation><!-- OneCommunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneCorporate</masterLabel>
+            <translation><!-- OneCorporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneCouncil</masterLabel>
+            <translation><!-- OneCouncil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneEducation</masterLabel>
+            <translation><!-- OneEducation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneEnergy</masterLabel>
+            <translation><!-- OneEnergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneGovernment</masterLabel>
+            <translation><!-- OneGovernment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneHealth</masterLabel>
+            <translation><!-- OneHealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneHousing</masterLabel>
+            <translation><!-- OneHousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneInsurance</masterLabel>
+            <translation><!-- OneInsurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneMembership</masterLabel>
+            <translation><!-- OneMembership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OnePolytechnic</masterLabel>
+            <translation><!-- OnePolytechnic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OnePort</masterLabel>
+            <translation><!-- OnePort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneProject</masterLabel>
+            <translation><!-- OneProject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneResearch</masterLabel>
+            <translation><!-- OneResearch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneTAFE</masterLabel>
+            <translation><!-- OneTAFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneUniversity</masterLabel>
+            <translation><!-- OneUniversity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneWater</masterLabel>
+            <translation><!-- OneWater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneWealth</masterLabel>
+            <translation><!-- OneWealth --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

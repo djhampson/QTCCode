@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Stage_Completed__c</fullName>
+    <description>Identifies the last completed Stage of the Project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Identifies the last completed Stage of the Project</inlineHelpText>
+    <label>Project Stage Completed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Strategy</fullName>
+                <default>false</default>
+                <label>Strategy</label>
+            </value>
+            <value>
+                <fullName>Configuration</fullName>
+                <default>false</default>
+                <label>Configuration</label>
+            </value>
+            <value>
+                <fullName>Handover and Closure</fullName>
+                <default>false</default>
+                <label>Handover and Closure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

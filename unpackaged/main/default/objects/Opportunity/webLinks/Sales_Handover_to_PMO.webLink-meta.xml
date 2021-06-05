@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Handover_to_PMO</fullName>
+    <availability>online</availability>
+    <description>Email link to PMO for Handover initiation</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Sales Handover to PMO</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/_ui/core/email/author/EmailAuthor?rtype=003&amp;p2_lkid=0030f00002u25Lp&amp;p3_lkid={!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}&amp;p5={!$User.Email}&amp;template_id=00XG0000001M2mO</url>
+</WebLink>

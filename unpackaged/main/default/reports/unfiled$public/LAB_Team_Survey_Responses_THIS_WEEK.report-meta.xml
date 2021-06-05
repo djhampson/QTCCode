@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Survey_Responses__c.Account_Name_on_Case__c</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>GetFeedback_Survey_Responses__c.Overall_Experience_rating__c</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Survey_Responses__c.Experience_Rating__c</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Survey_Responses__c.Feedback__c</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Survey_Responses__c.Improvement_Text__c</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Survey_Responses__c.Comment_Text__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>GetFeedback_Survey_Responses__c.Our_People_Rating__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>LAB Team Survey Responses THIS WEEK</description>
+    <filter>
+        <booleanFilter>1 AND (2 AND 3)</booleanFilter>
+        <criteriaItems>
+            <column>FK_$Case.Customer_Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Enterprise Cash Receipting (ECR),Enterprise Content Management (ECM),Financials (FIN),Supply Chain Management (SCM)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CASE_OWNER_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Product,Triage SCM,Triage ECM,Kim Smith,Stephen Midgley,Phil Nicholls,Lea-Anne Borton,Timothy Tan,Geoff Weatherburn,Maggy Lagarde</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CASE_OWNER_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>CPM,HRP,Property,Student,Assets,BPA,Spatial</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>LAB Team Survey Responses THIS WEEK</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$GetFeedback_Survey_Responses__c@GetFeedback_Survey_Responses__c.Case_Number__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>FK_CASE_OWNER_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

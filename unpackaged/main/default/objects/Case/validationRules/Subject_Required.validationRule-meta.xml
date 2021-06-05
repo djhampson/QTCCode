@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>(RecordType.Name = &#39;I am experiencing an issue&#39; ||
+RecordType.Name = &#39;I have a Question&#39; || 
+RecordType.Name = &#39;I require Consulting services&#39; ||  
+RecordType.Name = &#39;I require an AMS service&#39; ||  
+RecordType.Name = &#39;I require a TechnologyOne Cloud service&#39;) &amp;&amp;  
+LEN( Subject ) = 0 &amp;&amp; 
+ISCHANGED(Subject ) &amp;&amp;
+NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorMessage>Subject is required.</errorMessage>
+</ValidationRule>

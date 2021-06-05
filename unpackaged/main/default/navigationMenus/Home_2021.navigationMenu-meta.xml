@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>T1 Customer Community</container>
+    <containerType>Network</containerType>
+    <label>Home 2021</label>
+    <navigationMenuItem>
+        <label>Release Notes</label>
+        <menuItemBranding>
+            <tileImage>Featured_EOFY_11</tileImage>
+        </menuItemBranding>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TOG0000000HSDuOAO/release-notes</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Customer Community User Guides</label>
+        <menuItemBranding>
+            <tileImage>Featured_Community_and_support_2</tileImage>
+        </menuItemBranding>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TO0f00000091QIGAY/community-user-support-guides</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Tour the Customer Community</label>
+        <menuItemBranding>
+            <tileImage>Featured_Community_and_support_11</tileImage>
+        </menuItemBranding>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/tour-the-customer-community</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>User Connect</label>
+        <menuItemBranding>
+            <tileImage>Featured_User_groups_21</tileImage>
+        </menuItemBranding>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>https://technologyonecorp.com/userconnect?industry=all&amp;campaign_type=product_penetration&amp;utm_source=customercommunity&amp;utm_medium=display&amp;utm_campaign=webinar_fy20_q4_user-connect&amp;utm_term=userconnectreg&amp;utm_content=banner</target>
+        <type>ExternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

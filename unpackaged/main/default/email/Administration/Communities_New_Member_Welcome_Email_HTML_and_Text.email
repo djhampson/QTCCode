@@ -1,0 +1,15 @@
+<p>Hi {!Receiving_User.FirstName}, </p>
+
+<p>Welcome to the TechnologyOne Customer Community - One place to Connect, Chat and Collaborate with TechnologyOne and other customers </p>
+
+<p>Please verify your login and discover what this community will provide. As you log in you will be asked to create and confirm a password, then click on the Change Password button and the Customer Community Home Page will be displayed. </p>
+
+<p>You will find important information for the TechnologyOne Customer Community by selecting &quot;Customer Community User Guides&quot; under Recommendations on the Home Page.</p>
+
+<p>To get started, go to {!Community_Url} </p>
+
+<p>Use of the TechnologyOne Customer Community is subject to the Terms of Use which can be found <a href="http://www.technologyonecorp.com/terms-of-use2">here</a>. By logging in to the Customer Community Home Page you accept these Terms of Use. </p>
+
+<p>Thanks, </p>
+
+<p>TechnologyOne Support</p>

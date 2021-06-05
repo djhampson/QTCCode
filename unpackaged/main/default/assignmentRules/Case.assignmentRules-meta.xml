@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Assignment Case Rules</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>AMS_Assets</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Asset Management (AM)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp;  Account.QUEUE_Allocation__c == &quot;AMS&quot; &amp;&amp;  (RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; ||  RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Consulting_Request&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_ECR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Enterprise Cash Receipting (ECR)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; Account.QUEUE_Allocation__c == &quot;AMS&quot; &amp;&amp; (RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Consulting_Request&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_Spatial</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Spatial&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; Account.QUEUE_Allocation__c == &quot;AMS&quot; &amp;&amp; (RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Consulting_Request&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_HRP</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Human Resource &amp; Payroll (HRP)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp;  Account.QUEUE_Allocation__c == &quot;AMS&quot; &amp;&amp;  (RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; ||  RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Consulting_Request&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_P_R_ECM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>(ISPICKVAL(Customer_Product__c, &quot;Property &amp; Rating (P&amp;R)&quot;) || ISPICKVAL(Customer_Product__c, &quot;Enterprise Content Management (ECM)&quot;)) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp;  Account.QUEUE_Allocation__c == &quot;AMS&quot; &amp;&amp;  (RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; ||  RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Consulting_Request&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_FIN_CPM_SCM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>(ISPICKVAL(Customer_Product__c, &quot;Financials (FIN)&quot;) || ISPICKVAL(Customer_Product__c, &quot;Corporate Performance Management (CPM)&quot;) || ISPICKVAL(Customer_Product__c, &quot;Supply Chain Management (SCM)&quot;) ||  ISPICKVAL(Customer_Product__c, &quot;Customer Relationship Management (CRM)&quot;)) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp;  Account.QUEUE_Allocation__c == &quot;AMS&quot; &amp;&amp;  (RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; ||  RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Consulting_Request&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_Student</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Student Management (SM)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp;  Account.QUEUE_Allocation__c == &quot;AMS&quot; &amp;&amp;  (RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; ||  RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Consulting_Request&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_FIN_CPM_SCM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Account.QUEUE_Allocation__c</field>
+                <operation>equals</operation>
+                <value>AMS</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I am experiencing an issue,I have a Question,I require a TechnologyOne Cloud service</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_Fin</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Account.QUEUE_Allocation__c</field>
+                <operation>equals</operation>
+                <value>CLOUD</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Triage_UK</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>(ISPICKVAL(Account.CountryArea__c, &#39;United Kingdom&#39;) || ISPICKVAL(Account.CountryArea__c, &#39;Distributors&#39;)) &amp;&amp; (TEXT(Status) == &quot;New&quot;) &amp;&amp; (RecordType.DeveloperName != &#39;Consulting_Request&#39;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Technical_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>TEXT(Status) == &quot;New&quot; &amp;&amp; (RecordType.DeveloperName == &quot;TechnologyOne_Cloud_Service_Request&quot;) &amp;&amp; NOT((ISPICKVAL(Account.CountryArea__c, &#39;United Kingdom&#39;) || ISPICKVAL(Account.CountryArea__c, &#39;Distributors&#39;)))</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_CPM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Corporate Performance Management (CPM)&quot;) &amp;&amp;  TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||  RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Triage_CRM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Customer Relationship Management (CRM)&quot;) &amp;&amp;  TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||  RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_ECM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Enterprise Content Management (ECM)&quot;) &amp;&amp;  TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||   RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_Assets</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Asset Management (AM)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; (RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||  RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Triage_Spatial</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Spatial&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; || RecordType.DeveloperName == &quot;TechnologyOne_Cloud_Service_Request&quot; || RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_Fin</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Financials (FIN)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; (RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||  RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_HRP</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Human Resource &amp; Payroll (HRP)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||   RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_Property</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Property &amp; Rating (P&amp;R)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||  RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_Student</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Student Management (SM)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||  RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_SCM</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Supply Chain Management (SCM)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp;  (RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||   RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Triage_ECR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Enterprise Cash Receipting (ECR)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; (RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; || RecordType.DeveloperName == &quot;TechnologyOne_Cloud_Service_Request&quot; || RecordType.DeveloperName == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Triage_BPA</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>ISPICKVAL(Customer_Product__c, &quot;Business Process Management (BPM)&quot;) &amp;&amp; TEXT(Status) == &quot;New&quot; &amp;&amp; ( RecordType.DeveloperName == &quot;Incident&quot; || RecordType.DeveloperName == &quot;Question&quot; ||  RecordType.DeveloperName  == &quot;TechnologyOne_Cloud_Service_Request&quot; ||  RecordType.DeveloperName  == &quot;I_require_an_AMS_service&quot; || RecordType.DeveloperName == &quot;Consulting_Question&quot; || RecordType.DeveloperName == &quot;Cons_Q_or_I&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Change Control</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>notEqual</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Triage_Email</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>Change Control</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Central_Support_Fin</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Chatter Answers</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>AMS_Consulting</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require Consulting services</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

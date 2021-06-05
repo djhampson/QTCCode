@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>T1 Customer Community.Featured:Community News</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Community News</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription>Find the latest news about activity in the community as well as announcements about changes to the community.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Featured:Community User &amp; Support Guides</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Community User &amp; Support Guides</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription>Easily find the latest Support Guides and User Guides for using the Customer Community in one central place.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Featured:Customer Training</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Customer Training</name>
+        <parentName></parentName>
+        <position>8</position>
+        <topicDescription>Looking to upskill in Ci Anywhere through face to face training? Or are you new and need to gain TechnologyOne product expertise? Find available training courses in your region here: https://technologyonecorp.com/saas/training</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Featured:Release Notes</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Release Notes</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Featured:SaaS Software Releases</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>SaaS Software Releases</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Featured:TCSI</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>TCSI</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription>TCSI (pronounced &#39;taxi&#39;) is a joint project to transform how student information is collected by the Department of Education &amp; Training (DET) and the Department of Human Services (DHS). It replaces the existing HEIMS data collection which is based on files submitted to the department at specific times in the year with real time web services.
+
+For more information about TCSI visit http://info.technologyonecorp.com/Student-Management_TCSI-Ready.html</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Featured:UserConnect</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>UserConnect</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription>Our User Connect virtual event series is a comprehensive programme of content – live and on-demand. We’re bringing together industry experts and business leaders to share their insights in 50+ sessions across three tracks: 
+
+·       Insights (Live from 12 August): Connect with business leaders, thinkers and experts to uncover key industry insights, trends and challenges 
+·       Transformation (Live from 26 August): Connect with industry experts to explore how you can simplify key business processes to drive transformation. 
+·       Innovation (Live from 26 August): Stay connected with new features, enhancements and our latest customer-driven innovations, to elevate your enterprise experience. 
+
+Watch the sessions live and join in the Q&amp;A or watch later on-demand at a time that suits you.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Access Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Access Management</name>
+        <parentName>System Administration</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Accounts Payable (AP)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Accounts Payable (AP)</name>
+        <parentName>Financials</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Accounts Receivable (AR)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Accounts Receivable (AR)</name>
+        <parentName>Financials</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Admissions &amp; Enrolments</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Admissions &amp; Enrolments</name>
+        <parentName>Student Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Animals</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Animals</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Asset Accounting</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Asset Accounting</name>
+        <parentName>Financials</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Authentication</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Authentication</name>
+        <parentName>System Administration</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Banking</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Banking</name>
+        <parentName>Financials</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Basemaps</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Basemaps</name>
+        <parentName>IntraMaps</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Business Process Automation</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Business Process Automation</name>
+        <parentName>Business Process Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Business Process Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Business Process Management</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription>Encompasses Workflow, Forms, and integration services to other TechnologyOne products.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:CRM Services</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>CRM Services</name>
+        <parentName>Stakeholder Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Cases</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Cases</name>
+        <parentName>Community</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Charges &amp; Billing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Charges &amp; Billing</name>
+        <parentName>Financials</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Community</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Community</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription>All things related to the customer community.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Contracts</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Contracts</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>0</position>
+        <topicDescription>Contract Management Processes
+This describes all aspects of configuring and managing Contracts through their full lifecycle.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Corporate Performance Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Corporate Performance Management</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription>Corporate Performance Management (CPM) includes Business Intelligence, Enterprise Budgeting and Forecasting, Performance and Planning as well as Reporting &amp; Analytics (XLOne and ETL).</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Curriculum</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Curriculum</name>
+        <parentName>Student Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Data Entry</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Data Entry</name>
+        <parentName>Financials</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Database</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Database</name>
+        <parentName>Technical</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Debt Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Debt Management</name>
+        <parentName>Accounts Receivable (AR)</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Debtors</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Debtors</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>1</position>
+        <topicDescription>This topic covers the process behind debt management to assist in recovering money owed by customers:
+- Statement Processing
+- Reminder Letters
+- Debt Recovery
+- Payment Plans</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Distributed Processing (DP)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Distributed Processing (DP)</name>
+        <parentName>System Administration</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Document Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Document Management</name>
+        <parentName>Enterprise Content Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Education Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Administration</name>
+        <parentName>Student Management</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Education Compliance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Compliance</name>
+        <parentName>Other</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Education Finance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Finance</name>
+        <parentName>Other</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Education Scheduling</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Scheduling</name>
+        <parentName>Other</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Enterprise Asset Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Asset Management</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Enterprise Budgeting</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Budgeting</name>
+        <parentName>Corporate Performance Management</parentName>
+        <position>1</position>
+        <topicDescription>Connect budgets and forecasts to business drivers to gain better insight into organisational performance. Devolve budgeting throughout the business from a centralised system. Analyse with real-time reporting, business modelling, scorecards and dashboards.
+
+For years, budgets have been viewed as the obligatory estimate of the coming year&#39;s revenues and expenses. However, this is changing due to increased competition, a need to lower operating costs, and increased pressure to be more accountable and transparent when budgeting. Forecasts are now seen as an essential tool in providing true transparency and vision in making informed business decisions.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Enterprise Cash Receipting</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Cash Receipting</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription>Content related to the Enterprise Cash Receipting Product.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Enterprise Content Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Content Management</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription>Content related to the Enterprise Content Management Product.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Financial API Services</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Financial API Services</name>
+        <parentName>Financial System Administration</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Financial System Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Financial System Administration</name>
+        <parentName>Financials</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Financials</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Financials</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription>Simplify the capture and retrieval of financial information through flexible chart of accounts, ledger and reporting capabilities. Enhance your decision making with instant access to easily understood, real-time financial information.
+
+Capture all financial information in a single place, providing powerful dynamic reporting and enquiries for real-time decision making.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Forms</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Forms</name>
+        <parentName>Business Process Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:General Ledger (GL)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>General Ledger (GL)</name>
+        <parentName>Financials</parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Getting Started</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Getting Started</name>
+        <parentName>Community</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Groups</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Groups</name>
+        <parentName>Community</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Human Resource &amp; Payroll</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Human Resource &amp; Payroll</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription>TechnologyOne&#39;s Human Resource &amp; Payroll delivers a complete solution for all your people management needs.  The suite has modules and accessories that cover everything from payroll, time collection, employee self-service and workflow optimisation to business intelligence, manager alerts and process automation.
+
+TechnologyOne HRP integrates with other organisational systems including financials and asset management.  This enables real-time business analysis and reporting, which allows managers to make informed decisions quickly.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Ideas</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Ideas</name>
+        <parentName>Community</parentName>
+        <position>1</position>
+        <topicDescription>A great place to search and submit your ideas and vote and comment to help it become a reality.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Infrastructure</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Infrastructure</name>
+        <parentName>Technical</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Infringements</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Infringements</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Interactions &amp; Correspondence</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Interactions &amp; Correspondence</name>
+        <parentName>Stakeholder Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:IntraMaps</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps</name>
+        <parentName>Spatial</parentName>
+        <position>0</position>
+        <topicDescription>Information relating to the IntraMaps product with articles on various topics such as Release Information, covering all aspects of recent versions including new features and fixes; configuring the IntraMaps application within ConfigManager; how to configure MapBuilder as well as the ins and outs of basemap configuration and everything else in between.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:IntraMaps Application</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps Application</name>
+        <parentName>IntraMaps</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:IntraMaps Configuration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps Configuration</name>
+        <parentName>IntraMaps</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:IntraMaps General</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps General</name>
+        <parentName>IntraMaps</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:IntraMaps Release Information</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps Release Information</name>
+        <parentName>IntraMaps</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Inventory</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Inventory</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Knowledge</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Knowledge</name>
+        <parentName>Community</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Labelling &amp; Styling</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Labelling &amp; Styling</name>
+        <parentName>MapManager</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:MapBuilder</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapBuilder</name>
+        <parentName>IntraMaps</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:MapManager</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapManager</name>
+        <parentName>Spatial</parentName>
+        <position>1</position>
+        <topicDescription>Information relating to the MapManager application with articles on various topics such as the styling and labelling of layers, the functionality of key features such as the Style Library, TileManager, Theme Wizard and Expression Builder plus much more.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:MapManager General</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapManager General</name>
+        <parentName>MapManager</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:MapServer</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapServer</name>
+        <parentName>Miscellaneous</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Meetings</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Meetings</name>
+        <parentName>Enterprise Content Management</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Miscellaneous</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Miscellaneous</name>
+        <parentName>Spatial</parentName>
+        <position>2</position>
+        <topicDescription>Information on some of the Spatial functionality that exists outside the core IntraMaps product such as QGIS, plus information on some of the technical functionality that runs behind the scenes such as MapServer, SQL and OGR.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Organisation Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Organisation Management</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>0</position>
+        <topicDescription>Organisation Management provides the ability for your Organisation to manage the positions, (and their relationships), organisation units that are required for you to meet your Corporate Objectives. Organisation Management supports matrix style reporting relationships and position delegations for all HR and Payroll processes. In addition the accreditations required for a person to perform the various roles in your organisation both for compliance and efficency purposes.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Other</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Other</name>
+        <parentName>Student Management</parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:P&amp;R Billing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>P&amp;R Billing</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Payroll</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Payroll</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Performance Planning</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Performance Planning</name>
+        <parentName>Corporate Performance Management</parentName>
+        <position>2</position>
+        <topicDescription>Simplify strategic planning and risk management by aligning corporate and operational goals. Integrate strategic plans into the day-to-day business operations by managing hard and soft KPIs against defined measures. Drive improvements and challenge the status quo to deliver a re-energised corporate vision aligned throughout the entire organisation.
+
+Performance Planning delivers integrated strategic and operational planning processes, while aligning the philosophies of quadruple bottom line reporting of environmental, social, economic and governance performance.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Policy &amp; Compliance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Policy &amp; Compliance</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Portals</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Portals</name>
+        <parentName>Student Management</parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Progressions &amp; Completions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Progressions &amp; Completions</name>
+        <parentName>Student Management</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Property &amp; Rating</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Property &amp; Rating</name>
+        <parentName></parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Property Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Property Management</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Purchasing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Purchasing</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:QGIS</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>QGIS</name>
+        <parentName>Miscellaneous</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Records Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Records Management</name>
+        <parentName>Enterprise Content Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Recruitment</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Recruitment</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>2</position>
+        <topicDescription>Recruitment covers the end to end business process of raising a requisition, posting to job boards, applicants applying, both external and internal, managing the recruitment process through the various stages to selecting the preferred applicant/s and hiring.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Reporting &amp; Analytics</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Reporting &amp; Analytics</name>
+        <parentName>Corporate Performance Management</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Research &amp; Candidature</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Research &amp; Candidature</name>
+        <parentName>Student Management</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:SQL/OGR/GDAL</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>SQL/OGR/GDAL</name>
+        <parentName>Miscellaneous</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:SaaS</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>SaaS</name>
+        <parentName></parentName>
+        <position>14</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Safety</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Safety</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>3</position>
+        <topicDescription>The Safety function covers logging incidents and hazards by employees and the recording of associated information.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Scholarships</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Scholarships</name>
+        <parentName>Other</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Security</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Security</name>
+        <parentName></parentName>
+        <position>16</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Service Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Service Management</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Sourcing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Sourcing</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Spatial</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Spatial</name>
+        <parentName></parentName>
+        <position>9</position>
+        <topicDescription>A knowledge base for all things Spatial-related, aiming to help administrators and end users get a better understanding of TechnologyOne&#39;s Spatial products.
+
+Find information on IntraMaps, MapManager, ConfigManager and MapBuilder, including information on the configuration and functionality behind them. Also included is information on QGIS, as well as some of the behind the scenes functionality such as MapServer, SQL and OGR.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Stakeholder Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Stakeholder Management</name>
+        <parentName></parentName>
+        <position>10</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Student Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Administration</name>
+        <parentName>Student Management</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Student Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Management</name>
+        <parentName></parentName>
+        <position>11</position>
+        <topicDescription>Manage the entire student lifecycle through a tailor-made solution that meets the unique needs of both higher and vocational education institutions. Improve student recruitment and admission processing. Engage and retain existing students. Interact with alumni and empower staff, partners and students through any time, anywhere self-service access.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Student Portal</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Portal</name>
+        <parentName>Portals</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Student Recruitment</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Recruitment</name>
+        <parentName>Student Management</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Student Stakeholders Portal</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Stakeholders Portal</name>
+        <parentName>Portals</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Supply Chain Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Supply Chain Management</name>
+        <parentName></parentName>
+        <position>12</position>
+        <topicDescription>Manage your entire procure-to-pay-process, stock replenishment and inventory control. Transform your procurement process into a strategic and proactive operation with contract management, commitment tracking and simplified reporting.
+
+Increase efficiencies and improve your bottom line through automated purchasing processes, increased contract performance, commitment visibility and simplified inventory management.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:System Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>System Administration</name>
+        <parentName></parentName>
+        <position>13</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Talent &amp; Succession</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Talent &amp; Succession</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>4</position>
+        <topicDescription>Develop, train and promote employees through your organisation.
+
+A focus on developing talent in-house ensures employees have the tools and resources they need to perform well, receive proper compensation, and transition to leadership roles, becoming valuable assets to the organisation.
+
+The Talent Management app supports employee development through performance planning and appraisals. 
+
+Key features of the Talent Management app include:
+- Support for multiple employee development catalogues.
+- Workforce alignment with goals at the corporate, team and individual level.
+- Performance plan generation with workflow-enabled review and agreement.
+- Highly visible progress indicators and alerts when goals require attention.
+- Support for different types of appraisals including probation appraisals and performance appraisals.
+- Appraisal generation with workflow-enabled assessment and sign-off.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Taxation</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Taxation</name>
+        <parentName>Financials</parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Teaching &amp; Learning</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Teaching &amp; Learning</name>
+        <parentName>Student Management</parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Technical</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Technical</name>
+        <parentName></parentName>
+        <position>15</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Training</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Training</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>5</position>
+        <topicDescription>Training covers developing your employees via class room based training courses and online training. The training module includes the outcomes of training, being skills, licences, certifications, competencies, qualifications.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Travel &amp; Expenses (T&amp;E)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Travel &amp; Expenses (T&amp;E)</name>
+        <parentName>Financials</parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Users</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Users</name>
+        <parentName>System Administration</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Customer Community.Navigational:Workforce Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Workforce Management</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>6</position>
+        <topicDescription>Workforce management covers a range of activiies from maintaining employee details, entering and managing timesheets and leave through to recording employee benefits, issued items and adding confidential notes about an employee.</topicDescription>
+    </managedTopic>
+</ManagedTopics>

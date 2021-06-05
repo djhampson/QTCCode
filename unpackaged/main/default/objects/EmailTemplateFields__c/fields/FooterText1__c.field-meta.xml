@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FooterText1__c</fullName>
+    <defaultValue>&quot;Register now for Evolve 2016 to see our latest cloud and Ci Anywhere software and plan your roadmap for the future. Evolve offers great networking opportunities, customer case studies and access to our product and industry experts,&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>FooterText1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

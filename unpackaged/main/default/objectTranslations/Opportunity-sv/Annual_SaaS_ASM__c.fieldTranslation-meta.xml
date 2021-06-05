@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- First Year SaaS or Subscription ASM --></help>
+        <label><!-- First Year ASM --></label>
+        <name>Annual_SaaS_ASM__c</name>
+    </CustomFieldTranslation>

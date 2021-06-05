@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- FY 5 --></label>
+        <name>ARR_Financial_Year_5__c</name>
+        <relationshipLabel><!-- CRC Requests (ARR Financial Year 5) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule__c</fullName>
+    <description>indicate timeframe in which change needs to be implemented</description>
+    <externalId>false</externalId>
+    <inlineHelpText>indicate timeframe in which change needs to be implemented. E.G.: don&#39;t migrate until... OR: needs to be live by...</inlineHelpText>
+    <label>Schedule</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

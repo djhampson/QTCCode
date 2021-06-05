@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Process__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Process</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BS&amp;P Budgeting</fullName>
+                <default>false</default>
+                <label>BS&amp;P Budgeting</label>
+            </value>
+            <value>
+                <fullName>BS&amp;P Capital Planning</fullName>
+                <default>false</default>
+                <label>BS&amp;P Capital Planning</label>
+            </value>
+            <value>
+                <fullName>BS&amp;P Performance Planning</fullName>
+                <default>false</default>
+                <label>BS&amp;P Performance Planning</label>
+            </value>
+            <value>
+                <fullName>BS&amp;P Risk &amp; Sustainability</fullName>
+                <default>false</default>
+                <label>BS&amp;P Risk &amp; Sustainability</label>
+            </value>
+            <value>
+                <fullName>FM Financial Asset Management</fullName>
+                <default>false</default>
+                <label>FM Financial Asset Management</label>
+            </value>
+            <value>
+                <fullName>FM APRA Reporting</fullName>
+                <default>false</default>
+                <label>FM APRA Reporting</label>
+            </value>
+            <value>
+                <fullName>FM Manage Master Data</fullName>
+                <default>false</default>
+                <label>FM Manage Master Data</label>
+            </value>
+            <value>
+                <fullName>FM Journal Processing</fullName>
+                <default>false</default>
+                <label>FM Journal Processing</label>
+            </value>
+            <value>
+                <fullName>FM Financial Period Control</fullName>
+                <default>false</default>
+                <label>FM Financial Period Control</label>
+            </value>
+            <value>
+                <fullName>FM Account Reconciliation</fullName>
+                <default>false</default>
+                <label>FM Account Reconciliation</label>
+            </value>
+            <value>
+                <fullName>FM Taxation Management</fullName>
+                <default>false</default>
+                <label>FM Taxation Management</label>
+            </value>
+            <value>
+                <fullName>FM Treasury Management</fullName>
+                <default>false</default>
+                <label>FM Treasury Management</label>
+            </value>
+            <value>
+                <fullName>P&amp;EM Manage Master Data</fullName>
+                <default>false</default>
+                <label>P&amp;EM Manage Master Data</label>
+            </value>
+            <value>
+                <fullName>P&amp;EM Procure to Pay</fullName>
+                <default>false</default>
+                <label>P&amp;EM Procure to Pay</label>
+            </value>
+            <value>
+                <fullName>P&amp;EM Purchase Card Management</fullName>
+                <default>false</default>
+                <label>P&amp;EM Purchase Card Management</label>
+            </value>
+            <value>
+                <fullName>P&amp;EM Travel &amp; Expense Management</fullName>
+                <default>false</default>
+                <label>P&amp;EM Travel &amp; Expense Management</label>
+            </value>
+            <value>
+                <fullName>P&amp;EM Store Management</fullName>
+                <default>false</default>
+                <label>P&amp;EM Store Management</label>
+            </value>
+            <value>
+                <fullName>P&amp;EM Purchase Contract Management</fullName>
+                <default>false</default>
+                <label>P&amp;EM Purchase Contract Management</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Manage Master Data</fullName>
+                <default>false</default>
+                <label>S&amp;RM Manage Master Data</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Ad hoc Invoice Management</fullName>
+                <default>false</default>
+                <label>S&amp;RM Ad hoc Invoice Management</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Receipting &amp; Banking</fullName>
+                <default>false</default>
+                <label>S&amp;RM Receipting &amp; Banking</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Debt Management</fullName>
+                <default>false</default>
+                <label>S&amp;RM Debt Management</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Billing Management</fullName>
+                <default>false</default>
+                <label>S&amp;RM Billing Management</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Retail Billing</fullName>
+                <default>false</default>
+                <label>S&amp;RM Retail Billing</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Rent Billing</fullName>
+                <default>false</default>
+                <label>S&amp;RM Rent Billing</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Lease Contract Billing</fullName>
+                <default>false</default>
+                <label>S&amp;RM Lease Contract Billing</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Client Billing</fullName>
+                <default>false</default>
+                <label>S&amp;RM Client Billing</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Residential Financial Management</fullName>
+                <default>false</default>
+                <label>S&amp;RM Residential Financial Management</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Vessel Billing</fullName>
+                <default>false</default>
+                <label>S&amp;RM Vessel Billing</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Passenger Billing</fullName>
+                <default>false</default>
+                <label>S&amp;RM Passenger Billing</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Business Development (Sales)</fullName>
+                <default>false</default>
+                <label>S&amp;RM Business Development (Sales)</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Sales Contract Management</fullName>
+                <default>false</default>
+                <label>S&amp;RM Sales Contract Management</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Water Billing Management</fullName>
+                <default>false</default>
+                <label>S&amp;RM Water Billing Management</label>
+            </value>
+            <value>
+                <fullName>S&amp;RM Rates Management</fullName>
+                <default>false</default>
+                <label>S&amp;RM Rates Management</label>
+            </value>
+            <value>
+                <fullName>AM Strategic Asset Management</fullName>
+                <default>false</default>
+                <label>AM Strategic Asset Management</label>
+            </value>
+            <value>
+                <fullName>AM Water &amp; Waste Water Management</fullName>
+                <default>false</default>
+                <label>AM Water &amp; Waste Water Management</label>
+            </value>
+            <value>
+                <fullName>AM Facilities Management</fullName>
+                <default>false</default>
+                <label>AM Facilities Management</label>
+            </value>
+            <value>
+                <fullName>AM Fleet Management</fullName>
+                <default>false</default>
+                <label>AM Fleet Management</label>
+            </value>
+            <value>
+                <fullName>AM Storm Water Management</fullName>
+                <default>false</default>
+                <label>AM Storm Water Management</label>
+            </value>
+            <value>
+                <fullName>AM Roads Management</fullName>
+                <default>false</default>
+                <label>AM Roads Management</label>
+            </value>
+            <value>
+                <fullName>AM Open Space Management</fullName>
+                <default>false</default>
+                <label>AM Open Space Management</label>
+            </value>
+            <value>
+                <fullName>AM Energy Industry Model Assets Management</fullName>
+                <default>false</default>
+                <label>AM Energy Industry Model Assets Management</label>
+            </value>
+            <value>
+                <fullName>AM SCADA</fullName>
+                <default>false</default>
+                <label>AM SCADA</label>
+            </value>
+            <value>
+                <fullName>AM Request Management</fullName>
+                <default>false</default>
+                <label>AM Request Management</label>
+            </value>
+            <value>
+                <fullName>AM GIS</fullName>
+                <default>false</default>
+                <label>AM GIS</label>
+            </value>
+            <value>
+                <fullName>AM Workshop Management</fullName>
+                <default>false</default>
+                <label>AM Workshop Management</label>
+            </value>
+            <value>
+                <fullName>P&amp;PM Capital Project Management</fullName>
+                <default>false</default>
+                <label>P&amp;PM Capital Project Management</label>
+            </value>
+            <value>
+                <fullName>P&amp;PM General Project Management</fullName>
+                <default>false</default>
+                <label>P&amp;PM General Project Management</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Organisation Management</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Organisation Management</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Recruitment</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Recruitment</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Employee Development</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Employee Development</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Payroll Management</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Payroll Management</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM End of Month</fullName>
+                <default>false</default>
+                <label>HR&amp;PM End of Month</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM End of Year</fullName>
+                <default>false</default>
+                <label>HR&amp;PM End of Year</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Training</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Training</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Health &amp; Safety Management</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Health &amp; Safety Management</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Skills &amp; Qualification Management</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Skills &amp; Qualification Management</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Performance Management</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Performance Management</label>
+            </value>
+            <value>
+                <fullName>HR&amp;PM Workforce Management</fullName>
+                <default>false</default>
+                <label>HR&amp;PM Workforce Management</label>
+            </value>
+            <value>
+                <fullName>FNDM Client Management</fullName>
+                <default>false</default>
+                <label>FNDM Client Management</label>
+            </value>
+            <value>
+                <fullName>FNDM Case Management</fullName>
+                <default>false</default>
+                <label>FNDM Case Management</label>
+            </value>
+            <value>
+                <fullName>FNDM Marketing/Contact Management</fullName>
+                <default>false</default>
+                <label>FNDM Marketing/Contact Management</label>
+            </value>
+            <value>
+                <fullName>FNDM Grants Distribution</fullName>
+                <default>false</default>
+                <label>FNDM Grants Distribution</label>
+            </value>
+            <value>
+                <fullName>FNDM Grants Acquisition</fullName>
+                <default>false</default>
+                <label>FNDM Grants Acquisition</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Manage Master Data</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Manage Master Data</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Residential Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Residential Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Landlord Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Landlord Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Marina Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Marina Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Port Operations Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Port Operations Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Tenancy Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Tenancy Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Feedback Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Feedback Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Commercial Tenancy Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Commercial Tenancy Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Commercial Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Commercial Management</label>
+            </value>
+            <value>
+                <fullName>TP&amp;RM Property, Leases &amp; Licences Management</fullName>
+                <default>false</default>
+                <label>TP&amp;RM Property, Leases &amp; Licences Management</label>
+            </value>
+            <value>
+                <fullName>D&amp;RM Distribution</fullName>
+                <default>false</default>
+                <label>D&amp;RM Distribution</label>
+            </value>
+            <value>
+                <fullName>D&amp;RM Creation</fullName>
+                <default>false</default>
+                <label>D&amp;RM Creation</label>
+            </value>
+            <value>
+                <fullName>D&amp;RM Archiving / Disposal</fullName>
+                <default>false</default>
+                <label>D&amp;RM Archiving / Disposal</label>
+            </value>
+            <value>
+                <fullName>CSM Waste/Service Management</fullName>
+                <default>false</default>
+                <label>CSM Waste/Service Management</label>
+            </value>
+            <value>
+                <fullName>CSM Electoral Roll Management</fullName>
+                <default>false</default>
+                <label>CSM Electoral Roll Management</label>
+            </value>
+            <value>
+                <fullName>CSM Request Management</fullName>
+                <default>false</default>
+                <label>CSM Request Management</label>
+            </value>
+            <value>
+                <fullName>CSM Community Consultation</fullName>
+                <default>false</default>
+                <label>CSM Community Consultation</label>
+            </value>
+            <value>
+                <fullName>CSM Cemetery Management</fullName>
+                <default>false</default>
+                <label>CSM Cemetery Management</label>
+            </value>
+            <value>
+                <fullName>CSM Manage Master Data</fullName>
+                <default>false</default>
+                <label>CSM Manage Master Data</label>
+            </value>
+            <value>
+                <fullName>RM Infringements Management</fullName>
+                <default>false</default>
+                <label>RM Infringements Management</label>
+            </value>
+            <value>
+                <fullName>RM Enforcements</fullName>
+                <default>false</default>
+                <label>RM Enforcements</label>
+            </value>
+            <value>
+                <fullName>RM Development Application Management</fullName>
+                <default>false</default>
+                <label>RM Development Application Management</label>
+            </value>
+            <value>
+                <fullName>RM Approvals</fullName>
+                <default>false</default>
+                <label>RM Approvals</label>
+            </value>
+            <value>
+                <fullName>RM Trade Waste Management</fullName>
+                <default>false</default>
+                <label>RM Trade Waste Management</label>
+            </value>
+            <value>
+                <fullName>RM Water Regulatory Authority</fullName>
+                <default>false</default>
+                <label>RM Water Regulatory Authority</label>
+            </value>
+            <value>
+                <fullName>RM Permits and Licences</fullName>
+                <default>false</default>
+                <label>RM Permits and Licences</label>
+            </value>
+            <value>
+                <fullName>RM Animal Management</fullName>
+                <default>false</default>
+                <label>RM Animal Management</label>
+            </value>
+            <value>
+                <fullName>RM Bonds &amp; Guarantees</fullName>
+                <default>false</default>
+                <label>RM Bonds &amp; Guarantees</label>
+            </value>
+            <value>
+                <fullName>RM Certificate Management</fullName>
+                <default>false</default>
+                <label>RM Certificate Management</label>
+            </value>
+            <value>
+                <fullName>RM Register Management</fullName>
+                <default>false</default>
+                <label>RM Register Management</label>
+            </value>
+            <value>
+                <fullName>SRE Enquiries</fullName>
+                <default>false</default>
+                <label>SRE Enquiries</label>
+            </value>
+            <value>
+                <fullName>SRE Application</fullName>
+                <default>false</default>
+                <label>SRE Application</label>
+            </value>
+            <value>
+                <fullName>SRE Application Assessment</fullName>
+                <default>false</default>
+                <label>SRE Application Assessment</label>
+            </value>
+            <value>
+                <fullName>SRE Offers</fullName>
+                <default>false</default>
+                <label>SRE Offers</label>
+            </value>
+            <value>
+                <fullName>SRE Agents</fullName>
+                <default>false</default>
+                <label>SRE Agents</label>
+            </value>
+            <value>
+                <fullName>SA Student Self Service</fullName>
+                <default>false</default>
+                <label>SA Student Self Service</label>
+            </value>
+            <value>
+                <fullName>SA Curriculum Management</fullName>
+                <default>false</default>
+                <label>SA Curriculum Management</label>
+            </value>
+            <value>
+                <fullName>SA Fee Schedule Maintenance</fullName>
+                <default>false</default>
+                <label>SA Fee Schedule Maintenance</label>
+            </value>
+            <value>
+                <fullName>SA Class Timetabling</fullName>
+                <default>false</default>
+                <label>SA Class Timetabling</label>
+            </value>
+            <value>
+                <fullName>SA Enrolment</fullName>
+                <default>false</default>
+                <label>SA Enrolment</label>
+            </value>
+            <value>
+                <fullName>SA Assessment &amp; Progression</fullName>
+                <default>false</default>
+                <label>SA Assessment &amp; Progression</label>
+            </value>
+            <value>
+                <fullName>SA Completions</fullName>
+                <default>false</default>
+                <label>SA Completions</label>
+            </value>
+            <value>
+                <fullName>SA Student Finance</fullName>
+                <default>false</default>
+                <label>SA Student Finance</label>
+            </value>
+            <value>
+                <fullName>SA Scholarships &amp; Rewards</fullName>
+                <default>false</default>
+                <label>SA Scholarships &amp; Rewards</label>
+            </value>
+            <value>
+                <fullName>SA Higher Degree Research</fullName>
+                <default>false</default>
+                <label>SA Higher Degree Research</label>
+            </value>
+            <value>
+                <fullName>SA Student Support</fullName>
+                <default>false</default>
+                <label>SA Student Support</label>
+            </value>
+            <value>
+                <fullName>SA Appeals &amp; Reviews</fullName>
+                <default>false</default>
+                <label>SA Appeals &amp; Reviews</label>
+            </value>
+            <value>
+                <fullName>SA Government Compliance</fullName>
+                <default>false</default>
+                <label>SA Government Compliance</label>
+            </value>
+            <value>
+                <fullName>SA User Interface</fullName>
+                <default>false</default>
+                <label>SA User Interface</label>
+            </value>
+            <value>
+                <fullName>PPM Portfolio Management</fullName>
+                <default>false</default>
+                <label>PPM Portfolio Management</label>
+            </value>
+            <value>
+                <fullName>PPM Program Management</fullName>
+                <default>false</default>
+                <label>PPM Program Management</label>
+            </value>
+            <value>
+                <fullName>PPM Project Lifecycle Management</fullName>
+                <default>false</default>
+                <label>PPM Project Lifecycle Management</label>
+            </value>
+            <value>
+                <fullName>TMS Product</fullName>
+                <default>false</default>
+                <label>TMS Product</label>
+            </value>
+            <value>
+                <fullName>TMS Contacts</fullName>
+                <default>false</default>
+                <label>TMS Contacts</label>
+            </value>
+            <value>
+                <fullName>TMS Program</fullName>
+                <default>false</default>
+                <label>TMS Program</label>
+            </value>
+            <value>
+                <fullName>TMS Agreement</fullName>
+                <default>false</default>
+                <label>TMS Agreement</label>
+            </value>
+            <value>
+                <fullName>TMS Structured Training</fullName>
+                <default>false</default>
+                <label>TMS Structured Training</label>
+            </value>
+            <value>
+                <fullName>TMS Payment</fullName>
+                <default>false</default>
+                <label>TMS Payment</label>
+            </value>
+            <value>
+                <fullName>TMS Report</fullName>
+                <default>false</default>
+                <label>TMS Report</label>
+            </value>
+            <value>
+                <fullName>TMS Compliance</fullName>
+                <default>false</default>
+                <label>TMS Compliance</label>
+            </value>
+            <value>
+                <fullName>TMS Administration</fullName>
+                <default>false</default>
+                <label>TMS Administration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

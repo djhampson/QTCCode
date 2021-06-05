@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Level__c</fullName>
+    <description>Used by Techone Direct</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used by Techone Direct Only</inlineHelpText>
+    <label>z_Contact Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account at Risk</fullName>
+                <default>false</default>
+                <label>Account at Risk</label>
+            </value>
+            <value>
+                <fullName>Building Relationship</fullName>
+                <default>false</default>
+                <label>Building Relationship</label>
+            </value>
+            <value>
+                <fullName>Cancelled/No Account</fullName>
+                <default>false</default>
+                <label>Cancelled/No Account</label>
+            </value>
+            <value>
+                <fullName>No Action</fullName>
+                <default>false</default>
+                <label>No Action</label>
+            </value>
+            <value>
+                <fullName>No Contact</fullName>
+                <default>false</default>
+                <label>No Contact</label>
+            </value>
+            <value>
+                <fullName>Opportunity Dev</fullName>
+                <default>false</default>
+                <label>Opportunity Dev</label>
+            </value>
+            <value>
+                <fullName>Problem Solving</fullName>
+                <default>false</default>
+                <label>Problem Solving</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

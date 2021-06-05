@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Customers asking about COVID-19 (Coronavirus)
+(*have not used word criteria for &#39;corona&#39; or &#39;virus&#39;  in the description as it brings up email signatures (virus) and also coronation addresses... have only used those words in subject criteria)</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+        <criteriaItems>
+            <column>CREATED_DATEONLY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>THIS_YEAR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>TB,GM,RH,UK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.Service_Request,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>COVID,CORONA,COVID19,COVID-19,COVID 19,VIRUS,DISEASE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>DESCRIPTION</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>COVID,COVID19,COVID-19,COVID 19,DISEASE</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact.Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Customers asking about COVID-19</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

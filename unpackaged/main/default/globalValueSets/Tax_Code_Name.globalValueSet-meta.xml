@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>GST-C</fullName>
+        <default>false</default>
+        <label>GST-C</label>
+    </customValue>
+    <customValue>
+        <fullName>NZGST-C</fullName>
+        <default>false</default>
+        <label>NZGST-C</label>
+    </customValue>
+    <customValue>
+        <fullName>MSST-S</fullName>
+        <default>false</default>
+        <label>MSST-S</label>
+    </customValue>
+    <customValue>
+        <fullName>VAT-S</fullName>
+        <default>false</default>
+        <label>VAT-S</label>
+    </customValue>
+    <customValue>
+        <fullName>PGT-C</fullName>
+        <default>false</default>
+        <label>PGT-C</label>
+    </customValue>
+    <customValue>
+        <fullName>GST-E</fullName>
+        <default>false</default>
+        <label>GST-E</label>
+    </customValue>
+    <masterLabel>Tax Code Name</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Customer_Type_Required</fullName>
+    <active>true</active>
+    <description>Customer Account Type is required when create a new case.</description>
+    <errorConditionFormula>ISNEW()
+&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c ) 
+&amp;&amp; NOT(ISPICKVAL(Origin, &#39;Email&#39;) &amp;&amp; NOT(ISBLANK(SuppliedEmail))) 
+&amp;&amp; RecordType.Name &lt;&gt; &#39;Change Control&#39; 
+&amp;&amp; RecordType.Name &lt;&gt; &#39;Consulting - Question&#39; 
+&amp;&amp; Text(Account.Type) &lt;&gt; &#39;Customer&#39;
+&amp;&amp; Text(Account.Type) &lt;&gt; &#39;Shared Services&#39;
+&amp;&amp; Account.Name &lt;&gt; &#39;TechnologyOne&#39; 
+&amp;&amp; Account.Name &lt;&gt; &#39;TechnologyOne - UK&#39;
+&amp;&amp; Account.Name &lt;&gt; &#39;TechnologyOne Corporate&#39; 
+&amp;&amp; (TEXT($User.UserType) = &#39;Standard&#39; || 
+TEXT($User.UserType) = &#39;PowerPartner&#39;)</errorConditionFormula>
+    <errorMessage>Cases may only be added to Accounts where the Account Type is Customer or Shared Services.</errorMessage>
+</ValidationRule>

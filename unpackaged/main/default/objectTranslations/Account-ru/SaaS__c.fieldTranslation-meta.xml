@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please DO NOT send ASM Listing to customer. Refer query to T1LicenceCodes.
+Customers who pay subscription licence and are on T1 Cloud --></help>
+        <label><!-- SaaS --></label>
+        <name>SaaS__c</name>
+    </CustomFieldTranslation>

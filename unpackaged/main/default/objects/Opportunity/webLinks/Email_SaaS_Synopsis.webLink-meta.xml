@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_SaaS_Synopsis</fullName>
+    <availability>online</availability>
+    <description>Email SaaS Synopsis</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>SaaS Synopsis</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/_ui/core/email/author/EmailAuthor?rtype=003&amp;p2_lkid=0030f00002u26HgAAI&amp;p3_lkid={!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}&amp;p5=&amp;template_id=00XG0000002JtVp</url>
+</WebLink>

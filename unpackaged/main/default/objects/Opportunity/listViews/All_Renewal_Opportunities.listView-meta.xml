@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Renewal_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Initial_Period_Increase_Rate__c</columns>
+    <columns>Original_Service_Contract__c</columns>
+    <columns>Deal_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>equals</operation>
+        <value>Renewal Opportunity</value>
+    </filters>
+    <filters>
+        <field>Deal_Type__c</field>
+        <operation>equals</operation>
+        <value>Perpetual</value>
+    </filters>
+    <label>All Renewal Opportunities</label>
+</ListView>

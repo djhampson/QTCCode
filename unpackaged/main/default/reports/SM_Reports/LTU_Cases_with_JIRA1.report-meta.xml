@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Name</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Resolution__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Status__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Component__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Fix_Version__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Issue_Type__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Developer_Analysis__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>LTU Cases with JIRA</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$Customer_Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Student Management (SM)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>In Progress,On Hold,Escalated</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Account</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>La trobe university</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>LTU Cases with JIRA</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Jira_Case_Management__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case.Jira_Dev_Issues__r$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2016-11-07</startDate>
+    </timeFrameFilter>
+</Report>

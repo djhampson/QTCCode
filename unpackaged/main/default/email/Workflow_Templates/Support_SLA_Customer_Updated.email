@@ -1,0 +1,6 @@
+Account Name: {!Account.Name}
+Support SLA Customer: {!Account.Support_SLA_Customer__c}
+Account Link: {!Account.Link}
+
+A contract has been updated that may have changed the Support SLA Customer Indicator on the account. 
+Please check the account and customer contracts.

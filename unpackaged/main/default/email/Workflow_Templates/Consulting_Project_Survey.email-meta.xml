@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Opportunity Project Stage Surveys</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Consulting Project Survey</name>
+    <style>none</style>
+    <subject>It&#39;s time to have your say about the {!OpportunityContactRole.Project_Stage_Completed__c} phase of your TechnologyOne project</subject>
+    <textOnly>Hi {!OpportunityContactRole.Contact_First_Name__c},
+
+Tell us what you want to see more of. Tell us what you love and we&#39;ll make it better.
+
+Project:  {!OpportunityContactRole.Project_Name__c}
+Overview:  {!OpportunityContactRole.Opportunity_Overview__c}
+
+We want to provide you with truly loveable products and services that transform your business and make life simple. Your experience with TechnologyOne Consulting is pivotal to this. We are committed to providing a compelling customer experience at all key touchpoints and we know that the key to that is genuine customer feedback - which is why we need your help.
+
+In this survey we would like to know about the {!OpportunityContactRole.Project_Stage_Completed__c} Phase of your TechnologyOne project, in particular your experience and engagement with our Consulting team.
+
+Our survey will take you just 2 minutes to fill out, and will give you the chance to provide valuable feedback and shape the future of our business.
+
+COMPLETE THE SURVEY
+
+
+
+Thank you for your support.
+
+Regards,
+Brock Douglas
+Operating Officer- Consulting.
+TechnologyOne
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobilisation_Plan_VIC</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6) AND 7</booleanFilter>
+    <columns>Group_Region__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>T1_Close_Month__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date_of_Engagement__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Licence_Fee</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_QUARTER</value>
+    </filters>
+    <filters>
+        <field>Amount_1__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>AUD 100000</value>
+    </filters>
+    <filters>
+        <field>ARR1__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>AUD 50000</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Region__c</field>
+        <operation>equals</operation>
+        <value>03 - VIC</value>
+    </filters>
+    <label>Mobilisation Plan - VIC</label>
+    <sharedTo>
+        <role>Victoria_Regional_Manager</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fee_Structure__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This fee structure relates to SaaS, Licence, ASM, Cloud or other Annual fees. It does not apply to fees to implementation or consulting services fees. If Bespoke, refer to Other Finance Commercial notes.</inlineHelpText>
+    <label>Fee Structure</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual + CPI</fullName>
+                <default>false</default>
+                <label>Annual + Indexation</label>
+            </value>
+            <value>
+                <fullName>Fixed</fullName>
+                <default>false</default>
+                <label>Fixed</label>
+            </value>
+            <value>
+                <fullName>Fixed for Initial Period + CPI</fullName>
+                <default>false</default>
+                <label>Fixed for Initial Period then Indexed</label>
+            </value>
+            <value>
+                <fullName>Bespoke</fullName>
+                <default>false</default>
+                <label>Bespoke</label>
+            </value>
+            <value>
+                <fullName>Upfront Licence Fee + Annual Fees subject to CPI</fullName>
+                <default>false</default>
+                <label>Upfront Licence Fee + Annual Fees subject to Indexation</label>
+            </value>
+            <value>
+                <fullName>None - No Fees or Charges Apply</fullName>
+                <default>false</default>
+                <label>None - No Fees or Charges Apply</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

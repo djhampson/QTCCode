@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Sub Region --></label>
+        <name>Sub_Region__c</name>
+        <picklistValues>
+            <masterLabel>England</masterLabel>
+            <translation><!-- England --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isle of Man</masterLabel>
+            <translation><!-- Isle of Man --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republic of Ireland</masterLabel>
+            <translation><!-- Republic of Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scotland</masterLabel>
+            <translation><!-- Scotland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wales</masterLabel>
+            <translation><!-- Wales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>​Northern Ireland</masterLabel>
+            <translation><!-- ​Northern Ireland --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ApplyAdditionalDiscountLast__c</fullName>
+    <description>In order to have the correct price on the Order Products you will also need to create the same field named ApplyAdditionalDiscountLast__c on the Order object (as per the quote object)</description>
+    <externalId>false</externalId>
+    <formula>1</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ApplyAdditionalDiscountLast</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

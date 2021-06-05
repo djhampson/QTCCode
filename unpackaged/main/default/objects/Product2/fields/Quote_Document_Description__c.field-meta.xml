@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Document_Description__c</fullName>
+    <description>This will populate on the Quote document as quote line description</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This will populate on the Quote document as quote line description</inlineHelpText>
+    <label>Quote Document Description</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

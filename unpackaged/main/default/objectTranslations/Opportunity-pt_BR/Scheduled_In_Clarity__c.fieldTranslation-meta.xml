@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Scheduled In Clarity --></label>
+        <name>Scheduled_In_Clarity__c</name>
+        <picklistValues>
+            <masterLabel>Assignment complete</masterLabel>
+            <translation><!-- Assignment complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Named resource assigned</masterLabel>
+            <translation><!-- Named resource assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource demand created</masterLabel>
+            <translation><!-- Resource demand created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource requirement sent to PMO</masterLabel>
+            <translation><!-- Resource requirement sent to PMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To be classified</masterLabel>
+            <translation><!-- To be classified --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

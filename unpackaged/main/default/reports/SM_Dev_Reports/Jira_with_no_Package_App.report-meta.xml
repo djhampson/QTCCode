@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Name</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Jira with no Package/App</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$Customer_Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Student Management (SM)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Suspected_Package_App__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notContain</operator>
+            <value>Agreements,Core,Course Structure and Planning,CSP,Data Conversion,Enquiries,Exams,Progressions,Completions,Graduations,External Organisations,Finance,Government Compliance,GV1,GV2,GV3,GV4,AVETMISS,Government Web Services,HEIMS,Integration,Pathways,Scholarships,Prizes,Rewards,Student Administration,Student Studies,Timetabling,Web Applications,eStudent,eApplications,eAcademic,Web Services,SM\Agreements,SM\Core,SM\Course Struct and Planning,SM\CSP,SM\Data Conversion,SM\Enquiries,SM\Exams,SM\Progressions,SM\Completions,SM\Graduations,SM\External Organisations,SM\Finance,SM\Govt Compliance,SM\GV1,SM\GV2,SM\GV3,SM\GV4,SM\AVETMISS,SM\Government Web Services,SM\HEIMS,SM\Integration,SM\Pathways,SM\Scholarships,SM\Prizes,SM\Rewards,SM\Student Admin,SM\Student Studies,SM\Timetabling,SM\Web Applications,SM\eStudent,SM\eApplications,SM\eAcademic,SM\Web Ser</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Jira_Issue_No__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$CTechnology__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Ci Anywhere,Cloud</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Resolved,Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Jira_Dev_Issues__r$Issue_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Support Triage</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$RecordType</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Case.Change_Control,Case.Problem,Case.Service_Request,Case.I_require_an_AMS_service,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$Owner</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notContain</operator>
+            <value>Cloud</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Jira_Dev_Issues__r$Issue_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Jira with no Package/App</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Jira_Case_Management__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Case$CaseNumber</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Case.Jira_Dev_Issues__r$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2015-08-03</startDate>
+    </timeFrameFilter>
+</Report>

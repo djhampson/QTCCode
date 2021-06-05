@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Month__c</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>AMOUNT_WON</columns>
+    <columns>Vertical_Market__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Vertical_Market__c</field>
+        <operation>includes</operation>
+        <value>Education</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>equals</operation>
+        <value>Not started,Locked In</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>notEqual</operation>
+        <value>Email - One off,Training,Webinar - Training</value>
+    </filters>
+    <label>Industry - Education</label>
+</ListView>

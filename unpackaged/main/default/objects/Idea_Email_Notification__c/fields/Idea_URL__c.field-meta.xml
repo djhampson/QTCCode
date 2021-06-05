@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Idea_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(User__r.UserType, &quot;Standard&quot;, $Setup.T1_Control_Settings__c.Internal_URL__c &amp; &quot;/lightning/cmp/acideas__brIdeaDetails?acideas__recordId=&quot; &amp; Idea__r.Id, 
+&quot;PowerPartner&quot;, $Setup.T1_Control_Settings__c.Employee_Community_URL__c &amp; &quot;/s/idea/&quot; &amp; Idea__r.Id,
+&quot;CspLitePortal&quot;, $Setup.T1_Control_Settings__c.Customer_Community_URL__c &amp; &quot;/s/idea/&quot; &amp; Idea__r.Id, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Idea URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

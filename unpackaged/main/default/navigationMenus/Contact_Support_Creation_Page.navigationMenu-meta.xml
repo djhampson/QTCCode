@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>T1 Customer Community</container>
+    <containerType>Network</containerType>
+    <label>Contact Support Creation Page</label>
+    <navigationMenuItem>
+        <label>Logging a New Case</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/article/How-to-raise-a-new-case</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Choosing the right priority</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/article/Choosing-the-right-priority-for-Support-Cases</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Identifying your release</label>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/article/How-to-Identify-Your</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Running Diagnostics</label>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/topic/0TO5K00000001WsWAI/diagnostics</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Steps to Reproduce Tips</label>
+        <position>5</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/article/Steps-to-reproduce-tips</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

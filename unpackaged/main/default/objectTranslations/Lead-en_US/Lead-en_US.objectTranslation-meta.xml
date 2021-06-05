@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Bizible Insights --></label>
+            <section>Bizible Insights</section>
+        </sections>
+        <sections>
+            <label><!-- Bizible Touchpoint --></label>
+            <section>Bizible Touchpoint</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Information --></label>
+            <section>Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Company Profile --></label>
+            <section>Company Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Email Preference --></label>
+            <section>Email Preference</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo Sales Insights --></label>
+            <section>Marketo Sales Insights</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lead Task --></label>
+        <name>New_Task_on_Lead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Please select a Status Reason --></errorMessage>
+        <name>Status_Reason_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Convert_Lead --></label>
+        <name>Convert_Lead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Managed_Services__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>T1_Industry__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Farming, Processing, Manufacturing, Distribution</fullName>
+                <default>false</default>
+                <label>Farming, Processing, Manufacturing, Distribution</label>
+            </value>
+            <value>
+                <fullName>IT and Telecommunications</fullName>
+                <default>false</default>
+                <label>IT and Telecommunications</label>
+            </value>
+            <value>
+                <fullName>Professional Services and Recruitment</fullName>
+                <default>false</default>
+                <label>Professional Services and Recruitment</label>
+            </value>
+            <value>
+                <fullName>Property Investment</fullName>
+                <default>false</default>
+                <label>Property Investment</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+            <value>
+                <fullName>Transport and Logistics</fullName>
+                <default>false</default>
+                <label>Transport and Logistics</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+            <value>
+                <fullName>Electricity</fullName>
+                <default>false</default>
+                <label>Electricity</label>
+            </value>
+            <value>
+                <fullName>Gas</fullName>
+                <default>false</default>
+                <label>Gas</label>
+            </value>
+            <value>
+                <fullName>Renewables</fullName>
+                <default>false</default>
+                <label>Renewables</label>
+            </value>
+            <value>
+                <fullName>Ports</fullName>
+                <default>false</default>
+                <label>Ports</label>
+            </value>
+            <value>
+                <fullName>Airports</fullName>
+                <default>false</default>
+                <label>Airports</label>
+            </value>
+            <value>
+                <fullName>Road</fullName>
+                <default>false</default>
+                <label>Road</label>
+            </value>
+            <value>
+                <fullName>Rail</fullName>
+                <default>false</default>
+                <label>Rail</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Continuous Processing</fullName>
+                <default>false</default>
+                <label>Continuous Processing</label>
+            </value>
+            <value>
+                <fullName>Stadiums &amp; Facilities</fullName>
+                <default>false</default>
+                <label>Stadiums &amp; Facilities</label>
+            </value>
+            <value>
+                <fullName>Emergency Services</fullName>
+                <default>false</default>
+                <label>Emergency Services</label>
+            </value>
+            <value>
+                <fullName>Plant &amp; Fleet</fullName>
+                <default>false</default>
+                <label>Plant &amp; Fleet</label>
+            </value>
+            <value>
+                <fullName>Property Development</fullName>
+                <default>false</default>
+                <label>Property Development</label>
+            </value>
+            <value>
+                <fullName>Infrastructure Development</fullName>
+                <default>false</default>
+                <label>Infrastructure Development</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Residential</fullName>
+                <default>false</default>
+                <label>Residential</label>
+            </value>
+            <value>
+                <fullName>Construction Services</fullName>
+                <default>false</default>
+                <label>Construction Services</label>
+            </value>
+            <value>
+                <fullName>Engineering Services</fullName>
+                <default>false</default>
+                <label>Engineering Services</label>
+            </value>
+            <value>
+                <fullName>Maintenance Services</fullName>
+                <default>false</default>
+                <label>Maintenance Services</label>
+            </value>
+            <value>
+                <fullName>Other Service Providers</fullName>
+                <default>false</default>
+                <label>Other Service Providers</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Major Facilities &amp; Fleet</controllingFieldValue>
+            <valueName>Stadiums &amp; Facilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Major Facilities &amp; Fleet</controllingFieldValue>
+            <valueName>Emergency Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Major Facilities &amp; Fleet</controllingFieldValue>
+            <valueName>Plant &amp; Fleet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property &amp; Infrastructure</controllingFieldValue>
+            <valueName>Property Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property &amp; Infrastructure</controllingFieldValue>
+            <valueName>Infrastructure Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Residential</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Construction Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Providers</controllingFieldValue>
+            <valueName>Engineering Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Providers</controllingFieldValue>
+            <valueName>Maintenance Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Providers</controllingFieldValue>
+            <valueName>Other Service Providers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Corporate</controllingFieldValue>
+            <valueName>Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Corporate</controllingFieldValue>
+            <valueName>Farming, Processing, Manufacturing, Distribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Corporate</controllingFieldValue>
+            <valueName>IT and Telecommunications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Corporate</controllingFieldValue>
+            <valueName>Professional Services and Recruitment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Corporate</controllingFieldValue>
+            <valueName>Property Investment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Corporate</controllingFieldValue>
+            <valueName>Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other Corporate</controllingFieldValue>
+            <valueName>Transport and Logistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities</controllingFieldValue>
+            <valueName>Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities</controllingFieldValue>
+            <valueName>Electricity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities</controllingFieldValue>
+            <valueName>Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Utilities</controllingFieldValue>
+            <valueName>Renewables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Infrastructure</controllingFieldValue>
+            <valueName>Ports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Infrastructure</controllingFieldValue>
+            <valueName>Airports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Infrastructure</controllingFieldValue>
+            <valueName>Road</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Infrastructure</controllingFieldValue>
+            <valueName>Rail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining &amp; Processing</controllingFieldValue>
+            <valueName>Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining &amp; Processing</controllingFieldValue>
+            <valueName>Continuous Processing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

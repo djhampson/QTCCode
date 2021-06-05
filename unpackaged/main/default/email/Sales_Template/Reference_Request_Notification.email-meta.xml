@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification - Reference request has been submitted</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>Reference Request Notification</name>
+    <style>freeForm</style>
+    <subject>Reference request to contact {!CustomerStory__c.Account__c} Notification</subject>
+    <textOnly>Request to contact {!CustomerStory__c.Account__c}
+Hi {!Customer_Story_Workflow_Requests__c.Account_Owner__c},
+
+A request has been submitted to contact this account for reference purposes. If you have any questions or concerns, please email: CRP@technologyonecorp.com within 24hrs otherwise we will proceed with the reference process. Specific details around type of reference and approximate date are as below:
+
+Account:{!CustomerStory__c.Account__c}
+Reference No:{!Customer_Story_Workflow_Requests__c.Customer_Story__c}
+Approximate Date:{!Customer_Story_Workflow_Requests__c.Approximate_Date__c}
+Type:{!Customer_Story_Workflow_Requests__c.Type__c}
+Priority:{!Customer_Story_Workflow_Requests__c.Priority}
+
+Requirement Overview:
+{!Customer_Story_Workflow_Requests__c.Details__c}
+
+Reference link {!Customer_Story_Workflow_Requests__c.Link}
+
+Kind Regards
+{!User.Name}
+{!User.Title}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

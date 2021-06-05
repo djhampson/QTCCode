@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>CRC_Action_Notice</fullName>
+        <description>CRC Action Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Assigned_To__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Workflow_Templates/CRC_Action_Notice</template>
+    </alerts>
+    <rules>
+        <fullName>CRC%3A Action Notice</fullName>
+        <actions>
+            <name>CRC_Action_Notice</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>CRC_Request_Action__c.Completed__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

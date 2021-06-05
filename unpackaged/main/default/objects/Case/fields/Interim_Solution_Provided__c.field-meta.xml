@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interim_Solution_Provided__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Denotes whether an Interim Solution was provided. Affects the Update milestone behaviour.</description>
+    <externalId>false</externalId>
+    <label>Interim Solution Provided</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

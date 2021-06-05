@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Network.NetworkMembers.FeedItems$DerivedFeedItem</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Grouped by reporting tags and quarter</description>
+    <filter>
+        <criteriaItems>
+            <column>Network$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>T1 customer Community</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Network.NetworkMembers.FeedItems$BestComment.CreatedBy.Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>PM,CD,MV,GG,PK,LB,GF,UK,CCM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>FiscalQuarter</dateGranularity>
+        <field>Network.NetworkMembers.FeedItems$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Network.NetworkMembers.FeedItems$BestComment.CreatedBy.Reporting_Tags__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Network.NetworkMembers.FeedItems$BestComment.CreatedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Best Answers from Support</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Questions_by_Account__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Network.NetworkMembers.FeedItems$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

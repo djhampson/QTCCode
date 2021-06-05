@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Idea$Title</field>
+    </columns>
+    <columns>
+        <field>Idea.Comments$CommentBody</field>
+    </columns>
+    <columns>
+        <field>Idea.Comments$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Idea.Comments$CreatedBy</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Idea$Community</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Customer</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Idea Comments Created Today</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Ideas_with_Comments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Idea.Comments$CreatedDate</dateColumn>
+        <interval>INTERVAL_TODAY</interval>
+    </timeFrameFilter>
+</Report>

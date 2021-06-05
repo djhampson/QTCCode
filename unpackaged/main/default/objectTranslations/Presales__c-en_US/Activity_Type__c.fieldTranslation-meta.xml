@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Activity Type --></label>
+        <name>Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account Planning</masterLabel>
+            <translation><!-- Account Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bid Meeting</masterLabel>
+            <translation><!-- Bid Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Meeting/Call</masterLabel>
+            <translation><!-- Customer Meeting/Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Follow Up</masterLabel>
+            <translation><!-- Demo Follow Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Prep</masterLabel>
+            <translation><!-- Demo Prep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Prep - Assistance</masterLabel>
+            <translation><!-- Demo Prep - Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Shadowing</masterLabel>
+            <translation><!-- Demo Shadowing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo System Maintenance</masterLabel>
+            <translation><!-- Demo System Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demonstration</masterLabel>
+            <translation><!-- Demonstration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovery</masterLabel>
+            <translation><!-- Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Meeting</masterLabel>
+            <translation><!-- Internal Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mentoring</masterLabel>
+            <translation><!-- Mentoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;D Work</masterLabel>
+            <translation><!-- R&amp;D Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Events (e.g. showcase etc)</masterLabel>
+            <translation><!-- T1 Events (e.g. showcase etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tender</masterLabel>
+            <translation><!-- Tender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Attending</masterLabel>
+            <translation><!-- Training Attending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Prep</masterLabel>
+            <translation><!-- Training Prep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Teaching</masterLabel>
+            <translation><!-- Training Teaching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel time</masterLabel>
+            <translation><!-- Travel time --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

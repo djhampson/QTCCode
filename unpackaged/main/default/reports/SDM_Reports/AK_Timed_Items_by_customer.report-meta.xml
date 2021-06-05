@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>vftimer__TimedItem__c.vftimer__Time__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CUST_LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_SUBJECT</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c.vftimer__WorkType__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Case.Customer_Product__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>List of timed items for date range by specific customer</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Case.Account_SDM__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Niki Johnson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>vftimer__TimedItem__c.vftimer__WorkType__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Issue Resolution,Scheduling,Project Management / Coordination,Service Delivery Management - Value Add,Minda Project,Support - Triage (Non-billable),Support - Escalation (Non-billable)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_ACC_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Australian Community Support</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>AK - Timed Items - by customer</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$vftimer__TimedItem__c@vftimer__TimedItem__c.vftimer__Case__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>FK_ACC_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>vftimer__TimedItem__c.vftimer__DateImplemented__c</dateColumn>
+        <endDate>2020-07-21</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2019-10-01</startDate>
+    </timeFrameFilter>
+</Report>

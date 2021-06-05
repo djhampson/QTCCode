@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Refer to the SaaS Snapshot Release - Process and Schedule knowledge article for information on Fastline/Mainline. --></help>
+        <label><!-- SaaS Service Request Type --></label>
+        <name>SaaS_Service_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Crystal Desktop</masterLabel>
+            <translation><!-- Crystal Desktop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drag-it-in</masterLabel>
+            <translation><!-- Drag-it-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Configuration</masterLabel>
+            <translation><!-- Email Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environment Refresh</masterLabel>
+            <translation><!-- Environment Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environment Upgrade</masterLabel>
+            <translation><!-- Environment Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Move from Fastline to Mainline</masterLabel>
+            <translation><!-- Move from Fastline to Mainline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Move from Mainline to Fastline</masterLabel>
+            <translation><!-- Move from Mainline to Fastline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFTP</masterLabel>
+            <translation><!-- SFTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scanwatcher</masterLabel>
+            <translation><!-- Scanwatcher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eService Configuration Update</masterLabel>
+            <translation><!-- eService Configuration Update --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

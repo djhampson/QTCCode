@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(Opportunity__r.Solution__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The standard solution is selected when we respond to the customer with that solution. If we respond with a different marketing solution label, the standard solution is referenced when used as basis or starting point to determine our implementation effort.</inlineHelpText>
+    <label>Standard Solution</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

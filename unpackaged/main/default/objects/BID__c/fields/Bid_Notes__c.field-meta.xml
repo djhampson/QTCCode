@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bid_Notes__c</fullName>
+    <description>Bid Notes</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Bid Notes are used to enter any relevant observation or note to the bid.</inlineHelpText>
+    <label>Bid Notes</label>
+    <length>1000</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

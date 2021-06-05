@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agreement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agreements</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>SC Service Contract Layout</layout>
+        <sections>
+            <label><!-- Amendment Process --></label>
+            <section>Amendment Process</section>
+        </sections>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Key Information --></label>
+            <section>Contract Key Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+        <sections>
+            <label><!-- SteelBrick Information --></label>
+            <section>SteelBrick Information</section>
+        </sections>
+        <sections>
+            <label><!-- To Delete --></label>
+            <section>To Delete</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Contract Layout</layout>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>T1 Service Contract Layout</layout>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TechOne Service Contract Layout</layout>
+        <sections>
+            <label><!-- Amendment Process --></label>
+            <section>Amendment Process</section>
+        </sections>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Key Information --></label>
+            <section>Contract Key Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+        <sections>
+            <label><!-- SteelBrick Information --></label>
+            <section>SteelBrick Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

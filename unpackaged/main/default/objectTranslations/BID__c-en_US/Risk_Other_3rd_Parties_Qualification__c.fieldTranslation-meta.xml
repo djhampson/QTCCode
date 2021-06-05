@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Functionality to be added:
+
+Please select from list standard Risk items that apply to this bid. --></help>
+        <label><!-- Standard Risk Items --></label>
+        <name>Risk_Other_3rd_Parties_Qualification__c</name>
+    </CustomFieldTranslation>

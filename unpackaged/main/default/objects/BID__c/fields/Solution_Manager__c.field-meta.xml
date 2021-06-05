@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Solution Manager</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only TechOne Employees who have employee classification of Solution Manager will show up in search.</inlineHelpText>
+    <label>Solution Manager</label>
+    <lookupFilter>
+        <active>false</active>
+        <errorMessage>Employee Contact does not exist or does not exist as Solution Manager</errorMessage>
+        <filterItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Technology One Employee</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.Employee_Classification__c</field>
+            <operation>equals</operation>
+            <value>Solution Manager</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Bids (Solution Manager)</relationshipLabel>
+    <relationshipName>Bids1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

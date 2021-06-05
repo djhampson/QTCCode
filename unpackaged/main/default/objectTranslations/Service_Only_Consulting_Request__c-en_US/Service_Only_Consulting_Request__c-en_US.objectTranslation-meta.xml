@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Only/Consulting Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Only/Consulting Request</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Service Only/Consulting Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Date Start can not be more than Date End! --></errorMessage>
+        <name>Date_Start_can_not_be_more_than_Date_End</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Number of Days entered more than End Date - Start Date! --></errorMessage>
+        <name>Num_Days_More_Than_Start_and_End_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

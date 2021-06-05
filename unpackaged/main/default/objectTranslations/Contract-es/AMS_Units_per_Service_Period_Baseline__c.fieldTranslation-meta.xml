@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- AMS Units per Service Period (Baseline) --></label>
+        <name>AMS_Units_per_Service_Period_Baseline__c</name>
+    </CustomFieldTranslation>

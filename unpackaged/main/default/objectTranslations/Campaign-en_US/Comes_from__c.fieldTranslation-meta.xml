@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Comes from --></label>
+        <name>Comes_from__c</name>
+        <picklistValues>
+            <masterLabel>CONSOL</masterLabel>
+            <translation><!-- CONSOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORPORATE</masterLabel>
+            <translation><!-- CORPORATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEORGIE</masterLabel>
+            <translation><!-- GEORGIE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAMES</masterLabel>
+            <translation><!-- JAMES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KARINA</masterLabel>
+            <translation><!-- KARINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEIGH</masterLabel>
+            <translation><!-- LEIGH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROCHELLE</masterLabel>
+            <translation><!-- ROCHELLE --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

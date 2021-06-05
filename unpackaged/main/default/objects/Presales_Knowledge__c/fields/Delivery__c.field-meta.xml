@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>On-premise; SaaS</inlineHelpText>
+    <label>Delivery</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On-premise</fullName>
+                <default>false</default>
+                <label>On-premise</label>
+            </value>
+            <value>
+                <fullName>SaaS</fullName>
+                <default>false</default>
+                <label>SaaS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

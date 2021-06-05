@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What was the customers/prospects view of the quality of our proposal/tender response? --></help>
+        <label><!-- Quality of TechOne Proposal --></label>
+        <name>Quality_of_T1_Proposal__c</name>
+    </CustomFieldTranslation>

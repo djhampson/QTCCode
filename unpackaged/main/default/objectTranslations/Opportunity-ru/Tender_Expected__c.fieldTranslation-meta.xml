@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tender Type --></label>
+        <name>Tender_Expected__c</name>
+        <picklistValues>
+            <masterLabel>BAFO</masterLabel>
+            <translation><!-- BAFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EOI</masterLabel>
+            <translation><!-- EOI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow Up</masterLabel>
+            <translation><!-- Follow Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITO</masterLabel>
+            <translation><!-- ITO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITT</masterLabel>
+            <translation><!-- ITT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PQQ</masterLabel>
+            <translation><!-- PQQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI</masterLabel>
+            <translation><!-- RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFT</masterLabel>
+            <translation><!-- RFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROI</masterLabel>
+            <translation><!-- ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Proposal</masterLabel>
+            <translation><!-- Upgrade Proposal --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

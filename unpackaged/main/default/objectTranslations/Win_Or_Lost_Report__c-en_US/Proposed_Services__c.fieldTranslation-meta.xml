@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Did the proposed services meet all the customer/prospects requirements? --></help>
+        <label><!-- Delivery of Proposed Services --></label>
+        <name>Proposed_Services__c</name>
+    </CustomFieldTranslation>

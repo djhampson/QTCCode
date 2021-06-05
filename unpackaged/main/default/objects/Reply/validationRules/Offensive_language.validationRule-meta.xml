@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offensive_language</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+CONTAINS(LOWER(Body), &#39;fuck&#39;), 
+CONTAINS(LOWER(Body), &#39;shit&#39;), 
+CONTAINS(LOWER(Body), &#39;piss&#39;), 
+CONTAINS(LOWER(Body), &#39;bugger&#39;), 
+CONTAINS(LOWER(Body), &#39;dick&#39;), 
+CONTAINS(LOWER(Body), &#39;wanker&#39;), 
+CONTAINS(LOWER(Body), &#39;cunt&#39;), 
+CONTAINS(LOWER(Body), &#39;bitch&#39;),
+CONTAINS(LOWER(Body), &#39;bastard&#39;),
+CONTAINS(LOWER(Body), &#39; arse&#39;), 
+CONTAINS(LOWER(Body), &#39;asshole&#39;),
+CONTAINS(LOWER(Body), &#39;whore&#39;),
+CONTAINS(LOWER(Body), &#39;pussy&#39;),
+CONTAINS(LOWER(Body), &#39;slut&#39;),
+CONTAINS(Body, &#39; cock &#39;)) &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorMessage>Please refrain from using offensive language.</errorMessage>
+</ValidationRule>

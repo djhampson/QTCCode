@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T1_Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Segment</label>
+    <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Vertical_Market__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>State Government</fullName>
+                <default>false</default>
+                <label>State Government</label>
+            </value>
+            <value>
+                <fullName>Federal Government</fullName>
+                <default>false</default>
+                <label>Federal Government</label>
+            </value>
+            <value>
+                <fullName>Central Government</fullName>
+                <default>false</default>
+                <label>Central Government</label>
+            </value>
+            <value>
+                <fullName>Other Government</fullName>
+                <default>false</default>
+                <label>Other Government</label>
+            </value>
+            <value>
+                <fullName>Local Government</fullName>
+                <default>false</default>
+                <label>Local Government</label>
+            </value>
+            <value>
+                <fullName>Other Local Government</fullName>
+                <default>false</default>
+                <label>Other Local Government</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Higher Education - University</fullName>
+                <default>false</default>
+                <label>Higher Education - University</label>
+            </value>
+            <value>
+                <fullName>VET Sector - TAFE/Polytech</fullName>
+                <default>false</default>
+                <label>VET Sector - TAFE/Polytech</label>
+            </value>
+            <value>
+                <fullName>Private Training Provider</fullName>
+                <default>false</default>
+                <label>Private Training Provider</label>
+            </value>
+            <value>
+                <fullName>Education Research Institution</fullName>
+                <default>false</default>
+                <label>Education Research Institution</label>
+            </value>
+            <value>
+                <fullName>K-12/Schools</fullName>
+                <default>false</default>
+                <label>K-12/Schools</label>
+            </value>
+            <value>
+                <fullName>Other Education</fullName>
+                <default>false</default>
+                <label>Other Education</label>
+            </value>
+            <value>
+                <fullName>Banks, Credit Unions, Building Societies</fullName>
+                <default>false</default>
+                <label>Banks, Credit Unions, Building Societies</label>
+            </value>
+            <value>
+                <fullName>Wealth Management (Funds and Financial Advisors)</fullName>
+                <default>false</default>
+                <label>Wealth Management (Funds and Financial Advisors)</label>
+            </value>
+            <value>
+                <fullName>Superannuation</fullName>
+                <default>false</default>
+                <label>Superannuation</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Property Investment</fullName>
+                <default>false</default>
+                <label>Property Investment</label>
+            </value>
+            <value>
+                <fullName>Other Finance</fullName>
+                <default>false</default>
+                <label>Other Finance</label>
+            </value>
+            <value>
+                <fullName>Aged, Disability and Community Care</fullName>
+                <default>false</default>
+                <label>Aged, Disability and Community Care</label>
+            </value>
+            <value>
+                <fullName>Community Services</fullName>
+                <default>false</default>
+                <label>Community Services</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Housing</fullName>
+                <default>false</default>
+                <label>Housing</label>
+            </value>
+            <value>
+                <fullName>Other Utilities</fullName>
+                <default>false</default>
+                <label>Other Utilities</label>
+            </value>
+            <value>
+                <fullName>Natural Resources Management</fullName>
+                <default>false</default>
+                <label>Natural Resources Management</label>
+            </value>
+            <value>
+                <fullName>Project-centric, Engineering and Mining</fullName>
+                <default>false</default>
+                <label>Project-centric, Engineering and Mining</label>
+            </value>
+            <value>
+                <fullName>Membership-based</fullName>
+                <default>false</default>
+                <label>Membership-based</label>
+            </value>
+            <value>
+                <fullName>Media, Entertainment, Events and Facilities Managers</fullName>
+                <default>false</default>
+                <label>Media, Entertainment, Events and Facilities Managers</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Other Corporate</fullName>
+                <default>false</default>
+                <label>Other Corporate</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>Public Infrastructure</fullName>
+                <default>false</default>
+                <label>Public Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Mining &amp; Processing</fullName>
+                <default>false</default>
+                <label>Mining &amp; Processing</label>
+            </value>
+            <value>
+                <fullName>Major Facilities &amp; Fleet</fullName>
+                <default>false</default>
+                <label>Major Facilities &amp; Fleet</label>
+            </value>
+            <value>
+                <fullName>Other Asset Intensive</fullName>
+                <default>false</default>
+                <label>Other Asset Intensive</label>
+            </value>
+            <value>
+                <fullName>Property &amp; Infrastructure</fullName>
+                <default>false</default>
+                <label>Property &amp; Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Service Providers</fullName>
+                <default>false</default>
+                <label>Service Providers</label>
+            </value>
+            <value>
+                <fullName>Other Project Intensive</fullName>
+                <default>false</default>
+                <label>Other Project Intensive</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Asset Intensive</controllingFieldValue>
+            <valueName>Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Intensive</controllingFieldValue>
+            <valueName>Public Infrastructure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Intensive</controllingFieldValue>
+            <valueName>Mining &amp; Processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Intensive</controllingFieldValue>
+            <valueName>Major Facilities &amp; Fleet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asset Intensive</controllingFieldValue>
+            <valueName>Other Asset Intensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Higher Education - University</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>VET Sector - TAFE/Polytech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Private Training Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Education Research Institution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>K-12/Schools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Other Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Intensive</controllingFieldValue>
+            <valueName>Property &amp; Infrastructure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Intensive</controllingFieldValue>
+            <valueName>Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Intensive</controllingFieldValue>
+            <valueName>Service Providers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Project Intensive</controllingFieldValue>
+            <valueName>Other Project Intensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Services</controllingFieldValue>
+            <valueName>Banks, Credit Unions, Building Societies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Services</controllingFieldValue>
+            <valueName>Wealth Management (Funds and Financial Advisors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Services</controllingFieldValue>
+            <valueName>Superannuation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Services</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Services</controllingFieldValue>
+            <valueName>Property Investment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Services</controllingFieldValue>
+            <valueName>Other Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance Adjustment</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>State Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Federal Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Central Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Other Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Community Services</controllingFieldValue>
+            <valueName>Aged, Disability and Community Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Community Services</controllingFieldValue>
+            <valueName>Community Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Community Services</controllingFieldValue>
+            <valueName>Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health and Community Services</controllingFieldValue>
+            <valueName>Housing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Local Government</controllingFieldValue>
+            <valueName>Local Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Local Government</controllingFieldValue>
+            <valueName>Other Local Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Membership-based</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Media, Entertainment, Events and Facilities Managers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Corporate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate</controllingFieldValue>
+            <valueName>Other Corporate</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contract Status --></label>
+        <name>Contract_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contract Drafted</masterLabel>
+            <translation><!-- Contract Drafted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Negotiation</masterLabel>
+            <translation><!-- Contract Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Requested</masterLabel>
+            <translation><!-- Contract Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Sent</masterLabel>
+            <translation><!-- Contract Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final paperwork with customer for signing</masterLabel>
+            <translation><!-- Final paperwork with customer for signing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Engaged</masterLabel>
+            <translation><!-- Legal Engaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received Customer Redline</masterLabel>
+            <translation><!-- Received Customer Redline --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Where is the risk? What data has been involved/affected? e.g. Student details, personal address --></help>
+        <label><!-- Affected Data --></label>
+        <name>Affected_Data__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PII_Data_Severity_Level__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>LOW: Name (first &amp; last) only or work email
+MEDIUM: Name &amp; email only
+HIGH: Name, email &amp; home address only
+EXTREME: Name, email, home address &amp; any of:
+DOB, bank details, tax file no, passport no, health info, cc details, remuneration, religion</inlineHelpText>
+    <label>PII Data Severity Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Extreme</fullName>
+                <default>false</default>
+                <label>Extreme</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

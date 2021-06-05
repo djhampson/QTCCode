@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Ramp Up Entitlement --></label>
+        <name>Ramp_Up_Entitlement__c</name>
+    </CustomFieldTranslation>

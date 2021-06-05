@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This fee structure relates to SaaS, Licence, ASM, Cloud or other Annual fees. It does not apply to fees to implementation or consulting services fees. If Bespoke, refer to Other Finance Commercial notes. --></help>
+        <label><!-- Fee Structure --></label>
+        <name>Fee_Structure__c</name>
+        <picklistValues>
+            <masterLabel>Annual + Indexation</masterLabel>
+            <translation><!-- Annual + Indexation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bespoke</masterLabel>
+            <translation><!-- Bespoke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed for Initial Period then Indexed</masterLabel>
+            <translation><!-- Fixed for Initial Period then Indexed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None - No Fees or Charges Apply</masterLabel>
+            <translation><!-- None - No Fees or Charges Apply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upfront Licence Fee + Annual Fees subject to Indexation</masterLabel>
+            <translation><!-- Upfront Licence Fee + Annual Fees subject to Indexation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

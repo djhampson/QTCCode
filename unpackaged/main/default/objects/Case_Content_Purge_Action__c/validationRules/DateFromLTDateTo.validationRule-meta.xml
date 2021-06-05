@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DateFromLTDateTo</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT( Closed_Date_From__c &lt; Closed_Date_To__c )</errorConditionFormula>
+    <errorMessage>Closed Date From must be before Closed Date To</errorMessage>
+</ValidationRule>

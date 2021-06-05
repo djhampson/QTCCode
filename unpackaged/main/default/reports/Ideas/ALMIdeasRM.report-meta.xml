@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Idea*Idea$Idea_Number__c</field>
+    </columns>
+    <columns>
+        <field>Idea$Title</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Functional_Area__c</field>
+    </columns>
+    <columns>
+        <field>Idea$Categories</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Account_Name_from_Account__c</field>
+    </columns>
+    <columns>
+        <field>Idea$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Idea$Status</field>
+    </columns>
+    <columns>
+        <field>Idea$WeightedSum</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>ALM Ideas On Roadmap</description>
+    <filter>
+        <criteriaItems>
+            <column>Idea$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Under Consideration,On Roadmap</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Idea$Categories</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>~ Asset Management</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>ALMIdeasRM</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Ideas_Comments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Idea$WeightedSum</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Idea$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

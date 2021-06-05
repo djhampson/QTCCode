@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Advise the customer that their request has been scheduled</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: IFRS16 consulting</name>
+    <style>none</style>
+    <subject>Proposal IFRS 16: Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},   
+
+Thank you for the opportunity to provide you with a GOLD/SILVER/BRONZE proposal for supporting you with IFRS16 Compliance and reporting. Please use the following link to review the attached proposal details.  Please accept or decline this quote by replying to this email with &quot;ACCEPT&quot; or &quot;DECLINE&quot; 
+
+Case Number: {!Case.CaseNumber} 
+Case Subject: {!Case.Subject} 
+Customer Reference: {!Case.Customer_Reference__c} 
+Scope of Work: As per attached proposal 
+Assumptions: Remote access provided a minimum of 2 days prior to engagement. 
+
+If you have a purchase order number, this can be added to the Customer Reference field on the case. Once your have approved the quote, a consultant from our specialist IFRS16 team will be in contact to work through next steps with you.
+
+Terms and Conditions: 1. Acceptance of this quote means that you have authority within your organisation to approve purchasing the consulting services described. 2. The services will be provided in accordance with the terms of the written agreement already in place between you and TechnologyOne providing for consulting services, and if no such agreement exists then TechnologyOne&#39;s standard terms for the supply of consulting services (a copy of which is available from TechnologyOne upon request) shall apply. 3. All Service Requests should be accompanied by a purchase order. Any inclusion of or reference to terms and conditions (other than the existing contract between you and TechnologyOne) in the purchase order shall not apply to the provision of the consulting services described. 4. TechnologyOne will invoice you, and you agree to pay for all reasonable travel expenses incurred in carrying out the consulting services (including airfares, accommodation, mileage, daily allowances and parking). 5. Where consultants are required to travel by air to site they will work in minimum three (3) day blocks and, unless otherwise specifically agreed in advance, will return home for weekends. 6. A normal working day means 7.5 hours, inclusive of time spent travelling to and from customer premises, where this travel time exceeds one (1) hour each way. 7. Where a consultant spends more than 7.5 hours in any normal day then additional time will be charged at hourly rates without any additional loading or penalties.
+
+Kind regards,
+
+{!Case.EmailSig__c}
+
+Ph: AUS 1300 735 130/ NZ 0800 174 091/ MAL 1800 818 451/ UK 0808 1012 743/ FIJI 008 002 188  
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c} {!$Setup.EmailTemplateFields__c.FooterText2__c} {!$Setup.EmailTemplateFields__c.FooterURL__c} {!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for any damage caused by this email or its attachments.  The information in this email is only for the intended recipient and may contain confidential and/or  privileged material. If you received this in error, please kindly notify the sender by return email  and delete this email and any attachments from your system.  Opinions, conclusions and other information in this message that do not relate to the official business of the company shall  be understood as neither given nor endorsed by it.  If you believe that you have been spammed please email Stop_Spam@TechnologyOneCorp.com to report your complaint.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

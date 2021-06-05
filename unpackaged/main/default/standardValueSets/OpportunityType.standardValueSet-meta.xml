@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Existing Business</fullName>
+        <color>#33CC00</color>
+        <default>false</default>
+        <label>Existing Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>New Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New to Existing</fullName>
+        <color>#0B24BE</color>
+        <default>false</default>
+        <label>New to Existing</label>
+    </standardValue>
+</StandardValueSet>

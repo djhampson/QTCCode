@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>All</fullName>
+        <default>true</default>
+        <label>All</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Attachments</fullName>
+        <default>false</default>
+        <label>Attachments</label>
+    </customValue>
+    <customValue>
+        <fullName>Files</fullName>
+        <default>false</default>
+        <label>Files</label>
+    </customValue>
+    <masterLabel>Items to Purge</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

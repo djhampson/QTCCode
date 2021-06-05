@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_AMS_Order_and_Deal_type_is_not_SaaS</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(AMS_Order__c)),
+    SBQQ__Quote__r.Deal_Type__c &lt;&gt; &quot;Saas&quot;)</errorConditionFormula>
+    <errorMessage>AMS Order can only be populated on an Order linked to a Quote with Deal Type of SaaS.</errorMessage>
+</ValidationRule>

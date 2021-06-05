@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_54432923</developerName>
+        <masterLabel>SaaS Platform</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account.SaaS_Cloud_Hosting__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>SaaS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cloud Hosting</sourceValue>
+            </sourceValues>
+            <value>Yes</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Account.Group_Region__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Cloud_Hosting__c</field>
+    </columns>
+    <columns>
+        <field>Account.SaaS__c</field>
+    </columns>
+    <columns>
+        <field>Account.SaaS_Cloud_Hosting__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_54432923</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SaaS Platform Customers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

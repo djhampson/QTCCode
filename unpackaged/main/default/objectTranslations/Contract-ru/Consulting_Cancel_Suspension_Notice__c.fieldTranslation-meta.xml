@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Consulting Cancel/Suspension Notice --></label>
+        <name>Consulting_Cancel_Suspension_Notice__c</name>
+        <picklistValues>
+            <masterLabel>&lt; or = 10 days</masterLabel>
+            <translation><!-- &lt; or = 10 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;10 working days</masterLabel>
+            <translation><!-- &gt;10 working days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

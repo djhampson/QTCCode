@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Monday to Friday</fullName>
+        <default>false</default>
+        <label>Monday to Friday</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Day</fullName>
+        <default>false</default>
+        <label>Business Days</label>
+    </customValue>
+    <customValue>
+        <fullName>7 Day</fullName>
+        <default>false</default>
+        <label>7 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>24/7</fullName>
+        <default>false</default>
+        <label>24/7</label>
+    </customValue>
+    <customValue>
+        <fullName>Monday to Saturday</fullName>
+        <default>false</default>
+        <label>Monday to Saturday</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <masterLabel>Available Days</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

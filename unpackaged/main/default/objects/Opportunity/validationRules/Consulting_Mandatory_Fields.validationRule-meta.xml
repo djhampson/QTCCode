@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consulting_Mandatory_Fields</fullName>
+    <active>true</active>
+    <description>If Consulting Required = Yes and the Opportunity Type is either New Business or New to Existing then Estimated Days Effort and Total Implementation Amount must be populated</description>
+    <errorConditionFormula>AND(
+        $Profile.Name &lt;&gt; &#39;System Administrator&#39;,
+        $Profile.Name &lt;&gt; &quot;Operations&quot;,
+        RecordType.DeveloperName = &#39;Licence_Fee&#39;,
+        ISPICKVAL(ConsultingS_Required__c, &#39;Yes&#39;),
+
+                
+        OR(
+              ISPICKVAL(Type, &#39;New Business&#39;),
+              ISPICKVAL(Type, &#39;New to Existing&#39;)
+             ),
+             
+        OR(
+              ISBLANK(Project_Start_Date__c),
+              ISBLANK(Estimated_Days_Effort__c),
+              ISBLANK(Total_Implementation_Amount__c)
+            )
+       )</errorConditionFormula>
+    <errorMessage>Please enter project start date,implementations services estimate ($) and effort (days)</errorMessage>
+</ValidationRule>

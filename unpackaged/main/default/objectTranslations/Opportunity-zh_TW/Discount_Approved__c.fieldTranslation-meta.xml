@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The CAM&apos;s/Pricing is responsible for filling this field in per the allowances under the behavioural discounting model. --></help>
+        <label><!-- Eligible Behavioural Discount % --></label>
+        <name>Discount_Approved__c</name>
+    </CustomFieldTranslation>

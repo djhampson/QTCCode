@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Product</fullName>
+        <default>false</default>
+        <label>Product</label>
+    </customValue>
+    <customValue>
+        <fullName>Module</fullName>
+        <default>false</default>
+        <label>Module</label>
+    </customValue>
+    <customValue>
+        <fullName>Eligible Discount</fullName>
+        <default>false</default>
+        <label>Eligible Discount</label>
+    </customValue>
+    <customValue>
+        <fullName>Support Fee</fullName>
+        <default>false</default>
+        <label>Support Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>SaaS Platform</fullName>
+        <default>false</default>
+        <label>SaaS Platform</label>
+    </customValue>
+    <customValue>
+        <fullName>Application Managed Services</fullName>
+        <default>false</default>
+        <label>Application Managed Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Commitment Fee</fullName>
+        <default>false</default>
+        <label>Commitment Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>Commitment Rebate</fullName>
+        <default>false</default>
+        <label>Commitment Rebate</label>
+    </customValue>
+    <masterLabel>Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

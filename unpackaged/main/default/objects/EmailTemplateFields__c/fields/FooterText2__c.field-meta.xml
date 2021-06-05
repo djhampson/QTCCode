@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FooterText2__c</fullName>
+    <defaultValue>&quot;enabling you to make the most of your TechnologyOne investment. 18-21 October, Brisbane Convention and Exhibition Centre,&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>FooterText2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

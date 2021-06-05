@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Acquisition Customer. Please also select TechOne if it is a T1 existing customer. --></help>
+        <label><!-- Acquisition --></label>
+        <name>Acquisition__c</name>
+        <picklistValues>
+            <masterLabel>DMS</masterLabel>
+            <translation><!-- DMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMS/CHARTIS</masterLabel>
+            <translation><!-- DMS/CHARTIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICON</masterLabel>
+            <translation><!-- ICON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechOne</masterLabel>
+            <translation><!-- TechOne --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

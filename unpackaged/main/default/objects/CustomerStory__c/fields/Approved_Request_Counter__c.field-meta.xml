@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Request_Counter__c</fullName>
+    <description>Approved Request Counter</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count approved calls and visits</inlineHelpText>
+    <label>Approved Request Counter</label>
+    <summaryFilterItems>
+        <field>Customer_Story_Workflow_Requests__c.Request_Status__c</field>
+        <operation>equals</operation>
+        <value>Approved</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Customer_Story_Workflow_Requests__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Reference Call, Site Visit</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Customer_Story_Workflow_Requests__c.Customer_Story__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Asset Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Stakeholder Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Property and Rating</values>
+        </dashboardFilterOptions>
+        <name>Product Name</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>OpportunityModuleItem__c.TotalPrice__c</column>
+            </chartSummary>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>OpportunityModuleItem__c.Product_Name__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingColumn>Opportunity.Forecast_Level__c</groupingColumn>
+            <groupingSortProperties/>
+            <header>Current FQ</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>X00_T1_Forecast_Reports/Snapshot_by_Product_Peter_suchting</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>GGM - Peter Suchting</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>OpportunityModuleItem__c.TotalPrice__c</column>
+            </chartSummary>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>OpportunityModuleItem__c.Product_Name__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingColumn>Opportunity.Forecast_Level__c</groupingColumn>
+            <groupingSortProperties/>
+            <header>Current FQ</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>X00_T1_Forecast_Reports/Snapshot_by_Product_Spatial</report>
+            <showPercentage>false</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Spatial</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>OpportunityModuleItem__c.TotalPrice__c</column>
+            </chartSummary>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>OpportunityModuleItem__c.Product_Name__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingColumn>Opportunity.Forecast_Level__c</groupingColumn>
+            <groupingSortProperties/>
+            <header>Current FQ</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>X00_T1_Forecast_Reports/Snapshot_by_Module_Asset_Mgt</report>
+            <showPercentage>false</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Strategic Asset Management</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Medium</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>OpportunityModuleItem__c.Product_Name__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingSortProperties/>
+            <header>Current FQ</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>X00_T1_Forecast_Reports/Snapshot_by_Module_CPD</report>
+            <showPercentage>false</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Capital Planning and Delivery</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </rightSection>
+    <runningUser>yulian_wu@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>GGM - Peter Suchting</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affect_Version_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>(RecordType.Name = &#39;I am experiencing an issue&#39; ||
+RecordType.Name = &#39;I have a Question&#39;) &amp;&amp; 
+TEXT(Origin) &lt;&gt; &#39;Email&#39; &amp;&amp;
+LEN(TEXT( Affected_Version__c )) = 0 &amp;&amp;
+ISCHANGED(Affected_Version__c ) &amp;&amp; 
+NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorMessage>Affected Version is required.</errorMessage>
+</ValidationRule>

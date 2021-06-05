@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>servicecloudadmin@technologyonecorp.com</contactEmail>
+    <label>eazyBi_Prod_from_JiraProd</label>
+    <oauthConfig>
+        <callbackUrl>https://jira.t1cloud.com/plugins/servlet/eazybi/source_applications/auth/rest_api/callback</callbackUrl>
+        <consumerKey>3MVG9mQWF42jKQUoz93iRMjGumixJusCstp3jjewDMEQKl5GREq0Gu4jMshOEY67xQ4VCQSK2nbk2wvCWOkEe</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <sessionPolicy>
+        <sessionTimeout>720</sessionTimeout>
+    </sessionPolicy>
+</ConnectedApp>

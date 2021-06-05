@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Resolution_comments_at_resolved</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+OR( 
+RecordType.Name =&quot;I am experiencing an issue&quot;, 
+RecordType.Name =&quot;I have a Question&quot;, 
+RecordType.Name =&quot;I require an AMS service&quot;, 
+RecordType.Name =&quot;I require a TechnologyOne Cloud service&quot;, 
+RecordType.Name =&quot;Problem&quot;, 
+RecordType.Name = &quot;Consulting - Question&quot;,
+RecordType.Name = &quot;I require Consulting services&quot;), 
+NOT(BEGINS($Profile.Name, &#39;Customer&#39;)),
+NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c ),
+ISPICKVAL( Status ,&quot;Resolved&quot;), 
+ISBLANK( Resolution__c ))</errorConditionFormula>
+    <errorDisplayField>Resolution__c</errorDisplayField>
+    <errorMessage>Case resolution comments are required when resolving a case.</errorMessage>
+</ValidationRule>

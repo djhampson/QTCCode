@@ -1,0 +1,17 @@
+A milestone warning alert has been triggered for the Case below.
+
+{!Case.Link}
+Case Number: {!Case.CaseNumber}
+Account: {!Case.Account}
+{!Case.Contact}
+{!Contact.Phone}
+
+Type: {!Case.Type}
+Priority: {!Case.Priority}
+Status: {!Case.Status}
+Product: {!Case.Customer_Product__c}
+Functional Area: {!Case.CFunctional_Area__c}
+Currently Assigned To: {!Case.OwnerFullName}
+
+Subject: {!Case.Subject}
+Details: {!Case.Description}

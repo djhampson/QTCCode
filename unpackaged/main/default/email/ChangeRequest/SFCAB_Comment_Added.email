@@ -1,0 +1,5 @@
+Comment added to Salesforce Change Request {!Case.CaseNumber}
+
+Subject: {!Case.Subject}
+
+Link to the change request is: {!Case.Link}

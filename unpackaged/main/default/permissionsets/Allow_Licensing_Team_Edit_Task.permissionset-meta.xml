@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Allow_Licensing_Team_Edit_Task</name>
+    </customPermissions>
+    <description>Permission Set to allow Licensing Team Edit the Task which is generated when opportunity status set to closed</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Allow Licensing Team Edit Task</label>
+</PermissionSet>

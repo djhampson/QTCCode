@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is either Annual Cloud Fee or First Year SaaS Fee --></help>
+        <label><!-- First Year Cloud Fee --></label>
+        <name>First_Year_Cloud_Fee__c</name>
+    </CustomFieldTranslation>

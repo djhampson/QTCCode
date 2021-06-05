@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Need_Equivalent_Basis_on_Enterprise_PB</fullName>
+    <active>true</active>
+    <description>Can only add a Price Book in the Enterprise License Pricebook if the Equivalent Basis value on the Price Book is not blank.</description>
+    <errorConditionFormula>AND( 
+NOT(ISBLANK( Enterprise_License_Pricebook__r.Id )), 
+ISBLANK(TEXT(Enterprise_License_Pricebook__r.Equivalent_Basis__c))
+)</errorConditionFormula>
+    <errorDisplayField>Enterprise_License_Pricebook__c</errorDisplayField>
+    <errorMessage>You can not add a Price Book that has no Equivalent Basis value.</errorMessage>
+</ValidationRule>

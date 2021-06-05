@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please select all reasons for loss that apply --></help>
+        <label><!-- z_Lost Reason(s) --></label>
+        <name>Lost_Reason_s__c</name>
+        <picklistValues>
+            <masterLabel>Consulting / Project Management</masterLabel>
+            <translation><!-- Consulting / Project Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engagement / Relationship</masterLabel>
+            <translation><!-- Engagement / Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political</masterLabel>
+            <translation><!-- Political --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product / Solution Fit or Capability</masterLabel>
+            <translation><!-- Product / Solution Fit or Capability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference Site</masterLabel>
+            <translation><!-- Reference Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales / Presales (Presentation, Demo)</masterLabel>
+            <translation><!-- Sales / Presales (Presentation, Demo) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

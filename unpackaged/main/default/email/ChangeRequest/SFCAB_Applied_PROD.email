@@ -1,0 +1,11 @@
+Change Request {!Case.CaseNumber} has been applied to PROD.
+
+Subject: {!Case.Subject}
+
+Please complete your testing to confirm your changes are operational. 
+
+Link to the change request is: {!Case.Link} 
+
+If your testing is unsuccessful, work to resolve any issues or request your changes to be backed-out ASAP. 
+
+When your testing is successfully completed please change the State of this Change Request to COMPLETE.

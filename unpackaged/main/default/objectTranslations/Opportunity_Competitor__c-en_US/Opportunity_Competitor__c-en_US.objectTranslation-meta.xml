@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Competitor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Competitors</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Opportunity Competitor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Not a valid Competitor. Please select from Search. --></errorMessage>
+        <name>Competitor_Existss</name>
+    </validationRules>
+</CustomObjectTranslation>

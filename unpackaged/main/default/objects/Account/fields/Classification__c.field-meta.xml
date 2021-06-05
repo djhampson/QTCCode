@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Key Account</fullName>
+                <default>false</default>
+                <label>Key Account</label>
+            </value>
+            <value>
+                <fullName>General Account</fullName>
+                <default>false</default>
+                <label>General Account</label>
+            </value>
+            <value>
+                <fullName>Contact Only Account</fullName>
+                <default>false</default>
+                <label>Contact Only Account</label>
+            </value>
+            <value>
+                <fullName>At Risk</fullName>
+                <default>false</default>
+                <label>At Risk</label>
+            </value>
+            <value>
+                <fullName>Moving to other vendor / Lost</fullName>
+                <default>false</default>
+                <label>Moving to other vendor / Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

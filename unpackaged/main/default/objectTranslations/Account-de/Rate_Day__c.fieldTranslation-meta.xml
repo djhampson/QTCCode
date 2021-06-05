@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Special Consulting Rate per Day --></help>
+        <label><!-- Consulting Rate/Day --></label>
+        <name>Rate_Day__c</name>
+    </CustomFieldTranslation>

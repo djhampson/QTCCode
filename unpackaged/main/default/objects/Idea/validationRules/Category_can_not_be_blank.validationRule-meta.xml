@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_can_not_be_blank</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Categories )
+&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorMessage>Please select a category before saving. Remember to check if you have attached an attachment.</errorMessage>
+</ValidationRule>

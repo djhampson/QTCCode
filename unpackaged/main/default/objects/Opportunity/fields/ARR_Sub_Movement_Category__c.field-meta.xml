@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ARR_Sub_Movement_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>ARR Sub-Movement Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cancelled Client</fullName>
+                <default>false</default>
+                <label>Cancelled Client</label>
+            </value>
+            <value>
+                <fullName>Amalgamation</fullName>
+                <default>false</default>
+                <label>Amalgamation</label>
+            </value>
+            <value>
+                <fullName>Cancelled SaaS Platform</fullName>
+                <default>false</default>
+                <label>Cancelled SaaS Platform</label>
+            </value>
+            <value>
+                <fullName>Cancelled SaaS Platform environment</fullName>
+                <default>false</default>
+                <label>Cancelled SaaS Platform environment</label>
+            </value>
+            <value>
+                <fullName>Cancelled everything except SaaS Platform environment</fullName>
+                <default>false</default>
+                <label>Cancelled everything except SaaS Platform environment</label>
+            </value>
+            <value>
+                <fullName>Cancelled Module/s</fullName>
+                <default>false</default>
+                <label>Cancelled Module/s</label>
+            </value>
+            <value>
+                <fullName>Cancelled Product/s</fullName>
+                <default>false</default>
+                <label>Cancelled Product/s</label>
+            </value>
+            <value>
+                <fullName>SaaS Platform environment expiry</fullName>
+                <default>false</default>
+                <label>SaaS Platform environment expiry</label>
+            </value>
+            <value>
+                <fullName>SaaS Platform environment reduction</fullName>
+                <default>false</default>
+                <label>SaaS Platform environment reduction</label>
+            </value>
+            <value>
+                <fullName>Concession</fullName>
+                <default>false</default>
+                <label>Concession</label>
+            </value>
+            <value>
+                <fullName>Reduction</fullName>
+                <default>false</default>
+                <label>Reduction</label>
+            </value>
+            <value>
+                <fullName>Settlement</fullName>
+                <default>false</default>
+                <label>Settlement</label>
+            </value>
+            <value>
+                <fullName>Correction</fullName>
+                <default>false</default>
+                <label>Correction</label>
+            </value>
+            <value>
+                <fullName>Currency Movement</fullName>
+                <default>false</default>
+                <label>Currency Movement</label>
+            </value>
+            <value>
+                <fullName>Indexation</fullName>
+                <default>false</default>
+                <label>Indexation</label>
+            </value>
+            <value>
+                <fullName>Merger</fullName>
+                <default>false</default>
+                <label>Merger</label>
+            </value>
+            <value>
+                <fullName>Other Movements</fullName>
+                <default>false</default>
+                <label>Other Movements</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - Add Product, Users, Uplift</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - Add Product, Users, Uplift</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - DXP early adopter</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - DXP early adopter</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - New logo</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - New logo</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - Novation of Licences</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - Novation of Licences</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - Product uptake</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - Product uptake</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - SaaS extension</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - SaaS extension</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - SaaS extras</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - SaaS extras</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - SaaS flips</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - SaaS flips</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - SaaS to On Premise</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - SaaS to On Premise</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - Spatial renewal</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - Spatial renewal</label>
+            </value>
+            <value>
+                <fullName>Salesforce Opportunity - LARR</fullName>
+                <default>false</default>
+                <label>Salesforce Opportunity - LARR</label>
+            </value>
+            <value>
+                <fullName>T1 Foundation</fullName>
+                <default>false</default>
+                <label>T1 Foundation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

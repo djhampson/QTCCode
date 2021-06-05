@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- DPA/Privacy Type --></label>
+        <name>DPA_Privacy_Type__c</name>
+        <picklistValues>
+            <masterLabel>DPA included in contract</masterLabel>
+            <translation><!-- DPA included in contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPA incorporated by reference</masterLabel>
+            <translation><!-- DPA incorporated by reference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Privacy clause</masterLabel>
+            <translation><!-- Privacy clause --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

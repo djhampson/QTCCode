@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Article_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Field to record the creator and owner of a Knowledge article</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Article Owner is the author of an article and will be responsible for managing article reviews and feedback.</inlineHelpText>
+    <label>Article Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Knowledge</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

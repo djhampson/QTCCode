@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <label>Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CountryArea__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACT</fullName>
+                <default>false</default>
+                <label>ACT</label>
+            </value>
+            <value>
+                <fullName>New South Wales</fullName>
+                <default>false</default>
+                <label>New South Wales</label>
+            </value>
+            <value>
+                <fullName>Northern Territory</fullName>
+                <default>false</default>
+                <label>Northern Territory</label>
+            </value>
+            <value>
+                <fullName>Queensland</fullName>
+                <default>false</default>
+                <label>Queensland</label>
+            </value>
+            <value>
+                <fullName>South Australia</fullName>
+                <default>false</default>
+                <label>South Australia</label>
+            </value>
+            <value>
+                <fullName>Tasmania</fullName>
+                <default>false</default>
+                <label>Tasmania</label>
+            </value>
+            <value>
+                <fullName>Victoria</fullName>
+                <default>false</default>
+                <label>Victoria</label>
+            </value>
+            <value>
+                <fullName>Western Australia</fullName>
+                <default>false</default>
+                <label>Western Australia</label>
+            </value>
+            <value>
+                <fullName>New Zealand North</fullName>
+                <default>false</default>
+                <label>New Zealand North</label>
+            </value>
+            <value>
+                <fullName>New Zealand South</fullName>
+                <default>false</default>
+                <label>New Zealand South</label>
+            </value>
+            <value>
+                <fullName>UK PS South</fullName>
+                <default>false</default>
+                <label>UK PS South</label>
+            </value>
+            <value>
+                <fullName>UK PS Central</fullName>
+                <default>false</default>
+                <label>UK PS Central</label>
+            </value>
+            <value>
+                <fullName>UK HE</fullName>
+                <default>false</default>
+                <label>UK HE</label>
+            </value>
+            <value>
+                <fullName>UK North &amp; Scotland</fullName>
+                <default>false</default>
+                <label>UK North &amp; Scotland</label>
+            </value>
+            <value>
+                <fullName>UK Other</fullName>
+                <default>false</default>
+                <label>UK Other</label>
+            </value>
+            <value>
+                <fullName>Indonesia</fullName>
+                <default>false</default>
+                <label>Indonesia</label>
+            </value>
+            <value>
+                <fullName>Malaysia</fullName>
+                <default>false</default>
+                <label>Malaysia</label>
+            </value>
+            <value>
+                <fullName>Mongolia</fullName>
+                <default>false</default>
+                <label>Mongolia</label>
+            </value>
+            <value>
+                <fullName>Philippines</fullName>
+                <default>false</default>
+                <label>Philippines</label>
+            </value>
+            <value>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>Sri Lanka</fullName>
+                <default>false</default>
+                <label>Sri Lanka</label>
+            </value>
+            <value>
+                <fullName>Vietnam</fullName>
+                <default>false</default>
+                <label>Vietnam</label>
+            </value>
+            <value>
+                <fullName>Cook Islands</fullName>
+                <default>false</default>
+                <label>Cook Islands</label>
+            </value>
+            <value>
+                <fullName>Fiji</fullName>
+                <default>false</default>
+                <label>Fiji</label>
+            </value>
+            <value>
+                <fullName>Kiribati</fullName>
+                <default>false</default>
+                <label>Kiribati</label>
+            </value>
+            <value>
+                <fullName>Marshall Islands</fullName>
+                <default>false</default>
+                <label>Marshall Islands</label>
+            </value>
+            <value>
+                <fullName>Nauru</fullName>
+                <default>false</default>
+                <label>Nauru</label>
+            </value>
+            <value>
+                <fullName>Niue</fullName>
+                <default>false</default>
+                <label>Niue</label>
+            </value>
+            <value>
+                <fullName>Norfolk Island</fullName>
+                <default>false</default>
+                <label>Norfolk Island</label>
+            </value>
+            <value>
+                <fullName>PNG</fullName>
+                <default>false</default>
+                <label>PNG</label>
+            </value>
+            <value>
+                <fullName>Samoa</fullName>
+                <default>false</default>
+                <label>Samoa</label>
+            </value>
+            <value>
+                <fullName>Solomon Islands</fullName>
+                <default>false</default>
+                <label>Solomon Islands</label>
+            </value>
+            <value>
+                <fullName>Timor-Leste</fullName>
+                <default>false</default>
+                <label>Timor-Leste</label>
+            </value>
+            <value>
+                <fullName>Tonga</fullName>
+                <default>false</default>
+                <label>Tonga</label>
+            </value>
+            <value>
+                <fullName>Tuvalu</fullName>
+                <default>false</default>
+                <label>Tuvalu</label>
+            </value>
+            <value>
+                <fullName>Vanuatu</fullName>
+                <default>false</default>
+                <label>Vanuatu</label>
+            </value>
+            <value>
+                <fullName>Distributors</fullName>
+                <default>false</default>
+                <label>Distributors</label>
+            </value>
+            <value>
+                <fullName>Antigua</fullName>
+                <default>false</default>
+                <label>Antigua</label>
+            </value>
+            <value>
+                <fullName>Barbados</fullName>
+                <default>false</default>
+                <label>Barbados</label>
+            </value>
+            <value>
+                <fullName>Belize</fullName>
+                <default>false</default>
+                <label>Belize</label>
+            </value>
+            <value>
+                <fullName>Dominica</fullName>
+                <default>false</default>
+                <label>Dominica</label>
+            </value>
+            <value>
+                <fullName>Grenada</fullName>
+                <default>false</default>
+                <label>Grenada</label>
+            </value>
+            <value>
+                <fullName>Guyana</fullName>
+                <default>false</default>
+                <label>Guyana</label>
+            </value>
+            <value>
+                <fullName>Jamaica</fullName>
+                <default>false</default>
+                <label>Jamaica</label>
+            </value>
+            <value>
+                <fullName>Saint Lucia</fullName>
+                <default>false</default>
+                <label>Saint Lucia</label>
+            </value>
+            <value>
+                <fullName>Saint Vincent and the Grenadines</fullName>
+                <default>false</default>
+                <label>Saint Vincent and the Grenadines</label>
+            </value>
+            <value>
+                <fullName>Trinidad and Tobago</fullName>
+                <default>false</default>
+                <label>Trinidad and Tobago</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>ACT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>New South Wales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Northern Territory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Queensland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>South Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Tasmania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Victoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Western Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Zealand</controllingFieldValue>
+            <valueName>New Zealand North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Zealand</controllingFieldValue>
+            <valueName>New Zealand South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>UK PS South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>UK PS Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>UK HE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>UK North &amp; Scotland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>UK Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>Indonesia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>Malaysia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>Mongolia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>Philippines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>Singapore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>Sri Lanka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>Vietnam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Cook Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Fiji</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Kiribati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Marshall Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Nauru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Niue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Norfolk Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>PNG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Samoa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Solomon Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Timor-Leste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Tonga</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Tuvalu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <valueName>Vanuatu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Antigua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Barbados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Belize</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Dominica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Grenada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Guyana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Jamaica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Saint Lucia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Saint Vincent and the Grenadines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>Trinidad and Tobago</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

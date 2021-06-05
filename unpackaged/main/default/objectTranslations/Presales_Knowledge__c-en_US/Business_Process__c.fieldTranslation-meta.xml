@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Process --></label>
+        <name>Business_Process__c</name>
+        <picklistValues>
+            <masterLabel>AM Energy Industry Model Assets Management</masterLabel>
+            <translation><!-- AM Energy Industry Model Assets Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Facilities Management</masterLabel>
+            <translation><!-- AM Facilities Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Fleet Management</masterLabel>
+            <translation><!-- AM Fleet Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM GIS</masterLabel>
+            <translation><!-- AM GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Open Space Management</masterLabel>
+            <translation><!-- AM Open Space Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Request Management</masterLabel>
+            <translation><!-- AM Request Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Roads Management</masterLabel>
+            <translation><!-- AM Roads Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM SCADA</masterLabel>
+            <translation><!-- AM SCADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Storm Water Management</masterLabel>
+            <translation><!-- AM Storm Water Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Strategic Asset Management</masterLabel>
+            <translation><!-- AM Strategic Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Water &amp; Waste Water Management</masterLabel>
+            <translation><!-- AM Water &amp; Waste Water Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Workshop Management</masterLabel>
+            <translation><!-- AM Workshop Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BS&amp;P Budgeting</masterLabel>
+            <translation><!-- BS&amp;P Budgeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BS&amp;P Capital Planning</masterLabel>
+            <translation><!-- BS&amp;P Capital Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BS&amp;P Performance Planning</masterLabel>
+            <translation><!-- BS&amp;P Performance Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BS&amp;P Risk &amp; Sustainability</masterLabel>
+            <translation><!-- BS&amp;P Risk &amp; Sustainability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSM Cemetery Management</masterLabel>
+            <translation><!-- CSM Cemetery Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSM Community Consultation</masterLabel>
+            <translation><!-- CSM Community Consultation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSM Electoral Roll Management</masterLabel>
+            <translation><!-- CSM Electoral Roll Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSM Manage Master Data</masterLabel>
+            <translation><!-- CSM Manage Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSM Request Management</masterLabel>
+            <translation><!-- CSM Request Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSM Waste/Service Management</masterLabel>
+            <translation><!-- CSM Waste/Service Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D&amp;RM Archiving / Disposal</masterLabel>
+            <translation><!-- D&amp;RM Archiving / Disposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D&amp;RM Creation</masterLabel>
+            <translation><!-- D&amp;RM Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D&amp;RM Distribution</masterLabel>
+            <translation><!-- D&amp;RM Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM APRA Reporting</masterLabel>
+            <translation><!-- FM APRA Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM Account Reconciliation</masterLabel>
+            <translation><!-- FM Account Reconciliation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM Financial Asset Management</masterLabel>
+            <translation><!-- FM Financial Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM Financial Period Control</masterLabel>
+            <translation><!-- FM Financial Period Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM Journal Processing</masterLabel>
+            <translation><!-- FM Journal Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM Manage Master Data</masterLabel>
+            <translation><!-- FM Manage Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM Taxation Management</masterLabel>
+            <translation><!-- FM Taxation Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM Treasury Management</masterLabel>
+            <translation><!-- FM Treasury Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FNDM Case Management</masterLabel>
+            <translation><!-- FNDM Case Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FNDM Client Management</masterLabel>
+            <translation><!-- FNDM Client Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FNDM Grants Acquisition</masterLabel>
+            <translation><!-- FNDM Grants Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FNDM Grants Distribution</masterLabel>
+            <translation><!-- FNDM Grants Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FNDM Marketing/Contact Management</masterLabel>
+            <translation><!-- FNDM Marketing/Contact Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Employee Development</masterLabel>
+            <translation><!-- HR&amp;PM Employee Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM End of Month</masterLabel>
+            <translation><!-- HR&amp;PM End of Month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM End of Year</masterLabel>
+            <translation><!-- HR&amp;PM End of Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Health &amp; Safety Management</masterLabel>
+            <translation><!-- HR&amp;PM Health &amp; Safety Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Organisation Management</masterLabel>
+            <translation><!-- HR&amp;PM Organisation Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Payroll Management</masterLabel>
+            <translation><!-- HR&amp;PM Payroll Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Performance Management</masterLabel>
+            <translation><!-- HR&amp;PM Performance Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Recruitment</masterLabel>
+            <translation><!-- HR&amp;PM Recruitment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Skills &amp; Qualification Management</masterLabel>
+            <translation><!-- HR&amp;PM Skills &amp; Qualification Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Training</masterLabel>
+            <translation><!-- HR&amp;PM Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR&amp;PM Workforce Management</masterLabel>
+            <translation><!-- HR&amp;PM Workforce Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;EM Manage Master Data</masterLabel>
+            <translation><!-- P&amp;EM Manage Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;EM Procure to Pay</masterLabel>
+            <translation><!-- P&amp;EM Procure to Pay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;EM Purchase Card Management</masterLabel>
+            <translation><!-- P&amp;EM Purchase Card Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;EM Purchase Contract Management</masterLabel>
+            <translation><!-- P&amp;EM Purchase Contract Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;EM Store Management</masterLabel>
+            <translation><!-- P&amp;EM Store Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;EM Travel &amp; Expense Management</masterLabel>
+            <translation><!-- P&amp;EM Travel &amp; Expense Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;PM Capital Project Management</masterLabel>
+            <translation><!-- P&amp;PM Capital Project Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;PM General Project Management</masterLabel>
+            <translation><!-- P&amp;PM General Project Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPM Portfolio Management</masterLabel>
+            <translation><!-- PPM Portfolio Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPM Program Management</masterLabel>
+            <translation><!-- PPM Program Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPM Project Lifecycle Management</masterLabel>
+            <translation><!-- PPM Project Lifecycle Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Animal Management</masterLabel>
+            <translation><!-- RM Animal Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Approvals</masterLabel>
+            <translation><!-- RM Approvals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Bonds &amp; Guarantees</masterLabel>
+            <translation><!-- RM Bonds &amp; Guarantees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Certificate Management</masterLabel>
+            <translation><!-- RM Certificate Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Development Application Management</masterLabel>
+            <translation><!-- RM Development Application Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Enforcements</masterLabel>
+            <translation><!-- RM Enforcements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Infringements Management</masterLabel>
+            <translation><!-- RM Infringements Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Permits and Licences</masterLabel>
+            <translation><!-- RM Permits and Licences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Register Management</masterLabel>
+            <translation><!-- RM Register Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Trade Waste Management</masterLabel>
+            <translation><!-- RM Trade Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Water Regulatory Authority</masterLabel>
+            <translation><!-- RM Water Regulatory Authority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Ad hoc Invoice Management</masterLabel>
+            <translation><!-- S&amp;RM Ad hoc Invoice Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Billing Management</masterLabel>
+            <translation><!-- S&amp;RM Billing Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Business Development (Sales)</masterLabel>
+            <translation><!-- S&amp;RM Business Development (Sales) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Client Billing</masterLabel>
+            <translation><!-- S&amp;RM Client Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Debt Management</masterLabel>
+            <translation><!-- S&amp;RM Debt Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Lease Contract Billing</masterLabel>
+            <translation><!-- S&amp;RM Lease Contract Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Manage Master Data</masterLabel>
+            <translation><!-- S&amp;RM Manage Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Passenger Billing</masterLabel>
+            <translation><!-- S&amp;RM Passenger Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Rates Management</masterLabel>
+            <translation><!-- S&amp;RM Rates Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Receipting &amp; Banking</masterLabel>
+            <translation><!-- S&amp;RM Receipting &amp; Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Rent Billing</masterLabel>
+            <translation><!-- S&amp;RM Rent Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Residential Financial Management</masterLabel>
+            <translation><!-- S&amp;RM Residential Financial Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Retail Billing</masterLabel>
+            <translation><!-- S&amp;RM Retail Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Sales Contract Management</masterLabel>
+            <translation><!-- S&amp;RM Sales Contract Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Vessel Billing</masterLabel>
+            <translation><!-- S&amp;RM Vessel Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S&amp;RM Water Billing Management</masterLabel>
+            <translation><!-- S&amp;RM Water Billing Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Appeals &amp; Reviews</masterLabel>
+            <translation><!-- SA Appeals &amp; Reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Assessment &amp; Progression</masterLabel>
+            <translation><!-- SA Assessment &amp; Progression --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Class Timetabling</masterLabel>
+            <translation><!-- SA Class Timetabling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Completions</masterLabel>
+            <translation><!-- SA Completions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Curriculum Management</masterLabel>
+            <translation><!-- SA Curriculum Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Enrolment</masterLabel>
+            <translation><!-- SA Enrolment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Fee Schedule Maintenance</masterLabel>
+            <translation><!-- SA Fee Schedule Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Government Compliance</masterLabel>
+            <translation><!-- SA Government Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Higher Degree Research</masterLabel>
+            <translation><!-- SA Higher Degree Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Scholarships &amp; Rewards</masterLabel>
+            <translation><!-- SA Scholarships &amp; Rewards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Student Finance</masterLabel>
+            <translation><!-- SA Student Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Student Self Service</masterLabel>
+            <translation><!-- SA Student Self Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA Student Support</masterLabel>
+            <translation><!-- SA Student Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SA User Interface</masterLabel>
+            <translation><!-- SA User Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SRE Agents</masterLabel>
+            <translation><!-- SRE Agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SRE Application</masterLabel>
+            <translation><!-- SRE Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SRE Application Assessment</masterLabel>
+            <translation><!-- SRE Application Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SRE Enquiries</masterLabel>
+            <translation><!-- SRE Enquiries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SRE Offers</masterLabel>
+            <translation><!-- SRE Offers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Administration</masterLabel>
+            <translation><!-- TMS Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Agreement</masterLabel>
+            <translation><!-- TMS Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Compliance</masterLabel>
+            <translation><!-- TMS Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Contacts</masterLabel>
+            <translation><!-- TMS Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Payment</masterLabel>
+            <translation><!-- TMS Payment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Product</masterLabel>
+            <translation><!-- TMS Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Program</masterLabel>
+            <translation><!-- TMS Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Report</masterLabel>
+            <translation><!-- TMS Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMS Structured Training</masterLabel>
+            <translation><!-- TMS Structured Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Commercial Management</masterLabel>
+            <translation><!-- TP&amp;RM Commercial Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Commercial Tenancy Management</masterLabel>
+            <translation><!-- TP&amp;RM Commercial Tenancy Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Feedback Management</masterLabel>
+            <translation><!-- TP&amp;RM Feedback Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Landlord Management</masterLabel>
+            <translation><!-- TP&amp;RM Landlord Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Manage Master Data</masterLabel>
+            <translation><!-- TP&amp;RM Manage Master Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Marina Management</masterLabel>
+            <translation><!-- TP&amp;RM Marina Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Port Operations Management</masterLabel>
+            <translation><!-- TP&amp;RM Port Operations Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Property, Leases &amp; Licences Management</masterLabel>
+            <translation><!-- TP&amp;RM Property, Leases &amp; Licences Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Residential Management</masterLabel>
+            <translation><!-- TP&amp;RM Residential Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP&amp;RM Tenancy Management</masterLabel>
+            <translation><!-- TP&amp;RM Tenancy Management --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

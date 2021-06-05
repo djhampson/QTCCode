@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Product_Health_Report__c.Budget__c</field>
+    </columns>
+    <columns>
+        <field>Product_Health_Report__c.Budget_Trending__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <format>Tabular</format>
+    <name>CSM - AMS Budget Health Rep</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Product_Health_Report__c@Product_Health_Report__c.Products_SDM_Visit_Cycle__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Product_Health_Report__c.Report_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

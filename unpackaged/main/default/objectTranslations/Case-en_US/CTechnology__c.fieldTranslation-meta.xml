@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Found Technology --></label>
+        <name>CTechnology__c</name>
+        <picklistValues>
+            <masterLabel>Ci</masterLabel>
+            <translation><!-- Ci --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci Anywhere</masterLabel>
+            <translation><!-- Ci Anywhere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud</masterLabel>
+            <translation><!-- Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DxP</masterLabel>
+            <translation><!-- DxP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

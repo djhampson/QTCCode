@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Archive_Candidate__c</fullName>
+    <description>Y or N formula based on whether the Case is closed, the Closed Date &lt; Custom Setting Closed Date for Archiving Email, archiving has already occurred and it has no related Jira Dev Issues.</description>
+    <externalId>false</externalId>
+    <formula>IF(ClosedDate &lt; $Setup.T1_Control_Settings__c.Closed_Date_for_Archiving_Email__c &amp;&amp; 
+IsClosed = true &amp;&amp; 
+CFACE__Is_Archived__c = false &amp;&amp; 
+Jira_Dev_Issue_Count__c &lt; 1, &#39;Y&#39;, &#39;N&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Y or N formula based on whether the Case is closed, the Closed Date &lt; Custom Setting Closed Date for Archiving Email, archiving has already occurred and it has no related Jira Dev Issues.</inlineHelpText>
+    <label>Email Archive Candidate</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

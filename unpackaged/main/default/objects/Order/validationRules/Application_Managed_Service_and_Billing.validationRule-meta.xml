@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Managed_Service_and_Billing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT( ISBLANK( AMS_Order__c ) ) ,
+   OR(
+  AMS_Order__r.SBQQ__Quote__r.Opportunity_Record_Type__c &lt;&gt; &quot;Application Managed Services&quot;,
+  TEXT(AMS_Order__r.SBQQ__Quote__r.Billing_Frequency__c) &lt;&gt; &quot;Annual&quot; ))</errorConditionFormula>
+    <errorMessage>AMS Order must be linked to AMS Quote with Billing Frequency of Annual and Opportunity Record Type of Application Managed Services.</errorMessage>
+</ValidationRule>

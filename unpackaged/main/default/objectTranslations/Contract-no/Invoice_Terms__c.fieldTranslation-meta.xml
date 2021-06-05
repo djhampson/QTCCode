@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If bespoke, refer Other Non-Standard Payment Terms Detail --></help>
+        <label><!-- z_Invoice Terms --></label>
+        <name>Invoice_Terms__c</name>
+        <picklistValues>
+            <masterLabel>14 days from date of invoice</masterLabel>
+            <translation><!-- 14 days from date of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 days from receipt of invoice</masterLabel>
+            <translation><!-- 14 days from receipt of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 days from end of month of date of invoice</masterLabel>
+            <translation><!-- 20 days from end of month of date of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 days from date of invoice</masterLabel>
+            <translation><!-- 30 days from date of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 days from receipt of invoice</masterLabel>
+            <translation><!-- 30 days from receipt of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 days from date of invoice</masterLabel>
+            <translation><!-- 45 days from date of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45 days from receipt of invoice</masterLabel>
+            <translation><!-- 45 days from receipt of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 days from date of invoice</masterLabel>
+            <translation><!-- 60 days from date of invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bespoke</masterLabel>
+            <translation><!-- Bespoke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

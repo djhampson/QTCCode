@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMS_Target_Delivery_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(MOD( DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c)- DATE(1900, 1, 7), 7),0, DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c +1), 1, DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c), 2, DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c), 3, DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c), 4, DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c), 5,DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c), 6,DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c + 2), DATEVALUE(CreatedDate + AMS_Service_Catalogue__r.Delivery_Target__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>AMS Target Delivery Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

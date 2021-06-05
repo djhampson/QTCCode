@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Agreement</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Agreement Account must match the Enterprise Basis Account</errorMessage>
+        <filterItems>
+            <field>ServiceContract.AccountId</field>
+            <operation>equals</operation>
+            <valueField>$Source.Account__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>ServiceContract</referenceTo>
+    <relationshipLabel>Enterprise Basis</relationshipLabel>
+    <relationshipName>Enterprise_Bases</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

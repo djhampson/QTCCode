@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Compare Forecast PL --></label>
+        <name>Compare_Forecast_PL__c</name>
+        <picklistValues>
+            <masterLabel>Both Forecast Ticked</masterLabel>
+            <translation><!-- Both Forecast Ticked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM Forecast Ticked Only</masterLabel>
+            <translation><!-- RM Forecast Ticked Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDI Forecast Ticked Only</masterLabel>
+            <translation><!-- SDI Forecast Ticked Only --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reference Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reference Requests</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Reference Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- This reference customer is not available. --></errorMessage>
+        <name>Check_Reference_Available</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The contact limit number has been reached. --></errorMessage>
+        <name>Contact_limit_number_reached</name>
+    </validationRules>
+    <workflowTasks>
+        <description><!-- Please follow up customer with a thank you letter.
+
+Salesforce Document  Link to Thank you format.
+
+For more details, click the following link: https://technologyone.my.salesforce.com/015G000000ZT64X --></description>
+        <name>Reference_Request</name>
+        <subject><!-- Reference request - thank you followup --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

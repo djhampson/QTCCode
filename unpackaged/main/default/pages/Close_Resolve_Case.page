@@ -1,0 +1,32 @@
+<apex:page standardController="Case" extensions="CaseCommentExtension" >
+    <apex:form id="frmCloseCase">         
+        <apex:pageBlock title="Close/Resolve Case">
+            <apex:pageMessages />
+            <apex:pageBlockButtons >
+                <apex:commandLink value="Save" styleClass="btn" action="{!saveandrefresh}" style="text-decoration:none;padding:4px;"/>  
+                <apex:commandButton action="{!Cancel}" value="Cancel" id="CancelButton"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="1">
+                <apex:selectList size="1" value="{!Case.Status}" id="caseStatus">                     
+                        <apex:selectOptions value="{!CaseStatus}"/>                                      
+                </apex:selectList>
+                <apex:inputField value="{!Case.Resolution__c}" required="true" style="width:90%; height:500%;" id="caseResolution"/>
+                <apex:inputField value="{!Case.Reason}" required="true" style="width:90%; height:150%;" id="caseReason">
+                    <apex:actionSupport event="onchange" reRender="blk2" />
+                </apex:inputField> 
+                <apex:pageBlockSection columns="1" id="blk2">
+                <apex:inputField value="{!Case.Delivered_Release__c}" required="true" id="caseDeliveredRelease2" rendered="{!(Case.RecordType.Name='I am experiencing an issue' && Case.Reason=='Software Change')}"/>  
+                <apex:inputField value="{!Case.Delivered_Release__c}" required="false" id="caseDeliveredRelease" rendered="{!(Case.RecordType.Name=='I am experiencing an issue' && Case.Reason<>'Software Change')}"/>
+                </apex:pageBlockSection>
+                <apex:inputField value="{!Case.CTechnology__c}" required="false" id="caseFoundTechnology"/> 
+                <apex:inputField value="{!Case.Internal_Functional_Area__c}" required="false" id="caseInternalFunctionalArea"/> 
+                <apex:inputField value="{!Case.Knowledge_Article_Required__c}" required="false" id="caseKnowledgeArticleRequired"/> 
+            </apex:pageBlockSection>
+            <!--apex:pageBlockSection columns="1" id="blk2">
+                <apex:inputField value="{!Case.Delivered_Release__c}" required="true" id="caseDeliveredRelease2" rendered="{!(Case.RecordType.Name='I am experiencing an issue' && Case.Reason=='Software Change')}"/>  
+                <apex:inputField value="{!Case.Delivered_Release__c}" required="false" id="caseDeliveredRelease" rendered="{!(Case.RecordType.Name=='I am experiencing an issue' && Case.Reason<>'Software Change')}"/>
+            </apex:pageBlockSection>
+            -->
+        </apex:pageBlock>
+    </apex:form> 
+</apex:page>

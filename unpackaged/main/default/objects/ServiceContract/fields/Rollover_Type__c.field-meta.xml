@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rollover_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Rollover Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Option and No Extension</fullName>
+                <default>false</default>
+                <label>Customer Option and No Extension</label>
+            </value>
+            <value>
+                <fullName>Customer Option and Continuous Extension</fullName>
+                <default>false</default>
+                <label>Customer Option and Continuous Extension</label>
+            </value>
+            <value>
+                <fullName>Customer Option and One-off Extension</fullName>
+                <default>false</default>
+                <label>Customer Option and One-off Extension</label>
+            </value>
+            <value>
+                <fullName>One-off Extension</fullName>
+                <default>false</default>
+                <label>One-off Extension</label>
+            </value>
+            <value>
+                <fullName>Continuous Extension</fullName>
+                <default>false</default>
+                <label>Continuous Extension</label>
+            </value>
+            <value>
+                <fullName>No Customer Option and No Extensions</fullName>
+                <default>false</default>
+                <label>No Customer Option and No Extensions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

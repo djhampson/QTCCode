@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vertical_Market__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry/Vertical</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+                <label>Financial Services</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Health and Community Services</fullName>
+                <default>false</default>
+                <label>Health and Community Services</label>
+            </value>
+            <value>
+                <fullName>Local Government</fullName>
+                <default>false</default>
+                <label>Local Government</label>
+            </value>
+            <value>
+                <fullName>Asset Intensive</fullName>
+                <default>false</default>
+                <label>Asset Intensive</label>
+            </value>
+            <value>
+                <fullName>Project Intensive</fullName>
+                <default>false</default>
+                <label>Project Intensive</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

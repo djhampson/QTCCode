@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- to be deleted. No longer used --></help>
+        <label><!-- z_Ledger --></label>
+        <name>Ledger__c</name>
+    </CustomFieldTranslation>

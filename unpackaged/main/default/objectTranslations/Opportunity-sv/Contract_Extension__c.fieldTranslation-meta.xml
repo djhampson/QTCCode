@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select if this is a contract extension for an existing Saas Contract. --></help>
+        <label><!-- Contract Extension --></label>
+        <name>Contract_Extension__c</name>
+    </CustomFieldTranslation>

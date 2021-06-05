@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 2014 Showcase --></label>
+        <name>X2014_Showcase__c</name>
+        <picklistValues>
+            <masterLabel>Attended</masterLabel>
+            <translation><!-- Attended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invited</masterLabel>
+            <translation><!-- Invited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered</masterLabel>
+            <translation><!-- Registered --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

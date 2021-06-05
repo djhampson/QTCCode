@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>File_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>z_File Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compactus (on-site)</fullName>
+                <default>false</default>
+                <label>Compactus (on-site)</label>
+            </value>
+            <value>
+                <fullName>Document Storage (off site)</fullName>
+                <default>false</default>
+                <label>Document Storage (off site)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

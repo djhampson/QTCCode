@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_2730438</developerName>
+        <masterLabel>Cloud BDM</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Group_Region__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>02 - NSW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>01 - QLD</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>06 - ACT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>05 - WA</sourceValue>
+            </sourceValues>
+            <value>Zack</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>07 - TAS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>03 - VIC</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>04 - SA &amp; NT</sourceValue>
+            </sourceValues>
+            <value>Ameet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>11 - NZN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>12 - NZS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>20 - SEAP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>23 - UK</sourceValue>
+            </sourceValues>
+            <value>Paul</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>AMOUNT</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Total_ASM_Amount_Quoted__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Cloud_Service_Fee_per_year__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.ARR1__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>ACCOUNT_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No business fit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Licence_Model__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Perpetual &amp; Cloud Uplift,SaaS,SaaS Flip,Cloud</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Acquisition,Acquisition Renewal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Region__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Queensland,New South Wales,ACT,New Zealand North,New Zealand South</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CAMPAIGN_SOURCE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BDM_FY20_Cloud_Financials customers SaaS transition</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Licence_Model__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Financials Campaign - FY20 - 40%</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CLOSE_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2024-09-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2019-10-01</startDate>
+    </timeFrameFilter>
+</Report>

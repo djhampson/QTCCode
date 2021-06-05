@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The standard solution is selected when we respond to the customer with that solution. If we respond with a different marketing solution label, the standard solution is referenced when used as basis or starting point to determine our implementation effort. --></help>
+        <label><!-- Standard Solution --></label>
+        <name>Solution__c</name>
+    </CustomFieldTranslation>

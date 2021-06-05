@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This indicates that the customer wishes to receive a quote. --></help>
+        <label><!-- Proceed with Quote --></label>
+        <name>Proceed_with_Quote__c</name>
+    </CustomFieldTranslation>

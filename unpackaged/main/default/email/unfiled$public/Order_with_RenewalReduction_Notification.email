@@ -1,0 +1,11 @@
+The following Renewal has been created with a Renewal Reduction.
+
+Account Name: {!Order.Name_of_Account__c}
+Renewal Opportunity ID: {!Order.Opportunity_Custom_ID__c}
+Opportunity Owner: {!Order.Opportunity_Owner__c}
+Renewal Opportunity Link:  {!$Setup.T1_Control_Settings__c.Internal_URL__c}lightning/r/Opportunity/{!Order.OpportunityId}/view
+Renewal Reduction: {!Order.RenewalReductions__c}
+
+
+Quote ID: {!Order.Quote_Number__c}
+Quote Link: {!$Setup.T1_Control_Settings__c.Internal_URL__c}lightning/r/SBQQ__Quote__c/{!Order.SBQQ__QuoteId__c}/view

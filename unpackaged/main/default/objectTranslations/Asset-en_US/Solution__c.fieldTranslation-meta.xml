@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+        <picklistValues>
+            <masterLabel>Solution - OneAirport</masterLabel>
+            <translation><!-- Solution - OneAirport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneBanking</masterLabel>
+            <translation><!-- Solution - OneBanking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneCare</masterLabel>
+            <translation><!-- Solution - OneCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneCommunity</masterLabel>
+            <translation><!-- Solution - OneCommunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneCorporate</masterLabel>
+            <translation><!-- Solution - OneCorporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneCouncil</masterLabel>
+            <translation><!-- Solution - OneCouncil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneEducation</masterLabel>
+            <translation><!-- Solution - OneEducation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneEnergy</masterLabel>
+            <translation><!-- Solution - OneEnergy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneGovernment</masterLabel>
+            <translation><!-- Solution - OneGovernment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneHealth</masterLabel>
+            <translation><!-- Solution - OneHealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneHousing</masterLabel>
+            <translation><!-- Solution - OneHousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneInsurance</masterLabel>
+            <translation><!-- Solution - OneInsurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneMembership</masterLabel>
+            <translation><!-- Solution - OneMembership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OnePolytechnic</masterLabel>
+            <translation><!-- Solution - OnePolytechnic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OnePort</masterLabel>
+            <translation><!-- Solution - OnePort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneProject</masterLabel>
+            <translation><!-- Solution - OneProject --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneResearch</masterLabel>
+            <translation><!-- Solution - OneResearch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneTAFE</masterLabel>
+            <translation><!-- Solution - OneTAFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneUniversity</masterLabel>
+            <translation><!-- Solution - OneUniversity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneWater</masterLabel>
+            <translation><!-- Solution - OneWater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - OneWealth</masterLabel>
+            <translation><!-- Solution - OneWealth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution - eMinisterials</masterLabel>
+            <translation><!-- Solution - eMinisterials --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

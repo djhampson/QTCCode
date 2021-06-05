@@ -1,0 +1,7 @@
+<apex:page standardController="Case" extensions="orgWideEmailAddressExtension">
+ <apex:emailPublisher entityId="{!case.id}"
+    toAddresses="{!if($Profile.Name == 'Employee Support Community', case.contact.email + ', ' + toSupport.Address, case.contact.email)}"
+    emailBodyFormat="textAndHTML"
+    showSendButton="true"
+    onSubmitSuccess="refreshFeed();"/>
+</apex:page>

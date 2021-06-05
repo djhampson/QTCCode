@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Natural_Account__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Perpetual&#39;, New_Business__c= &#39;True&#39;), &#39;400100&#39;,
+IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Perpetual&#39;, New_Business__c= &#39;False&#39;), &#39;400200&#39;,
+IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Term&#39;, New_Business__c= &#39;True&#39;), &#39;400100&#39;,
+IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Term&#39;, New_Business__c= &#39;False&#39;), &#39;400200&#39;,
+IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;SaaS&#39;, New_Business__c= &#39;True&#39;), &#39;400400&#39;,
+IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;SaaS&#39;, New_Business__c= &#39;False&#39;), &#39;400500&#39;,
+IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Subscription&#39;, New_Business__c= &#39;True&#39;), &#39;400700&#39;,
+IF(AND(Fee_Type__c =&#39;License&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Subscription&#39;, New_Business__c= &#39;False&#39;), &#39;400800&#39;,
+
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Perpetual&#39;, New_Business__c= &#39;True&#39;), &#39;405000&#39;,
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Perpetual&#39;, New_Business__c= &#39;False&#39;), &#39;405100&#39;,
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Term&#39;, New_Business__c= &#39;True&#39;), &#39;405000&#39;,
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Term&#39;, New_Business__c= &#39;False&#39;), &#39;405100&#39;,
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;SaaS&#39;, New_Business__c= &#39;True&#39;), &#39;405200&#39;,
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;SaaS&#39;, New_Business__c= &#39;False&#39;), &#39;405300&#39;,
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Subscription&#39;, New_Business__c= &#39;True&#39;), &#39;405500&#39;,
+IF(AND(Fee_Type__c =&#39;ASM&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Subscription&#39;, New_Business__c= &#39;False&#39;), &#39;405600&#39;,
+
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Perpetual&#39;, New_Business__c= &#39;True&#39;), &#39;410200&#39;,
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Perpetual&#39;, New_Business__c= &#39;False&#39;), &#39;410300&#39;,
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Term&#39;, New_Business__c= &#39;True&#39;), &#39;410200&#39;,
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Term&#39;, New_Business__c= &#39;False&#39;), &#39;410300&#39;,
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;SaaS&#39;, New_Business__c= &#39;True&#39;), &#39;410000&#39;,
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;SaaS&#39;, New_Business__c= &#39;False&#39;), &#39;410100&#39;,
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Subscription&#39;, New_Business__c= &#39;True&#39;), &#39;410000&#39;,
+IF(AND(Fee_Type__c =&#39;Cloud&#39;,OrderProduct__r.Order.Deal_Type__c= &#39;Subscription&#39;, New_Business__c= &#39;False&#39;), &#39;410100&#39;,
+NULL
+))))))))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Natural Account</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

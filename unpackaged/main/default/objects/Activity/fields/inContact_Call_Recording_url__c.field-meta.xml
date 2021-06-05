@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>inContact_Call_Recording_url__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( CallObject ) , &quot;&quot;,  HYPERLINK(&quot;https://au1.nice-incontact.com/search/#/search?searchStr=&quot;  &amp; CallObject &amp; &quot;&amp;page=1&amp;sort=1startTime22&amp;range=7,1548884585522,365,1&quot;, &quot;Recording&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Support Call Recording</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

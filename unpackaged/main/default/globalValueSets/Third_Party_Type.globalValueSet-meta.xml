@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ferret</fullName>
+        <default>false</default>
+        <label>Ferret</label>
+    </customValue>
+    <customValue>
+        <fullName>YCC</fullName>
+        <default>false</default>
+        <label>YCC</label>
+    </customValue>
+    <customValue>
+        <fullName>Scanwatcher</fullName>
+        <default>false</default>
+        <label>Scanwatcher</label>
+    </customValue>
+    <customValue>
+        <fullName>DragItIn</fullName>
+        <default>false</default>
+        <label>DragItIn</label>
+    </customValue>
+    <customValue>
+        <fullName>Velpic</fullName>
+        <default>false</default>
+        <label>Velpic</label>
+    </customValue>
+    <customValue>
+        <fullName>Tanda</fullName>
+        <default>false</default>
+        <label>Tanda</label>
+    </customValue>
+    <customValue>
+        <fullName>EmpLive</fullName>
+        <default>false</default>
+        <label>EmpLive</label>
+    </customValue>
+    <customValue>
+        <fullName>Health Metrics</fullName>
+        <default>false</default>
+        <label>Health Metrics</label>
+    </customValue>
+    <customValue>
+        <fullName>Kofax Capture</fullName>
+        <default>false</default>
+        <label>Kofax Capture</label>
+    </customValue>
+    <masterLabel>Third Party Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

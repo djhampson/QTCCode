@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Idea*Idea$Idea_Number__c</field>
+    </columns>
+    <columns>
+        <field>Idea$Id</field>
+    </columns>
+    <columns>
+        <field>Idea$WeightedSum</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Functional_Area__c</field>
+    </columns>
+    <columns>
+        <field>Idea$Categories</field>
+    </columns>
+    <columns>
+        <field>Idea$Status</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Kel Ideas Report - Vote changes last calendar month</description>
+    <filter>
+        <criteriaItems>
+            <column>Idea$Community</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer Zone</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Idea$WeightedSum</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>0</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Idea$Title</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>KW Cust Ideas with votes last month</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Ideas_Votes__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Idea.Votes$CreatedDate</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Software Change</fullName>
+        <default>false</default>
+        <label>Software Change</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Configuration</fullName>
+        <default>false</default>
+        <label>Configuration</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Environmental</fullName>
+        <default>false</default>
+        <label>Environmental</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data</fullName>
+        <default>false</default>
+        <label>Data</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Cancelled</fullName>
+        <default>false</default>
+        <label>Customer Cancelled</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Response From Customer</fullName>
+        <default>false</default>
+        <label>No Response From Customer</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Request fullfilled</fullName>
+        <default>false</default>
+        <label>Request fullfilled</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Declined</fullName>
+        <default>false</default>
+        <label>Quote Declined</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Work Complete</fullName>
+        <default>false</default>
+        <label>Work Complete</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote Expired</fullName>
+        <default>false</default>
+        <label>Quote Expired</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

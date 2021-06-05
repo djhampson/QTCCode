@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Functionality to be added.
+
+Delivery method: On-site or Cloud
+Remote - resources --></help>
+        <label><!-- Delivery Qualification --></label>
+        <name>Delivery_Qualification__c</name>
+    </CustomFieldTranslation>

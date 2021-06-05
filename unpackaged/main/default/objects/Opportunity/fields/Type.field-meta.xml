@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type</fullName>
+    <inlineHelpText>Existing: Any sale of new modules / additional users
+New Business: Initial purchase to a Prospect account
+New to Existing: Sale of new product to existing customer</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

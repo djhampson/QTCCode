@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<body>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi {!CRC_Request_Approval__c.Endorser_FirstName__c},
+<br>
+
+<br>
+This is an automated email to advise that you have been assigned a Request for endorsement.<br><br>
+You can access your Endorsement using the following <a href="{!CRC_Request_Approval__c.Endorsement_URL__c}">link</a>.<br>
+<br>
+To examine the Request details you can navigate to the Request from the Endorsement page.
+<br><br>
+Kind regards, Governance Risk and Compliance Team
+</p>
+</body>
+</html>

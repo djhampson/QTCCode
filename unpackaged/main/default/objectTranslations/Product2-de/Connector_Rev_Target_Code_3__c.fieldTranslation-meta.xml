@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter the target revenue GL Code for the Connector Product. --></help>
+        <label><!-- Connector Rev Target Code 3 --></label>
+        <name>Connector_Rev_Target_Code_3__c</name>
+    </CustomFieldTranslation>

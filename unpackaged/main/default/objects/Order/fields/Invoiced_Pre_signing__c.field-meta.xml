@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoiced_Pre_signing__c</fullName>
+    <externalId>false</externalId>
+    <label>Invoiced Pre-signing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contracted then Invoiced</fullName>
+                <default>true</default>
+                <label>Contracted then Invoiced</label>
+            </value>
+            <value>
+                <fullName>Invoiced without Contract</fullName>
+                <default>false</default>
+                <label>Invoiced without Contract</label>
+            </value>
+            <value>
+                <fullName>Invoiced and Contracted</fullName>
+                <default>false</default>
+                <label>Invoiced and Contracted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

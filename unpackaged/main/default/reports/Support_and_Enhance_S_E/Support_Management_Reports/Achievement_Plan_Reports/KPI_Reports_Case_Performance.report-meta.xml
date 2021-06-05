@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_11716087</developerName>
+        <masterLabel>Support Lead</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Case_Owner_Reporting_Tags__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, GF</sourceValue>
+            </sourceValues>
+            <value>Gab</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, LB</sourceValue>
+            </sourceValues>
+            <value>Lea-Anne</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, CD</sourceValue>
+            </sourceValues>
+            <value>Craig</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, GG</sourceValue>
+            </sourceValues>
+            <value>Grant</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, MV</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, MV, PM</sourceValue>
+            </sourceValues>
+            <value>Mel</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, PM</sourceValue>
+            </sourceValues>
+            <value>Pram</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>UK</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>RH</sourceValue>
+            </sourceValues>
+            <value>UK</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, PK</sourceValue>
+            </sourceValues>
+            <value>Parvin</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, RH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB</sourceValue>
+            </sourceValues>
+            <value>Tracey</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM</sourceValue>
+            </sourceValues>
+            <value>Greg</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>PRIORITY</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>Case.Resolved_Date__c</field>
+    </columns>
+    <columns>
+        <field>CLOSED_DATEONLY</field>
+    </columns>
+    <currency>AUD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(
+  MONTH(DATEVALUE( Case.Resolved_Date__c ) ),
+  1, &quot;(Q2) 4-January&quot;,
+  2, &quot;(Q2) 5-February&quot;,
+  3, &quot;(Q2) 6-March&quot;,
+  4, &quot;(Q3) 7-April&quot;,
+  5, &quot;(Q3) 8-May&quot;,
+  6, &quot;(Q3) 9-June&quot;,
+  7, &quot;(Q4) 10-July&quot;,
+  8, &quot;(Q4) 11-August&quot;,
+  9, &quot;(Q4) 12-September&quot;,
+  10, &quot;(Q1) 1-October&quot;,
+  11, &quot;(Q1) 2-November&quot;,
+  &quot;(Q1) 3-December&quot;
+)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Period</description>
+        <developerName>CDF1</developerName>
+        <label>Period</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>How many cases have my team members closed?</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7) AND 8</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>TechnologyOne TEST2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notContain</operator>
+            <value>AMS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Resolved,Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Resolved_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>10/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>TB,GM,RH,UK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>Triage,Product,Technical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notContain</operator>
+            <value>Tracey Bulley,Greg McCormack,Roxanne Hoare,AMS,CiA - Technical (Obsolete),Cloud,Consulting Request Technical (Obselete),Technical Consulting - NEW</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_11716087</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Support - Case Closures</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

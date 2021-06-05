@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response Task Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TechOne_LH</letterhead>
+    <name>Response Task Email</name>
+    <style>freeForm</style>
+    <subject>Response task for bid {!BID__c.Bid_Description__c} has been assigned to you.</subject>
+    <textOnly>Hi {!Response_Task__c.Key_Responsible_Person__c},
+
+Response  Task: &quot;{!Response_Task__c.Task__c}&quot;
+Bid Name: &quot;{!BID__c.Bid_Description__c}&quot;.
+Bid Manager: &quot;{!BID__c.Bid_Manager__c}&quot;
+Account: &quot;{!Account.Name}&quot;
+Opportunity: &quot;{!Opportunity.Name}&quot;
+
+Click on {!BID__c.Link} to go to the bid or {!Response_Task__c.Link} for the Response task.
+
+Regards.
+
+{!Response_Task__c.LastModifiedBy}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

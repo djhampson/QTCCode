@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Suspension rights for non-payment clause reference --></help>
+        <label><!-- Suspension for Non-Payment Clause Ref --></label>
+        <name>Suspension_for_Non_Payment_Clause_Ref__c</name>
+    </CustomFieldTranslation>

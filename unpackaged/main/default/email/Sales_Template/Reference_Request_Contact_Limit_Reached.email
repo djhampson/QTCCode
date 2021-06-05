@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[Hi&nbsp;{!CustomerStory__c.OwnerFirstName},<div><br></div><div>Please be advised that the contact limit number of reference request for {!CustomerStory__c.Name}&nbsp;{!CustomerStory__c.Account__c} has been reached.</div><div><br></div><div>Please review the Reference Customer link <a href="{!CustomerStory__c.Link}">{!CustomerStory__c.Link}</a>.</div><div><br></div><div><br></div><div><span style="font-size: 12pt;">Regards</span></div><div><span style="font-size: 12pt;">Salesforce Administrator</span></div><div><span style="font-size: 12pt;"><br></span></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KnowledgeSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <answers>
+        <assignTo>servicecloudadmin@technologyonecorp.com</assignTo>
+        <defaultArticleType>Knowledge</defaultArticleType>
+        <enableArticleCreation>true</enableArticleCreation>
+    </answers>
+    <cases>
+        <articlePDFCreationProfile>customer support community</articlePDFCreationProfile>
+        <articlePublicSharingCommunities>
+            <community>T1 Employee Community</community>
+            <community>T1 Customer Community</community>
+        </articlePublicSharingCommunities>
+        <defaultContributionArticleType>Knowledge</defaultContributionArticleType>
+        <editor>standard</editor>
+        <enableArticleCreation>true</enableArticleCreation>
+        <enableArticlePublicSharingSites>true</enableArticlePublicSharingSites>
+        <enableCaseDataCategoryMapping>false</enableCaseDataCategoryMapping>
+        <useProfileForPDFCreation>true</useProfileForPDFCreation>
+    </cases>
+    <defaultLanguage>en_US</defaultLanguage>
+    <enableChatterQuestionKBDeflection>true</enableChatterQuestionKBDeflection>
+    <enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
+    <enableExternalMediaContent>true</enableExternalMediaContent>
+    <enableKbStandardSharing>false</enableKbStandardSharing>
+    <enableKnowledge>true</enableKnowledge>
+    <enableKnowledgeAgentContribution>true</enableKnowledgeAgentContribution>
+    <enableKnowledgeAnswersPromotion>true</enableKnowledgeAnswersPromotion>
+    <enableKnowledgeArticleTextHighlights>true</enableKnowledgeArticleTextHighlights>
+    <enableKnowledgeCaseRL>false</enableKnowledgeCaseRL>
+    <enableKnowledgeKeywordAutoComplete>true</enableKnowledgeKeywordAutoComplete>
+    <enableKnowledgeTitleAutoComplete>true</enableKnowledgeTitleAutoComplete>
+    <enableLightningKbAutoLoadRichTextField>true</enableLightningKbAutoLoadRichTextField>
+    <enableLightningKnowledge>true</enableLightningKnowledge>
+    <showArticleSummariesCustomerPortal>true</showArticleSummariesCustomerPortal>
+    <showArticleSummariesInternalApp>true</showArticleSummariesInternalApp>
+    <showArticleSummariesPartnerPortal>true</showArticleSummariesPartnerPortal>
+    <showValidationStatusField>false</showValidationStatusField>
+    <suggestedArticles>
+        <caseFields>
+            <field>
+                <name>Subject</name>
+            </field>
+            <field>
+                <name>CFunctional_Area__c</name>
+            </field>
+            <field>
+                <name>Customer_Product__c</name>
+            </field>
+        </caseFields>
+        <useSuggestedArticlesForCase>true</useSuggestedArticlesForCase>
+        <workOrderFields>
+            <field>
+                <name>Subject</name>
+            </field>
+        </workOrderFields>
+        <workOrderLineItemFields>
+            <field>
+                <name>Subject</name>
+            </field>
+        </workOrderLineItemFields>
+    </suggestedArticles>
+    <votingEnabled>true</votingEnabled>
+</KnowledgeSettings>

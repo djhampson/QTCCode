@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_93670195</developerName>
+        <masterLabel>BDM Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Account.Region__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Queensland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Western Australia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ACT</sourceValue>
+            </sourceValues>
+            <value>Zack</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Victoria</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>South Australia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Northern Territory</sourceValue>
+            </sourceValues>
+            <value>Ameet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>New South Wales</sourceValue>
+            </sourceValues>
+            <value>NSW</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>New Zealand South</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>New Zealand North</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tasmania</sourceValue>
+            </sourceValues>
+            <value>Paul</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_72407100</developerName>
+        <masterLabel>Cloud BDM</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Group_Region__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>02 - NSW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>01 - QLD</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>05 - WA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>06 - ACT</sourceValue>
+            </sourceValues>
+            <value>Zack</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>04 - SA &amp; NT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>03 - VIC</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>07 - TAS</sourceValue>
+            </sourceValues>
+            <value>Ameet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>11 - NZN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>12 - NZS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>20 - SEAP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>23 - UK</sourceValue>
+            </sourceValues>
+            <value>Paul</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_30657120</developerName>
+        <masterLabel>Quarter</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.T1_Close_Month__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>2017-01</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2017-02</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2017-03</sourceValue>
+            </sourceValues>
+            <value>Q2</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>2017-06</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2017-05</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2017-04</sourceValue>
+            </sourceValues>
+            <value>Q3</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>2017-07</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2017-08</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2017-09</sourceValue>
+            </sourceValues>
+            <value>Q4</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>2016-10</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2016-11</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2016-12</sourceValue>
+            </sourceValues>
+            <value>Q1</value>
+        </values>
+    </buckets>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.ARR__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>NEXT_STEP</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_TYPE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Licence_Model__c</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cloud_Assessment_Type__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Cloud_Complexity_Level__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No business fit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Licence_Model__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>SaaS,SaaS Flip,Cloud</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Acquisition,Acquisition Renewal</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Forecast_Level__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>In RM  Forecast</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1 - Discovery,2 - Qualify,3 - Proposal,4 - Shortlisted,5 - Preferred</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <field>CLOSE_MONTH</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_72407100</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SaaS/Cloud - Forecast Only FY</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <roleHierarchyFilter>CEO</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

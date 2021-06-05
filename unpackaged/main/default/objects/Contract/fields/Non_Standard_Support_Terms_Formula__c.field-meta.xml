@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Standard_Support_Terms_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL( Supported_Days__c , &#39;7 Days&#39;) ||
+ISPICKVAL( Supported_Days__c , &#39;24/7&#39;) ||
+ISPICKVAL( Supported_Days__c , &#39;Monday to Saturday&#39;) ||
+ISPICKVAL( Supported_Days__c , &#39;Other&#39;) ||
+ISPICKVAL( Supported_Hours__c , &#39;24/7&#39;) ||
+ISPICKVAL( Supported_Hours__c , &#39;Other&#39;) ||
+ISPICKVAL( Availability_Days__c , &#39;7 Days&#39;) ||
+ISPICKVAL( Availability_Days__c , &#39;24/7&#39;) ||
+ISPICKVAL( Availability_Days__c , &#39;Monday to Saturday&#39;) ||
+ISPICKVAL( Availability_Days__c , &#39;Other&#39;) ||
+ISPICKVAL( Availabilty_Hours__c  , &#39;24/7&#39;) ||
+ISPICKVAL( Availabilty_Hours__c , &#39;Other&#39;) ||
+ISPICKVAL( Availability__c , &#39;99.9%&#39;) ||
+ISPICKVAL( Availability__c , &#39;Other&#39;) ||
+ISPICKVAL( SLA_Reporting_Obligation__c , &#39;Yes&#39;) ||
+ISPICKVAL( Cloud_SLA_Reporting__c , &#39;Yes&#39;) ||
+ISPICKVAL( Cloud_Service_Credit__c , &#39;Yes&#39;) ||
+ISPICKVAL( Cloud_Service_Credit__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Service_Credit__c , &#39;Yes&#39;) ||
+ISPICKVAL( Service_Credit__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Non_Std_Support_SLA_Defns__c , &#39;Yes&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Automatically set to true if there are non-standard supported days or hours, cloud availability days, availability %, support sla reporting, cloud sla reporting, support service credits, cloud service credits or other non-std support sla defns.</inlineHelpText>
+    <label>Non-Standard Support Terms</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

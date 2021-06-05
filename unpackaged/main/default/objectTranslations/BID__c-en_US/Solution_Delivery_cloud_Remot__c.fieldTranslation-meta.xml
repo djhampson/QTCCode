@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Solution - Delivery --></label>
+        <name>Solution_Delivery_cloud_Remot__c</name>
+        <picklistValues>
+            <masterLabel>Cloud</masterLabel>
+            <translation><!-- Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Regions</masterLabel>
+            <translation><!-- New Regions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Site</masterLabel>
+            <translation><!-- On-Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote</masterLabel>
+            <translation><!-- Remote --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

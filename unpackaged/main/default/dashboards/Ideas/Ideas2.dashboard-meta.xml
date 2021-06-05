@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Enterprise Asset Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Enterprise Budgeting,~ Reporting &amp; Analytics,~ Performance Planning</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>,~ Financials,~ Enterprise Cash Receipting</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Human Resource &amp; Payroll</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Student Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Enterprise Content Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Property &amp; Rating</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Enterprise Cash Receipting,~ Supply Chain Management</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ TechnologyOne Website</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ TechnologyOne University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Other</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Enterprise App Store</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Customer Community</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ SaaS</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Spatial</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>includes</operator>
+            <values>~ Platform &amp; Product Enablement</values>
+        </dashboardFilterOptions>
+        <name>Categories</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Under Consideration</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>In Development</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alternate Solution Available</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Not Planned,Not in Product Direction</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Existing Feature</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>On Roadmap</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Delivered</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Considered for Future Roadmap</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Bug or Support Issue</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Duplicate</values>
+        </dashboardFilterOptions>
+        <name>Status</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Customer</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Internal</values>
+        </dashboardFilterOptions>
+        <name>Zone: Name</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentChartTheme>light</componentChartTheme>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <footer>Drill to report to see ideas grouped by category</footer>
+                <groupingSortProperties/>
+                <header>Total Number of Ideas</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#408080</indicatorLowColor>
+                <indicatorMiddleColor>#408080</indicatorMiddleColor>
+                <metricLabel>Customer &amp; Employee Community</metricLabel>
+                <report>Ideas/All_Ideas</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>7</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <footer>Drill to report to see ideas grouped by category</footer>
+                <groupingSortProperties/>
+                <header>Ideas without a status &gt; 30 Days old</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#008080</indicatorLowColor>
+                <indicatorMiddleColor>#408080</indicatorMiddleColor>
+                <metricLabel>Customer &amp; Employee Community</metricLabel>
+                <report>Ideas/Ideas_30_days_without_a_status</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>7</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <footer>Drill to report to see ideas grouped by Category</footer>
+                <groupingSortProperties/>
+                <header>All Ideas without a Status</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#408080</indicatorLowColor>
+                <indicatorMiddleColor>#408080</indicatorMiddleColor>
+                <metricLabel>Customer &amp; Employee Community</metricLabel>
+                <report>Ideas/Ideas_without_a_Status</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>7</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>9</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <footer>Drill to report to see ideas grouped by Category</footer>
+                <groupingSortProperties/>
+                <header>Ideas with more than 50 votes (500pts)</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#008080</indicatorLowColor>
+                <indicatorMiddleColor>#008080</indicatorMiddleColor>
+                <report>Ideas/Ideas_with_more_than_10_Votes</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>7</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Drill to report to see ideas grouped by Category</footer>
+                <groupingSortProperties/>
+                <header>Ideas created in Last 7 days</header>
+                <indicatorBreakpoint1>5.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>25.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#008080</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Customer &amp; Employee Community</metricLabel>
+                <report>Ideas/Ideas_Created_in_Last_7_Days</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>7</rowIndex>
+            <rowSpan>6</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Drill to report to ideas grouped by category</footer>
+                <groupingSortProperties/>
+                <header>Ideas created this month</header>
+                <indicatorBreakpoint1>30.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>70.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#008080</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Customer &amp; Employee Community</metricLabel>
+                <report>Ideas/Ideas_Created_This_Month</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>7</rowIndex>
+            <rowSpan>6</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Drill to report to see ideas grouped by Category</footer>
+                <groupingSortProperties/>
+                <header>Ideas with Comments add in last 2 months</header>
+                <indicatorBreakpoint1>50.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>150.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#008080</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Customer &amp; Employee Community</metricLabel>
+                <report>Ideas/Ideas_and_Comments</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>7</rowIndex>
+            <rowSpan>6</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>9</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Idea$Categories</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Status</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Idea$Community</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <footer>Drill down to see ideas grouped by Category</footer>
+                <groupingSortProperties/>
+                <header>Votes cast last month</header>
+                <indicatorBreakpoint1>3000.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>7000.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#008080</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Customer and Employee Community</metricLabel>
+                <report>Ideas/ideas_with_vote_change_in_last_month</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>7</rowIndex>
+            <rowSpan>6</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>roxanne_hoare@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Ideas Summary</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

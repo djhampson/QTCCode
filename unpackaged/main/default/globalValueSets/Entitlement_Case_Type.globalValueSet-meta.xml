@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Change Control</fullName>
+        <default>false</default>
+        <label>Change Control</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant Question or Issue</fullName>
+        <default>false</default>
+        <label>Consultant Question or Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Consulting - Question</fullName>
+        <default>false</default>
+        <label>Consulting - Question</label>
+    </customValue>
+    <customValue>
+        <fullName>I am experiencing an issue</fullName>
+        <default>false</default>
+        <label>I am experiencing an issue</label>
+    </customValue>
+    <customValue>
+        <fullName>I have a Question</fullName>
+        <default>false</default>
+        <label>I have a Question</label>
+    </customValue>
+    <customValue>
+        <fullName>I require an AMS service</fullName>
+        <default>false</default>
+        <label>I require an AMS service</label>
+    </customValue>
+    <customValue>
+        <fullName>I require a TechnologyOne Cloud service</fullName>
+        <default>false</default>
+        <label>I require a TechnologyOne Cloud service</label>
+    </customValue>
+    <customValue>
+        <fullName>I require Consulting services</fullName>
+        <default>false</default>
+        <label>I require Consulting services</label>
+    </customValue>
+    <customValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Request</fullName>
+        <default>false</default>
+        <label>Service Request</label>
+    </customValue>
+    <customValue>
+        <fullName>All</fullName>
+        <default>false</default>
+        <label>All</label>
+    </customValue>
+    <masterLabel>Entitlement Case Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

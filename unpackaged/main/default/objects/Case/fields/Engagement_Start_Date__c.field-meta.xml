@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Start_Date__c</fullName>
+    <externalId>false</externalId>
+    <label>Engagement Start Date</label>
+    <summarizedField>Engagement_Activity__c.Start_Date__c</summarizedField>
+    <summaryForeignKey>Engagement_Activity__c.Case__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

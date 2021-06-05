@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>AMS Industry Lead</fullName>
+        <default>false</default>
+        <label>AMS Industry Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive</fullName>
+        <default>false</default>
+        <label>Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-Sales Consultant</fullName>
+        <color>#0B24BE</color>
+        <default>false</default>
+        <label>Pre-Sales Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Manager</fullName>
+        <default>false</default>
+        <label>Sales Manager</label>
+    </standardValue>
+</StandardValueSet>

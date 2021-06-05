@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Products &amp; SDM Visit Cycle --></label>
+        <name>Products_SDM_Visit_Cycle__c</name>
+        <relationshipLabel><!-- Product Health Reports --></relationshipLabel>
+    </CustomFieldTranslation>

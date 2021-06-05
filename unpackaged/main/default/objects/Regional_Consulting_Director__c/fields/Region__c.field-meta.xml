@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <description>Matches the Opportunity Region picklist on Opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Opportunity Region</inlineHelpText>
+    <label>Region</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01 - QLD</fullName>
+                <default>false</default>
+                <label>01 - QLD</label>
+            </value>
+            <value>
+                <fullName>02 - NSW</fullName>
+                <default>false</default>
+                <label>02 - NSW</label>
+            </value>
+            <value>
+                <fullName>03 - VIC</fullName>
+                <default>false</default>
+                <label>03 - VIC</label>
+            </value>
+            <value>
+                <fullName>04 - SA &amp; NT</fullName>
+                <default>false</default>
+                <label>04 - SA &amp; NT</label>
+            </value>
+            <value>
+                <fullName>05 - WA</fullName>
+                <default>false</default>
+                <label>05 - WA</label>
+            </value>
+            <value>
+                <fullName>06 - ACT</fullName>
+                <default>false</default>
+                <label>06 - ACT</label>
+            </value>
+            <value>
+                <fullName>07 - TAS</fullName>
+                <default>false</default>
+                <label>07 - TAS</label>
+            </value>
+            <value>
+                <fullName>11 - NZN</fullName>
+                <default>false</default>
+                <label>11 - NZN</label>
+            </value>
+            <value>
+                <fullName>12 - NZS</fullName>
+                <default>false</default>
+                <label>12 - NZS</label>
+            </value>
+            <value>
+                <fullName>20 - SEAP</fullName>
+                <default>false</default>
+                <label>20 - SEAP</label>
+            </value>
+            <value>
+                <fullName>23 - UK</fullName>
+                <default>false</default>
+                <label>23 - UK</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

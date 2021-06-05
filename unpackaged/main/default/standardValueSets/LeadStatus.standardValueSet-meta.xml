@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>Open</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting contact [SDR]</fullName>
+        <default>false</default>
+        <label>Awaiting contact [SDR]</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Working [SDR]</fullName>
+        <default>false</default>
+        <label>Working [SDR]</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+        <label>Qualified [SDR]</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Disqualified</fullName>
+        <default>false</default>
+        <label>Disqualified</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Returned to Marketing</fullName>
+        <default>false</default>
+        <label>Returned to Marketing</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Customer</label>
+        <converted>false</converted>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Need_to_specify_a_Third_Party_Type</fullName>
+    <active>true</active>
+    <description>Third Party” = Ticked, then “Third Party Type” should not = “None”</description>
+    <errorConditionFormula>AND(
+ Third_Party__c = TRUE, 
+ ISPICKVAL(Third_Party_Type__c,&quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Third_Party_Type__c</errorDisplayField>
+    <errorMessage>Specify the Third Party Type field or remove the Third Party Checkbox to continue.</errorMessage>
+</ValidationRule>

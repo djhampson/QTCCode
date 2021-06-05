@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>T1 GF Survey Recipient</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>T1 GF Survey Recipients</value>
+    </caseValues>
+    
+    
+    
+    
+    <layouts>
+        <layout>T1 GF Survey Recipient Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

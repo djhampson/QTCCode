@@ -1,0 +1,11 @@
+<aura:component  controller="t1EditController" implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes,force:appHostable,force:hasRecordId" access="global">
+    <aura:attribute name="recordId" type="string" />
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="case" type="Case"/>
+    <aura:attribute name="baseUrl" type="String" default=""/>
+    <aura:attribute name="theurl" type="string" default="{! 'baseURLtoreplace/apex/vftimer__timer?recordId=' + v.recordId + '&amp;parentObjectLabel=Cases&amp;parentObject=Case&amp;recordName=' + v.case.CaseNumber + ' ' + v.case.Subject }"/>
+    <div class="slds-button slds-button--brand cuf-publisherShareButton MEDIUM uiButton">
+        <!--Open URL in New Browser Tab-->
+        <lightning:button label="Track Time" variant="brand" onclick="{!c.handleOpenInNewWindow}"/>
+    </div>
+</aura:component>

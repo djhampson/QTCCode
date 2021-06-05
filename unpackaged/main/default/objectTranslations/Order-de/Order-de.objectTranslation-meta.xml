@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Billing Order Layout</layout>
+        <sections>
+            <label>Zusätzliche Informationen</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Angebot und Opportunity</label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label>Versand- und Rechnungsanschrift</label>
+            <section>Billing Metrics</section>
+        </sections>
+        <sections>
+            <label>Rechnungsinformationen</label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label>Rechnungsinformationen</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Datumsinformationen</label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label>Vertragsinformationen</label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Quote and Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping and Billing Address --></label>
+            <section>Shipping and Billing Address</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Order Layout</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- OrderContracting --></label>
+            <section>OrderContracting</section>
+        </sections>
+        <sections>
+            <label><!-- Quote and Opportunity --></label>
+            <section>Quote and Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping and Billing Information --></label>
+            <section>Shipping and Billing Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Order Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TechOne Order Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Information --></label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Billing Metrics --></label>
+            <section>Billing Metrics</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Date Information --></label>
+            <section>Date Information</section>
+        </sections>
+        <sections>
+            <label><!-- Price Information --></label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label><!-- Quote and Opportunity --></label>
+            <section>Quote and Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping and Billing Address --></label>
+            <section>Shipping and Billing Address</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- AMS Order start date must match this Order&apos;s start date. --></errorMessage>
+        <name>AMS_Order_Start_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- AMS Order must be linked to AMS Quote with Billing Frequency of Annual and Opportunity Record Type of Application Managed Services. --></errorMessage>
+        <name>Application_Managed_Service_and_Billing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- AMS Order can only be populated on an Order linked to a Quote with Deal Type of SaaS. --></errorMessage>
+        <name>If_AMS_Order_and_Deal_type_is_not_SaaS</name>
+    </validationRules>
+</CustomObjectTranslation>

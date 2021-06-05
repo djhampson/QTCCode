@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Does the customer have the right to request to move perpetually licensed software to a different hosted environment? --></help>
+        <label><!-- Right to Move Perpetual Licences --></label>
+        <name>Right_to_Move_Perpetual_Licences__c</name>
+        <picklistValues>
+            <masterLabel>Can Move to Non-T1 Cloud Environment</masterLabel>
+            <translation><!-- Can Move to Non-T1 Cloud Environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must be Used in T1 Cloud Environment</masterLabel>
+            <translation><!-- Must be Used in T1 Cloud Environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

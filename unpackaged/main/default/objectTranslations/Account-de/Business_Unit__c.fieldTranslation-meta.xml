@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>101</masterLabel>
+            <translation><!-- 101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>102</masterLabel>
+            <translation><!-- 102 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>103</masterLabel>
+            <translation><!-- 103 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>104</masterLabel>
+            <translation><!-- 104 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>105</masterLabel>
+            <translation><!-- 105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>106</masterLabel>
+            <translation><!-- 106 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>107</masterLabel>
+            <translation><!-- 107 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>108</masterLabel>
+            <translation><!-- 108 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>109</masterLabel>
+            <translation><!-- 109 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>110</masterLabel>
+            <translation><!-- 110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>111</masterLabel>
+            <translation><!-- 111 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>112</masterLabel>
+            <translation><!-- 112 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

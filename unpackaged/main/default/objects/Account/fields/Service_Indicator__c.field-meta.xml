@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((SaaS__c = true || Cloud_Hosting__c = true) &amp;&amp; AMS__c = true, image(&quot;/resource/cloud&quot;,&quot;*&quot;, 24,24) + image(&quot;/resource/ams&quot;,&quot;*&quot;, 14,34),
+IF((SaaS__c = true || Cloud_Hosting__c = true) &amp;&amp; AMS__c = false , image(&quot;/resource/cloud&quot;,&quot;*&quot;, 24,24),
+IF(SaaS__c = false &amp;&amp; Cloud_Hosting__c = false &amp;&amp; AMS__c = true , image(&quot;/resource/ams&quot;,&quot;*&quot;, 14,34),
+&quot;&quot;
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Service</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

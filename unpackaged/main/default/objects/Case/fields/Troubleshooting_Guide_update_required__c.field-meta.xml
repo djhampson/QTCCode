@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Troubleshooting_Guide_update_required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field on case resolution for marking a case as requiring a troubleshooting guide to be updated.</description>
+    <externalId>false</externalId>
+    <label>Troubleshooting Guide Update Required</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

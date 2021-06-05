@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$ARR1__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Activities$Subject</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>Contact.MQL_Create_Date__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <operation>with</operation>
+        <primaryTableColumn>Opportunity$Id</primaryTableColumn>
+        <relatedTable>OCR-Contact</relatedTable>
+        <relatedTableJoinColumn>Opportunity</relatedTableJoinColumn>
+    </crossFilters>
+    <currency>AUD</currency>
+    <description>Trailing for MQL pipeline reporting</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.Activities$Subject</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Activities$Subject</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Lead Handover</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Account</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MQL pipe_Opps w Activities 1</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

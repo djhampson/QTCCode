@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Module_Modified_Date__c</fullName>
+    <description>Module Modified Date from OpportunityModuleItem. Used to trigger Opportunity to add item split records.</description>
+    <externalId>false</externalId>
+    <label>Module Modified Date</label>
+    <summarizedField>OpportunityModuleItem__c.LastModifiedDate</summarizedField>
+    <summaryForeignKey>OpportunityModuleItem__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

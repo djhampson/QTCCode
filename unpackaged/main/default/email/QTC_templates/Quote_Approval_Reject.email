@@ -1,0 +1,29 @@
+<messaging:emailTemplate subject="Your approval request has been Rejected, please take a look." recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:plainTextEmailBody >
+Dear {!relatedTo.sbaa__AssignedTo__c},
+
+Please note the approval request has been rejected.
+
+Please find more information below:
+
+Opportunity Name: {!relatedTo.Opportunity_Name__c}
+Opportunity Owner: {!relatedTo.Opportunity_Owner__c}
+Opportunity Amount: {!relatedTo.Opportunity_Amount__c}
+
+Account Name: {!relatedTo.Account_Name__c}
+Quote Number: {!relatedTo.Quote_Number__c}
+Requested By: {!relatedTo.Requested_by_Name__c} 
+Approval Number: {!relatedTo.Name}
+Approval Status: {!relatedTo.sbaa__Status__c}
+Rejected By: {!relatedTo.Rejected_by_Name__c} 
+
+Comments: {!relatedTo.sbaa__CommentsLong__c}
+
+Link to approval : https://technologyone--dev.lightning.force.com/lightning/r/sbaa__Approval__c/{!relatedTo.Id}/view
+
+
+
+<p> “style=color:white” ”apex:outputText” value=”{!relatedTo.ID}” </p>
+
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

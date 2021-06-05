@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Licence_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Licence/Service Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SaaS</fullName>
+                <default>false</default>
+                <label>SaaS</label>
+            </value>
+            <value>
+                <fullName>Flip to SaaS (new contract)</fullName>
+                <default>false</default>
+                <label>Flip to SaaS (new contract)</label>
+            </value>
+            <value>
+                <fullName>Flip to SaaS (variation)</fullName>
+                <default>false</default>
+                <label>Flip to SaaS (variation)</label>
+            </value>
+            <value>
+                <fullName>Cloud Services only</fullName>
+                <default>false</default>
+                <label>Cloud Services only</label>
+            </value>
+            <value>
+                <fullName>Perpetual on Cloud</fullName>
+                <default>false</default>
+                <label>Perpetual on Cloud</label>
+            </value>
+            <value>
+                <fullName>Perpetual on Cloud (new contract)</fullName>
+                <default>false</default>
+                <label>Perpetual on Cloud (new contract)</label>
+            </value>
+            <value>
+                <fullName>Perpetual on Cloud (variation)</fullName>
+                <default>false</default>
+                <label>Perpetual on Cloud (variation)</label>
+            </value>
+            <value>
+                <fullName>Perpetual On Premise</fullName>
+                <default>false</default>
+                <label>Perpetual On Premise</label>
+            </value>
+            <value>
+                <fullName>Subscription On Premise</fullName>
+                <default>false</default>
+                <label>Subscription On Premise</label>
+            </value>
+            <value>
+                <fullName>Flip to Subscription On Premise (new contract)</fullName>
+                <default>false</default>
+                <label>Flip to Subscription On Premise (new contract)</label>
+            </value>
+            <value>
+                <fullName>Flip to Subscription (variation)</fullName>
+                <default>false</default>
+                <label>Flip to Subscription (variation)</label>
+            </value>
+            <value>
+                <fullName>Licence Agreement only</fullName>
+                <default>false</default>
+                <label>Licence Agreement only</label>
+            </value>
+            <value>
+                <fullName>Consulting only</fullName>
+                <default>false</default>
+                <label>Consulting only</label>
+            </value>
+            <value>
+                <fullName>AMS only</fullName>
+                <default>false</default>
+                <label>AMS only</label>
+            </value>
+            <value>
+                <fullName>Early Adopter Program</fullName>
+                <default>false</default>
+                <label>Early Adopter Program</label>
+            </value>
+            <value>
+                <fullName>DRaaS Standalone</fullName>
+                <default>false</default>
+                <label>DRaaS Standalone</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

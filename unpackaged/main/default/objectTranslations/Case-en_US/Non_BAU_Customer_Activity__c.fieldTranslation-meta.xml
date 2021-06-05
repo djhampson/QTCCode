@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What non-scheduled event or non-BAU customer activity is the driver/cause/reason for this case?
+Please select N/A if unsure. --></help>
+        <label><!-- Non-BAU Customer Activity --></label>
+        <name>Non_BAU_Customer_Activity__c</name>
+        <picklistValues>
+            <masterLabel>Ci to CiA Conversion - Data Migration</masterLabel>
+            <translation><!-- Ci to CiA Conversion - Data Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci to CiA Conversion - Functionality Gaps</masterLabel>
+            <translation><!-- Ci to CiA Conversion - Functionality Gaps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci to CiA Conversion - Go Live/Showstopper</masterLabel>
+            <translation><!-- Ci to CiA Conversion - Go Live/Showstopper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance - On Premise</masterLabel>
+            <translation><!-- Performance - On Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance - Product</masterLabel>
+            <translation><!-- Performance - Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance - SaaS</masterLabel>
+            <translation><!-- Performance - SaaS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projects - SaaS Transition</masterLabel>
+            <translation><!-- Projects - SaaS Transition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projects - Sponsor Driven</masterLabel>
+            <translation><!-- Projects - Sponsor Driven --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projects - T1 PMO Run</masterLabel>
+            <translation><!-- Projects - T1 PMO Run --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Upgrade - Early Adopter</masterLabel>
+            <translation><!-- Release Upgrade - Early Adopter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Upgrade - On Premise</masterLabel>
+            <translation><!-- Release Upgrade - On Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Upgrade - SaaS</masterLabel>
+            <translation><!-- Release Upgrade - SaaS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Outage - Emergency</masterLabel>
+            <translation><!-- SaaS Outage - Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Outage - Infrastructure Upgrade</masterLabel>
+            <translation><!-- SaaS Outage - Infrastructure Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Outage - Undocumented</masterLabel>
+            <translation><!-- SaaS Outage - Undocumented --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

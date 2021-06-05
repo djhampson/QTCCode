@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Vertical_Market__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Region__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Account_Name__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Opportunity_Name__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Stage__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Amount__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Close_Date__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <currency>AUD</currency>
+    <format>Tabular</format>
+    <name>Stage 3 Over Snapshot Data by Date</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Discovered_Opportunity_Snapshot__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <endDate>2017-09-29</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-09-29</startDate>
+    </timeFrameFilter>
+</Report>

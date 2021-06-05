@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Country Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CountryArea__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>11</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>13</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>15</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>12</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <controllingFieldValue>Pacific</controllingFieldValue>
+            <controllingFieldValue>Distributors</controllingFieldValue>
+            <valueName>11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Zealand</controllingFieldValue>
+            <valueName>13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asia</controllingFieldValue>
+            <valueName>12</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_One_Employee</fullName>
+    <active>true</active>
+    <description>Employees of Technology one</description>
+    <label>Technology One Employee</label>
+    <picklistValues>
+        <picklist>Consent__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_For_Support__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_For__c</picklist>
+        <values>
+            <fullName>Asset Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Performance Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise Content Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property and Rating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stakeholder Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Method_Preference__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Fax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contact_Status__c</picklist>
+        <values>
+            <fullName>Awaiting contact %5BCAM%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting contact %5BSDR%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualified %5BCAM%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returned to Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working %5BCAM%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working %5BSDR%5D</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Employee_Classification__c</picklist>
+        <values>
+            <fullName>Bid Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Development Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Account Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Development Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Practice Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presales Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Customer Service Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telemarketing Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Employment_Status__c</picklist>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Ex-Employee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gender__c</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interested_in_Products__c</picklist>
+        <values>
+            <fullName>Asset Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Performance Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise Content Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property and Rating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stakeholder Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain Management</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Job_Classification__c</picklist>
+        <values>
+            <fullName>Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asset Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chairman %2F Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Executive Officer %2F MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Performance Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Services Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance - Senior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fundraising Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT - Junior %26 Systems Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT - Senior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayor and Councillors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll - Junior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portfolio and Project Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property %26 Facilities Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Records and Information Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales %26 Marketing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>CAM Initiated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Converted Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Initiated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inco %28UK Only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lifecycle_Stage__c</picklist>
+        <values>
+            <fullName>Customer %7C Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C Ex-customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C Known</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C Lost Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C MQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C Recycled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C SAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C SQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer %7C Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C Known</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C MQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C Recycled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C SAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C SDR AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C SDR QL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C SQL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect %7C Won</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sir</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_Reason__c</picklist>
+        <values>
+            <fullName>Bad data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs further qualification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No authority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No business fit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not ready to buy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to reach</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2017_Showcase__c</picklist>
+        <values>
+            <fullName>Attended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Registered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

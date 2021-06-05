@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount/PARENTGROUPVAL(RowCount, FISCAL_QUARTER)</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>BucketField_85216211</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Win/Loss Rate</masterLabel>
+        <scale>2</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_85216211</developerName>
+        <masterLabel>Stage Category</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Stage 9 - Won</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Opt Out / No Bid</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <value>Lost/Opt Out</value>
+        </values>
+    </buckets>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>TOTAL_PRICE.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Account.Vertical_Market__c</field>
+    </columns>
+    <columns>
+        <field>Account.Group_Region__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.Product__c</field>
+    </columns>
+    <columns>
+        <field>PRODUCT_NAME</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Win/Loss Rate</description>
+    <filter>
+        <criteriaItems>
+            <column>PRODUCT_CUSTOMER_ID</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>HR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No business fit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Existing Business,New Business,New to Existing</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FISCAL_QUARTER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_85216211</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>HRP Analysis Win Loss Rate</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>closed</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityProduct</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_PREVFY</interval>
+    </timeFrameFilter>
+</Report>

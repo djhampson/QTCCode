@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Vertical__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(ContactId)),TEXT(Contact.Account.Vertical_Market__c),
+IF(NOT(ISBLANK(LeadId)),TEXT(Lead.Vertical_Market__c),
+TEXT(Account.Vertical_Market__c)))</formula>
+    <label>Industry/Vertical</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

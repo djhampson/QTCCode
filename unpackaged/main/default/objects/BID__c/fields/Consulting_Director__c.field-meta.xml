@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consulting_Director__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Consulting Director</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only TechOne Employees who have employee classification of Consulting Director will show up in search.</inlineHelpText>
+    <label>Consulting Director</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Technology One Employee</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.Employee_Classification__c</field>
+            <operation>equals</operation>
+            <value>Consulting Director</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Bids (Consulting Director)</relationshipLabel>
+    <relationshipName>Bid_Contact_CD</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

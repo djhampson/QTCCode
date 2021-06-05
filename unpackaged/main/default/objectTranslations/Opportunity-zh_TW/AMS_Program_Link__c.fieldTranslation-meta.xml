@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Ensure to enter a valid AMS opportunity that qualifies for the AMS Behavioral Discount. --></help>
+        <label><!-- AMS Program Link --></label>
+        <lookupFilter>
+            <errorMessage><!-- This opportunity is either not of type Application Managed Services or not linked to the same account, please review. --></errorMessage>
+        </lookupFilter>
+        <name>AMS_Program_Link__c</name>
+        <relationshipLabel><!-- AMS Program Link --></relationshipLabel>
+    </CustomFieldTranslation>

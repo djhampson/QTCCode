@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Access Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Access Management</name>
+        <parentName>System Administration</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Accounts Payable (AP)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Accounts Payable (AP)</name>
+        <parentName>Financials</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Accounts Receivable (AR)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Accounts Receivable (AR)</name>
+        <parentName>Financials</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Admissions &amp; Enrolments</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Admissions &amp; Enrolments</name>
+        <parentName>Student Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Animals</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Animals</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Asset Accounting</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Asset Accounting</name>
+        <parentName>Financials</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Asset Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Asset Management</name>
+        <parentName>Enterprise Asset Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Authentication</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Authentication</name>
+        <parentName>System Administration</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Banking</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Banking</name>
+        <parentName>Financials</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Basemaps</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Basemaps</name>
+        <parentName>Intramaps</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Business Process Automation</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Business Process Automation</name>
+        <parentName>Business Process Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Business Process Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Business Process Management</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:CRM Services</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>CRM Services</name>
+        <parentName>Stakeholder Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Cases</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Cases</name>
+        <parentName>Community</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Charges &amp; Billing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Charges &amp; Billing</name>
+        <parentName>Financials</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Community</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Community</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Contracts</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Contracts</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Corporate Performance Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Corporate Performance Management</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Curriculum</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Curriculum</name>
+        <parentName>Student Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Data Entry</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Data Entry</name>
+        <parentName>Financials</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Database</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Database</name>
+        <parentName>Technical</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Debt Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Debt Management</name>
+        <parentName>Accounts Receivable (AR)</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Debtors</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Debtors</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Distributed Processing (DP)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Distributed Processing (DP)</name>
+        <parentName>System Administration</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Document Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Document Management</name>
+        <parentName>Enterprise Content Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Education Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Administration</name>
+        <parentName>Student Management</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Education Compliance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Compliance</name>
+        <parentName>Other</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Education Finance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Finance</name>
+        <parentName>Other</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Education Scheduling</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Education Scheduling</name>
+        <parentName>Other</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Enterprise Asset Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Asset Management</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Enterprise Budgeting</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Budgeting</name>
+        <parentName>Corporate Performance Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Enterprise Cash Receipting</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Cash Receipting</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Enterprise Content Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Enterprise Content Management</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Financial API Services</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Financial API Services</name>
+        <parentName>Financial System Administration</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Financial System Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Financial System Administration</name>
+        <parentName>Financials</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Financials</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Financials</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Forms</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Forms</name>
+        <parentName>Business Process Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:General Ledger (GL)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>General Ledger (GL)</name>
+        <parentName>Financials</parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Getting Started</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Getting Started</name>
+        <parentName>Community</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Groups</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Groups</name>
+        <parentName>Community</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Human Resource &amp; Payroll</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Human Resource &amp; Payroll</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Ideas</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Ideas</name>
+        <parentName>Community</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Infrastructure</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Infrastructure</name>
+        <parentName>Technical</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Infringements</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Infringements</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Interactions &amp; Correspondence</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Interactions &amp; Correspondence</name>
+        <parentName>Stakeholder Management</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:IntraMaps Application</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps Application</name>
+        <parentName>Intramaps</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:IntraMaps Configuration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps Configuration</name>
+        <parentName>Intramaps</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:IntraMaps General</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps General</name>
+        <parentName>Intramaps</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:IntraMaps Release Information</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>IntraMaps Release Information</name>
+        <parentName>Intramaps</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Intramaps</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Intramaps</name>
+        <parentName>Spatial</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Inventory</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Inventory</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Knowledge</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Knowledge</name>
+        <parentName>Community</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Labelling &amp; Styling</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Labelling &amp; Styling</name>
+        <parentName>MapManager</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:MEETINGS</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MEETINGS</name>
+        <parentName>Enterprise Content Management</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:MapBuilder</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapBuilder</name>
+        <parentName>Intramaps</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:MapManager</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapManager</name>
+        <parentName>Spatial</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:MapManager General</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapManager General</name>
+        <parentName>MapManager</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:MapServer</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>MapServer</name>
+        <parentName>Miscellaneous</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Miscellaneous</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Miscellaneous</name>
+        <parentName>Spatial</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Orgnanisation Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Orgnanisation Management</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Other</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Other</name>
+        <parentName>Student Management</parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:P&amp;R Billing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>P&amp;R Billing</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Payment Processing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Payment Processing</name>
+        <parentName>Accounts Payable (AP)</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Payroll</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Payroll</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Performance Planning</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Performance Planning</name>
+        <parentName>Corporate Performance Management</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Policy &amp; Compliance</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Policy &amp; Compliance</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Portals</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Portals</name>
+        <parentName>Student Management</parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Progressions &amp; Completions</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Progressions &amp; Completions</name>
+        <parentName>Student Management</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Property &amp; Rating</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Property &amp; Rating</name>
+        <parentName></parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Property Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Property Management</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Purchasing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Purchasing</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:QGIS</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>QGIS</name>
+        <parentName>Miscellaneous</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:RECORDS MANAGEMENT</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>RECORDS MANAGEMENT</name>
+        <parentName>Enterprise Content Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Recruitment</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Recruitment</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Reporting &amp; Analytics</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Reporting &amp; Analytics</name>
+        <parentName>Corporate Performance Management</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Research &amp; Candidature</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Research &amp; Candidature</name>
+        <parentName>Student Management</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:SQL/OGR/GDAL</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>SQL/OGR/GDAL</name>
+        <parentName>Miscellaneous</parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:SaaS</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>SaaS</name>
+        <parentName></parentName>
+        <position>14</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Safety</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Safety</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Scholarships</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Scholarships</name>
+        <parentName>Other</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Security</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Security</name>
+        <parentName></parentName>
+        <position>16</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Service Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Service Management</name>
+        <parentName>Property &amp; Rating</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Sourcing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Sourcing</name>
+        <parentName>Supply Chain Management</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Spatial</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Spatial</name>
+        <parentName></parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Stakeholder Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Stakeholder Management</name>
+        <parentName></parentName>
+        <position>10</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Student Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Administration</name>
+        <parentName>Student Management</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Student Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Management</name>
+        <parentName></parentName>
+        <position>11</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Student Portal</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Portal</name>
+        <parentName>Portals</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Student Recruitment</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Recruitment</name>
+        <parentName>Student Management</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Student Stakeholders Portal</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Student Stakeholders Portal</name>
+        <parentName>Portals</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Supply Chain Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Supply Chain Management</name>
+        <parentName></parentName>
+        <position>12</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:System Administration</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>System Administration</name>
+        <parentName></parentName>
+        <position>13</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Talent &amp; Succession</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Talent &amp; Succession</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Taxation</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Taxation</name>
+        <parentName>Financials</parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Teaching &amp; Learning</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Teaching &amp; Learning</name>
+        <parentName>Student Management</parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Technical</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Technical</name>
+        <parentName></parentName>
+        <position>15</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Training</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Training</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Travel &amp; Expenses (T&amp;E)</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Travel &amp; Expenses (T&amp;E)</name>
+        <parentName>Financials</parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Users</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Users</name>
+        <parentName>System Administration</parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Work Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Work Management</name>
+        <parentName>Enterprise Asset Management</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>T1 Employee Community.Navigational:Workforce Management</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Workforce Management</name>
+        <parentName>Human Resource &amp; Payroll</parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

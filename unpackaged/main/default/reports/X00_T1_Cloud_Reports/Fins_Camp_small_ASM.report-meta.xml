@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_92570662</developerName>
+        <masterLabel>BDM Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Region__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Queensland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ACT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Western Australia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>New South Wales</sourceValue>
+            </sourceValues>
+            <value>Zack</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>New Zealand North</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>New Zealand South</sourceValue>
+            </sourceValues>
+            <value>Paul</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Victoria</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>South Australia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Northern Territory</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tasmania</sourceValue>
+            </sourceValues>
+            <value>Ameet</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>NEXT_STEP</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.ARR__c.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Total_ASM__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_SOURCE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BDM_FY19_Cloud_Financials customers Cloud transition</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>6 - Sales Closed,7 - Closed,Lost,Opt Out / No Bid,Stage 9 - Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Total_ASM__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessOrEqual</operator>
+            <value>AUD 30000</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>FiscalYear</dateGranularity>
+        <field>CLOSE_DATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STAGE_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_92570662</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Fins Camp small ASM</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>OpportunityCampaign</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

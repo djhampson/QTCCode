@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Confirmation</fullName>
+    <availability>online</availability>
+    <description>Send Engagement Confirmation to customer</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Send Engagement Confirmation</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/Cons_Serv_Send_Engagement_Confirm?var_CaseId={!Case.Id}&amp;retURL=/{!Case.Id}</url>
+</WebLink>

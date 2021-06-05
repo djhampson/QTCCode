@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Current_High_Risk_Contracts</fullName>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>CONTRACT.NAME</columns>
+    <columns>CONTRACT.STATUS</columns>
+    <columns>Perpetual_Contract__c</columns>
+    <columns>High_Risk_Indicator__c</columns>
+    <columns>CONTRACT.START_DATE</columns>
+    <columns>CONTRACT.END_DATE</columns>
+    <columns>Account_Sector__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.STATUS</field>
+        <operation>equals</operation>
+        <value>Current</value>
+    </filters>
+    <filters>
+        <field>High_Risk__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All Current High Risk Contracts</label>
+</ListView>

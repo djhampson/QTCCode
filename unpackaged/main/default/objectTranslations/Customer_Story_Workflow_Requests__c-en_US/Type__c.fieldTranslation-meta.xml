@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Marketing Activity</masterLabel>
+            <translation><!-- Marketing Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference Call</masterLabel>
+            <translation><!-- Reference Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Visit</masterLabel>
+            <translation><!-- Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tender Document</masterLabel>
+            <translation><!-- Tender Document --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The value provided by the user when they self-registered for Customer Community access. --></help>
+        <label><!-- Org Support Key Supplied --></label>
+        <name>Org_Support_Key_Supplied__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div style="background-image: url({!$Setup.EmailTemplateFields__c.T1_Logo__c});background-size: 340px;background-repeat: no-repeat; background-position: center;width: 900px;height: 70px">
+</div>
+<div style="width: 900px;">
+
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi  {!P_S_Survey_Recipient__c.Contact_First_Name__c},
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+As discussed, with the roll-out of Customer Success we are trying to get an early indicator on our impact and effectiveness.<br><br>
+I’d really value your responses to our questions and then I’ll follow up in about 90 days to see if we have moved the dial at all.
+</p>
+<table style = "width:100%">
+        <tr><td style = "width: 36%"></td>
+        <td style="background:#09b5d1; border-radius:3px; padding:9px 40px; text-align:center">
+        <center><a href="https://www.getfeedback.com/r/0J9TWm8w?Contact={!P_S_Survey_Recipient__c.Contact__c}&ProductsServicesId={!P_S_Survey_Recipient__c.Products_Services_Id__c}&SurveyNum=1" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" width="200px" style="color:inherit; font-size:inherit; font-family:inherit; font-weight:inherit; line-height:inherit; font-family:SalesforceSans-Bold,Helvetica,Arial,sans-serif; font-size:15px; color:#FFFFFF; text-decoration:none"><font color="#FFFFFF">COMPLETE THE SURVEY</font></a>
+        </center>
+        </td><td style = "width: 36%"></td>
+        </tr>
+</table>
+<br>
+
+<br>
+<p style = "font-family:calibri;font-size:16px;">Finally, please feel free to reach out to me at any point moving forward.<br><br>
+Thanks again
+<br>
+<br>
+Regards,<br>
+Stephen Williams<br>
+Director - Customer Success<br>
+TechnologyOne
+<br><br>{!$Setup.EmailTemplateFields__c.Phone_Nos__c}<br></p>
+<p style = "font-family:calibri;font-size:12px;">
+<br>
+{!$Setup.EmailTemplateFields__c.FooterText1__c}<br> 
+{!$Setup.EmailTemplateFields__c.FooterText2__c}<br>
+{!$Setup.EmailTemplateFields__c.FooterURL__c}<br><br>
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_2__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_3__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+</p>
+
+<p style = "line-height:100%;font-family:calibri;font-size:10px;">
+TechnologyOne accepts no liability for this email or its attachments.<br>
+It is for the intended recipient only. <a href="https://technologyonecorp.com/terms-of-use" target="_blank" style="color:#00B4D0">
+<span>More info</span></a><br> 
+<a style="color:#00B4D0" href="mailto:Stop_Spam@TechnologyOneCorp.com">Stop_Spam@TechnologyOneCorp.com</a><br>
+</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>this can be deleted</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>CC image - testing size</name>
+    <public>true</public>
+</Document>

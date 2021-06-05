@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify users that Support SLA Customer field on account has been updated</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Support SLA Customer Updated</name>
+    <style>none</style>
+    <subject>Support SLA Customer has been updated for {!Account.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

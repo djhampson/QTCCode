@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Quote for consulting services - Reminder</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Reminder for Quote for Consulting Services</name>
+    <style>none</style>
+    <subject>Reminder - Quote for Consulting Services: Case {!Case.CaseNumber} {!Case.Subject} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+We previously provided the quote below for your attention, and take this opportunity to remind you that action is required.
+
+
+Case Number:  {!Case.CaseNumber}
+Case Subject:  {!Case.Subject}
+Customer Reference:  {!Case.Customer_Reference__c}
+Scope of Work:  {!Case.Scope_of_Work__c}
+Estimated Days (inclusive of travel time if applicable):  {!Case.Total_Engagement_Days__c}
+Total Price (inclusive of tax):  {!Case.Total_Incl_Tax_Out__c}
+Estimated Travel Expense:  {!Case.Estimated_Travel_Expense__c}
+
+Kind regards,
+
+TechnologyOne Consulting Services
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

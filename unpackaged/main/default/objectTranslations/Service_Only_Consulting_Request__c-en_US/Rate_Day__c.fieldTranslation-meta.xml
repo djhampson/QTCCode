@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Rate Guide - Australia
+Project Manager - $2325
+Principal Cons - $2325
+Senior Cons - $2060
+Cons - $1960
+Tech - $1960
+Weekend Surcharge - $980
+Will default value from account once saved. Can override if needed. --></help>
+        <label><!-- Consulting Rate/Day --></label>
+        <name>Rate_Day__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_around_Details__c</fullName>
+    <description>Used to document the work-around the Customer is using</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please document the work-around with as much detail as possible</inlineHelpText>
+    <label>Work-around details employed</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

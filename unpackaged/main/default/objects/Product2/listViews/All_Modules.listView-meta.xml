@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Modules</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Mod_Code__c</columns>
+    <columns>PRODUCT2.LAST_UPDATE</columns>
+    <columns>Status__c</columns>
+    <columns>Fee_Type__c</columns>
+    <columns>Module_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fee_Type__c</field>
+        <operation>notEqual</operation>
+        <value>ASM</value>
+    </filters>
+    <filters>
+        <field>Fee_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Cloud</value>
+    </filters>
+    <label>All Modules</label>
+</ListView>

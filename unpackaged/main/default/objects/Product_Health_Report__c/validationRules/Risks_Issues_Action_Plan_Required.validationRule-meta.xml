@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risks_Issues_Action_Plan_Required</fullName>
+    <active>true</active>
+    <description>Risks &amp; Issues Action Plan is Required for Red/Amber Risks &amp; Issues Status</description>
+    <errorConditionFormula>($Profile.Name &lt;&gt; &quot;System Administrator&quot;) &amp;&amp; 
+TEXT(Risks_Issues__c) &lt;&gt; &#39;Green&#39; &amp;&amp; 
+ISBLANK(Risks_Issues_Action_Plan__c)</errorConditionFormula>
+    <errorDisplayField>Risks_Issues_Action_Plan__c</errorDisplayField>
+    <errorMessage>Risks &amp; Issues Action Plan is Required for Red/Amber Risks &amp; Issues Status</errorMessage>
+</ValidationRule>

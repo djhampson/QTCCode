@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Request for customer environment access</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Request for Environment Access</name>
+    <style>none</style>
+    <subject>Request for environment access: Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi,
+
+To assist with further investigation of this case, we are requesting access to your environment via a unique login.
+
+Please create a &#39;User&#39; to allow access for us to continue with our analysis.
+
+If you require help, view the Knowledge Article Remote Support Access for SaaS Customers in the Customer Community. This article also contains the recommendation for deactivation of the user.
+
+For Security and Privacy purposes do not email the password to us.
+
+When we receive an email regarding the creation of the new user, we will contact you separately regarding the password.
+
+Please provide the following information via return email to approve TechnologyOne access to your environment:
+
+Replying with &#39;Yes&#39;: means &#39;Our organisation gives permission for a TechnologyOne staff member to access our environment.&#39;
+Username Created: (Enter username here)
+URL: (Please insert the URL link for the required environment)
+
+Kind regards,
+TechnologyOne Support
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

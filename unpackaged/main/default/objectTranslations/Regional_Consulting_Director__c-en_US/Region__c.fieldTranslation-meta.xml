@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Opportunity Region --></help>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>01 - QLD</masterLabel>
+            <translation><!-- 01 - QLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>02 - NSW</masterLabel>
+            <translation><!-- 02 - NSW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>03 - VIC</masterLabel>
+            <translation><!-- 03 - VIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>04 - SA &amp; NT</masterLabel>
+            <translation><!-- 04 - SA &amp; NT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>05 - WA</masterLabel>
+            <translation><!-- 05 - WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>06 - ACT</masterLabel>
+            <translation><!-- 06 - ACT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>07 - TAS</masterLabel>
+            <translation><!-- 07 - TAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - NZN</masterLabel>
+            <translation><!-- 11 - NZN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - NZS</masterLabel>
+            <translation><!-- 12 - NZS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 - SEAP</masterLabel>
+            <translation><!-- 20 - SEAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23 - UK</masterLabel>
+            <translation><!-- 23 - UK --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

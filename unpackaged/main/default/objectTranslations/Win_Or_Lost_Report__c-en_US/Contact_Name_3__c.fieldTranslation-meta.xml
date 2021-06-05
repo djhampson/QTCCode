@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Key Customer/Prospect Decision Makers Name --></help>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name_3__c</name>
+        <relationshipLabel><!-- Win Or Lost Reports (Contact Name) --></relationshipLabel>
+    </CustomFieldTranslation>

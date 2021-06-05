@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Response_Task_Email</fullName>
+        <description>Response Task Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Key_Responsible_Person__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Response_Task_Email</template>
+    </alerts>
+    <rules>
+        <fullName>Response Task Email</fullName>
+        <actions>
+            <name>Response_Task_Email</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Response Task Email</description>
+        <formula>(CreatedById &lt;&gt;  Key_Responsible_Person__c) &amp;&amp; (TEXT(Status__c)=&quot;Not Required&quot; || TEXT(Status__c)=&quot;Completed&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

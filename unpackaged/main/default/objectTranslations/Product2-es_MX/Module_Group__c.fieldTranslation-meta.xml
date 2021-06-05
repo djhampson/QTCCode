@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Module Group --></label>
+        <name>Module_Group__c</name>
+        <picklistValues>
+            <masterLabel>ADF</masterLabel>
+            <translation><!-- ADF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM.MYCREWMAN</masterLabel>
+            <translation><!-- AM.MYCREWMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM_ASSET_SURVEY</masterLabel>
+            <translation><!-- AM_ASSET_SURVEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM_CREWMANAGE</masterLabel>
+            <translation><!-- AM_CREWMANAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM_DEFECTS</masterLabel>
+            <translation><!-- AM_DEFECTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM_ENQUIRIES</masterLabel>
+            <translation><!-- AM_ENQUIRIES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM_MOBILE</masterLabel>
+            <translation><!-- AM_MOBILE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM_MOBILE_WORK</masterLabel>
+            <translation><!-- AM_MOBILE_WORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APPLICATION</masterLabel>
+            <translation><!-- APPLICATION --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASSETIC</masterLabel>
+            <translation><!-- ASSETIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIESI</masterLabel>
+            <translation><!-- BIESI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMMUNITY</masterLabel>
+            <translation><!-- COMMUNITY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMM_LOCALGOVT</masterLabel>
+            <translation><!-- COMM_LOCALGOVT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRM</masterLabel>
+            <translation><!-- CRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connectors</masterLabel>
+            <translation><!-- Connectors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core</masterLabel>
+            <translation><!-- Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMS</masterLabel>
+            <translation><!-- DMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DXP</masterLabel>
+            <translation><!-- DXP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1.BUSONE</masterLabel>
+            <translation><!-- E1.BUSONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EARNIEIQ</masterLabel>
+            <translation><!-- EARNIEIQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EB</masterLabel>
+            <translation><!-- EB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECASE</masterLabel>
+            <translation><!-- ECASE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECM</masterLabel>
+            <translation><!-- ECM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECR</masterLabel>
+            <translation><!-- ECR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECR.EXT</masterLabel>
+            <translation><!-- ECR.EXT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMPLIVE</masterLabel>
+            <translation><!-- EMPLIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESCROW</masterLabel>
+            <translation><!-- ESCROW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extensions</masterLabel>
+            <translation><!-- Extensions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.EXPENSEREPORTING</masterLabel>
+            <translation><!-- F1.EXPENSEREPORTING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.MYDATAENTRY</masterLabel>
+            <translation><!-- F1.MYDATAENTRY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.MYGOODSREC</masterLabel>
+            <translation><!-- F1.MYGOODSREC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.MYPROJ</masterLabel>
+            <translation><!-- F1.MYPROJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.MYPURCH</masterLabel>
+            <translation><!-- F1.MYPURCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.MYQREC</masterLabel>
+            <translation><!-- F1.MYQREC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.MYTRAVELMANAGEMEN</masterLabel>
+            <translation><!-- F1.MYTRAVELMANAGEMEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.MYWORK</masterLabel>
+            <translation><!-- F1.MYWORK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F1.SCAN</masterLabel>
+            <translation><!-- F1.SCAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAXGATE</masterLabel>
+            <translation><!-- FAXGATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FINANCIALS</masterLabel>
+            <translation><!-- FINANCIALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUNDRAISING</masterLabel>
+            <translation><!-- FUNDRAISING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRANTSACQ</masterLabel>
+            <translation><!-- GRANTSACQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GRANTSDIST</masterLabel>
+            <translation><!-- GRANTSDIST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR.ETIM</masterLabel>
+            <translation><!-- HR.ETIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR.MYTIM</masterLabel>
+            <translation><!-- HR.MYTIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IO</masterLabel>
+            <translation><!-- IO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT_GLOVEBOX</masterLabel>
+            <translation><!-- IT_GLOVEBOX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOFAXCAPTURE</masterLabel>
+            <translation><!-- KOFAXCAPTURE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOBILEINSPECTIONS</masterLabel>
+            <translation><!-- MOBILEINSPECTIONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY.ST.REPORT.FIN</masterLabel>
+            <translation><!-- MY.ST.REPORT.FIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY.TRAVEL</masterLabel>
+            <translation><!-- MY.TRAVEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY.WORKORD</masterLabel>
+            <translation><!-- MY.WORKORD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY.WORKREQ</masterLabel>
+            <translation><!-- MY.WORKREQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYASSETSBOOKING</masterLabel>
+            <translation><!-- MYASSETSBOOKING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYBIINTELL</masterLabel>
+            <translation><!-- MYBIINTELL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYBPAFORMS_BO</masterLabel>
+            <translation><!-- MYBPAFORMS_BO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYBUSINESSANALYTICS</masterLabel>
+            <translation><!-- MYBUSINESSANALYTICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYPROJTSKS</masterLabel>
+            <translation><!-- MYPROJTSKS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYRECRUITONLINE</masterLabel>
+            <translation><!-- MYRECRUITONLINE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYSCM.PURCH.BOP</masterLabel>
+            <translation><!-- MYSCM.PURCH.BOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYSCM.PURQUOTES</masterLabel>
+            <translation><!-- MYSCM.PURQUOTES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYSCM.SALESORDERS</masterLabel>
+            <translation><!-- MYSCM.SALESORDERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYTIMEHRP</masterLabel>
+            <translation><!-- MYTIMEHRP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYTIMFIN</masterLabel>
+            <translation><!-- MYTIMFIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MYVOLUNTEERS</masterLabel>
+            <translation><!-- MYVOLUNTEERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY_BIANALYSIS_FIN</masterLabel>
+            <translation><!-- MY_BIANALYSIS_FIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY_BIDASH_FIN</masterLabel>
+            <translation><!-- MY_BIDASH_FIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MY_ENTERPRISE_BUD</masterLabel>
+            <translation><!-- MY_ENTERPRISE_BUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEOPLE</masterLabel>
+            <translation><!-- PEOPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTFOLIOMANAGEMENT</masterLabel>
+            <translation><!-- PORTFOLIOMANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PP.PERFPLAN</masterLabel>
+            <translation><!-- PP.PERFPLAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRGRAMMANAGEMENT</masterLabel>
+            <translation><!-- PRGRAMMANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRJTLIFECYCLEMANAGE</masterLabel>
+            <translation><!-- PRJTLIFECYCLEMANAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROPERTY</masterLabel>
+            <translation><!-- PROPERTY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR_MOBILE</masterLabel>
+            <translation><!-- PR_MOBILE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR_MOBILE_ENQ</masterLabel>
+            <translation><!-- PR_MOBILE_ENQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR_MOBILE_INFRINGE</masterLabel>
+            <translation><!-- PR_MOBILE_INFRINGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR_MOBILE_INSPECT</masterLabel>
+            <translation><!-- PR_MOBILE_INSPECT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR_MOB_IOS_INSPEC</masterLabel>
+            <translation><!-- PR_MOB_IOS_INSPEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUBGEN</masterLabel>
+            <translation><!-- PUBGEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUBLISHER</masterLabel>
+            <translation><!-- PUBLISHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCM</masterLabel>
+            <translation><!-- SCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCM.MYREQS</masterLabel>
+            <translation><!-- SCM.MYREQS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCM.PROSTHESIS</masterLabel>
+            <translation><!-- SCM.PROSTHESIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCMCONTRACTS</masterLabel>
+            <translation><!-- SCMCONTRACTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERVICES</masterLabel>
+            <translation><!-- SERVICES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOLUTIONFEE</masterLabel>
+            <translation><!-- SOLUTIONFEE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPATIALCLOUD</masterLabel>
+            <translation><!-- SPATIALCLOUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STAKEHOLDER</masterLabel>
+            <translation><!-- STAKEHOLDER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STUDENTMANAGEMENT</masterLabel>
+            <translation><!-- STUDENTMANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TANDA</masterLabel>
+            <translation><!-- TANDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TECHONEPPLG</masterLabel>
+            <translation><!-- TECHONEPPLG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TECHONER&amp;CMANAGEMENT</masterLabel>
+            <translation><!-- TECHONER&amp;CMANAGEMENT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TECHONESMARTPUB</masterLabel>
+            <translation><!-- TECHONESMARTPUB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TENANCY</masterLabel>
+            <translation><!-- TENANCY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VELPIC</masterLabel>
+            <translation><!-- VELPIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WORKS</masterLabel>
+            <translation><!-- WORKS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

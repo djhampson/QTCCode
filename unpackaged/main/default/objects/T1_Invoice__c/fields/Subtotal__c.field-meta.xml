@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtotal__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Invoice total (excluding tax)</inlineHelpText>
+    <label>Subtotal</label>
+    <summarizedField>T1_Invoice_Line__c.Subtotal__c</summarizedField>
+    <summaryForeignKey>T1_Invoice_Line__c.Invoice__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

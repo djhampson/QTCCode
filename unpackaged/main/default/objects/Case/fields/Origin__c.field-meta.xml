@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origin__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(  Origin, &quot;Email&quot;, Image(&quot;https://c.cs10.content.force.com/servlet/servlet.FileDownload?file=015J0000000FavE&quot;, &quot;Email&quot;),
+&quot;Phone&quot;, Image(&quot;https://c.cs10.content.force.com/servlet/servlet.FileDownload?file=015J0000000FavJ&quot;, &quot;Phone&quot;),
+&quot;web&quot;, Image(&quot;https://c.cs10.content.force.com/servlet/servlet.FileDownload?file=015J0000000FavK&quot;, &quot;Web&quot;),
+&quot;Incident&quot;, Image(&quot;https://c.cs10.content.force.com/servlet/servlet.FileDownload?file=015J0000000FmQn&quot;, &quot;Incident&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Origin</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

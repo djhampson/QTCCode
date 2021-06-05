@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regional_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Regional Manager</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Only TechOne Employees who have employee classification of regional Manager will show up in search.</inlineHelpText>
+    <label>Regional Manager</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (1 AND 3)</booleanFilter>
+        <filterItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Technology One Employee</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.Employee_Classification__c</field>
+            <operation>equals</operation>
+            <value>Regional Manager</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.Employee_Classification__c</field>
+            <operation>equals</operation>
+            <value>Executive</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Bids (Regional Manager)</relationshipLabel>
+    <relationshipName>Bid_Contact_RM</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

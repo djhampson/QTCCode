@@ -1,0 +1,20 @@
+This Case is approaching an SLA Breach for Initial Response
+
+{!Case.Link}
+Case Number: {!Case.CaseNumber}
+Account: {!Case.Account}
+{!Case.Contact}
+{!Contact.Phone}
+
+Type: {!Case.Type}
+Priority: {!Case.Priority}
+
+Affected Version: {!Case.Affected_Version__c}
+Product: {!Case.Product}
+Technology: {!Case.CTechnology__c}
+Area: {!Case.00NZ0000001HTuR}
+
+The Case is currently assigned To: {!Case.OwnerFullName}
+
+Subject: {!Case.Subject}
+Details: {!Case.Description}

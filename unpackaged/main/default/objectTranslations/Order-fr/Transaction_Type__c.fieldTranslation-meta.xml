@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Transaction Type --></label>
+        <name>Transaction_Type__c</name>
+        <picklistValues>
+            <masterLabel>Flip to SaaS</masterLabel>
+            <translation><!-- Flip to SaaS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Termination</masterLabel>
+            <translation><!-- Full Termination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Module Swap</masterLabel>
+            <translation><!-- Module Swap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual on Cloud</masterLabel>
+            <translation><!-- Perpetual on Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement Revenue Adjustment</masterLabel>
+            <translation><!-- Settlement Revenue Adjustment --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

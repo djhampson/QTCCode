@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sales handover to PMO</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TechOne_LH</letterhead>
+    <name>Sales handover to Consulting</name>
+    <style>freeForm</style>
+    <subject>Sales Handover - {!Opportunity.Account} - {!Opportunity.Opportunity_ID__c}</subject>
+    <textOnly>Hi,
+
+Please find details of Opportunity {!Opportunity.Name} which has been submitted for handover from Sales to Consulting.
+
+Link to view Sales Handover Document:
+(copy link)
+
+Link to Salesforce Opportunity: {!Opportunity.Link}
+
+Account: {!Opportunity.Account}
+Region: {!Opportunity.Region__c}
+Type: {!Opportunity.Type}
+Solution: {!Opportunity.Solution__c}
+Vertical: {!Opportunity.Vertical_Market__c}
+Type: {!Opportunity.Type}
+CDM/CAM: {!Opportunity.OwnerFullName}
+Licence Amount: {!Opportunity.Amount}
+Total Implementation Quoted:{!Opportunity.Total_Implementation_Amount_Quoted__c}
+Opportunity Type:{!Opportunity.Record_Type__c}
+
+Once the handover has been completed please update the Opportunity to reflect.
+
+Regards,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

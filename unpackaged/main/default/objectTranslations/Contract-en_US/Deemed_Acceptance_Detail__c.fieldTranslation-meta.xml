@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Deemed acceptance e.g. when used in production environment or expiry of acceptance period / completion of UAT etc. --></help>
+        <label><!-- Deemed Acceptance Detail --></label>
+        <name>Deemed_Acceptance_Detail__c</name>
+    </CustomFieldTranslation>

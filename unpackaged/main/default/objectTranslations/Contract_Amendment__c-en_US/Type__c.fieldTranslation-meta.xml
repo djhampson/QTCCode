@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Change in Customer Name</masterLabel>
+            <translation><!-- Change in Customer Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Novation</masterLabel>
+            <translation><!-- Full Novation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Novation</masterLabel>
+            <translation><!-- Partial Novation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcontract</masterLabel>
+            <translation><!-- Subcontract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsequent Implementation</masterLabel>
+            <translation><!-- Subsequent Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variation</masterLabel>
+            <translation><!-- Variation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used by Techone Direct Only --></help>
+        <label><!-- z_Contact Level --></label>
+        <name>Contact_Level__c</name>
+        <picklistValues>
+            <masterLabel>Account at Risk</masterLabel>
+            <translation><!-- Account at Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Relationship</masterLabel>
+            <translation><!-- Building Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled/No Account</masterLabel>
+            <translation><!-- Cancelled/No Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action</masterLabel>
+            <translation><!-- No Action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Contact</masterLabel>
+            <translation><!-- No Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Dev</masterLabel>
+            <translation><!-- Opportunity Dev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem Solving</masterLabel>
+            <translation><!-- Problem Solving --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

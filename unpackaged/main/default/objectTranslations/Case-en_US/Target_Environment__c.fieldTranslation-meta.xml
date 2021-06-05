@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The target/destination environment for the request (environment to refresh, upgrade, or changes to email configuration) e.g. ABC, ABC-TEST, ABC-UAT --></help>
+        <label><!-- Target Environment --></label>
+        <name>Target_Environment__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Opportunity Industry can be different from Industry/Vertical on Account for revenue split purpose. It&apos;s managed by Sales Operation Team. --></help>
+        <label><!-- Opportunity Industry --></label>
+        <name>Opportunity_Industry__c</name>
+        <picklistValues>
+            <masterLabel>Asset Intensive</masterLabel>
+            <translation><!-- Asset Intensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance Adjustment</masterLabel>
+            <translation><!-- Finance Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Community Services</masterLabel>
+            <translation><!-- Health and Community Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Government</masterLabel>
+            <translation><!-- Local Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Intensive</masterLabel>
+            <translation><!-- Project Intensive --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

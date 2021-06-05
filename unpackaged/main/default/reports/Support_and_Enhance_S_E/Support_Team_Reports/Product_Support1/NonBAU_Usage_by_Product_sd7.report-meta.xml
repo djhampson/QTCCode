@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_67925848</developerName>
+        <masterLabel>Non-BAU Customer Activity Completion</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Non_BAU_Customer_Activity__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>N/A</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ci to CiA Conversion - Data Migration</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ci to CiA Conversion - Functionality Gaps</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ci to CiA Conversion - Go Live/Showstopper</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Performance - On Premise</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Performance - Product</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Performance - SaaS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Projects - SaaS Transition</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Projects - T1 PMO Run</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Projects - Sponsor Driven</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Release Upgrade - Early Adopter</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Release Upgrade - On Premise</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Release Upgrade - SaaS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>SaaS Outage - Emergency</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>SaaS Outage - Infrastructure Upgrade</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>SaaS Outage - Undocumented</sourceValue>
+            </sourceValues>
+            <value>Completed</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumnStackedTo100</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Case.Customer_Product__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <secondaryGroupingColumn>BucketField_67925848</secondaryGroupingColumn>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <title>Usage</title>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>Case.Resolved_Date__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case.Customer_Product__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_67925848</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Non-BAU Usage by Product</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case.Resolved_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2020-05-08</startDate>
+    </timeFrameFilter>
+</Report>

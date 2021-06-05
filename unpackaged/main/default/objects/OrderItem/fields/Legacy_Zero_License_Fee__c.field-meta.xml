@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legacy_Zero_License_Fee__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to identify products that have a zero license fee but will still have ASM. Field exists on Product, Quote Line, Order Item and Contract Line Item.</description>
+    <externalId>false</externalId>
+    <label>Legacy Zero License Fee</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

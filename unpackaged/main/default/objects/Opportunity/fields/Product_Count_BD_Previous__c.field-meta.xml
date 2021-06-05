@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Count_BD_Previous__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Twin field</description>
+    <externalId>false</externalId>
+    <label>Product Count BD Previous</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

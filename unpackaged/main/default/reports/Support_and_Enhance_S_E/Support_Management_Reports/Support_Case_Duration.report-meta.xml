@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_22762177</developerName>
+        <masterLabel>Time With</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>HSTATUS</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>With Development</sourceValue>
+            </sourceValues>
+            <value>3 - With Development</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>In Progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>New</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>On Hold</sourceValue>
+            </sourceValues>
+            <value>2 - With Support</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Awaiting Customer</sourceValue>
+            </sourceValues>
+            <value>1 - With Customer</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>DURATION</field>
+    </columns>
+    <columns>
+        <field>Case.Case_Age_in_Days__c</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>Case.Case_Owner_Reporting_Tags__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(
+  MONTH(DATEVALUE( Case.Resolved_Date__c ) ),
+  1, &quot;(Q2) 4-January&quot;,
+  2, &quot;(Q2) 5-February&quot;,
+  3, &quot;(Q2) 6-March&quot;,
+  4, &quot;(Q3) 7-April&quot;,
+  5, &quot;(Q3) 8-May&quot;,
+  6, &quot;(Q3) 9-June&quot;,
+  7, &quot;(Q4) 10-July&quot;,
+  8, &quot;(Q4) 11-August&quot;,
+  9, &quot;(Q4) 12-September&quot;,
+  10, &quot;(Q1) 1-October&quot;,
+  11, &quot;(Q1) 2-November&quot;,
+  &quot;(Q1) 3-December&quot;
+)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Month</description>
+        <developerName>CDF1</developerName>
+        <label>Month</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Support Case Duration - Time with Support, With Development, With Customer</description>
+    <filter>
+        <booleanFilter>(1 OR 2) AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>TB,GM,RH,UK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Triage,Product,Technical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>AMS,CLOUD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>HSTATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>New,In Progress,Awaiting Customer,With Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Resolved,Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Resolved_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>10/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Resolved_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessThan</operator>
+            <value>10/1/2020 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_22762177</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Support Case Duration</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CaseHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

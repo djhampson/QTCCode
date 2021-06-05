@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Quote for consulting services</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Quote for Consulting Services</name>
+    <style>none</style>
+    <subject>Quote for Consulting Services: Case {!Case.CaseNumber} {!Case.Subject} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thank you for the opportunity to provide you with a quote for TechnologyOne Consulting Services.
+
+During Covid-19 we have continued to deliver successful outcomes to our customers remotely, in fact there has not been any engagements that we have not been able to complete via this mode.   TechnologyOne continues to have restrictions in place for the safety of their employees; these restrictions apply to business travel and to customer site visits.
+
+Please use the following link to review the details and accept or decline this quote.
+
+Case Number:  {!Case.CaseNumber}
+Case Subject:  {!Case.Subject}
+Customer Reference:  {!Case.Customer_Reference__c}
+Scope of Work:  {!Case.Scope_of_Work__c}
+Estimated Days (inclusive of travel time if applicable):  {!Case.Total_Engagement_Days__c}
+Total Price (inclusive of tax):  {!Case.Total_Incl_Tax_Out__c}
+Estimated Travel Expense:  {!Case.Estimated_Travel_Expense__c}
+Assumptions {!Case.Assumptions__c}
+
+
+If you have a purchase order number, this can be added to the Customer Reference field on the case.
+
+Once approved, you will be notified once a consultant has been scheduled.
+
+Terms and Conditions:
+1. Acceptance of this quote means that you have authority within your organisation to approve purchasing the consulting services described.
+2. The services will be provided in accordance with the terms of the written agreement already in place between you and TechnologyOne providing for consulting services, and if no such agreement exists then TechnologyOne&#39;s standard terms for the supply of consulting services (a copy of which is available from TechnologyOne upon request) shall apply.
+3. All Service Requests should be accompanied by a purchase order. Any inclusion of or reference to terms and conditions (other than the existing contract between you and TechnologyOne) in the purchase order shall not apply to the provision of the consulting services described.
+4. TechnologyOne will invoice you, and you agree to pay for all reasonable travel expenses incurred in carrying out the consulting services (including airfares, accommodation, mileage, daily allowances and parking).
+5. Where consultants are required to travel by air to site they will work in minimum three (3) day blocks and, unless otherwise specifically agreed in advance, will return home for weekends.
+6. A normal working day means 7.5 hours, inclusive of time spent travelling to and from customer premises, where this travel time exceeds one (1) hour each way.
+7. Where a consultant spends more than 7.5 hours in any normal day then additional time will be charged at hourly rates without any additional loading or penalties.
+
+
+
+Kind regards,
+TechnologyOne Consulting Services
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

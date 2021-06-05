@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Contract Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contract Requested</fullName>
+                <default>false</default>
+                <label>Contract Requested</label>
+            </value>
+            <value>
+                <fullName>Contract Drafted</fullName>
+                <default>false</default>
+                <label>Contract Drafted</label>
+            </value>
+            <value>
+                <fullName>Contract Sent</fullName>
+                <default>false</default>
+                <label>Contract Sent</label>
+            </value>
+            <value>
+                <fullName>Received Customer Redline</fullName>
+                <default>false</default>
+                <label>Received Customer Redline</label>
+            </value>
+            <value>
+                <fullName>Legal Engaged</fullName>
+                <default>false</default>
+                <label>Legal Engaged</label>
+            </value>
+            <value>
+                <fullName>Contract Negotiation</fullName>
+                <default>false</default>
+                <label>Contract Negotiation</label>
+            </value>
+            <value>
+                <fullName>Final paperwork with customer for signing</fullName>
+                <default>false</default>
+                <label>Final paperwork with customer for signing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

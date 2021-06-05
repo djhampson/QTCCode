@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Reference_Request_Approved</fullName>
+        <description>Reference Request Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Reference_Request_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Reference_Request_Rejected</fullName>
+        <description>Reference Request Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Reference_Request_Rejection</template>
+    </alerts>
+    <alerts>
+        <fullName>Reference_Request_Submitted</fullName>
+        <ccEmails>CRP@technologyonecorp.com</ccEmails>
+        <description>Reference Request Submitted Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>yvette_elder@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <field>Account_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_Template/Reference_Request_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Request_Status_Approved</fullName>
+        <description>Update Request Status Approved</description>
+        <field>Request_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Request Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Request_Status_Recalled</fullName>
+        <description>Update_Request_Status_Rejected</description>
+        <field>Request_Status__c</field>
+        <literalValue>Recalled</literalValue>
+        <name>Update_Request_Status_Recalled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Request_Status_Rejected</fullName>
+        <description>Update_Request_Status_Rejected</description>
+        <field>Request_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Update Request Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Request_Status_Submitted</fullName>
+        <description>Update_Request_Status_Submitted</description>
+        <field>Request_Status__c</field>
+        <literalValue>Submitted</literalValue>
+        <name>Update Request Status Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <tasks>
+        <fullName>Reference_Request</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Please follow up customer with a thank you letter.
+
+Salesforce Document  Link to Thank you format.
+
+For more details, click the following link: https://technologyone.my.salesforce.com/015G000000ZT64X</description>
+        <dueDateOffset>5</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>Customer_Story_Workflow_Requests__c.Approximate_Date__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Reference request - thank you followup</subject>
+    </tasks>
+</Workflow>

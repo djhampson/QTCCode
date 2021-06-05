@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Service_Rate_Day</fullName>
+        <description>Update Service Rate/Day from account for special customer</description>
+        <field>Rate_Day__c</field>
+        <formula>Opportunity__r.Account.Rate_Day__c</formula>
+        <name>Update Service Rate/Day</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Update Service Rate%2FDay</fullName>
+        <actions>
+            <name>Update_Service_Rate_Day</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Service Rate/Day from Account for special customer</description>
+        <formula>ISBLANK(Rate_Day__c)  &amp;&amp; NOT ISBLANK(Opportunity__r.Account.Rate_Day__c)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

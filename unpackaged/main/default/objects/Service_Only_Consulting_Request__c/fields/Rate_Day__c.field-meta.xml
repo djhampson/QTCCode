@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rate_Day__c</fullName>
+    <description>Daily Rate. Please see the Rate Guide on help</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rate Guide - Australia
+Project Manager - $2325
+Principal Cons - $2325
+Senior Cons - $2060
+Cons - $1960
+Tech - $1960
+Weekend Surcharge - $980
+Will default value from account once saved. Can override if needed.</inlineHelpText>
+    <label>Consulting Rate/Day</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

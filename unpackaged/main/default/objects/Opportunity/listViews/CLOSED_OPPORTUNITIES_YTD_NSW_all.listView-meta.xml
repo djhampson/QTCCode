@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CLOSED_OPPORTUNITIES_YTD_NSW_all</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ARR1__c</columns>
+    <columns>Amount_1__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Licence_Model__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Forecast_Level__c</columns>
+    <columns>CAM_Forecast__c</columns>
+    <columns>Include_in_Forecast__c</columns>
+    <columns>OO_Forecast__c</columns>
+    <columns>RM_Forecast_Amount__c</columns>
+    <columns>RM_ARR__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Licence_Fee</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>notEqual</operation>
+        <value>No business fit</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Region__c</field>
+        <operation>equals</operation>
+        <value>02 - NSW</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Owner_Role__c</field>
+        <operation>contains</operation>
+        <value>NSW</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>6 - Sales Closed,7 - Closed</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>10/1/2019</value>
+    </filters>
+    <label>CLOSED OPPORTUNITIES YTD NSW (all)</label>
+    <sharedTo>
+        <role>NSW_Regional_Manager</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suspected_Package_App__c</fullName>
+    <description>This will be used by Support Team to provide the Development team the suspected Package or App the issue resides in</description>
+    <externalId>false</externalId>
+    <label>Suspected Package/App</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

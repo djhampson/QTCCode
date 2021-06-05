@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>ACT_Regional_Manager</sharedTo>
+        <sharedToType>Role</sharedToType>
+    </folderShares>
+    <name>00 - Region Dashboard - ACT</name>
+</DashboardFolder>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_of_Competitors_Presentation__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What did the customer/prospect think of our competitor’s presentation?</inlineHelpText>
+    <label>Quality of Competitors Presentation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Feedback_Marks</valueSetName>
+    </valueSet>
+</CustomField>

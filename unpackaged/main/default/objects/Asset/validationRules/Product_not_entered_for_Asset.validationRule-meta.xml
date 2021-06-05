@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_not_entered_for_Asset</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISBLANK( TEXT(Product__c )) || ISNULL( TEXT(Product__c ))</errorConditionFormula>
+    <errorDisplayField>Product__c</errorDisplayField>
+    <errorMessage>Product must be entered</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_early_adopter__c</fullName>
+    <description>Why should this account be an early adopter?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter details as to why this account should be an earlier adopter</inlineHelpText>
+    <label>Why early adopter?</label>
+    <length>2000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

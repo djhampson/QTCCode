@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task_Status_is_Valid</fullName>
+    <active>true</active>
+    <description>Invalid Task Status</description>
+    <errorConditionFormula>NOT( 
+ISPICKVAL(Status , &quot;Open&quot;) || 
+ISPICKVAL(Status , &quot;Closed&quot;)
+|| TEXT(Status) = &quot;Completed&quot; 
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Task Status Open or Closed</errorMessage>
+</ValidationRule>

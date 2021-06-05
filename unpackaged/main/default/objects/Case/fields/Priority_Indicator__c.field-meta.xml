@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(Priority, &quot;Critical&quot;,  IMAGE(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000IiYam&amp;oid=00DG0000000jBju&quot;, &quot;&quot;),
+&quot;Urgent&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000IiYav&amp;oid=00DG0000000jBju&quot;, &quot;&quot;),
+&quot;High&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000IiYb0&amp;oid=00DG0000000jBju&quot;, &quot;&quot;),
+&quot;Medium&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000IiYb5&amp;oid=00DG0000000jBju&quot;, &quot;&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Priority Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

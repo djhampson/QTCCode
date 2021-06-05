@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_of_Product_Functionality__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Were our products considered functionally superior to our competitors?</inlineHelpText>
+    <label>Quality of Product Functionality</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_or_No</valueSetName>
+    </valueSet>
+</CustomField>

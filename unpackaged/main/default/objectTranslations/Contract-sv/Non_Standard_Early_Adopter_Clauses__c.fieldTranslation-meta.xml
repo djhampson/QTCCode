@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Non-standard provisions in the Early Adopter Agreement --></help>
+        <label><!-- Non-Standard Early Adopter Clauses --></label>
+        <name>Non_Standard_Early_Adopter_Clauses__c</name>
+    </CustomFieldTranslation>

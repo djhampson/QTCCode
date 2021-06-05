@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Liability Cap Exclusions Clause Ref --></label>
+        <name>Liability_Cap_Exclusions_Clause_Ref__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<apex:page standardController="Case" extensions="orgWideEmailAddressExtension">
+ <apex:emailPublisher id="T1EmailPublisher"
+    entityId="{!case.id}"
+    toAddresses="{!if($Profile.Name == 'Employee Support Community', case.contact.email + ', ' + toSupport.Address, case.contact.email)}"
+    emailBodyFormat="textAndHTML"
+    expandableHeader="false"
+    showAdditionalFields="true"
+    showSendButton="true"
+    width="100%"
+    verticalResize="true"
+    autoCollapseBody="false"
+    onSubmitSuccess="window.close();"
+    onSubmitFailure="alert('Email Send Failed');"/>
+</apex:page>

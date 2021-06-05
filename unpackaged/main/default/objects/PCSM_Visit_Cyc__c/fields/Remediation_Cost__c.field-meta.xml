@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remediation_Cost__c</fullName>
+    <description>For use by the Executive Response Team to capture remediation cost of the engagement</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Remediation cost of the engagement</inlineHelpText>
+    <label>Remediation Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

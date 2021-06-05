@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Report$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Report$Name</field>
+    </columns>
+    <columns>
+        <field>Report$Description</field>
+    </columns>
+    <columns>
+        <field>Report$Owner</field>
+    </columns>
+    <columns>
+        <field>Report$LastRunDate</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Report on reports</description>
+    <filter>
+        <criteriaItems>
+            <column>Report$ReportTypeEnumOrId</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>070G0000000XZE6</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Report$ReportTypeEnumOrId</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Reports by Report Type</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Reports_by_Admin__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Report$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Report$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

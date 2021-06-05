@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Type__c</fullName>
+    <description>For use by the Executive Response team and Customer Success team to capture the type of engagement</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Executive Response or Customer Success Engagement Type</inlineHelpText>
+    <label>Engagement Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Executive Engagement</fullName>
+                <default>false</default>
+                <label>Executive Engagement</label>
+            </value>
+            <value>
+                <fullName>Remediation Program</fullName>
+                <default>false</default>
+                <label>Remediation Program</label>
+            </value>
+            <value>
+                <fullName>Debtors Management</fullName>
+                <default>false</default>
+                <label>Debtors Management</label>
+            </value>
+            <value>
+                <fullName>Product Reviews</fullName>
+                <default>false</default>
+                <label>Product Reviews</label>
+            </value>
+            <value>
+                <fullName>High Touch Customer Success</fullName>
+                <default>false</default>
+                <label>High Touch Customer Success</label>
+            </value>
+            <value>
+                <fullName>Low Touch Customer Success</fullName>
+                <default>false</default>
+                <label>Low Touch Customer Success</label>
+            </value>
+            <value>
+                <fullName>Tech Touch Customer Success</fullName>
+                <default>false</default>
+                <label>Tech Touch Customer Success</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

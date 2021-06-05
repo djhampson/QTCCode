@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Executive Sponsor for the Executive Response Engagement --></help>
+        <label><!-- Executive Sponsor --></label>
+        <name>Executive_Sponsor__c</name>
+        <relationshipLabel><!-- Products &amp; Services (Executive Sponsor) --></relationshipLabel>
+    </CustomFieldTranslation>

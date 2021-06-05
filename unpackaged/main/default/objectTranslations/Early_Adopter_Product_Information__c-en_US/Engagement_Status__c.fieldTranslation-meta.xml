@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Engagement Status --></label>
+        <name>Engagement_Status__c</name>
+        <picklistValues>
+            <masterLabel>Development Partner</masterLabel>
+            <translation><!-- Development Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Adopter</masterLabel>
+            <translation><!-- Early Adopter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interested Observer</masterLabel>
+            <translation><!-- Interested Observer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mainstream</masterLabel>
+            <translation><!-- Mainstream --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

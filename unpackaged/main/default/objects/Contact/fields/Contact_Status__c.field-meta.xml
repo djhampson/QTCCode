@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Awaiting contact [SDR]</fullName>
+                <default>false</default>
+                <label>Awaiting contact [SDR]</label>
+            </value>
+            <value>
+                <fullName>Working [SDR]</fullName>
+                <default>false</default>
+                <label>Working [SDR]</label>
+            </value>
+            <value>
+                <fullName>Qualified</fullName>
+                <default>false</default>
+                <label>Qualified [SDR]</label>
+            </value>
+            <value>
+                <fullName>Awaiting contact [CAM]</fullName>
+                <default>false</default>
+                <label>Awaiting contact [CAM]</label>
+            </value>
+            <value>
+                <fullName>Working [CAM]</fullName>
+                <default>false</default>
+                <label>Working [CAM]</label>
+            </value>
+            <value>
+                <fullName>Qualified [CAM]</fullName>
+                <default>false</default>
+                <label>Qualified [CAM]</label>
+            </value>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Returned to Marketing</fullName>
+                <default>false</default>
+                <label>Returned to Marketing</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

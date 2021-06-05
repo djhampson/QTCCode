@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFCAB_Status__c</fullName>
+    <description>State of Salesforce Change Request case record (for internal use only).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>State of Salesforce Change Request</inlineHelpText>
+    <label>State</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dev</fullName>
+                <default>true</default>
+                <label>Dev</label>
+            </value>
+            <value>
+                <fullName>Dev Completed</fullName>
+                <default>false</default>
+                <label>Dev Completed</label>
+            </value>
+            <value>
+                <fullName>Pending UAT</fullName>
+                <default>false</default>
+                <label>Pending UAT</label>
+            </value>
+            <value>
+                <fullName>Approved UAT</fullName>
+                <default>false</default>
+                <label>Approved UAT</label>
+            </value>
+            <value>
+                <fullName>Applied UAT</fullName>
+                <default>false</default>
+                <label>Applied UAT</label>
+            </value>
+            <value>
+                <fullName>Pending PROD</fullName>
+                <default>false</default>
+                <label>Pending PROD</label>
+            </value>
+            <value>
+                <fullName>Approved PROD</fullName>
+                <default>false</default>
+                <label>Approved PROD</label>
+            </value>
+            <value>
+                <fullName>Applied PROD</fullName>
+                <default>false</default>
+                <label>Applied PROD</label>
+            </value>
+            <value>
+                <fullName>COMPLETE</fullName>
+                <default>false</default>
+                <label>COMPLETE</label>
+            </value>
+            <value>
+                <fullName>REJECTED</fullName>
+                <default>false</default>
+                <label>REJECTED</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

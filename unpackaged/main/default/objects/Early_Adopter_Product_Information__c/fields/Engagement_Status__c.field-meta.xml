@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Engagement Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Development Partner</fullName>
+                <default>false</default>
+                <label>Development Partner</label>
+            </value>
+            <value>
+                <fullName>Interested Observer</fullName>
+                <default>false</default>
+                <label>Interested Observer</label>
+            </value>
+            <value>
+                <fullName>Early Adopter</fullName>
+                <default>false</default>
+                <label>Early Adopter</label>
+            </value>
+            <value>
+                <fullName>Mainstream</fullName>
+                <default>false</default>
+                <label>Mainstream</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

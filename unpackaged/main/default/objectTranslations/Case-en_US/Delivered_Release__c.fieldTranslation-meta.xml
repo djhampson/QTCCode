@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Delivered Release --></label>
+        <name>Delivered_Release__c</name>
+        <picklistValues>
+            <masterLabel>2018B</masterLabel>
+            <translation><!-- 2018B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019A</masterLabel>
+            <translation><!-- 2019A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019B</masterLabel>
+            <translation><!-- 2019B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020A</masterLabel>
+            <translation><!-- 2020A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020B</masterLabel>
+            <translation><!-- 2020B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021A</masterLabel>
+            <translation><!-- 2021A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021B</masterLabel>
+            <translation><!-- 2021B --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

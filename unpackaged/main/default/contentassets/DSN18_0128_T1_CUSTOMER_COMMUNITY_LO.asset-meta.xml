@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>DSN18_0128_T1_CUSTOMER_COMMUNITY_LO</masterLabel>
+    <originNetwork>T1 Customer Community</originNetwork>
+    <relationships>
+        <network>
+            <access>VIEWER</access>
+            <name>T1 Customer Community</name>
+        </network>
+        <network>
+            <access>VIEWER</access>
+            <name>T1 Employee Community</name>
+        </network>
+        <workspace>
+            <access>INFERRED</access>
+            <isManagingWorkspace>true</isManagingWorkspace>
+            <name>sfdc_asset_company_assets</name>
+        </workspace>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>DSN18_0128_T1_CUSTOMER COMMUNITY LOGO.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

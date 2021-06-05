@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<body>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi {!Contact.FirstName},
+<br>
+<br>
+The work required to complete this case has been scheduled for <b>DD/MM/YY</b>.<br><br>
+
+If you require any changes or further correspondence, please advise before this date.
+<br><br>
+<b>Case Number: </b>{!Case.CaseNumber}<br>
+<b>Product: </b>{!Case.Customer_Product__c}<br>
+<b>Case Subject: </b>{!Case.Subject}<br>
+<b>Priority: </b>{!Case.Priority}<br>
+<b>Created By: </b>{!Case.Contact}<br>
+<b>Created Date: </b>{!Case.CreatedDate}<br> 
+<b>Customer Reference: </b>{!Case.Customer_Reference__c}<br>
+<br>
+You can access your case at any time using the following <a href="{!Case.CaseURL__c}">link</a>.<br>
+<br>
+Kind regards,<br>
+{!User.Name}</p>
+<p style = "font-family:calibri;font-size:20px;"><b>{!Case.EmailSig__c}</b></p>
+<p style = "font-family:calibri;font-size:16px;">Ph: AUS 1300 735 130/ NZ 0800 174 091/ MAL 1800 818 451/ UK 0808 1012 743/ FIJI 008 002 188<br>
+<br>
+{!$Setup.EmailTemplateFields__c.FooterText1__c}<br> 
+{!$Setup.EmailTemplateFields__c.FooterText2__c}<br>
+{!$Setup.EmailTemplateFields__c.FooterURL__c}<br><br>
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_2__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_3__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+</p>
+
+<p style = "line-height:100%;font-family:arial;font-size:10px;">
+TechnologyOne accepts no liability for any damage caused by this email or its attachments. <br>
+The information in this email is only for the intended recipient and may contain confidential and/or <br>
+privileged material. If you received this in error, please kindly notify the sender by return email <br>
+and delete this email and any attachments from your system.  Opinions, conclusions and other<br>
+information in this message that do not relate to the official business of the company shall <br>
+be understood as neither given nor endorsed by it.  If you believe that you have been spammed please <br>email <a href="mailto:Stop_Spam@TechnologyOneCorp.com">Stop_Spam@TechnologyOneCorp.com</a> to report your complaint.</p>
+</body>
+</html>

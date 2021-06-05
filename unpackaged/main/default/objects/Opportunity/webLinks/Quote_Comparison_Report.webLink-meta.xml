@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Comparison_Report</fullName>
+    <availability>online</availability>
+    <description>Dynamic link to report &quot;Quote comparison by opportunity&quot; - TOCB-50</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Quote Comparison Report</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://technologyone--dev.lightning.force.com/lightning/r/Report/00O2O000000tFcaUAE/view?fv0={!Opportunity.Id}</url>
+</WebLink>

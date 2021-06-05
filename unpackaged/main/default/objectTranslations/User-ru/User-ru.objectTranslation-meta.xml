@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You must not change User Name --></errorMessage>
+        <name>LockUserNameforCommunityUsers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. AU numbers must have prefix +61. Area Code to exclude leading 0. Examples: +61 7 3167 7300 or +61 1300 784 388 or +61 13 12 12 or +61 439 545 333 --></errorMessage>
+        <name>Phone_No_Format_Aus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. NZ numbers must have prefix +64. Area Code to exclude leading 0. Examples: +64 4 913 8300, +64 800 123 456, +64 21 345 6879 --></errorMessage>
+        <name>Phone_No_Format_NZ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. UK numbers must have prefix +44. Area Code to exclude leading 0. Examples: +44 1628 591160, +44 7911 123456, +44 800 123 4567, +44 800 1111 --></errorMessage>
+        <name>Phone_No_Format_UK</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. Phone numbers must have Country code prefix followed by Area Code (where applicable) excluding leading 0, followed by subscriber number. Examples: +60 3 1234 5678, +675 123 5678 --></errorMessage>
+        <name>Phone_No_Format_for_AsiaPacific</name>
+    </validationRules>
+</CustomObjectTranslation>

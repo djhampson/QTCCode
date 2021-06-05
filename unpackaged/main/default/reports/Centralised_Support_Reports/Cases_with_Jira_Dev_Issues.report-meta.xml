@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Case$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Name</field>
+    </columns>
+    <columns>
+        <field>Case$Developer_Analysis__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <format>Tabular</format>
+    <name>Cases with Jira Dev Issues</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Jira_Dev_Issues__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$AMS_Target_Delivery_Date__c</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

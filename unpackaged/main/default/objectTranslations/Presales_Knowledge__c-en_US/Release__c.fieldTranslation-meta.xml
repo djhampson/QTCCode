@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Release --></label>
+        <name>Release__c</name>
+        <picklistValues>
+            <masterLabel>2016A</masterLabel>
+            <translation><!-- 2016A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016B</masterLabel>
+            <translation><!-- 2016B --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

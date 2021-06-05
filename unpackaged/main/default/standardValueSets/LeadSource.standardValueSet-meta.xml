@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>CAM Initiated</fullName>
+        <default>false</default>
+        <label>CAM Initiated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Campaign</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cold Call</fullName>
+        <color>#78C953</color>
+        <default>false</default>
+        <label>Cold Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted Engagement</fullName>
+        <color>#E27001</color>
+        <default>false</default>
+        <label>Converted Engagement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Initiated</fullName>
+        <color>#A845DC</color>
+        <default>false</default>
+        <label>Customer Initiated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inco (UK Only)</fullName>
+        <color>#F3D904</color>
+        <default>false</default>
+        <label>Inco (UK Only)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral</fullName>
+        <color>#A53711</color>
+        <default>false</default>
+        <label>Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TenderSearch</fullName>
+        <default>false</default>
+        <label>TenderSearch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <color>#0B24BE</color>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External</fullName>
+        <default>false</default>
+        <label>External</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Radar One</fullName>
+        <default>false</default>
+        <label>Radar One</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SDR Initiated</fullName>
+        <default>false</default>
+        <label>SDR Initiated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SDM Initiated</fullName>
+        <default>false</default>
+        <label>SDM Initiated</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <description>Create a Test Account, Opportunity</description>
+    <interviewLabel>Create Test Data {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create Test Data</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Create a new test account</description>
+        <name>New_Account</name>
+        <label>New Account</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <connector>
+            <targetReference>New_Opportunity</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Account_Code__c</field>
+            <value>
+                <stringValue>8888</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Account_Status__c</field>
+            <value>
+                <stringValue>Committed to Pay</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CountryArea__c</field>
+            <value>
+                <stringValue>Australia</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Customer_Since__c</field>
+            <value>
+                <dateValue>2022-01-01</dateValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>New Test Account</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Other_Managed_Services__c</field>
+            <value>
+                <stringValue>Water</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Rating</field>
+            <value>
+                <stringValue>A</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Region__c</field>
+            <value>
+                <stringValue>Queensland</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>T1_Industry__c</field>
+            <value>
+                <stringValue>Utilities</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Customer</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Vertical_Market__c</field>
+            <value>
+                <stringValue>Asset Intensive</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>New_Opportunity</name>
+        <label>New Opportunity</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>New_Account</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Amount</field>
+            <value>
+                <numberValue>50000.0</numberValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>CloseDate</field>
+            <value>
+                <dateValue>2030-12-31</dateValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Licence_Model__c</field>
+            <value>
+                <stringValue>Perpetual</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>New Test Opportunity</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>NextStep</field>
+            <value>
+                <stringValue>collect more info</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Overview__c</field>
+            <value>
+                <stringValue>No decision made</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StageName</field>
+            <value>
+                <stringValue>1 - Discovery</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type</field>
+            <value>
+                <stringValue>Existing Business</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>New_Account</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

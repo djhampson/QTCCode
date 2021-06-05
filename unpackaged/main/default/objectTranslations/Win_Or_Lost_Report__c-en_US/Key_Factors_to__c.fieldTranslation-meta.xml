@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What were the three key factors that led the customer/prospect to their decision? --></help>
+        <label><!-- Three key factors led to  decision --></label>
+        <name>Key_Factors_to__c</name>
+        <picklistValues>
+            <masterLabel>CiAnywhere</masterLabel>
+            <translation><!-- CiAnywhere --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud</masterLabel>
+            <translation><!-- Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting/Services Offering</masterLabel>
+            <translation><!-- Consulting/Services Offering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did Not Meet Tender Requirements</masterLabel>
+            <translation><!-- Did Not Meet Tender Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Functionality</masterLabel>
+            <translation><!-- Functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licensing Restrictions</masterLabel>
+            <translation><!-- Licensing Restrictions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product capability</masterLabel>
+            <translation><!-- Product capability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>References</masterLabel>
+            <translation><!-- References --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simplicity</masterLabel>
+            <translation><!-- Simplicity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution fit</masterLabel>
+            <translation><!-- Solution fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust in Brand</masterLabel>
+            <translation><!-- Trust in Brand --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

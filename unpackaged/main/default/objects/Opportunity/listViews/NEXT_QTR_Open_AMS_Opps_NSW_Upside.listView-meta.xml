@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NEXT_QTR_Open_AMS_Opps_NSW_Upside</fullName>
+    <columns>Region__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>AMS_Program_Type__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Amount_1__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CAM_Forecast__c</columns>
+    <columns>Include_in_Forecast__c</columns>
+    <columns>OO_Forecast__c</columns>
+    <columns>RM_Forecast_Amount__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>Overview__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notEqual</operation>
+        <value>apples ltd (TEST)</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Application_Managed_Services</value>
+    </filters>
+    <filters>
+        <field>Group_Region__c</field>
+        <operation>contains</operation>
+        <value>NSW</value>
+    </filters>
+    <filters>
+        <field>AMS_Program_Type__c</field>
+        <operation>equals</operation>
+        <value>New Program</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>equals</operation>
+        <value>NEXT_FISCAL_QUARTER</value>
+    </filters>
+    <filters>
+        <field>Include_in_Forecast__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>NEXT QTR Open AMS Opps (NSW) Upside</label>
+    <sharedTo>
+        <role>NSW_Regional_Manager</role>
+    </sharedTo>
+</ListView>

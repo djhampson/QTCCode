@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Period_Month_Valid</fullName>
+    <active>true</active>
+    <errorConditionFormula>Period_Month__c &lt; 1 || Period_Month__c &gt; 12</errorConditionFormula>
+    <errorMessage>Please enter valid Month</errorMessage>
+</ValidationRule>

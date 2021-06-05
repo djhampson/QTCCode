@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Read</contactAccessLevel>
+    <description>CDM SANT</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>z_CDM SANT</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>South_Australia_Northern_Territory_Regional_Manager</parentRole>
+</Role>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>Consultant</audienceName>
+    <container>T1 Employee Community</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <entityField>Department</entityField>
+                <entityType>User</entityType>
+                <fieldValue>AMS</fieldValue>
+            </criterionValue>
+            <operator>Contains</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>b8e06bb9-b553-4a6c-8b93-f318f959f0a6$#$91a3256b-21d1-491e-9848-48fff564a13e</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Case_Detail_AMS_Service_Request_timerButton_Component</targetValue>
+        </target>
+    </targets>
+</Audience>

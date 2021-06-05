@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>true</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Dependent on Licence Fee Sale</fullName>
+                <default>false</default>
+                <label>Dependent on Licence Fee Sale</label>
+            </value>
+            <value>
+                <fullName>Sent to ACD / Scheduler</fullName>
+                <default>false</default>
+                <label>Sent to ACD / Scheduler</label>
+            </value>
+            <value>
+                <fullName>Sent to Opportunity Owner for Input</fullName>
+                <default>false</default>
+                <label>Sent to Opportunity Owner for Input</label>
+            </value>
+            <value>
+                <fullName>Sent to Practice Lead for input</fullName>
+                <default>false</default>
+                <label>Sent to Practice Lead for input</label>
+            </value>
+            <value>
+                <fullName>Sent to Infrastructure Services for input</fullName>
+                <default>false</default>
+                <label>Sent to Infrastructure Services for input</label>
+            </value>
+            <value>
+                <fullName>Sent to Return Business</fullName>
+                <default>false</default>
+                <label>Sent to Return Business</label>
+            </value>
+            <value>
+                <fullName>CR sent to customer for approval</fullName>
+                <default>false</default>
+                <label>CR sent to customer for approval</label>
+            </value>
+            <value>
+                <fullName>Approval Received</fullName>
+                <default>false</default>
+                <label>Approval Received</label>
+            </value>
+            <value>
+                <fullName>Task Code Requested</fullName>
+                <default>false</default>
+                <label>Task Code Requested</label>
+            </value>
+            <value>
+                <fullName>Task Code Received / Finalised</fullName>
+                <default>false</default>
+                <label>Task Code Received / Finalised</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

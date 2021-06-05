@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connector_GL_Product_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Connector Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+            <value>
+                <fullName>Adapt</fullName>
+                <default>false</default>
+                <label>Adapt</label>
+            </value>
+            <value>
+                <fullName>Application Development Framework</fullName>
+                <default>false</default>
+                <label>Application Development Framework</label>
+            </value>
+            <value>
+                <fullName>Application Managed Services</fullName>
+                <default>false</default>
+                <label>Application Managed Services</label>
+            </value>
+            <value>
+                <fullName>Asset Management</fullName>
+                <default>false</default>
+                <label>Asset Management</label>
+            </value>
+            <value>
+                <fullName>Business Intelligence</fullName>
+                <default>false</default>
+                <label>Business Intelligence</label>
+            </value>
+            <value>
+                <fullName>Business Process Management</fullName>
+                <default>false</default>
+                <label>Business Process Management</label>
+            </value>
+            <value>
+                <fullName>Corporate Performance Management</fullName>
+                <default>false</default>
+                <label>Corporate Performance Management</label>
+            </value>
+            <value>
+                <fullName>Enterprise Content Management</fullName>
+                <default>false</default>
+                <label>Enterprise Content Management</label>
+            </value>
+            <value>
+                <fullName>Financials</fullName>
+                <default>false</default>
+                <label>Financials</label>
+            </value>
+            <value>
+                <fullName>HR &amp; Payroll</fullName>
+                <default>false</default>
+                <label>HR &amp; Payroll</label>
+            </value>
+            <value>
+                <fullName>Inactive Product</fullName>
+                <default>false</default>
+                <label>Inactive Product</label>
+            </value>
+            <value>
+                <fullName>Mobility</fullName>
+                <default>false</default>
+                <label>Mobility</label>
+            </value>
+            <value>
+                <fullName>Not in Use</fullName>
+                <default>false</default>
+                <label>Not in Use</label>
+            </value>
+            <value>
+                <fullName>Performance Planning</fullName>
+                <default>false</default>
+                <label>Performance Planning</label>
+            </value>
+            <value>
+                <fullName>Project Services</fullName>
+                <default>false</default>
+                <label>Project Services</label>
+            </value>
+            <value>
+                <fullName>Property</fullName>
+                <default>false</default>
+                <label>Property</label>
+            </value>
+            <value>
+                <fullName>Solutions</fullName>
+                <default>false</default>
+                <label>Solutions</label>
+            </value>
+            <value>
+                <fullName>Stakeholder Management</fullName>
+                <default>false</default>
+                <label>Stakeholder Management</label>
+            </value>
+            <value>
+                <fullName>Student Management</fullName>
+                <default>false</default>
+                <label>Student Management</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Management</fullName>
+                <default>false</default>
+                <label>Supply Chain Management</label>
+            </value>
+            <value>
+                <fullName>T1 Cloud</fullName>
+                <default>false</default>
+                <label>T1 Cloud</label>
+            </value>
+            <value>
+                <fullName>Human Resources and Payroll</fullName>
+                <default>false</default>
+                <label>Human Resources and Payroll</label>
+            </value>
+            <value>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+                <label>Technical Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

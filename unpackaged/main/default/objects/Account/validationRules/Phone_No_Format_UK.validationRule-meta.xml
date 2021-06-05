@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_No_Format_UK</fullName>
+    <active>true</active>
+    <errorConditionFormula>(TEXT( CountryArea__c) =&#39;United Kingdom&#39;) &amp;&amp; 
+ LEFT(Phone,4) &lt;&gt; &quot;+353&quot; &amp;&amp; 
+(NOT (REGEX(Phone , &quot;[+44]{3} [1-9]{1}[0-9]{1} [0-9]{4} [0-9]{4}&quot;) || 
+REGEX(Phone , &quot;[+44]{3} [1-9]{1}[0-9]{2} [0-9]{3} [0-9]{4}&quot;) || 
+REGEX(Phone , &quot;[+44]{3} [1-9]{1}[0-9]{3} [0-9]{6}&quot;) || 
+REGEX(Phone , &quot;[+44]{3} [1-9]{1}[0-9]{3} [0-9]{5}&quot;) || 
+REGEX(Phone , &quot;[+44]{3} [1-9]{1}[0-9]{2} [0-9]{4}&quot;) || 
+REGEX(Phone , &quot;[+44]{3} [1-9]{1}[0-9]{2} [0-9]{3}&quot;)
+) || 
+(LEFT(Phone,3) &lt;&gt; &quot;+44&quot;) ) &amp;&amp; 
+NOT ISBLANK(Phone) &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>International format required. UK numbers must have prefix +44. Area Code to exclude leading 0. Examples: +44 1628 591160, +44 7911 123456, +44 800 123 4567, +44 800 1111</errorMessage>
+</ValidationRule>

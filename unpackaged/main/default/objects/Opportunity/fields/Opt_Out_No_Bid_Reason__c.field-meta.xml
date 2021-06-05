@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opt_Out_No_Bid_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Opt Out / No Bid Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No real opportunity</fullName>
+                <default>false</default>
+                <label>No real opportunity</label>
+            </value>
+            <value>
+                <fullName>Postponed Indefinitely</fullName>
+                <default>false</default>
+                <label>Postponed Indefinitely</label>
+            </value>
+            <value>
+                <fullName>Replaced with different opportunity</fullName>
+                <default>false</default>
+                <label>Replaced with different opportunity</label>
+            </value>
+            <value>
+                <fullName>Unable to meet requirements</fullName>
+                <default>false</default>
+                <label>Unable to meet requirements</label>
+            </value>
+            <value>
+                <fullName>Converted to Project</fullName>
+                <default>false</default>
+                <label>Converted to Project</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Opt Out / No Bid</controllingFieldValue>
+            <valueName>No real opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opt Out / No Bid</controllingFieldValue>
+            <valueName>Postponed Indefinitely</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opt Out / No Bid</controllingFieldValue>
+            <valueName>Replaced with different opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opt Out / No Bid</controllingFieldValue>
+            <valueName>Unable to meet requirements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opt Out / No Bid</controllingFieldValue>
+            <valueName>Converted to Project</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NetworkBranding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <loginFooterText>TechnologyOne Limited</loginFooterText>
+    <loginLogo>Communities_Shared_Document_Folder/EmployeeCommunity_Header_Login_logo_1_png2.png</loginLogo>
+    <loginLogoName>EmployeeCommunity_Header_Login_logo_1.png</loginLogoName>
+    <loginPrimaryColor>#9164CC</loginPrimaryColor>
+    <loginQuaternaryColor>#FFFFFF</loginQuaternaryColor>
+    <network>T1 Employee Community</network>
+    <primaryColor>#005DAA</primaryColor>
+    <primaryComplementColor>#FFFFFF</primaryComplementColor>
+    <quaternaryColor>#FFFFFF</quaternaryColor>
+    <quaternaryComplementColor>#222222</quaternaryComplementColor>
+    <secondaryColor>#005DAA</secondaryColor>
+    <tertiaryColor>#FFFFFF</tertiaryColor>
+    <tertiaryComplementColor>#222222</tertiaryComplementColor>
+    <zeronaryColor>#005DAA</zeronaryColor>
+    <zeronaryComplementColor>#FFFFFF</zeronaryComplementColor>
+</NetworkBranding>

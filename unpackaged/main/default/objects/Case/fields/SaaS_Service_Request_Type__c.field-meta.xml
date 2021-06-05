@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SaaS_Service_Request_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Refer to the SaaS Snapshot Release - Process and Schedule knowledge article for information on Fastline/Mainline.</inlineHelpText>
+    <label>SaaS Service Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Environment Refresh</fullName>
+                <default>false</default>
+                <label>Environment Refresh</label>
+            </value>
+            <value>
+                <fullName>Environment Upgrade</fullName>
+                <default>false</default>
+                <label>Environment Upgrade</label>
+            </value>
+            <value>
+                <fullName>eService Configuration Update</fullName>
+                <default>false</default>
+                <label>eService Configuration Update</label>
+            </value>
+            <value>
+                <fullName>Email Configuration</fullName>
+                <default>false</default>
+                <label>Email Configuration</label>
+            </value>
+            <value>
+                <fullName>Move from Mainline to Fastline</fullName>
+                <default>false</default>
+                <label>Move from Mainline to Fastline</label>
+            </value>
+            <value>
+                <fullName>Move from Fastline to Mainline</fullName>
+                <default>false</default>
+                <label>Move from Fastline to Mainline</label>
+            </value>
+            <value>
+                <fullName>SFTP</fullName>
+                <default>false</default>
+                <label>SFTP</label>
+            </value>
+            <value>
+                <fullName>Scanwatcher</fullName>
+                <default>false</default>
+                <label>Scanwatcher</label>
+            </value>
+            <value>
+                <fullName>Drag-it-in</fullName>
+                <default>false</default>
+                <label>Drag-it-in</label>
+            </value>
+            <value>
+                <fullName>Crystal Desktop</fullName>
+                <default>false</default>
+                <label>Crystal Desktop</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Environment Refresh and Upgrade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Environment Refresh and Upgrade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

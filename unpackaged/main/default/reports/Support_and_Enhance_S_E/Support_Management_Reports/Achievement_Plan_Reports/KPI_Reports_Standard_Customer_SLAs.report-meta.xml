@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_76109478</developerName>
+        <masterLabel>Support Lead</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Case_Owner_Reporting_Tags__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, CD</sourceValue>
+            </sourceValues>
+            <value>Craig</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, GG</sourceValue>
+            </sourceValues>
+            <value>Grant</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, MV, PM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, MV</sourceValue>
+            </sourceValues>
+            <value>Mel</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, PM</sourceValue>
+            </sourceValues>
+            <value>Pram</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, RH</sourceValue>
+            </sourceValues>
+            <value>Tracey</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>UK</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>RH</sourceValue>
+            </sourceValues>
+            <value>UK</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM</sourceValue>
+            </sourceValues>
+            <value>Greg</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, GF</sourceValue>
+            </sourceValues>
+            <value>Gab</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, LB</sourceValue>
+            </sourceValues>
+            <value>Lea-Anne</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, PK</sourceValue>
+            </sourceValues>
+            <value>Parvin</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>PRIORITY</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CM.TARGET_DATE</field>
+    </columns>
+    <columns>
+        <field>CM.COMPLETION_DATE</field>
+    </columns>
+    <columns>
+        <field>MT.NAME</field>
+    </columns>
+    <columns>
+        <field>TRGT_RESP_HRS</field>
+    </columns>
+    <columns>
+        <field>ELPSD_TIME_HRS</field>
+    </columns>
+    <columns>
+        <field>Case.Case_Owner_Reporting_Tags__c</field>
+    </columns>
+    <columns>
+        <field>Account.Support_SLA_Customer__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(MONTH(DATEVALUE(CM.TARGET_DATE) ),
+10, &quot;Q1&quot; ,
+11, &quot;Q1&quot;,
+12, &quot;Q1&quot;,
+1, &quot;Q2&quot;,
+2, &quot;Q2&quot;,
+3, &quot;Q2&quot;,
+4, &quot;Q3&quot;,
+5, &quot;Q3&quot;,
+6, &quot;Q3&quot;,
+7, &quot;Q4&quot;,
+8, &quot;Q4&quot;,
+9, &quot;Q4&quot;,
+&quot;None&quot;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Quarter</description>
+        <developerName>CDF1</developerName>
+        <label>Quarter</label>
+        <scale>0</scale>
+    </customDetailFormulas>
+    <description>Support - SLA Cases with Penalties</description>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3) AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.Service_Request,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>MT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Response</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>MT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Interim Resolution</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>TB,GM,RH,UK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Support_SLA_Customer__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>Service Credit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>TechnologyOne TEST2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CM.TARGET_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>10/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notContain</operator>
+            <value>Greg McCormack,Tracey Bulley,Roxanne Hoare</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>IS_VIOLATED</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_76109478</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Support - SLA Cases with Penalties</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseMilestone</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_SLA_Customer_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   (Service_Credits_SLA_Reporting__c = TRUE),
+    image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=0150f00003G8TZv&amp;oid=00D2O0000009e0J&quot;,&quot;*&quot;)
+   ,&quot;&quot;
+  )</formula>
+    <inlineHelpText>This case is subject to service credits and/or SLA reporting</inlineHelpText>
+    <label>SLA Case Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

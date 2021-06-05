@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Makes the calculated due dates for time based workflow visible on the applicable Case page layouts</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.AwaitInfoFinalFollowupDue__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.AwaitInfoFirstFollowupDue__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.AwaitInfoSecondFollowupDue__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Customer_Comms_Due_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>View Calculated Due Dates for case</label>
+</PermissionSet>

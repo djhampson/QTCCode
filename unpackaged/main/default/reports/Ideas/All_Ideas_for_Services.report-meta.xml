@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Idea*Idea$Idea_Number__c</field>
+    </columns>
+    <columns>
+        <field>Idea$Title</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Functional_Area__c</field>
+    </columns>
+    <columns>
+        <field>Idea*Idea$Account_Name_from_Account__c</field>
+    </columns>
+    <columns>
+        <field>Idea$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Idea$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Idea$Status</field>
+    </columns>
+    <columns>
+        <field>Idea$WeightedSum</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>This report details all Ideas Logged against Service Categories that have not had a closing type status (Delivered, Alternate Solution, Not in Product Direction, Existing Feature).</description>
+    <filter>
+        <criteriaItems>
+            <column>Idea$Categories</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>includes</operator>
+            <value>~ Customer Community,~ Enterprise App Store,~ TechnologyOne Website,Services</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Idea$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Delivered,Alternate Solution Available,Not Planned,Not in Product Direction,Existing Feature</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Idea$Categories</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>All Ideas for Services</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Ideas_Comments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Idea$WeightedSum</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Idea$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST7</interval>
+    </timeFrameFilter>
+</Report>

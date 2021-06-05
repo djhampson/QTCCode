@@ -1,0 +1,24 @@
+Dear {!Approval_Requesting_User.Name},
+
+Please note that your approval request has been approved.
+
+Please find more information below:
+
+Account Name:     {!blng__CreditNote__c.blng__Account__c}
+Bill to Account:      {!blng__CreditNote__c.blng__BillToAccount__c}
+Bill to Contract:     {!blng__CreditNote__c.blng__BillToContact__c}
+Reason:                {!blng__CreditNote__c.Reason__c}
+Credit Note Date:  {!blng__CreditNote__c.blng__CreditNoteDate__c}
+Status:                  {!blng__CreditNote__c.blng__Status__c}
+Source Action:      {!blng__CreditNote__c.blng__CreditNoteSourceAction__c}
+Notes:                   {!blng__CreditNote__c.blng__Notes__c}
+
+Total Amount:       {!blng__CreditNote__c.blng__TotalAmount__c}
+Balance:               {!blng__CreditNote__c.blng__Balance__c}
+Refunds:              {!blng__CreditNote__c.blng__Refunds__c}
+
+Submitter:            {!Approval_Requesting_User.Name}
+Approver:             {!Approval_Requesting_User.Full_Name__c}
+Comments:          {!ApprovalRequest.Comments}
+
+Link to the Credit Note: {!blng__CreditNote__c.Link}

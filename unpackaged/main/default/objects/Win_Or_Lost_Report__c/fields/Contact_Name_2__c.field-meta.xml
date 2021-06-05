@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Name_2__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Key Customer/Prospect Decision Makers Name</inlineHelpText>
+    <label>Contact Name</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Win Or Lost Reports (Contact Name)</relationshipLabel>
+    <relationshipName>Win_Or_Lost_Reports2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

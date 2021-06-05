@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Discount Approval Submissions</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TechOne_LH</letterhead>
+    <name>Discount Approval Submissions</name>
+    <style>freeForm</style>
+    <subject>Discount Approval Submissions - {!Opportunity.Account} - {!Opportunity.Opportunity_ID__c}</subject>
+    <textOnly>Hi Ben,
+
+
+Please find details of opportunity {!Opportunity.Name} which has been submitted for discount approval.
+
+
+Account: {!Opportunity.Account}
+
+Account Type: {!Opportunity.Account_Type__c}
+
+Customer Since: {!Opportunity.Customer_Since__c}
+
+Current ARR: {!Opportunity.Curremt_ARR__c}
+
+Current ASM: {!Opportunity.Account_ASM__c}
+
+
+Current Proposal:
+
+Deal List Price:
+
+Behavioural Discounts Applied:
+
+Services / ASM:
+
+Proposed Discount:
+
+
+
+
+Pricing Challenge:
+
+
+
+
+Known Pricing Intelligence
+
+Ie Budget / Competitive Price / Pricing Intel
+
+
+
+
+Proposed Pricing Strategy
+
+Ie Give-to-Get
+
+
+
+
+
+Please find attached pricing synopsis for review.
+
+
+
+Link to Salesforce Opportunity: {!Opportunity.Link}
+
+Regards,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

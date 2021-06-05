@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Milestone_Warning_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Milestone_Warning__c = True,image(&quot;/resource/1400032220000/graphicsPack/16/fatcow/farmfresh/alarm_bell.png&quot;,&quot;*&quot;,16,16),&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Milestone Warning Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates if the phone number attached to this Contact is on the Australian Do Not Call Register (DNCR).
+
+Numbers washed monthly. --></help>
+        <label><!-- DNCR --></label>
+        <name>DNCR__c</name>
+    </CustomFieldTranslation>

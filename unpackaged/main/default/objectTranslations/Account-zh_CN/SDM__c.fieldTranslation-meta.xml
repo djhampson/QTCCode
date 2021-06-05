@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used by Support Team --></help>
+        <label><!-- SDM --></label>
+        <name>SDM__c</name>
+        <relationshipLabel><!-- Accounts (SDM) --></relationshipLabel>
+    </CustomFieldTranslation>

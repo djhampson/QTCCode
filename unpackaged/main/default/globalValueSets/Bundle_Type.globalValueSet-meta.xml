@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Solution</fullName>
+        <default>false</default>
+        <label>Solution</label>
+    </customValue>
+    <description>Used to identify different types of bundle (combination types of products)</description>
+    <masterLabel>Bundle Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

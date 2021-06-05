@@ -1,0 +1,5 @@
+Change Request {!Case.CaseNumber} approval to promote to UAT is requested. 
+
+Subject: {!Case.Subject}
+
+Link to Change Request is: {!Case.Link}

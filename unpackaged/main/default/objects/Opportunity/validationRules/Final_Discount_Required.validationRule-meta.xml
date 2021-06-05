@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Discount_Required</fullName>
+    <active>true</active>
+    <description>Final discount % is required when  move stage to 6 - Sales Closed</description>
+    <errorConditionFormula>AND($Profile.Name &lt;&gt; &#39;System Administrator&#39;,
+$Profile.Name &lt;&gt; &#39;Operations&#39;,
+RecordType.DeveloperName = &#39;Licence_Fee&#39;,
+ISPICKVAL(StageName, &#39;6 - Sales Closed&#39;),
+ISCHANGED(StageName), 
+ISBLANK(Final_Discount__c)
+)</errorConditionFormula>
+    <errorDisplayField>Final_Discount__c</errorDisplayField>
+    <errorMessage>Final discount % is required when  move stage to 6 - Sales Closed. Please enter 0% if no discount.</errorMessage>
+</ValidationRule>

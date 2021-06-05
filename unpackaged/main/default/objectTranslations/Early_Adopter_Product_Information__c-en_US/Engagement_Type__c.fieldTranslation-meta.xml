@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Engagement Type --></label>
+        <name>Engagement_Type__c</name>
+        <picklistValues>
+            <masterLabel>Active Early Adopter</masterLabel>
+            <translation><!-- Active Early Adopter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed-Customer no longer interested</masterLabel>
+            <translation><!-- Closed-Customer no longer interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Only</masterLabel>
+            <translation><!-- Information Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Sale</masterLabel>
+            <translation><!-- New Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Contact</masterLabel>
+            <translation><!-- No Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Early Adopter</masterLabel>
+            <translation><!-- Planned Early Adopter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Registered</masterLabel>
+            <translation><!-- Self-Registered --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

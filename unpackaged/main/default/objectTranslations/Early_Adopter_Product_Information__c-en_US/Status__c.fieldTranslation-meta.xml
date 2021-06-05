@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed - Not Installing</masterLabel>
+            <translation><!-- Closed - Not Installing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installed in Prod</masterLabel>
+            <translation><!-- Installed in Prod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installed in Test</masterLabel>
+            <translation><!-- Installed in Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live</masterLabel>
+            <translation><!-- Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Early Adopter</masterLabel>
+            <translation><!-- New Early Adopter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On hold</masterLabel>
+            <translation><!-- On hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending commencement</masterLabel>
+            <translation><!-- Pending commencement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered Interest</masterLabel>
+            <translation><!-- Registered Interest --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

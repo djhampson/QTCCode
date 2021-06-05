@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Engagement reminder to customer</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Engagement Reminder</name>
+    <style>none</style>
+    <subject>Reminder regarding upcoming Consulting Services Engagement: Case {!Case.CaseNumber} {!Case.Subject} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+This is a reminder regarding your upcoming Consulting Service Engagement.
+
+Please ensure the following, if appropriate has been organised prior to the start date:
+
+Network access and logins for the consultant
+Availability of key staff members
+Meeting rooms and equipment
+Access to a non-production environment
+
+Please note if your organisations process for invoicing requires a Purchase Order number on your invoice - please ensure that you have added your Purchase Order number into the Customer Reference Field on the Case prior to the consulting engagement.
+
+The details of the engagement are as below:
+
+
+Case Number:  {!Case.CaseNumber}
+Customer Reference:  {!Case.Customer_Reference__c}
+Engagement Start Date:  {!Case.Engagement_Start_Date__c}
+Engagement End Date:  {!Case.Engagement_End_Date__c}
+Total days:  {!Case.Total_Engagement_Days__c}
+Location:  {!Case.Engagement_Location__c}
+Scope of Work:  {!Case.Scope_of_Work__c}
+
+
+Your allocated consultant will contact you to confirm address or remote access details.
+
+For full details regarding this engagement please refer to the case.
+
+
+Terms and Conditions:
+If you cancel this booking within 10 Business Days of the scheduled date, TechnologyOne will charge you for the resulting loss. TechnologyOne will use all reasonable commercial efforts to mitigate any such loss. For services that are pre-paid, you must provide at least 14 days notice of intention to utilise the services to allow TechnologyOne to allocate the necessary resources. Pre-paid services may not be cancelled, and will expire 12 months after confirmation of this quote.  After expiry, the prepaid services are no longer valid and any unused value will not be refunded and will be retained by TechnologyOne.
+
+Kind regards,
+TechnologyOne Consulting Services
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+VIEW THE CASE
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

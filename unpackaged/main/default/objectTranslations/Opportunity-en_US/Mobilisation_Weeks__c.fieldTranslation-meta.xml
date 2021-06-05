@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- (Project Start Date - Opportunity Close Date)/7 --></help>
+        <label><!-- Mobilisation Weeks --></label>
+        <name>Mobilisation_Weeks__c</name>
+    </CustomFieldTranslation>

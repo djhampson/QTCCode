@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>GetFeedback_Survey_Responses__c.Our_People_Rating__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>GetFeedback_Survey_Responses__c.Overall_Experience_rating__c</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_CREATED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Support Customer Satisfaction based on survey responses</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+        <criteriaItems>
+            <column>FK_CASE_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CASE_STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Resolved,Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>TB,GM,RH,UK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CASE_CREATED_DATEONLY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>10/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Support Customer Satisfaction (CSat)</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntity$GetFeedback_Survey_Responses__c@GetFeedback_Survey_Responses__c.Case_Number__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>FK_CASE_CREATED_DATEONLY</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

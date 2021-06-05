@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LockUserNameforCommunityUsers</fullName>
+    <active>true</active>
+    <description>Stops users changing their username.</description>
+    <errorConditionFormula>ISCHANGED( Username ) &amp;&amp;
+CONTAINS($Profile.Name, &quot;Community&quot;)</errorConditionFormula>
+    <errorDisplayField>Username</errorDisplayField>
+    <errorMessage>You must not change User Name</errorMessage>
+</ValidationRule>

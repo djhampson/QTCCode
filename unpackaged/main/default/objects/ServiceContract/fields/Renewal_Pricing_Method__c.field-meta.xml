@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Pricing_Method__c</fullName>
+    <description>Custom Renewal Pricing field because OOTB functionality does not meet business requirement to represent detailed pricing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines renewal pricing.</inlineHelpText>
+    <label>Renewal Pricing Method</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Renewal_Pricing_Method</valueSetName>
+    </valueSet>
+</CustomField>

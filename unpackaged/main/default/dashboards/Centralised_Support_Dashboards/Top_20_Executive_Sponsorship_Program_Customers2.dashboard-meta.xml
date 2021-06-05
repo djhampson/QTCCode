@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Department of Industry</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>TAFE Queensland</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Melbourne</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Queensland University of Technology</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Macquarie University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>La Trobe University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Tafe WA</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Moreton Bay Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Tasmania</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Flinders University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>James Cook University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Swinburne University of Technology</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Catholic Education Melbourne</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Department of Agriculture and Water Resources</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Victoria University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Townsville City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Technology Sydney</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Catholic Education Office - Parramatta</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Epworth HealthCare</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Seqwater</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Healthscope</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Northern Beaches Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Inner West Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>City of Casey</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cairns Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Minda Incorporated</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of the Sunshine Coast</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Whangarei District Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Agtrade Holdings Pty Ltd</values>
+        </dashboardFilterOptions>
+        <name>Customer</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Case Overview</header>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Critical &amp; Urgent Cases</header>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases - Critical &amp; Urgent</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_P1_P2_Cases</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Support Cases</header>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with Support</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_Support</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>R&amp;D Cases</header>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with R&amp;D</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_with_Jira</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with AMS</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_with_AMS</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with R&amp;D - Critical &amp; Urgent</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_with_Jira_P1_P2</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with Support - Critical &amp; Urgent</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_P1_P2_Cases_Support</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with R&amp;D - High &amp; Medium</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_with_Jira_P3_P4</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with Consulting</metricLabel>
+                <report>Centralised_Support_Reports/All_Open_Cases_with_Consulting</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with Support - Critical &amp; Urgent</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_P1_P2_Cases_Support</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with Support - High &amp; Medium</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_P3_P4_Cases_Support</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with R&amp;D - Critical &amp; Urgent</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_with_Jira_P1_P2</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with R&amp;D</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_with_Jira</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Account</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Jira Tickets open by ISSUE TYPE</header>
+                <indicatorBreakpoint1>30.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>31.0</indicatorBreakpoint2>
+                <indicatorHighColor>#D50000</indicatorHighColor>
+                <indicatorLowColor>#008080</indicatorLowColor>
+                <indicatorMiddleColor>#C1C100</indicatorMiddleColor>
+                <report>Centralised_Support_Reports/New_Cases_with_Jira_by_Issue_Type</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <metricLabel>Open Cases with Support</metricLabel>
+                <report>Centralised_Support_Reports/ALL_Open_Cases_Support</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>9</numberOfColumns>
+        <rowHeight>80</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>chris_beckwith@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Customer Case Summary CB</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

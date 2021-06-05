@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BU_Code__c</fullName>
+    <description>Returns the BU Code depending on the Opportunity Region selected.</description>
+    <externalId>false</externalId>
+    <formula>CASE( Opportunity_Region__c ,
+&quot;01 - QLD&quot;,&quot;101&quot;,
+&quot;02 - NSW&quot;,&quot;102&quot;,
+&quot;03 - VIC&quot;,&quot;103&quot;,
+&quot;04 - SA &amp; NT&quot;,&quot;104&quot;,
+&quot;05 - WA&quot;,&quot;105&quot;,
+&quot;06 - ACT&quot;,&quot;106&quot;,
+&quot;07 - TAS&quot;,&quot;107&quot;,
+&quot;11 - NZN&quot;,&quot;108&quot;,
+&quot;12 - NZS&quot;,&quot;109&quot;,
+&quot;20 - SEAP&quot;,&quot;112&quot;,
+&quot;23 - UK&quot;,&quot;111&quot;,
+NULL)</formula>
+    <inlineHelpText>BU Code of the corresponding Opportunity Region.</inlineHelpText>
+    <label>BU Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

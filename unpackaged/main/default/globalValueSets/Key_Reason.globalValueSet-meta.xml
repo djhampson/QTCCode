@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CiAnywhere</fullName>
+        <default>false</default>
+        <label>CiAnywhere</label>
+    </customValue>
+    <customValue>
+        <fullName>Cloud</fullName>
+        <default>false</default>
+        <label>Cloud</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>Consulting/Services Offering</fullName>
+        <default>false</default>
+        <label>Consulting/Services Offering</label>
+    </customValue>
+    <customValue>
+        <fullName>Did Not Meet Tender Requirements</fullName>
+        <default>false</default>
+        <label>Did Not Meet Tender Requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>Functionality</fullName>
+        <default>false</default>
+        <label>Functionality</label>
+    </customValue>
+    <customValue>
+        <fullName>Licensing Restrictions</fullName>
+        <default>false</default>
+        <label>Licensing Restrictions</label>
+    </customValue>
+    <customValue>
+        <fullName>Price</fullName>
+        <default>false</default>
+        <label>Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Product capability</fullName>
+        <default>false</default>
+        <label>Product capability</label>
+    </customValue>
+    <customValue>
+        <fullName>References</fullName>
+        <default>false</default>
+        <label>References</label>
+    </customValue>
+    <customValue>
+        <fullName>Relationship</fullName>
+        <default>false</default>
+        <label>Relationship</label>
+    </customValue>
+    <customValue>
+        <fullName>Simplicity</fullName>
+        <default>false</default>
+        <label>Simplicity</label>
+    </customValue>
+    <customValue>
+        <fullName>Solution fit</fullName>
+        <default>false</default>
+        <label>Solution fit</label>
+    </customValue>
+    <customValue>
+        <fullName>Trust in Brand</fullName>
+        <default>false</default>
+        <label>Trust in Brand</label>
+    </customValue>
+    <masterLabel>Key Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

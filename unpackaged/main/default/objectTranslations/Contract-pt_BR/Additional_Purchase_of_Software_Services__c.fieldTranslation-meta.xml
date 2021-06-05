@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Can the Customer purchase additional Software/Services under this contract? If Yes - Subject to Conditions, see Legal. --></help>
+        <label><!-- Additional Purchase of Software/Services --></label>
+        <name>Additional_Purchase_of_Software_Services__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Subject to Conditions</masterLabel>
+            <translation><!-- Yes - Subject to Conditions --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

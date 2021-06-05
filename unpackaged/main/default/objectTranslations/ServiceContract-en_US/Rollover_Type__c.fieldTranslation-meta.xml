@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Rollover Type --></label>
+        <name>Rollover_Type__c</name>
+        <picklistValues>
+            <masterLabel>Continuous Extension</masterLabel>
+            <translation><!-- Continuous Extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Option and Continuous Extension</masterLabel>
+            <translation><!-- Customer Option and Continuous Extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Option and No Extension</masterLabel>
+            <translation><!-- Customer Option and No Extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Option and One-off Extension</masterLabel>
+            <translation><!-- Customer Option and One-off Extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Customer Option and No Extensions</masterLabel>
+            <translation><!-- No Customer Option and No Extensions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One-off Extension</masterLabel>
+            <translation><!-- One-off Extension --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

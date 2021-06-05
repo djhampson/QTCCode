@@ -1,0 +1,11 @@
+Change Request {!Case.CaseNumber} changes have been completed in Dev.
+
+Subject: {!Case.Subject}
+
+Please complete your testing to confirm your changes are operational.
+
+Link to the change request is: {!Case.Link}
+
+If your testing is unsuccessful, work to resolve any issues or request the changes to be backed-out ASAP.
+
+When your testing is successfully completed, indicate your acceptance of the  changes by changing the State to Pending UAT.

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Name --></label>
+        <name>GL_Product_Name__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party</masterLabel>
+            <translation><!-- 3rd Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Development Framework</masterLabel>
+            <translation><!-- Application Development Framework --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Management</masterLabel>
+            <translation><!-- Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Intelligence</masterLabel>
+            <translation><!-- Business Intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Process Management</masterLabel>
+            <translation><!-- Business Process Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Performance Management</masterLabel>
+            <translation><!-- Corporate Performance Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Content Management</masterLabel>
+            <translation><!-- Enterprise Content Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financials</masterLabel>
+            <translation><!-- Financials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR &amp; Payroll</masterLabel>
+            <translation><!-- HR &amp; Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive Product</masterLabel>
+            <translation><!-- Inactive Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not in Use</masterLabel>
+            <translation><!-- Not in Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Planning</masterLabel>
+            <translation><!-- Performance Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property</masterLabel>
+            <translation><!-- Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions</masterLabel>
+            <translation><!-- Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spatial</masterLabel>
+            <translation><!-- Spatial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stakeholder Management</masterLabel>
+            <translation><!-- Stakeholder Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Management</masterLabel>
+            <translation><!-- Student Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain Management</masterLabel>
+            <translation><!-- Supply Chain Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Cloud</masterLabel>
+            <translation><!-- T1 Cloud --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

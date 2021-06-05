@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_In_Clarity__c</fullName>
+    <description>Scheduled In Clarity</description>
+    <externalId>false</externalId>
+    <label>Scheduled In Clarity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Resource requirement sent to PMO</fullName>
+                <default>false</default>
+                <label>Resource requirement sent to PMO</label>
+            </value>
+            <value>
+                <fullName>Resource demand created</fullName>
+                <default>false</default>
+                <label>Resource demand created</label>
+            </value>
+            <value>
+                <fullName>Named resource assigned</fullName>
+                <default>false</default>
+                <label>Named resource assigned</label>
+            </value>
+            <value>
+                <fullName>Assignment complete</fullName>
+                <default>false</default>
+                <label>Assignment complete</label>
+            </value>
+            <value>
+                <fullName>To be classified</fullName>
+                <default>false</default>
+                <label>To be classified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

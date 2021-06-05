@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Vertical_Market__c, &#39;Government&#39;),&#39;Corporate&#39;,
+ IF(ISPICKVAL(Vertical_Market__c,&#39;Education&#39;),&#39;Education&#39;,
+ IF( ISPICKVAL(Vertical_Market__c,&#39;Financial Services&#39;),&#39;Corporate&#39;,
+ IF( ISPICKVAL(Vertical_Market__c,&#39;Health and Community Services&#39;),&#39;Corporate&#39;,
+ IF( ISPICKVAL(Vertical_Market__c,&#39;Corporate&#39;),&#39;Corporate&#39;,
+ IF( ISPICKVAL(Vertical_Market__c,&#39;Local Government&#39;),&#39;AI/PI/LG&#39;,
+ IF( ISPICKVAL(Vertical_Market__c,&#39;Asset Intensive&#39;),&#39;AI/PI/LG&#39;,
+ IF( ISPICKVAL(Vertical_Market__c,&#39;Project Intensive&#39;),&#39;AI/PI/LG&#39;,
+&#39;&#39;))))))))</formula>
+    <label>Sector</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

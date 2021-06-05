@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Environment_Refresh</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Environment Refresh&#39;) &amp;&amp;
+ (ISBLANK(Target_Environment__c) ||
+ ISBLANK(Source_Environment__c))
+&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c)</errorConditionFormula>
+    <errorMessage>Please complete the target and source environments for the refresh</errorMessage>
+</ValidationRule>

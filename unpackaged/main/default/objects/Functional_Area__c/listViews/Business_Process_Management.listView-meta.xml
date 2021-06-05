@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Process_Management</fullName>
+    <columns>NAME</columns>
+    <columns>Usage__c</columns>
+    <columns>Possible_Found_Technology__c</columns>
+    <columns>Product_Affected__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Affected__c</field>
+        <operation>equals</operation>
+        <value>Corporate Performance Management (CPM)</value>
+    </filters>
+    <label>Corporate Performance Management (CPM)</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

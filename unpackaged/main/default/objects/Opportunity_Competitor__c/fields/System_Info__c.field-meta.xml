@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Info__c</fullName>
+    <description>Competitor System Info</description>
+    <externalId>false</externalId>
+    <label>System Info</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Incumbent</fullName>
+                <default>false</default>
+                <label>Incumbent</label>
+            </value>
+            <value>
+                <fullName>Upgrade Existing</fullName>
+                <default>false</default>
+                <label>Upgrade Existing</label>
+            </value>
+            <value>
+                <fullName>Do Nothing</fullName>
+                <default>false</default>
+                <label>Do Nothing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

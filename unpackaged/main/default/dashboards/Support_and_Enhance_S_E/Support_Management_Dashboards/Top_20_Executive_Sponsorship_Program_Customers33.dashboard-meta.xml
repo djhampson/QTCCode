@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>dark</chartTheme>
+    <colorPalette>nightfall</colorPalette>
+    <dashboardChartTheme>dark</dashboardChartTheme>
+    <dashboardColorPalette>nightfall</dashboardColorPalette>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>TAFE Queensland</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Southern Cross University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Macquarie University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Melbourne</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>La Trobe University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Moreton Bay Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Tasmania</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Flinders University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>James Cook University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Swinburne University of Technology</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Catholic Education Melbourne</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Victoria University</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of Technology Sydney</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Inner West Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>City of Casey</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cairns Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Box Hill Institute</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>City of Greater Bendigo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Central Highland Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ministry of Transport</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Adur &amp; Worthing Borough Councils</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>University of New England</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Port Phillip City Council</values>
+        </dashboardFilterOptions>
+        <name>Customer (Account Name)</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>ALL OPEN CASES</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100000.0</indicatorBreakpoint2>
+                <indicatorHighColor>#0080FF</indicatorHighColor>
+                <indicatorLowColor>#0080FF</indicatorLowColor>
+                <indicatorMiddleColor>#0080FF</indicatorMiddleColor>
+                <metricLabel>Support all, AMS &amp; Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/ALL_Open_Cases1</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <column>Case.Account_AMS__c</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open Cases with AMS &amp; Consulting</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#7300FF</indicatorHighColor>
+                <indicatorLowColor>#7300FF</indicatorLowColor>
+                <indicatorMiddleColor>#7300FF</indicatorMiddleColor>
+                <metricLabel>AMS &amp; Consulting services</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/ALL_Open_Cases_with_AMS1</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open Cases with Consulting</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#7300FF</indicatorHighColor>
+                <indicatorLowColor>#7300FF</indicatorLowColor>
+                <indicatorMiddleColor>#7300FF</indicatorMiddleColor>
+                <metricLabel>Consulting services (only)</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/All_Open_Cases_with_Consulting1</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open Support ALL Cases (Backlog)</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>5000.0</indicatorBreakpoint2>
+                <indicatorHighColor>#7300FF</indicatorHighColor>
+                <indicatorLowColor>#7300FF</indicatorLowColor>
+                <indicatorMiddleColor>#7300FF</indicatorMiddleColor>
+                <metricLabel>Jira &amp; No Jira</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/ALL_Open_Cases_S_E</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>ALL Open P1 Cases</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>50000.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#FF0000</indicatorLowColor>
+                <indicatorMiddleColor>#FF0000</indicatorMiddleColor>
+                <metricLabel>Support, AMS, Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/ALL_Open_P1_P2_Cases1</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <column>Case.Account_AMS__c</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P1 Cases</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#FF0000</indicatorLowColor>
+                <indicatorMiddleColor>#FF0000</indicatorMiddleColor>
+                <metricLabel>With AMS</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P1_Cases_with_AMS</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P1 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#FF0000</indicatorLowColor>
+                <indicatorMiddleColor>#FF0000</indicatorMiddleColor>
+                <metricLabel>With Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P1_Cases_with_Consulting</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>2</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P2 Cases</header>
+                <indicatorBreakpoint1>0.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>50000.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF7F00</indicatorHighColor>
+                <indicatorLowColor>#FF7F00</indicatorLowColor>
+                <indicatorMiddleColor>#FF7F00</indicatorMiddleColor>
+                <metricLabel>Support, AMS, Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/ALL_Open_P2_Cases</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <column>Case.Account_AMS__c</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P2 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF7F00</indicatorHighColor>
+                <indicatorLowColor>#FF7F00</indicatorLowColor>
+                <indicatorMiddleColor>#FF7F00</indicatorMiddleColor>
+                <metricLabel>With AMS</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P2_Cases_with_AMS</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P2 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF7F00</indicatorHighColor>
+                <indicatorLowColor>#FF7F00</indicatorLowColor>
+                <indicatorMiddleColor>#FF7F00</indicatorMiddleColor>
+                <metricLabel>With Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P2_Cases_with_Consulting</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P3 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#38571A</indicatorHighColor>
+                <indicatorLowColor>#38571A</indicatorLowColor>
+                <indicatorMiddleColor>#38571A</indicatorMiddleColor>
+                <metricLabel>Support, AMS &amp; Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/ALL_Open_P3_P4_Cases</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <column>Case.Account_AMS__c</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P3 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#38571A</indicatorHighColor>
+                <indicatorLowColor>#38571A</indicatorLowColor>
+                <indicatorMiddleColor>#38571A</indicatorMiddleColor>
+                <metricLabel>With AMS</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P3_Cases_with_AMS</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P3 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#38571A</indicatorHighColor>
+                <indicatorLowColor>#38571A</indicatorLowColor>
+                <indicatorMiddleColor>#38571A</indicatorMiddleColor>
+                <metricLabel>With Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P3_Cases_with_Consulting</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P4 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#96D35F</indicatorHighColor>
+                <indicatorLowColor>#96D35F</indicatorLowColor>
+                <indicatorMiddleColor>#96D35F</indicatorMiddleColor>
+                <metricLabel>Support, AMS &amp; Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/ALL_Open_P4_Cases</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>2</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <column>Case.Account_AMS__c</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P4 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#96D35F</indicatorHighColor>
+                <indicatorLowColor>#96D35F</indicatorLowColor>
+                <indicatorMiddleColor>#96D35F</indicatorMiddleColor>
+                <metricLabel>With AMS</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P4_Cases_with_AMS</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <groupingSortProperties/>
+                <header>Open P4 Cases</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#96D35F</indicatorHighColor>
+                <indicatorLowColor>#96D35F</indicatorLowColor>
+                <indicatorMiddleColor>#96D35F</indicatorMiddleColor>
+                <metricLabel>With Consulting</metricLabel>
+                <report>Dashboard_Rpts_Customer_Case_Summary/Open_P4_Cases_with_Consulting</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>2</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>9</numberOfColumns>
+        <rowHeight>80</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>chris_beckwith@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Case Summary (+AMS/Consulting)</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Customer Welcome Letter</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TechOne_LH</letterhead>
+    <name>Customer Welcome Letter</name>
+    <style>freeForm</style>
+    <subject>Signed Agreement with TechnologyOne</subject>
+    <textOnly>Dear ,
+
+It is with great pleasure that I attach a counter signed copy of [Agreement Name] between {!Opportunity.Account} and Technology One Limited for your records.
+
+I would like the opportunity to organise a [coffee/lunch/dinner] to personally welcome you and the team to our organisation at a time that suits you.  [idea here to present physical customer welcome pack].
+
+As your Customer Account Manager, I am dedicated to building strong relationships with you and your organisation, so please do not hesitate to contact me on the below details if you wish to discuss any aspect of our engagement.
+
+I look forward to working with you and your organisation to transform your business and make life simple, both now and into the future.
+
+
+regards,
+
+{!Opportunity.OwnerFullName}
+{!Opportunity.OwnerTitle}
+{!Opportunity.OwnerPhone}
+{!Opportunity.OwnerEmail}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

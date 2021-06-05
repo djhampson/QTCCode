@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Commission Percentage --></help>
+        <label><!-- Team Role --></label>
+        <name>Team_Role__c</name>
+        <picklistValues>
+            <masterLabel>Primary Presales Consultant</masterLabel>
+            <translation><!-- Primary Presales Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Presales Consultant - Split</masterLabel>
+            <translation><!-- Primary Presales Consultant - Split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supporting Presales Consultant</masterLabel>
+            <translation><!-- Supporting Presales Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supporting Presales Consultant - Split</masterLabel>
+            <translation><!-- Supporting Presales Consultant - Split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Architect</masterLabel>
+            <translation><!-- Technical Architect --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

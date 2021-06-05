@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sort_Priortiy__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ISPICKVAL(Priority , &quot;Critical&quot;) &amp;&amp; (ispickval(Status, &quot;New&quot;) || ispickval(Status, &quot;In Progress&quot;)), 1, 
+
+if(ISPICKVAL(Priority , &quot;Critical&quot;) &amp;&amp; (ispickval(Status, &quot;Awaiting Customer&quot;)), 2, 
+
+if(ISPICKVAL(Priority , &quot;Critical&quot;) &amp;&amp; not(ispickval(Status, &quot;Closed&quot;) || ispickval(Status, &quot;Resolved&quot;)), 3, 
+
+
+if(ISPICKVAL(Priority , &quot;Urgent&quot;) &amp;&amp; (ispickval(Status, &quot;New&quot;) || ispickval(Status, &quot;In Progress&quot;)), 4, 
+
+if(ISPICKVAL(Priority , &quot;Urgent&quot;) &amp;&amp; (ispickval(Status, &quot;Awaiting Customer&quot;)), 5, 
+
+if(ISPICKVAL(Priority , &quot;Urgent&quot;) &amp;&amp; not(ispickval(Status, &quot;Closed&quot;) || ispickval(Status, &quot;Resolved&quot;)), 6, 
+
+
+if(ISPICKVAL(Priority , &quot;High&quot;) &amp;&amp; (ispickval(Status, &quot;New&quot;) || ispickval(Status, &quot;In Progress&quot;)), 7, 
+
+if(ISPICKVAL(Priority , &quot;High&quot;) &amp;&amp; (ispickval(Status, &quot;Awaiting Customer&quot;)), 8, 
+
+if(ISPICKVAL(Priority , &quot;High&quot;) &amp;&amp; not(ispickval(Status, &quot;Closed&quot;) || ispickval(Status, &quot;Resolved&quot;)), 9, 
+
+
+if(ISPICKVAL(Priority , &quot;Medium&quot;) &amp;&amp; (ispickval(Status, &quot;New&quot;) || ispickval(Status, &quot;In Progress&quot;)), 10, 
+
+if(ISPICKVAL(Priority , &quot;Medium&quot;) &amp;&amp; (ispickval(Status, &quot;Awaiting Customer&quot;)), 11, 
+
+if(ISPICKVAL(Priority , &quot;Medium&quot;) &amp;&amp; not(ispickval(Status, &quot;Closed&quot;) || ispickval(Status, &quot;Resolved&quot;)), 12, 13))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sort Priority</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

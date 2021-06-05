@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What feedback did they get from the reference sites from our competitors? --></help>
+        <label><!-- Feedback from Competitor Reference Sites --></label>
+        <name>Feedback_from_Competitor_Reference_Sites__c</name>
+    </CustomFieldTranslation>

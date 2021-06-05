@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>CRC Request Processing</label>
+    <navType>Standard</navType>
+    <tabs>CPEC_Request__c</tabs>
+    <tabs>CRC_Request_Action__c</tabs>
+    <tabs>CRC_Request_Approval__c</tabs>
+    <tabs>CRC_KB_Articles__c</tabs>
+    <tabs>CRC_Request_Action_Settings__c</tabs>
+    <tabs>CRC_Request_Approval_Settings__c</tabs>
+    <tabs>CRC_Financial_Year__c</tabs>
+    <tabs>Tax_Code__c</tabs>
+    <tabs>Notification_Log__c</tabs>
+    <tabs>SBQQ__ContractedPrice__c</tabs>
+    <tabs>Increase_Rate_Types__c</tabs>
+    <tabs>Increase_Rate__c</tabs>
+    <tabs>APXTCFQ__Conga_Solution__c</tabs>
+    <tabs>Enterprise_Basis__c</tabs>
+    <tabs>Case_Entitlements__c</tabs>
+    <tabs>Module_Dependency__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>CRC_Request_Processing_UtilityBar</utilityBar>
+</CustomApplication>

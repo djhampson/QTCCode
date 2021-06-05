@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c.vftimer__WorkType__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>vftimer__TimedItem__c.vftimer__Time__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Case.Customer_Product__c</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_SUBJECT</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>List of timed items for date range for all of my customers</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Case.Account_SDM__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Julie Holwell</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>vftimer__TimedItem__c.vftimer__WorkType__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Team Development and Assistance (Non-billable)</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Copy of AAA - JHO - Timed Items for date</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$vftimer__TimedItem__c@vftimer__TimedItem__c.vftimer__Case__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>FK_ACC_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>vftimer__TimedItem__c.vftimer__DateImplemented__c</dateColumn>
+        <endDate>2020-08-26</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2020-08-26</startDate>
+    </timeFrameFilter>
+</Report>

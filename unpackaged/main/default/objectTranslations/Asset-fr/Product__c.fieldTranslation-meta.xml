@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>Additional Cloud - Different Anniversary Date</masterLabel>
+            <translation><!-- Additional Cloud - Different Anniversary Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Earnie IQ</masterLabel>
+            <translation><!-- Earnie IQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escrow</masterLabel>
+            <translation><!-- Escrow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Metrics</masterLabel>
+            <translation><!-- Health Metrics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Glovebox</masterLabel>
+            <translation><!-- IT Glovebox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ScanWatcher</masterLabel>
+            <translation><!-- ScanWatcher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanda</masterLabel>
+            <translation><!-- Tanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology One Contracts</masterLabel>
+            <translation><!-- Technology One Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne ADF</masterLabel>
+            <translation><!-- TechnologyOne ADF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Adaptive Solutions</masterLabel>
+            <translation><!-- TechnologyOne Adaptive Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Breakout Packs</masterLabel>
+            <translation><!-- TechnologyOne Breakout Packs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne CPM External Systems Connectors</masterLabel>
+            <translation><!-- TechnologyOne CPM External Systems Connectors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Cloud Service Fee</masterLabel>
+            <translation><!-- TechnologyOne Cloud Service Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Cloud Storage (ECM)</masterLabel>
+            <translation><!-- TechnologyOne Cloud Storage (ECM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Corporate Performance Management</masterLabel>
+            <translation><!-- TechnologyOne Corporate Performance Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne ECM</masterLabel>
+            <translation><!-- TechnologyOne ECM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne ECR External Systems</masterLabel>
+            <translation><!-- TechnologyOne ECR External Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Enterprise Asset Management</masterLabel>
+            <translation><!-- TechnologyOne Enterprise Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Enterprise Cash Receipting</masterLabel>
+            <translation><!-- TechnologyOne Enterprise Cash Receipting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Fax Gateway</masterLabel>
+            <translation><!-- TechnologyOne Fax Gateway --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Financials</masterLabel>
+            <translation><!-- TechnologyOne Financials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Fleet Solution</masterLabel>
+            <translation><!-- TechnologyOne Fleet Solution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne HR and Payroll</masterLabel>
+            <translation><!-- TechnologyOne HR and Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Mobile</masterLabel>
+            <translation><!-- TechnologyOne Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne PLUS</masterLabel>
+            <translation><!-- TechnologyOne PLUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Performance Planning</masterLabel>
+            <translation><!-- TechnologyOne Performance Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Premium Cloud</masterLabel>
+            <translation><!-- TechnologyOne Premium Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Property</masterLabel>
+            <translation><!-- TechnologyOne Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Publisher</masterLabel>
+            <translation><!-- TechnologyOne Publisher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne R &amp; D</masterLabel>
+            <translation><!-- TechnologyOne R &amp; D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne SaaS - Additional Environ. Refresh</masterLabel>
+            <translation><!-- TechnologyOne SaaS - Additional Environ. Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne SaaS - Additional File Integration</masterLabel>
+            <translation><!-- TechnologyOne SaaS - Additional File Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne SaaS - Additional Storage</masterLabel>
+            <translation><!-- TechnologyOne SaaS - Additional Storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne SaaS - Commercial</masterLabel>
+            <translation><!-- TechnologyOne SaaS - Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne SaaS - EdgheDb Premium</masterLabel>
+            <translation><!-- TechnologyOne SaaS - EdgheDb Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne SaaS - EdgheDb Standard</masterLabel>
+            <translation><!-- TechnologyOne SaaS - EdgheDb Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne SaaS - Long Term Data Retention 7yr+</masterLabel>
+            <translation><!-- TechnologyOne SaaS - Long Term Data Retention 7yr+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Saas - Additional Environment</masterLabel>
+            <translation><!-- TechnologyOne Saas - Additional Environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Services Only</masterLabel>
+            <translation><!-- TechnologyOne Services Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Solution Fee</masterLabel>
+            <translation><!-- TechnologyOne Solution Fee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Solution Template</masterLabel>
+            <translation><!-- TechnologyOne Solution Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Spatial Cloud</masterLabel>
+            <translation><!-- TechnologyOne Spatial Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Stakeholder Management</masterLabel>
+            <translation><!-- TechnologyOne Stakeholder Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Stock Usage</masterLabel>
+            <translation><!-- TechnologyOne Stock Usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Student Management</masterLabel>
+            <translation><!-- TechnologyOne Student Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechnologyOne Supply Chain Management</masterLabel>
+            <translation><!-- TechnologyOne Supply Chain Management --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Notification of Data Breach --></label>
+        <name>Notification_of_Data_Breach__c</name>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Contract Specific</masterLabel>
+            <translation><!-- Yes - Contract Specific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - Legislative Requirements</masterLabel>
+            <translation><!-- Yes - Legislative Requirements --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

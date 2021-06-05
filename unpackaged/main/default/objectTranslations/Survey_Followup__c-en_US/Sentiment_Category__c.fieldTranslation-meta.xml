@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sentiment Category --></label>
+        <name>Sentiment_Category__c</name>
+        <picklistValues>
+            <masterLabel>Auto Close</masterLabel>
+            <translation><!-- Auto Close --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Closed Before Resolution</masterLabel>
+            <translation><!-- Case Closed Before Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication</masterLabel>
+            <translation><!-- Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development / Product Issue</masterLabel>
+            <translation><!-- Development / Product Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Resolution</masterLabel>
+            <translation><!-- Incorrect Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Information in Resolution</masterLabel>
+            <translation><!-- Insufficient Information in Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolution</masterLabel>
+            <translation><!-- Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response</masterLabel>
+            <translation><!-- Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unhappy with Solution Provided</masterLabel>
+            <translation><!-- Unhappy with Solution Provided --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

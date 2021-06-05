@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Identifies the last completed Stage of the Project --></help>
+        <label><!-- Project Stage Completed --></label>
+        <name>Project_Stage_Completed__c</name>
+        <picklistValues>
+            <masterLabel>Configuration</masterLabel>
+            <translation><!-- Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Handover and Closure</masterLabel>
+            <translation><!-- Handover and Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategy</masterLabel>
+            <translation><!-- Strategy --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

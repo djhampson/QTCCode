@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter privacy and security risk jira number for tracking purposes. Note: there is no jira integration / sync --></help>
+        <label><!-- Risk Jira Number --></label>
+        <name>Risk_Jira_Number__c</name>
+    </CustomFieldTranslation>

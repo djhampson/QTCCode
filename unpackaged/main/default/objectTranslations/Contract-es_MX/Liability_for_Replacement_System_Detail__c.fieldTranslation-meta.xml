@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Cap applicable to replacement cost liability --></help>
+        <label><!-- Liability for Replacement System Detail --></label>
+        <name>Liability_for_Replacement_System_Detail__c</name>
+    </CustomFieldTranslation>

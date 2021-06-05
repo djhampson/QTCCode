@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset Management</fullName>
+                <default>false</default>
+                <label>Asset Management</label>
+            </value>
+            <value>
+                <fullName>Business Intelligence</fullName>
+                <default>false</default>
+                <label>Business Intelligence</label>
+            </value>
+            <value>
+                <fullName>Business Process Management</fullName>
+                <default>false</default>
+                <label>Business Process Management</label>
+            </value>
+            <value>
+                <fullName>Corporate Performance Management</fullName>
+                <default>false</default>
+                <label>Corporate Performance Management</label>
+            </value>
+            <value>
+                <fullName>Enterprise Content Management</fullName>
+                <default>false</default>
+                <label>Enterprise Content Management</label>
+            </value>
+            <value>
+                <fullName>Financials</fullName>
+                <default>false</default>
+                <label>Financials</label>
+            </value>
+            <value>
+                <fullName>Human Resources and Payroll</fullName>
+                <default>false</default>
+                <label>Human Resources and Payroll</label>
+            </value>
+            <value>
+                <fullName>Property and Rating</fullName>
+                <default>false</default>
+                <label>Property and Rating</label>
+            </value>
+            <value>
+                <fullName>Stakeholder Management</fullName>
+                <default>false</default>
+                <label>Stakeholder Management</label>
+            </value>
+            <value>
+                <fullName>Student Management</fullName>
+                <default>false</default>
+                <label>Student Management</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Management</fullName>
+                <default>false</default>
+                <label>Supply Chain Management</label>
+            </value>
+            <value>
+                <fullName>Spatial</fullName>
+                <default>false</default>
+                <label>Spatial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

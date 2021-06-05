@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Opportunity Model --></label>
+        <name>Licence_Model__c</name>
+        <picklistValues>
+            <masterLabel>Cloud</masterLabel>
+            <translation><!-- Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual</masterLabel>
+            <translation><!-- Perpetual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual &amp; Cloud Uplift</masterLabel>
+            <translation><!-- Perpetual &amp; Cloud Uplift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS</masterLabel>
+            <translation><!-- SaaS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Flip</masterLabel>
+            <translation><!-- SaaS Flip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation><!-- Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term</masterLabel>
+            <translation><!-- Term --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

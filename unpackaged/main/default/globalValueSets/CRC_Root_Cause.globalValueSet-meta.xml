@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cloud Issues</fullName>
+        <default>false</default>
+        <label>Cloud Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor Pricing</fullName>
+        <default>false</default>
+        <label>Competitor Pricing</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract Issue</fullName>
+        <default>false</default>
+        <label>Contract Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer change</fullName>
+        <default>false</default>
+        <label>Customer change</label>
+    </customValue>
+    <customValue>
+        <fullName>Future Functionality</fullName>
+        <default>false</default>
+        <label>Future Functionality</label>
+    </customValue>
+    <customValue>
+        <fullName>Go-Live Issues</fullName>
+        <default>false</default>
+        <label>Go-Live Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Implementation Issues</fullName>
+        <default>false</default>
+        <label>Implementation Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect Module</fullName>
+        <default>false</default>
+        <label>Incorrect Module</label>
+    </customValue>
+    <customValue>
+        <fullName>Missed Module</fullName>
+        <default>false</default>
+        <label>Missed Module</label>
+    </customValue>
+    <customValue>
+        <fullName>Misunderstanding of Customer Requirements</fullName>
+        <default>false</default>
+        <label>Misunderstanding of Customer Requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>Pandemic Financial Impacts</fullName>
+        <default>false</default>
+        <label>Pandemic Financial Impacts</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Issue</fullName>
+        <default>false</default>
+        <label>Product Issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Resourcing issue</fullName>
+        <default>false</default>
+        <label>Resourcing issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Support Issue (AMS)</fullName>
+        <default>false</default>
+        <label>Support Issue (AMS)</label>
+    </customValue>
+    <description>CRC Request Root Causes</description>
+    <masterLabel>CRC Root Cause</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

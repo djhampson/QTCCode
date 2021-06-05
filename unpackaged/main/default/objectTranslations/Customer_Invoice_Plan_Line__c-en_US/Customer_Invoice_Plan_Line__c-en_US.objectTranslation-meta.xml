@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Invoice Plan Line</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Invoice Plan Lines</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Customer Invoice Plan Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Amount should be positive when Type is Amount --></errorMessage>
+        <name>Amount_Type_Line_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Commitment Rebate should not be positive. --></errorMessage>
+        <name>Commitment_Rebate_Not_Positive</name>
+    </validationRules>
+</CustomObjectTranslation>

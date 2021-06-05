@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<body>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi {!CPEC_Request__c.Requested_By_First_Name__c},
+<br>
+<br>
+This is an automated email to advise that your Request for {!CPEC_Request__c.Account__c} has been updated to Conditional Approval.<br><br
+{!CPEC_Request__c.Additional_Background__c}
+<br><br>
+You can access your Request using the following <a href="{!CPEC_Request__c.Request_URL__c}">link</a>.<br>
+<br>
+Kind Regards, Governance Risk and Compliance Team
+</p>
+</body>
+</html>

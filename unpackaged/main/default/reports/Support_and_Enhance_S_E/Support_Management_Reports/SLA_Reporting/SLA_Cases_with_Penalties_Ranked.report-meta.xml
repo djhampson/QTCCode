@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>IS_VIOLATED:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <description>Count Violations</description>
+        <developerName>FORMULA1</developerName>
+        <isActive>false</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Count Violations</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>PRIORITY</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>CM.TARGET_DATE</field>
+    </columns>
+    <columns>
+        <field>Case.Customer_Product__c</field>
+    </columns>
+    <columns>
+        <field>Case.Support_SLA_Customer__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(
+  MONTH( DATEVALUE(CREATED_DATEONLY )),
+  1, &quot;January&quot;,
+  2, &quot;February&quot;,
+  3, &quot;March&quot;,
+  4, &quot;April&quot;,
+  5, &quot;May&quot;,
+  6, &quot;June&quot;,
+  7, &quot;July&quot;,
+  8, &quot;August&quot;,
+  9, &quot;September&quot;,
+  10, &quot;October - FY20&quot;,
+  11, &quot;November - FY20&quot;,
+  &quot;December - FY20&quot;
+)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Month</description>
+        <developerName>CDF1</developerName>
+        <label>Month</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>SLA Cases with Penalties - Ranked</description>
+    <filter>
+        <criteriaItems>
+            <column>MT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Response,Interim Resolution</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Incident</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>REASON</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Software Change,Environmental,Data</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Affected_Version__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Production</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Support_SLA_Customer__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Service Credits</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>TechnologyOne TEST2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PRIORITY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Urgent,Critical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>IS_VIOLATED</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>MT.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>IS_VIOLATED</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <name>SLA Violations with Penalties - Ranked</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseMilestone</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CASE_NUMBER</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_PREV1</interval>
+    </timeFrameFilter>
+</Report>

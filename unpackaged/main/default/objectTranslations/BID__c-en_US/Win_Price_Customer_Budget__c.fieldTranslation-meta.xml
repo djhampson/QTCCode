@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total budget, licence fees and consulting (from Opportunity) --></help>
+        <label><!-- Win Price / Customer Budget --></label>
+        <name>Win_Price_Customer_Budget__c</name>
+    </CustomFieldTranslation>

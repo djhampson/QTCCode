@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>CONTRACT_NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Classic_URL__c</field>
+    </columns>
+    <columns>
+        <field>Contract.Supported_Days__c</field>
+    </columns>
+    <columns>
+        <field>Contract.Supported_Hours__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>Contract.Supported_Days__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>7 Day</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contract.Supported_Hours__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>24/7,Other</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Tim Nicholls - Extended Hours</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContractList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>START_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

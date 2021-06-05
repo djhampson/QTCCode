@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>01 - QLD</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>02 - NSW</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>03 - VIC</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>04 - SA &amp; NT</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>05 - WA</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>06 - ACT</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>07 - TAS</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>11 - NZN</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>12 - NZS</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>20 - SEAP</values>
+        </dashboardFilterOptions>
+        <name>Group Region</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.Group_Region__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Deals Pushed more than 3X</footer>
+            <groupingSortProperties/>
+            <header>Stuck &amp; Stale</header>
+            <indicatorBreakpoint1>1.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>5.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#C2C254</indicatorLowColor>
+            <indicatorMiddleColor>#C28B54</indicatorMiddleColor>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>Clean_Your_Room/Push_Counts_Too_Many_By_Rep</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Too Many Pushes</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.Group_Region__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Top 10 Most Pushed Deals</footer>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>1.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>5.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#C2C254</indicatorLowColor>
+            <indicatorMiddleColor>#C28B54</indicatorMiddleColor>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>Clean_Your_Room/Push_Counts_Top_Pushed_Deals</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Groundhog Day</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Pie</componentType>
+            <dashboardFilterColumns>
+                <column>Account.Group_Region__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Clean_Your_Room/Stuck_Opportunities</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Opty Stuck in Stage &gt; 60 days</title>
+            <useReportChart>true</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.Group_Region__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Age &gt; 180 Days</footer>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>5.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>10.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#C2C254</indicatorLowColor>
+            <indicatorMiddleColor>#C28B54</indicatorMiddleColor>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>Clean_Your_Room/Stale_Opportunities</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Stale Opportunities</title>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.Group_Region__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <header>Reality Check</header>
+            <indicatorBreakpoint1>3.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>5.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#C2C254</indicatorLowColor>
+            <indicatorMiddleColor>#C28B54</indicatorMiddleColor>
+            <report>Clean_Your_Room/Close_this_Month_No_Activity_L7D</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Close this month w/o Activity Last 7</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.Group_Region__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <indicatorBreakpoint1>3.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>5.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#C2C254</indicatorLowColor>
+            <indicatorMiddleColor>#C28B54</indicatorMiddleColor>
+            <report>Clean_Your_Room/Accounts_with_no_Activity_L60D</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Accounts w/o Activity Last 60</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.Group_Region__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <header>Missing Pieces</header>
+            <indicatorBreakpoint1>3.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>5.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#C2C254</indicatorLowColor>
+            <indicatorMiddleColor>#C28B54</indicatorMiddleColor>
+            <maxValuesDisplayed>10</maxValuesDisplayed>
+            <report>Clean_Your_Room/Big_Deals_missing_Next_Steps</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Optys &gt; $10K w/o Next Steps</title>
+        </components>
+    </rightSection>
+    <runningUser>yulian_wu@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Clean Your Room</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

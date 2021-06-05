@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ARR Movement Category --></label>
+        <name>ARR_Movement_Category__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled Client</masterLabel>
+            <translation><!-- Cancelled Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled Modules, Products, Reductions</masterLabel>
+            <translation><!-- Cancelled Modules, Products, Reductions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction</masterLabel>
+            <translation><!-- Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Currency Movement</masterLabel>
+            <translation><!-- Currency Movement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indexation</masterLabel>
+            <translation><!-- Indexation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merger</masterLabel>
+            <translation><!-- Merger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Movements</masterLabel>
+            <translation><!-- Other Movements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity</masterLabel>
+            <translation><!-- Salesforce Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - LARR</masterLabel>
+            <translation><!-- Salesforce Opportunity - LARR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Foundation</masterLabel>
+            <translation><!-- T1 Foundation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

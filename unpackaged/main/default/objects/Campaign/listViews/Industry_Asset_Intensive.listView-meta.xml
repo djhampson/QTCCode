@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Asset_Intensive</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.END_DATE</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Vertical_Market__c</field>
+        <operation>includes</operation>
+        <value>Asset Intensive</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.STATUS</field>
+        <operation>equals</operation>
+        <value>Not started,Locked In</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+        <operation>notEqual</operation>
+        <value>Training,Webinar - Training,Email - One off</value>
+    </filters>
+    <label>Industry - Asset Intensive</label>
+</ListView>

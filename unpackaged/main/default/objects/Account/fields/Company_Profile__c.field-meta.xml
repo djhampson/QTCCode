@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company_Profile__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Should be used to provide an overview of the company, their operations and industry. Also, any changes in structure or investment etc.</inlineHelpText>
+    <label>Company Profile and Industry</label>
+    <length>1500</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

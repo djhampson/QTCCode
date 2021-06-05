@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please note this a preference only, and is subject to confirmation. Minimum 5 working days notice is required for a request to be scheduled. --></help>
+        <label><!-- Preferred Date --></label>
+        <name>Preferred_Date__c</name>
+    </CustomFieldTranslation>

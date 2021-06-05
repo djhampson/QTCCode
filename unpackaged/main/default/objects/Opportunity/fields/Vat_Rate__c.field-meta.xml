@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vat_Rate__c</fullName>
+    <description>VAT RATE</description>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(Account.CountryArea__c,&#39;Australia&#39;),10,
+ IF(  ISPICKVAL(Account.CountryArea__c,&#39;United Kingdom&#39;),20,
+ IF(  ISPICKVAL(Account.CountryArea__c ,&#39;New Zealand&#39;),15,
+ 0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Vat Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Non-Functional Category --></label>
+        <name>Non_Functional_Category__c</name>
+        <picklistValues>
+            <masterLabel>Architecture</masterLabel>
+            <translation><!-- Architecture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archiving</masterLabel>
+            <translation><!-- Archiving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auditing</masterLabel>
+            <translation><!-- Auditing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availability</masterLabel>
+            <translation><!-- Availability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BPM Forms</masterLabel>
+            <translation><!-- BPM Forms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backup</masterLabel>
+            <translation><!-- Backup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Intelligence</masterLabel>
+            <translation><!-- Business Intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacity</masterLabel>
+            <translation><!-- Capacity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration/Customisation</masterLabel>
+            <translation><!-- Configuration/Customisation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database</masterLabel>
+            <translation><!-- Database --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster Recovery</masterLabel>
+            <translation><!-- Disaster Recovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation</masterLabel>
+            <translation><!-- Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environment</masterLabel>
+            <translation><!-- Environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migration</masterLabel>
+            <translation><!-- Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network</masterLabel>
+            <translation><!-- Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform</masterLabel>
+            <translation><!-- Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printing</masterLabel>
+            <translation><!-- Printing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redundancy</masterLabel>
+            <translation><!-- Redundancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Management</masterLabel>
+            <translation><!-- Release Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation><!-- Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scalability</masterLabel>
+            <translation><!-- Scalability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standards Compliance</masterLabel>
+            <translation><!-- Standards Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Interface</masterLabel>
+            <translation><!-- User Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflow</masterLabel>
+            <translation><!-- Workflow --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Hierarchy Type --></label>
+        <name>Product_or_Module__c</name>
+        <picklistValues>
+            <masterLabel>AMS Program</masterLabel>
+            <translation><!-- AMS Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Module</masterLabel>
+            <translation><!-- Module --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saas Platform</masterLabel>
+            <translation><!-- Saas Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Pack</masterLabel>
+            <translation><!-- Service Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution</masterLabel>
+            <translation><!-- Solution --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

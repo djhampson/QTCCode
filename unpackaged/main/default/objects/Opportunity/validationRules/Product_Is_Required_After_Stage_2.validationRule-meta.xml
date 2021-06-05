@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Is_Required_After_Stage_2</fullName>
+    <active>false</active>
+    <description>Products are required after Stage 2 - Discovery onward.</description>
+    <errorConditionFormula>AND(
+        RecordType.DeveloperName = &#39;Licence_Fee&#39;,
+        TEXT( Licence_Model__c)&lt;&gt; &#39;Cloud&#39; ,
+        NOT ISPICKVAL(Type, &#39;Acquisition Renewal&#39;),
+        $Profile.Name &lt;&gt; &#39;System Administrator&#39;, /* DO NOT REMOVE - REQUIRED FOR PRICEBOOK INTEGRATION */
+        $Profile.Name &lt;&gt; &quot;Operations&quot;,
+        OR( 
+              ISPICKVAL(StageName, &#39;2 - Qualify&#39;),
+              ISPICKVAL(StageName, &#39;3 - Proposal&#39;), 
+              ISPICKVAL(StageName, &#39;4 - Shortlisted&#39;), 
+              ISPICKVAL(StageName, &#39;5 - Preferred&#39;), 
+              ISPICKVAL(StageName, &#39;6 - Sales Closed&#39;), 
+              ISPICKVAL(StageName, &#39;7 - Closed&#39;) 
+            ), 
+        
+        OR(
+              HasOpportunityLineItem = False,
+              Pricebook_Overridden__c = False
+            )
+       )</errorConditionFormula>
+    <errorMessage>Please Add Product and Module from Pricebook first when the opportunity is over stage 2</errorMessage>
+</ValidationRule>

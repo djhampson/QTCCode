@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CRC Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CRC Requests</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CRC Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Impact on ARR --></label>
+            <section>Impact on ARR</section>
+        </sections>
+        <sections>
+            <label><!-- Statistics --></label>
+            <section>Statistics</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Approved Value does not match the total of the values nominated for FY Impact to ARR --></errorMessage>
+        <name>ApprovedValuematchesFYARRImpact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Approve whilst there are outstanding Approvals. --></errorMessage>
+        <name>ConfirmApprovalssPriorToApproval</name>
+    </validationRules>
+</CustomObjectTranslation>

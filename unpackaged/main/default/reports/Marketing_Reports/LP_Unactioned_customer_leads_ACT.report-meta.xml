@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_11812412</developerName>
+        <masterLabel>Actioned by CAM?</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Contact.Lifecycle_Stage__c</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | SAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | SQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Disqualified</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Recycled</sourceValue>
+            </sourceValues>
+            <value>Yes</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | MQL</sourceValue>
+            </sourceValues>
+            <value>No</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Prospect | Known</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Engaged</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | MQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SDR AL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SDR QL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Disqualified</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Recycled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Known</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Engaged</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Ex-customer</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Lost Opportunity</sourceValue>
+            </sourceValues>
+            <value>-</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_72452186</developerName>
+        <masterLabel>Lead Type</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>SUBJECT</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Marketing Qualified Lead</sourceValue>
+            </sourceValues>
+            <value>Customer lead - MQL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lead Handover</sourceValue>
+            </sourceValues>
+            <value>Prospect lead - SDR QL</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_79515967</developerName>
+        <masterLabel>Lead type</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>SUBJECT</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Marketing Qualified Lead</sourceValue>
+            </sourceValues>
+            <value>Marketing Qualified Lead</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lead handover</sourceValue>
+            </sourceValues>
+            <value>SDR Qualified Lead</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>BucketField_11812412</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>Account.Vertical_Market__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Region__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Lifecycle_Stage__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>ACT Customer Marketing Qualified Leads greater than 2 days old that haven&#39;t been actioned by the CAM.
+Don&#39;t know how to action leads? http://bit.ly/36BQOYX</description>
+    <filter>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Marketing Qualified Lead</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Lifecycle_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer | MQL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ACT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>lessThan</operator>
+            <value>N_DAYS_AGO:2</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT_OWNER_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>LP_Unactioned customer leads_ACT</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>CREATED_DATE</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

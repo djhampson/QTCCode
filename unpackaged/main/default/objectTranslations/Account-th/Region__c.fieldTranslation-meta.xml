@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>ACT</masterLabel>
+            <translation><!-- ACT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Islands</masterLabel>
+            <translation><!-- Cook Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributors</masterLabel>
+            <translation><!-- Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributors (AUD)</masterLabel>
+            <translation><!-- Distributors (AUD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributors (USD)</masterLabel>
+            <translation><!-- Distributors (USD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji</masterLabel>
+            <translation><!-- Fiji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati</masterLabel>
+            <translation><!-- Kiribati --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation><!-- Malaysia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia</masterLabel>
+            <translation><!-- Mongolia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru</masterLabel>
+            <translation><!-- Nauru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New South Wales</masterLabel>
+            <translation><!-- New South Wales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand North</masterLabel>
+            <translation><!-- New Zealand North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand South</masterLabel>
+            <translation><!-- New Zealand South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Territory</masterLabel>
+            <translation><!-- Northern Territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNG</masterLabel>
+            <translation><!-- PNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNG (AUD)</masterLabel>
+            <translation><!-- PNG (AUD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNG (USD)</masterLabel>
+            <translation><!-- PNG (USD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queensland</masterLabel>
+            <translation><!-- Queensland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa</masterLabel>
+            <translation><!-- Samoa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation><!-- Singapore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands</masterLabel>
+            <translation><!-- Solomon Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Australia</masterLabel>
+            <translation><!-- South Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation><!-- Sri Lanka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tasmania</masterLabel>
+            <translation><!-- Tasmania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timor-Leste</masterLabel>
+            <translation><!-- Timor-Leste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga</masterLabel>
+            <translation><!-- Tonga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK HE</masterLabel>
+            <translation><!-- UK HE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK North &amp; Scotland</masterLabel>
+            <translation><!-- UK North &amp; Scotland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Other (USD)</masterLabel>
+            <translation><!-- UK Other (USD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK PS Central</masterLabel>
+            <translation><!-- UK PS Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK PS South</masterLabel>
+            <translation><!-- UK PS South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu</masterLabel>
+            <translation><!-- Vanuatu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Victoria</masterLabel>
+            <translation><!-- Victoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Australia</masterLabel>
+            <translation><!-- Western Australia --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

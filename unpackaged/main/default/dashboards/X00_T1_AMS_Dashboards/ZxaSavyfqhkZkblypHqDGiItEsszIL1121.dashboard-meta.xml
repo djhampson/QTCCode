@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Benjamin Zeeb</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ben Nelson</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>David Rowe</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Debie Thompson</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Gary Hoffman</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jacqui Broome</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Leigh Bartlett</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Kimberlee Hoffman</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Marlies Frew</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Patrick Biddolph</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Steve Hanna</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sue Barnewall</values>
+        </dashboardFilterOptions>
+        <name>Case Owner</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Julie Holwell</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Kelly</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alan Uzarevic</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Imraan Alexander</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Warren Sullivan</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Paula Taylor</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Wansink</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Diane Keough</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Niki Johnson</values>
+        </dashboardFilterOptions>
+        <name>SDM</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Able Australia Services</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Annecto</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Australian Community Support Organisation</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Australian Red Cross</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Avivo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>BaptistCare NSW &amp; ACT</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Benetas</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Cootharinga</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>CraigCare</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Early Childhood</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Equity Housing</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Hertiage Lifecare</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Launch Housing</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Little Company of Mary</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Mercy Community</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Mercy Health &amp; Aged</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Midlands Health</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Minda Incorporated</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Neami</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Ngati Hine</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Nortec</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>OneCare Limited</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Queensland Police</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Royal Australian College</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Royal District</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Scope</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Spinal Life</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>SYC Ltd</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Sylvanvale Foundation</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>The Cancer</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>The Disabllity Trust</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>The Uniting Church</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Uniting SA</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>UnitingCare</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Western Private</values>
+        </dashboardFilterOptions>
+        <name>Account Name</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <axisBinding>y</axisBinding>
+                    <column>Case.AMS_Number_of_Requests__c</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>LG_LB Expected Service Request By Case</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>X00_T1_AMS_Reports/LG_LB_Expected_Service_Request_By_Case</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <axisBinding>y</axisBinding>
+                    <column>vftimer__TimedItem__c$vftimer__Time__c</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>vftimer__TimedItem__c$Owner</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>vftimer__TimedItem__c$CreatedBy</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>vftimer__TimedItem__c$vftimer__Case__c.Contact.Account</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>vftimer__TimedItem__c$Owner</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>LG_BL AMS Timed Items Today - by User</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>X00_T1_AMS_Reports/LG_BL_AMS_Timed_Items_Today_by_User</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>LG_BL Cases Closed This Week</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>X00_T1_AMS_Reports/LG_BL_Cases_Closed_This_Week</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>PRIORITY</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Customer_Product__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Last_Customer_Contact__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>true</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>OWNER</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties />
+                <header>LG_BL Cases with Green Flags</header>
+                <report>X00_T1_AMS_RB_Reports/LG_BL_Cases_with_Green_Flags</report>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>20</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Funnel</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>RowCount</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>LG_BL Assigned Open Cases Grouped by Case Owner</header>
+                <legendPosition>Right</legendPosition>
+                <report>X00_T1_AMS_Reports/LG_BL_Assigned_Cases_Grouped_by_Case_Own</report>
+                <showPercentage>false</showPercentage>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>10</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Funnel</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>RowCount</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>LG_BL Assigned In-Progress &amp; Scheduled</header>
+                <legendPosition>Right</legendPosition>
+                <maxValuesDisplayed>6</maxValuesDisplayed>
+                <report>X00_T1_AMS_Reports/LG_BL_Assigned_In_Progress_Sch</report>
+                <showPercentage>false</showPercentage>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>10</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <dashboardFilterColumns>
+                    <column>CUST_OWNER_NAME</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>FK_$Case.T1Account__c</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>FK_CASE_OWNER_NAME</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>LG_BL AMS Surveys By Case Owner</header>
+                <legendPosition>Right</legendPosition>
+                <report>X00_T1_AMS_Reports/LG_BL_AMS_Surveys_By_Case_Owner</report>
+                <showPercentage>false</showPercentage>
+                <showTotal>true</showTotal>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>This Quarter</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>18</rowIndex>
+            <rowSpan>10</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Engagement_Start_Date__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>Case.Engagement_Start_Date__c</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties />
+                <header>LG_BL Cases Scheduled by Consultant</header>
+                <report>X00_T1_AMS_Reports/LG_BL_Cases_Scheduled_by_Consul</report>
+                <title>This Week and next 30 Days</title>
+            </dashboardComponent>
+            <rowIndex>18</rowIndex>
+            <rowSpan>10</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>rachelle_adamson@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Leigh&#39;s Local Government Dashboard</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

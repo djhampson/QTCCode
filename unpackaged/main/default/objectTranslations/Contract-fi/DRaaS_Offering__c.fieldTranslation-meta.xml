@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- DRaaS Offering --></label>
+        <name>DRaaS_Offering__c</name>
+        <picklistValues>
+            <masterLabel>Archive</masterLabel>
+            <translation><!-- Archive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Lite</masterLabel>
+            <translation><!-- SaaS Lite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Lite + Archive</masterLabel>
+            <translation><!-- SaaS Lite + Archive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

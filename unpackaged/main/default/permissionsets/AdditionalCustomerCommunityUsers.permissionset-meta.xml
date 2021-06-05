@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use this permission set to add additional members to community. Note that this permission set should not have ANY permissions given (i.e. empty permission set)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>AdditionalCustomerCommunityUsers</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewGlobalHeader</name>
+    </userPermissions>
+</PermissionSet>

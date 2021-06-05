@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Reference_Available</fullName>
+    <active>true</active>
+    <description>Reference Customer Status should be available</description>
+    <errorConditionFormula>TEXT(Customer_Story__r.Status__c) &lt;&gt; &#39;Available&#39;</errorConditionFormula>
+    <errorMessage>This reference customer is not available.</errorMessage>
+</ValidationRule>

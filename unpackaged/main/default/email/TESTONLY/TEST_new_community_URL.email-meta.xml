@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TEST new community URL https://customercommunity.technologyonecorp.com</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>TEST new community URL</name>
+    <style>freeForm</style>
+    <subject>Case {!Case.CaseNumber} {!Case.Subject} has been closed  {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Your case has now been closed:
+
+Case Number: {!Case.CaseNumber}
+Product: {!Case.Customer_Product__c}
+Functional Area: {!Case.Functional_Area__c}
+Case Subject: {!Case.Subject}
+Priority: {!Case.Priority}
+Case Type: {!Case.Type}
+Created By: {!Case.Contact}
+Created Date: {!Case.CreatedDate}
+Resolution: {!Case.Resolution__c}
+Closed Date: {!Case.ClosedDate}
+
+Please enter your Service Star Rating here.
+
+You can access your case at any time using the following OLD link.
+
+You can access your case at any time using the following NEW link.
+
+
+Kind Regards,
+{!Case.OwnerFullName}
+TechnologyOne Support Centre
+
+
+
+
+
+
+Financials | Human Resource &amp; Payroll | Supply Chain | Corporate Performance Management | Property &amp; Rating | Student Management | Asset Management | Enterprise Content Management | Customer Relationship Management | Consulting Services
+
+Support:
+
+AUS 1300 735 130 | NZ 0800 174 091 | MAL 0800 6060 2222 | UK 0870 770 874
+
+Phone:
+
++617 3167 7300 | Fax: +617 3167 7301
+
+Address:
+
+Level 11, TechnologyOne HQ, 540 Wickham Street, Fortitude Valley QLD 4006 (PO Box 96 Fortitude Valley QLD 4006)
+
+Email:
+
+T1Support@TechnologyOneCorp.com Web: TechnologyOneCorp.com
+
+
+
+TechnologyOne (ASX: TNE) is a leading enterprise software solutions provider. For 25 years we have been providing deeply integrated software solutions for business, the government, financial services, health and community, education and utilities sectors. Tens of thousands of people each day use our world class solutions, which we develop, implement and support. Our enterprise wide solution suite is based on leading edge technology and is backed up by a substantial R&amp;D program. Our consulting teams provide world class services and this provides our customers with a long term, secure and valuable partnership. TechnologyOne employs more than 800 people and has offices in each State and Territory of Australia, as well as New Zealand, Asia, the South Pacific and the United Kingdom. For further information please visit www.TechnologyOneCorp.com
+
+TechnologyOne accepts no liability for any damage caused by this email or its attachments. The information in this email is only for the intended recipient and may contain confidential and/or privileged material. If you received this in error, please kindly notify the sender by return email and delete this email and any attachments from your system.  Opinions, conclusions and other information in this message that do not relate to the official business of the company shall be understood as neither given nor endorsed by it.  If you believe that you have been spammed please email Stop_Spam@TechnologyOneCorp.com to report your complaint.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

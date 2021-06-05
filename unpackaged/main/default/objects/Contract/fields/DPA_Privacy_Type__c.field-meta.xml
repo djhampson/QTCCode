@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DPA_Privacy_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>DPA/Privacy Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Privacy clause</fullName>
+                <default>false</default>
+                <label>Privacy clause</label>
+            </value>
+            <value>
+                <fullName>DPA included in contract</fullName>
+                <default>false</default>
+                <label>DPA included in contract</label>
+            </value>
+            <value>
+                <fullName>DPA incorporated by reference</fullName>
+                <default>false</default>
+                <label>DPA incorporated by reference</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+                <label>Not Specified</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

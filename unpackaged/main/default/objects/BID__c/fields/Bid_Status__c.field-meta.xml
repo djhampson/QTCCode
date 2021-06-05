@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bid_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Bid Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre Release</fullName>
+                <default>false</default>
+                <label>Pre Release</label>
+            </value>
+            <value>
+                <fullName>Under Qualification</fullName>
+                <default>false</default>
+                <label>Under Qualification</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>No Bid Qualified Out</fullName>
+                <default>false</default>
+                <label>No Bid Qualified Out</label>
+            </value>
+            <value>
+                <fullName>Not Shortlisted</fullName>
+                <default>false</default>
+                <label>Not Shortlisted</label>
+            </value>
+            <value>
+                <fullName>Next Stage</fullName>
+                <default>false</default>
+                <label>Next Stage</label>
+            </value>
+            <value>
+                <fullName>Re-Process</fullName>
+                <default>false</default>
+                <label>Re-Process</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

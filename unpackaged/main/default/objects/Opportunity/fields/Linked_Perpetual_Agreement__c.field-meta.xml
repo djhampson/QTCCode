@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linked_Perpetual_Agreement__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The link from an perpetual on cloud opp to the orginal perpetual service contract.</description>
+    <externalId>false</externalId>
+    <label>Linked Perpetual Agreement</label>
+    <referenceTo>ServiceContract</referenceTo>
+    <relationshipLabel>Opportunities (Linked Perpetual Agreement)</relationshipLabel>
+    <relationshipName>Perpetual_OnCloud_Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

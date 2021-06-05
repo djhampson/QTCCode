@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- No Consulting Reason --></label>
+        <name>No_Consulting_Reason__c</name>
+        <picklistValues>
+            <masterLabel>AMS Program</masterLabel>
+            <translation><!-- AMS Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor Other</masterLabel>
+            <translation><!-- Competitor Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor/Galaxy42</masterLabel>
+            <translation><!-- Competitor/Galaxy42 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor/Lanluas</masterLabel>
+            <translation><!-- Competitor/Lanluas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer has skills</masterLabel>
+            <translation><!-- Customer has skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewals</masterLabel>
+            <translation><!-- Renewals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift/Add User</masterLabel>
+            <translation><!-- Uplift/Add User --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

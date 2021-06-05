@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>TechnologyOne Finance User</label>
+    <permissionSets>SBQQ__SteelBrickCPQUser</permissionSets>
+    <permissionSets>T1_Billing_user_access</permissionSets>
+    <permissionSets>T1_CPQ_read_access_and_base_field_permissions</permissionSets>
+    <permissionSets>T1_Finance_user_access</permissionSets>
+    <permissionSets>T1_Pricing_user_access</permissionSets>
+    <permissionSets>T1_Quoting_superuser_access</permissionSets>
+    <permissionSets>T1_Quoting_user_access</permissionSets>
+    <permissionSets>T1_Rev_Rec_user_access</permissionSets>
+    <permissionSets>sbaa__AdvancedApprovalsUser</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

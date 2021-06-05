@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Occasional emails containing industry, product and regional news --></help>
+        <label><!-- Newsletters --></label>
+        <name>Newsletters__c</name>
+    </CustomFieldTranslation>

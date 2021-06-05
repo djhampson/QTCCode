@@ -1,0 +1,59 @@
+<!--
+ - Created by armievergara on 21/8/18.
+ -->
+
+<aura:component description="OpportunityCIAnywhereComponent"  implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="Opportunity_CIAnywhereController">
+    <aura:html tag="style">
+            .cuf-content {
+                padding: 0 0rem !important;
+            }
+            .slds-p-around--medium {
+                padding: 0rem !important;
+            }       
+            .slds-modal__content{
+                overflow-y:hidden !important;
+                height:unset !important;
+                max-height:unset !important;
+            }
+    </aura:html>
+    
+    <aura:attribute name="requestTypes" type="Opportunity_CIAnywhereController.RequestTypeWrapper[]" default="[{'description':'--None--','value':''}]"/> 
+    <aura:attribute name="selectedRequest" type="String" default="" />
+    <aura:attribute name="selectedRequestLabel" type="String" default="" />
+    <aura:attribute name="jobID" type="String" default="" />
+    <aura:attribute name="submitFailed" type="Boolean" default="false" />
+    <aura:attribute name="submitFailedMessage" type="String" default="" />
+    <aura:attribute name="disableSubmit" type="Boolean" default="false" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <lightning:spinner aura:id="mySpinner" alternativeText="Processing.." title="Processing.." variant="brand" size="large" class="slds-hide"/>
+    <div class="modal-header slds-modal__header slds-size_1-of-1">
+        <h4 class="title slds-text-heading--medium" >Generate Report</h4>
+        <aura:if isTrue="{!v.jobID!=''}">
+			<lightning:icon iconName="utility:info" alternativeText="Info" variant="warning" size="small"/> &nbsp;
+            Job ID: {!v.jobID}
+        </aura:if>
+        <aura:if isTrue="{!v.submitFailed}">
+			<lightning:icon iconName="utility:error" alternativeText="Info" variant="error" size="small"/> &nbsp;
+      		<aura:unescapedHtml value="{!v.submitFailedMessage}" />
+       </aura:if>
+    </div>
+    <div class="slds-modal__content slds-p-around--x-small slds-align_absolute-center slds-size_1-of-1 slds-is-relative" aura:id="modalbody" id="modalbody">
+        <form class="slds-form--stacked">
+            
+            <lightning:select required="true" label="Request Type" aura:id="requestTypeID" value="{!v.selectedRequest}">
+            	<option value="">--None--</option>
+                <aura:iteration items="{!v.requestTypes}" var="r">
+                    <option  value="{!r.value}">{!r.description}</option>
+                </aura:iteration>
+            </lightning:select>
+       </form> 
+    </div>
+    <div class="modal-footer slds-modal__footer slds-size_1-of-1">
+        <div class="forceChangeRecordTypeFooter">
+            <ui:button disabled="{!v.disableSubmit}" class="slds-button slds-button_neutral" label="Cancel" press="{! c.cancelButton}" />
+            <ui:button disabled="{!v.disableSubmit}" class="slds-button slds-button--brand"
+                       label="Submit" press="{!c.submitToCIButton}"/>
+        </div>
+    </div>
+</aura:component>

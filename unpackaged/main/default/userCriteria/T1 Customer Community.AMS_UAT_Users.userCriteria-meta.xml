@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserCriteria xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to moderate comments and posts outside of cases before handover to support.</description>
+    <masterLabel>AMS UAT Users</masterLabel>
+    <profiles>customer community login ams uat</profiles>
+</UserCriteria>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Was the customer/prospect comfortable with our ability to deliver the proposed solution?  If no, add comments --></help>
+        <label><!-- No to Proposed Solution Comments --></label>
+        <name>No_to_Proposed_Solution_Comments__c</name>
+    </CustomFieldTranslation>

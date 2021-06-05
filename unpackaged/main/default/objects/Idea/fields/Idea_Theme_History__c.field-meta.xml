@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Idea_Theme_History__c</fullName>
+    <description>Records the last Idea Theme assigned to an Idea. Used to record the decision made for an Idea to be part of a Theme, but the Idea was ultimately excluded from the Theme. Keeping the history of this decision can aid the process of selecting Ideas for future themes.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Records the last Idea Theme assigned to an Idea. Used to record the decision made for an Idea to be part of a Theme, but the Idea was ultimately excluded from the Theme.</inlineHelpText>
+    <label>Idea Theme History</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

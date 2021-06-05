@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Consulting_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>No Consulting Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ConsultingS_Required__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>AMS Program</fullName>
+                <default>false</default>
+                <label>AMS Program</label>
+            </value>
+            <value>
+                <fullName>Uplift/Add User</fullName>
+                <default>false</default>
+                <label>Uplift/Add User</label>
+            </value>
+            <value>
+                <fullName>Renewals</fullName>
+                <default>false</default>
+                <label>Renewals</label>
+            </value>
+            <value>
+                <fullName>Customer has skills</fullName>
+                <default>false</default>
+                <label>Customer has skills</label>
+            </value>
+            <value>
+                <fullName>Competitor/Lanluas</fullName>
+                <default>false</default>
+                <label>Competitor/Lanluas</label>
+            </value>
+            <value>
+                <fullName>Competitor/Galaxy42</fullName>
+                <default>false</default>
+                <label>Competitor/Galaxy42</label>
+            </value>
+            <value>
+                <fullName>Competitor Other</fullName>
+                <default>false</default>
+                <label>Competitor Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>AMS Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Uplift/Add User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Renewals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Customer has skills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Competitor/Lanluas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Competitor/Galaxy42</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Competitor Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

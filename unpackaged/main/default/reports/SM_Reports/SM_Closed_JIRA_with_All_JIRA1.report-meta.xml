@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_47426393</developerName>
+        <masterLabel>Cross Product Closed</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>Case.Jira_Dev_Issues__r$Status__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Pending</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In Review</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ITQA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Functional QA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Development Complete</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Analyst QA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Active</sourceValue>
+            </sourceValues>
+            <value>Still outstanding</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Name</field>
+    </columns>
+    <columns>
+        <field>Case$Status</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Status__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Issue_Type__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Component__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Dev_Issues__r$Fix_Version__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>SM Closed JIRA with All JIRA</description>
+    <filter>
+        <criteriaItems>
+            <column>Case$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>In Progress</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case$CaseNumber</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>00003543,00003582,00003601,00003652,00003708,00004390,00004605,00005908,00006165,00006430,00009008,00009186,00024438,00024828,00026850,00027266,00031120,00031933,00032604,00037100,00037409,00038669,00038725,00039016,00039486,00042153,00042557,00044851,00045575,00045870,00045976,00047673,00047776,00048034,00048661,00049332,00050846,00051443,00054131,00055341,00055921,00055934,00056248,00058133,00058612,00058624,00059500,00060134,00060238,00060526,00061068,00061105,00061107,00062542,00063108,00063407,00063715,00064017,00064235,00064402,00064622,00064854,00065852,00066617,00067136,00068668,00068908,00068920,00069301,00069422,00070334,00070371,00070773,00071210,00071887,00072218,00073309,00075830</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Case$CaseNumber</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SM Closed JIRA with All JIRA</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cases_with_Jira_info_if_created__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Case$ClosedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

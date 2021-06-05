@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_will_be_impacted__c</fullName>
+    <description>Change Control case type field to indicate users impacted e.g. Support consultant, Customer, Sales</description>
+    <externalId>false</externalId>
+    <inlineHelpText>indicate users impacted e.g. Support consultant, Customer, Sales</inlineHelpText>
+    <label>Who will be impacted?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

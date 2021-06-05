@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_86851431</developerName>
+        <masterLabel>Support Lead</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Case_Owner_Reporting_Tags__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, CD</sourceValue>
+            </sourceValues>
+            <value>Craig</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, GG</sourceValue>
+            </sourceValues>
+            <value>Grant</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, MV</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, MV, PM</sourceValue>
+            </sourceValues>
+            <value>Mel</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, PM</sourceValue>
+            </sourceValues>
+            <value>Pram</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>UK</sourceValue>
+            </sourceValues>
+            <value>UK</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, RH</sourceValue>
+            </sourceValues>
+            <value>Tracey</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM</sourceValue>
+            </sourceValues>
+            <value>Greg</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, GF</sourceValue>
+            </sourceValues>
+            <value>Gab</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, LB</sourceValue>
+            </sourceValues>
+            <value>Lea-Anne</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, PK</sourceValue>
+            </sourceValues>
+            <value>Parvin</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>RH</sourceValue>
+            </sourceValues>
+            <value>Rox</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_60727325</developerName>
+        <masterLabel>Support Team</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Case_Owner_Reporting_Tags__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>TB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, CD</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, GG</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, MV</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, MV, PM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, PM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, RH</sourceValue>
+            </sourceValues>
+            <value>Central Support</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>GM, GF</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>GM, LB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>GM, PK</sourceValue>
+            </sourceValues>
+            <value>Product Support</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>RH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>UK</sourceValue>
+            </sourceValues>
+            <value>UK Support</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>Case.Resolved_Date__c</field>
+    </columns>
+    <columns>
+        <field>CLOSED_DATEONLY</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>Case.Case_Age_in_Days__c</field>
+    </columns>
+    <columns>
+        <field>Case.Jira_Issue_No__c</field>
+    </columns>
+    <columns>
+        <field>BucketField_60727325</field>
+    </columns>
+    <currency>AUD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(MONTH(DATEVALUE(CREATED_DATEONLY) ),
+10, &quot;Q1&quot; ,
+11, &quot;Q1&quot;,
+12, &quot;Q1&quot;,
+1, &quot;Q2&quot;,
+2, &quot;Q2&quot;,
+3, &quot;Q2&quot;,
+4, &quot;Q3&quot;,
+5, &quot;Q3&quot;,
+6, &quot;Q3&quot;,
+7, &quot;Q4&quot;,
+8, &quot;Q4&quot;,
+9, &quot;Q4&quot;,
+&quot;None&quot;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Quarter</description>
+        <developerName>CDF1</developerName>
+        <label>Quarter</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Support - Case Age (Cases with no JIRA ticket)</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>TB,GM,RH,UK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>TechnologyOne TEST2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Jira_Issue_No__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>AMS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATEONLY</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>10/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Greg McCormack,Tracey Bulley,Roxanne Hoare</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_86851431</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Support - Case Age no JIRA</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

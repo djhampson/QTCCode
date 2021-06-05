@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject></baseObject>
+    <category>admin</category>
+    <deployed>true</deployed>
+    <description>Lightning Exits by Page</description>
+    <label>Lightning Switches by Page</label>
+    <sections>
+        <masterLabel>LightningExitByPageMetrics</masterLabel>
+    </sections>
+</ReportType>

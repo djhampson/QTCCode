@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>CEILING((vftimer__TimedItem__c.vftimer__Time__c:SUM * 60) / 30)</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>vftimer__TimedItem__c$vftimer__Case__c</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Actual Reqs Consumed</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Customer_Product__c</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Subject</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Service_Category__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.AMS_Number_of_Requests__c</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Type</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Priority</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Status</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Contact</field>
+    </columns>
+    <columns>
+        <field>vftimer__TimedItem__c$vftimer__Case__c.Owner</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>For use by the Service Delivery Managers to calculate actual service requests this month</description>
+    <filter>
+        <criteriaItems>
+            <column>vftimer__TimedItem__c$vftimer__WorkType__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Estimated work before Timing App,Incident Triage</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>vftimer__TimedItem__c$vftimer__Case__c.Account</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Box Hill Institute of Tafe</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>vftimer__TimedItem__c$vftimer__Case__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Timed Items and SRs This Month - By Case</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Timed_Items_with_Cases_MB__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>vftimer__TimedItem__c$vftimer__DateImplemented__c</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of Licenses per period --></help>
+        <label><!-- Licenses Per Period --></label>
+        <name>Licenses_Per_Period__c</name>
+    </CustomFieldTranslation>

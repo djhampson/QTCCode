@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Additional reasons for win/loss result --></help>
+        <label><!-- Additional Key Reason --></label>
+        <name>Additional_Key_Reason__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Benefit_Amount__c</fullName>
+    <description>For use by the Executive Response team to capture the benefit amount raised as a result of the engagement</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Benefits / opportunities raised as a result of this engagement / service</inlineHelpText>
+    <label>Benefit Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

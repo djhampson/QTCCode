@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consulting_Reason_Required</fullName>
+    <active>true</active>
+    <description>Enforces the user to enter a &quot;No Consulting Reason&quot; if they specify that they do not require Consulting</description>
+    <errorConditionFormula>AND($Profile.Name &lt;&gt; &#39;System Administrator&#39;,
+$Profile.Name &lt;&gt; &quot;Operations&quot;,
+RecordType.DeveloperName = &#39;Licence_Fee&#39;,
+ISPICKVAL(ConsultingS_Required__c, &#39;No&#39;),
+ISBLANK(TEXT(No_Consulting_Reason__c))
+      )</errorConditionFormula>
+    <errorDisplayField>No_Consulting_Reason__c</errorDisplayField>
+    <errorMessage>Please enter a no consulting reason.</errorMessage>
+</ValidationRule>

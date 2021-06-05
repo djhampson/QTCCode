@@ -1,0 +1,67 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Hi Ben,<o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Please find details of opportunity
+<span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);">{!Opportunity.Name}</span>
+which has been submitted for discount approval.<o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Account:<span style="background-color: rgb(255, 255, 255);">&nbsp;<span style="font-size: 12pt;">{!Opportunity.Account}</span></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Account Type:<span style="background-color: rgb(255, 255, 255);"> <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">{!Opportunity.Account_Type__c}</span></span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Customer Since:<span style="background-color: rgb(255, 255, 255);"> <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">{!Opportunity.Customer_Since__c}</span></span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Current ARR: <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);">{!Opportunity.Curremt_ARR__c}</span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Current ASM: <span style="background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);">{!Opportunity.Account_ASM__c}</span> <o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b><u>Current Proposal:</u></b></p><div><div>Deal List Price:<br><div style="">
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Behavioural Discounts Applied:&nbsp;<o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;">Services / ASM:<o:p></o:p></p>
+
+<p class="MsoNormal" style="margin-bottom: 0cm;"><span style="background-color: rgb(255, 255, 255);">Proposed Discount:</span><o:p></o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><o:p><br></o:p></p><p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b><u>Pricing Challenge:<o:p></o:p></u></b></p>
+
+<br>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b>&nbsp;</b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b>&nbsp;</b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b><u>Known Pricing Intelligence<o:p></o:p></u></b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b>Ie Budget / Competitive Price /
+Pricing Intel<o:p></o:p></b></p>
+
+<br>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b>&nbsp;</b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b>&nbsp;</b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b><u>Proposed Pricing Strategy<o:p></o:p></u></b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b>Ie Give-to-Get<o:p></o:p></b></p>
+
+<br>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><b>&nbsp;</b></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); margin-bottom: 0cm;"><o:p>&nbsp;</o:p></p><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">Please find attached pricing synopsis for review.</span></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><p class="MsoNormal" style="margin-bottom: 0cm;"><o:p></o:p></p><p class="MsoNormal" style="margin-bottom: 0cm;"><o:p>&nbsp;</o:p></p><div><span style="font-size: 12pt; background-color: rgb(255, 255, 255);">Link to Salesforce Opportunity: &nbsp;</span><font face="arial"><a href="https://technologyone--dev.my.salesforce.com/p/email/template/EmailTemplateEditorUi/{!Opportunity.Link}">{!Opportunity.Link}</a></font></div></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial">Regards,</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial">{!User.FirstName}&nbsp;{!User.LastName}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!User.Title}</div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font face="arial"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div></div></div></div>]]></td>
+</tr>
+</table>

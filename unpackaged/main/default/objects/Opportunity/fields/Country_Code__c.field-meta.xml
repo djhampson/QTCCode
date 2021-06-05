@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_Code__c</fullName>
+    <description>Returns the BU Code depending on the Account&#39;s Country/Region selected.</description>
+    <externalId>false</externalId>
+    <formula>CASE( Account.CountryArea__c ,
+&quot;Australia&quot;,&quot;11&quot;,
+&quot;New Zealand&quot;,&quot;13&quot;,
+&quot;United Kingdom&quot;,&quot;15&quot;,
+&quot;Asia&quot;,&quot;12&quot;,
+&quot;Pacific&quot;,&quot;11&quot;,
+&quot;Distributors&quot;,&quot;11&quot;,
+NULL)</formula>
+    <inlineHelpText>Country Code of the corresponding Account&#39;s Country/Region selected.</inlineHelpText>
+    <label>Country Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

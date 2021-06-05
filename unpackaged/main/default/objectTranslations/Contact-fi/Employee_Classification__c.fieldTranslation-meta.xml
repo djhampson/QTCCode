@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Employee Classification --></label>
+        <name>Employee_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Bid Manager</masterLabel>
+            <translation><!-- Bid Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Development Manager</masterLabel>
+            <translation><!-- Business Development Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting Director</masterLabel>
+            <translation><!-- Consulting Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Account Manager</masterLabel>
+            <translation><!-- Customer Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Development Manager</masterLabel>
+            <translation><!-- Customer Development Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Manager</masterLabel>
+            <translation><!-- General Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Partner</masterLabel>
+            <translation><!-- Marketing Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Lead</masterLabel>
+            <translation><!-- Practice Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presales Consultant</masterLabel>
+            <translation><!-- Presales Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Customer Service Manager</masterLabel>
+            <translation><!-- Product Customer Service Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Manager</masterLabel>
+            <translation><!-- Regional Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Administrator</masterLabel>
+            <translation><!-- Sales Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Operations</masterLabel>
+            <translation><!-- Sales Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution Manager</masterLabel>
+            <translation><!-- Solution Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketing Partner</masterLabel>
+            <translation><!-- Telemarketing Partner --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

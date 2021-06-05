@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Amendment_Control__c</fullName>
+    <externalId>false</externalId>
+    <formula>If( EndDate &gt;= TODAY() &amp;&amp;(Term/12) &gt; No_of_Auto_Ammendments__c + 1,FALSE,TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Auto Amendment Control</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

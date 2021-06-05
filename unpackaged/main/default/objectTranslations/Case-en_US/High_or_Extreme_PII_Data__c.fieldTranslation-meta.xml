@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- LOW: Name (first &amp; last) only or work email 
+MEDIUM: Name &amp; email only 
+HIGH: Name, email &amp; home address only 
+EXTREME: Name, email, home address &amp; any of: 
+DOB, bank details, tax file no, passport no, health info, cc details, remuneration, religion --></help>
+        <label><!-- High or Extreme PII Data --></label>
+        <name>High_or_Extreme_PII_Data__c</name>
+    </CustomFieldTranslation>

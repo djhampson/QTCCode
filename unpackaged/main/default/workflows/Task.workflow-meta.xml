@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Task_Status_to_Closed</fullName>
+        <description>Sets Task Status to Closed</description>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Task Status to Closed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Activity_Completion_Date</fullName>
+        <description>Update Activity Completion Date when status = closed</description>
+        <field>Activity_Close_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Activity Completion Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>CloseCCCall</fullName>
+        <actions>
+            <name>Task_Status_to_Closed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Sets the Status to Closed for Contact Centre Call</description>
+        <formula>ISPICKVAL(Type, &#39;Call&#39;) &amp;&amp; TEXT(Status) = &#39;Completed&#39; &amp;&amp; NOT(ISBLANK( CallObject )) &amp;&amp; 
+NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>When task Status is Closed</fullName>
+        <actions>
+            <name>Update_Activity_Completion_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Task.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Task.Activity_Close_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>When task Status is Closed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

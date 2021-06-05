@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Cloud_Ratio__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Used by Sales team/Pricing when close a  SaaS, SaaS Flip or Cloud deal</inlineHelpText>
+    <label>Final Cloud Ratio at Closure</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Reason_s__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select all reasons for loss that apply</inlineHelpText>
+    <label>z_Lost Reason(s)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Engagement / Relationship</fullName>
+                <default>false</default>
+                <label>Engagement / Relationship</label>
+            </value>
+            <value>
+                <fullName>Product / Solution Fit or Capability</fullName>
+                <default>false</default>
+                <label>Product / Solution Fit or Capability</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+                <label>Proposal</label>
+            </value>
+            <value>
+                <fullName>Sales / Presales (Presentation, Demo)</fullName>
+                <default>false</default>
+                <label>Sales / Presales (Presentation, Demo)</label>
+            </value>
+            <value>
+                <fullName>Reference Site</fullName>
+                <default>false</default>
+                <label>Reference Site</label>
+            </value>
+            <value>
+                <fullName>Consulting / Project Management</fullName>
+                <default>false</default>
+                <label>Consulting / Project Management</label>
+            </value>
+            <value>
+                <fullName>Political</fullName>
+                <default>false</default>
+                <label>Political</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

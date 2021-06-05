@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SaaS_Term_Avg_Year__c</fullName>
+    <defaultValue>4</defaultValue>
+    <description>Term Avg Year</description>
+    <externalId>false</externalId>
+    <label>Term Avg Year</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

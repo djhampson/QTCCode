@@ -1,0 +1,28 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Ideas</h1><br> </br>
+  
+  
+  <p><apex:image id="theImage" value="https://c.cs10.content.force.com/servlet/servlet.FileDownload?file=015J0000000G9fB" width="70" height="55"/>
+  
+      Allan Benson, Workshop Supervisor at River City Council</p>
+   
+   <font size="3"><p>1. Allan has a lot of good ideas which he wants to make TechnologyOne aware of.<br> </br> 
+      He wants an option added to the Operating Asset Enquiry in order to select assets for export to GIS.<br></br> 
+      This will save him time when creating new assets as those requiring creation in GIS can easily be retrieved with criteria in this enquiry.<br></br></p>
+      <i>Conditions of satisfaction</i>
+      <ul>
+      <li>T1 wants other Customers to have visibility and ability to vote on Allan's idea in order to gauge the demand for such a feature</li>
+      <li>Allan wants to promote and demote other Customer's ideas</li>
+      <li>Allan wants to know whether there is already an existing idea, when he creates a new idea</li>
+      </ul></font>
+      
+   <!--p>2. Allan is asked to send Support a copy of his XLOne report, but because Allan is a Technically challenged, he forgets to reply to the same email, and instead creates a new email<br></br>
+      Support needs to import his email and the XLOne attachment into the correct Case in Salesforce.</p>
+      <i>Conditions of satisfaction</i>
+      <ul>
+      <li>Support should not have to copy and paste any information between Gmail and Salesforce</li>
+      <li>Emails and attachments should appear as such in Salesforce, and not just as a Comment or Note</li>
+      </ul><-->
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

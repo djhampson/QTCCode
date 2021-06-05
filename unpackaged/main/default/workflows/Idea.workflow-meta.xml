@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Idea_Theme_History</fullName>
+        <description>Keep Idea Theme History field value in-line with the Idea Theme value unless Idea Theme value is cleared for an Idea</description>
+        <field>Idea_Theme_History__c</field>
+        <formula>IdeaTheme.Title</formula>
+        <name>Update Idea Theme History</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Track Idea Theme History</fullName>
+        <actions>
+            <name>Update_Idea_Theme_History</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Will keep Idea Theme History field value in-line with the Idea Theme value unless Idea Theme value is cleared for an Idea</description>
+        <formula>not(ISBLANK(IdeaTheme.Title)) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bundle Group --></label>
+        <name>Bundle_Group__c</name>
+        <picklistValues>
+            <masterLabel>G Cloud OneCouncil</masterLabel>
+            <translation><!-- G Cloud OneCouncil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G Cloud OneEducation</masterLabel>
+            <translation><!-- G Cloud OneEducation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G Cloud OnePublicSector</masterLabel>
+            <translation><!-- G Cloud OnePublicSector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneCouncil QLD</masterLabel>
+            <translation><!-- OneCouncil QLD --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

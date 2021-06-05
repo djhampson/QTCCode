@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field will be updated soon to indicate whether this is an existing or new customer. --></help>
+        <label><!-- Existing or New Customer --></label>
+        <name>Existing_or_New_Customer__c</name>
+    </CustomFieldTranslation>

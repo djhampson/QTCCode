@@ -1,0 +1,9 @@
+Account Name: {!Privacy_and_Security_Risk__c.Account_Name__c}
+Case Number: {!Privacy_and_Security_Risk__c.Case__c}
+Case Owner: {!Privacy_and_Security_Risk__c.Case_Owner__c}
+
+Title: {!Privacy_and_Security_Risk__c.Title__c}
+Description: {!Privacy_and_Security_Risk__c.Description__c}
+Status: {!Privacy_and_Security_Risk__c.Status__c}
+PII Data Severity Level: {!Privacy_and_Security_Risk__c.PII_Data_Severity_Level__c}
+Created By: {!Privacy_and_Security_Risk__c.CreatedBy}

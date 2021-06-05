@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Functionality to be added.
+
+Identify the products, including 3rd parties that will provide the functionality requested.
+Product specialists (Pre-sales, Practice Leads) to determine and respond to functional fit. --></help>
+        <label><!-- Functional Qualification --></label>
+        <name>Functional_Qualification__c</name>
+    </CustomFieldTranslation>

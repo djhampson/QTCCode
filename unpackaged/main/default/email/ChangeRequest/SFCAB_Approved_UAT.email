@@ -1,0 +1,5 @@
+Change Request {!Case.CaseNumber} is approved for promotion to UAT.
+
+Subject: {!Case.Subject}
+
+Link to change request is: {!Case.Link}

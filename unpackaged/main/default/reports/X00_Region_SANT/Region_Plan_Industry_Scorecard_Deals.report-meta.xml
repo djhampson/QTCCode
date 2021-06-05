@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_70979607</developerName>
+        <masterLabel>Industry Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Account.Vertical_Market__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Education</sourceValue>
+            </sourceValues>
+            <value>EDU</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Financial Services</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Government</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Asset Intensive</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Project Intensive</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Corporate</sourceValue>
+            </sourceValues>
+            <value>AI/Fin/Corp/Gov</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Health and Community Services</sourceValue>
+            </sourceValues>
+            <value>HCS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Local Government</sourceValue>
+            </sourceValues>
+            <value>LG</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_43199974</developerName>
+        <masterLabel>Perp ARR</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Licence_Model__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Perpetual</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Perpetual &amp; Cloud Uplift</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Subscription</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Term</sourceValue>
+            </sourceValues>
+            <value>Perpetual</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>SaaS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>SaaS Flip</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cloud</sourceValue>
+            </sourceValues>
+            <value>ARR</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_20466684</developerName>
+        <masterLabel>Won</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>6 - Sales Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>7 - Closed</sourceValue>
+            </sourceValues>
+            <value>WON</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>1 - Discovery</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2 - Qualify</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>3 - Proposal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>4 - Shortlisted</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>5 - Preferred</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Opt Out / No Bid</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stage 9 - Won</sourceValue>
+            </sourceValues>
+            <value>To go</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity.Forecast_Level__c</field>
+    </columns>
+    <columns>
+        <field>FISCAL_QUARTER</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.RM_ARR__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.RM_Forecast_Amount__c</field>
+    </columns>
+    <columns>
+        <field>BucketField_70979607</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Opt Out / No Bid,Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Opportunity.Licence_Fee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Region__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Victoria</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Licence_Model__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Perpetual,Perpetual &amp; Cloud Uplift,SaaS,SaaS Flip,Subscription,Cloud,Term</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Forecast_Level__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>z_Pipeline</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Ted Salayog</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Vertical_Market__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Region Plan - Industry Scorecard Deals</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Opportunity.RM_ARR__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURNEXT3</interval>
+    </timeFrameFilter>
+</Report>

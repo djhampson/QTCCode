@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Typical TechnologyOne roles that are allocated to form a Bid Team. --></help>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>AMS Practice Lead</masterLabel>
+            <translation><!-- AMS Practice Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bid Coordinator</masterLabel>
+            <translation><!-- Bid Coordinator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bid Manager</masterLabel>
+            <translation><!-- Bid Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Development Manager</masterLabel>
+            <translation><!-- Business Development Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting Director</masterLabel>
+            <translation><!-- Consulting Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Account Manager</masterLabel>
+            <translation><!-- Customer Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Development Manager</masterLabel>
+            <translation><!-- Customer Development Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Sponsor</masterLabel>
+            <translation><!-- Executive Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Manager Cloud</masterLabel>
+            <translation><!-- General Manager Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Manager Product</masterLabel>
+            <translation><!-- General Manager Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Sales Consultant</masterLabel>
+            <translation><!-- Pre-Sales Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Manager</masterLabel>
+            <translation><!-- Regional Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions Manager</masterLabel>
+            <translation><!-- Solutions Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Cloud Pre-Sales</masterLabel>
+            <translation><!-- Technical Cloud Pre-Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Pre-Sales</masterLabel>
+            <translation><!-- Technical Pre-Sales --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

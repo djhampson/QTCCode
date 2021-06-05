@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ARR Sub-Movement Category --></label>
+        <name>ARR_Sub_Movement_Category__c</name>
+        <picklistValues>
+            <masterLabel>Amalgamation</masterLabel>
+            <translation><!-- Amalgamation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled Client</masterLabel>
+            <translation><!-- Cancelled Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled Module/s</masterLabel>
+            <translation><!-- Cancelled Module/s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled Product/s</masterLabel>
+            <translation><!-- Cancelled Product/s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled SaaS Platform</masterLabel>
+            <translation><!-- Cancelled SaaS Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled SaaS Platform environment</masterLabel>
+            <translation><!-- Cancelled SaaS Platform environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled everything except SaaS Platform environment</masterLabel>
+            <translation><!-- Cancelled everything except SaaS Platform environment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concession</masterLabel>
+            <translation><!-- Concession --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction</masterLabel>
+            <translation><!-- Correction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Currency Movement</masterLabel>
+            <translation><!-- Currency Movement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indexation</masterLabel>
+            <translation><!-- Indexation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merger</masterLabel>
+            <translation><!-- Merger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Movements</masterLabel>
+            <translation><!-- Other Movements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduction</masterLabel>
+            <translation><!-- Reduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Platform environment expiry</masterLabel>
+            <translation><!-- SaaS Platform environment expiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Platform environment reduction</masterLabel>
+            <translation><!-- SaaS Platform environment reduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - Add Product, Users, Uplift</masterLabel>
+            <translation><!-- Salesforce Opportunity - Add Product, Users, Uplift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - DXP early adopter</masterLabel>
+            <translation><!-- Salesforce Opportunity - DXP early adopter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - LARR</masterLabel>
+            <translation><!-- Salesforce Opportunity - LARR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - New logo</masterLabel>
+            <translation><!-- Salesforce Opportunity - New logo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - Novation of Licences</masterLabel>
+            <translation><!-- Salesforce Opportunity - Novation of Licences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - Product uptake</masterLabel>
+            <translation><!-- Salesforce Opportunity - Product uptake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - SaaS extension</masterLabel>
+            <translation><!-- Salesforce Opportunity - SaaS extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - SaaS extras</masterLabel>
+            <translation><!-- Salesforce Opportunity - SaaS extras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - SaaS flips</masterLabel>
+            <translation><!-- Salesforce Opportunity - SaaS flips --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - SaaS to On Premise</masterLabel>
+            <translation><!-- Salesforce Opportunity - SaaS to On Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Opportunity - Spatial renewal</masterLabel>
+            <translation><!-- Salesforce Opportunity - Spatial renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement</masterLabel>
+            <translation><!-- Settlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T1 Foundation</masterLabel>
+            <translation><!-- T1 Foundation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

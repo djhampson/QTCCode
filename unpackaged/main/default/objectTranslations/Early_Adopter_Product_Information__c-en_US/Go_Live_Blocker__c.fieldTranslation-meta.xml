@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Go Live Blocker --></label>
+        <name>Go_Live_Blocker__c</name>
+        <picklistValues>
+            <masterLabel>Available Software - not enough to run my business process</masterLabel>
+            <translation><!-- Available Software - not enough to run my business process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication</masterLabel>
+            <translation><!-- Communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation and Training</masterLabel>
+            <translation><!-- Documentation and Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engagement from TechnologyOne</masterLabel>
+            <translation><!-- Engagement from TechnologyOne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live &amp; Happy</masterLabel>
+            <translation><!-- Live &amp; Happy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project in Progress</masterLabel>
+            <translation><!-- Project in Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resources availability - Customer</masterLabel>
+            <translation><!-- Resources availability - Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resources availability - TechnologyOne</masterLabel>
+            <translation><!-- Resources availability - TechnologyOne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software Quality</masterLabel>
+            <translation><!-- Software Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Process</masterLabel>
+            <translation><!-- Support Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Issue</masterLabel>
+            <translation><!-- Technical Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

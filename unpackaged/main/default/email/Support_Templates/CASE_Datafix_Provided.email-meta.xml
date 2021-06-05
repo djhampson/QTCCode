@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Providing customer with a Datafix</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Datafix Provided</name>
+    <style>none</style>
+    <subject>Datafix Provided: Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+In relation to the case below please run the following/attached data-fix and confirm the results prior to committing to the database.
+
+Please note: This Update/Delete script can be used for this instance only. If this issue occurs again, please contact the TechnologyOne Support Centre and we will issue you with the appropriate resolution for that issue. To ensure integrity of your database, any Update/Delete script that is executed on your TechnologyOne database, must be approved by the Support Centre.
+
+Case Number:  {!Case.CaseNumber}
+Product:  {!Case.Customer_Product__c}
+Functional Area:  {!Case.Functional_Area__c}
+Case Subject:  {!Case.Subject}
+Priority:  {!Case.Priority}
+Customer Reference:  {!Case.Customer_Reference__c}
+
+
+
+Kind regards,
+{!User.Name}
+
+{!Case.EmailSig__c}
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

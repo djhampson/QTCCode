@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Detail if customer has the right to additional project / temporary environments. Include purchased and environments to be provided Free of Charge. If limited in time - include applicable dates/timeframes --></help>
+        <label><!-- Project / Temporary Environments --></label>
+        <name>Project_Temporary_Environments__c</name>
+    </CustomFieldTranslation>

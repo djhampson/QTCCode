@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Date Licence Code Sent to Sales Person --></label>
+        <name>Date_Licence_Code_Sent_to_Sales_Person__c</name>
+    </CustomFieldTranslation>

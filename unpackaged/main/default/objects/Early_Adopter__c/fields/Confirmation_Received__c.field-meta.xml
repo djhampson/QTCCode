@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confirmation_Received__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Received confirmation from customer that technical requirements are met?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Received confirmation from customer that technical requirements are met?</inlineHelpText>
+    <label>Confirmation Received</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

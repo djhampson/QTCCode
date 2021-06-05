@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Refer Mercy Health case to HealthMetrics</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Refer to HealthMetrics</name>
+    <style>none</style>
+    <subject>TechnologyOne Support Centre: Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi Help Desk,
+
+In relation to the below case, we have investigated and believe the reported issue related to eCase.
+
+Our Analysis:
+{!Case.Support_Analysis__c}
+
+
+Case Number:  {!Case.CaseNumber}
+Case Subject:  {!Case.Subject}
+Priority:  {!Case.Priority}
+Created By:  {!Case.Contact}
+Customer Name:  {!Case.Account}
+Created Date:  {!Case.CreatedDate}
+Customer Reference:  {!Case.Customer_Reference__c}
+
+
+Please provide any updates or request further details by responding to this email.
+
+
+Kind regards,
+{!User.Name}
+
+TechnologyOne Support Centre
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

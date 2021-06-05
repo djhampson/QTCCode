@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;img alt=&quot;User-added image&quot; src=&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G0000007Kikw&amp;amp;oid=00DG0000000jBju&amp;amp;lastMod=1395917589000&quot;&gt;&lt;/img&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Welcome to the TechnologyOne Customer Community.&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;One place to collaborate with other customers,&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;find answers to questions,&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;suggest product enhancement ideas,&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;and create and manage support cases.&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Community is structured with a number of tabs across the top&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;that allow you to quickly and easily interact with the Community, and&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;then get back to running your own business.&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;A &lt;a href=&quot;https://customercommunity.technologyonecorp.com/articles/AT_General_Information/TechnologyOne-Customer-Community-Getting-Started&quot;&gt;Getting Started&lt;/a&gt;, &lt;a href=&quot;https://customercommunity.technologyonecorp.com/articles/AT_General_Information/TechnologyOne-Customer-Community-User-Guide&quot;&gt;User Guide&lt;/a&gt;, and other important information for the TechnologyOne Customer Community&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;can be found in the left hand panel under &amp;quot;Custom Links&amp;quot;.&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; &lt;/div&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div style="background-image: url(https://customercommunity.technologyonecorp.com/resource/1583972501000/FY20CustomerCommunityLoginLogo);background-size: 800px;background-repeat: no-repeat; background-position: center;width: 800px;height: 70px">
+</div>
+<div style="width: 800px;">
+
+
+<p style = "line-height:100%;font-family:calibri;font-size:18px;color:#13C0DF">Welcome to the {!Community.Name}  {!Receiving_User.Username}
+</p>
+<p style = "font-family:calibri;font-size:16px;">
+Your TechnologyOne Customer Community is the central hub to connect, chat and collaborate with TechnologyOne and with other customers.<br><br>
+The Customer Community takes the support experience to an entirely new level, delivering a modern, clean and engaging user experience, anywhere, any time, on any device. 
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:18px;color:#13C0DF">Key features
+<br>
+</p>
+<ul  style = "font-family:calibri;font-size:16px;">
+  <li>Access knowledge articles</li>
+  <li>Suggest ideas for product enhancements </li>
+  <li>Engage with product experts and customers</li>
+  <li>Ask questions, and help answer other customer questions</li>
+  <li>Keep up to date on trending topics, articles and more</li>
+</ul>
+<p style = "line-height:100%;font-family:calibri;font-size:18px;color:#13C0DF">Ready to activate your account?
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+To get started, go to</p>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+<a href="{!Community_Url}" target="_blank" style="color:#3355FF">{!Community.Url}</a>
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;font-weight:bold;">
+Please note the link in this email will expire within 24 hours so be sure to activate your account quickly.</p>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+As you log in, you will be asked to create and confirm a password, then click on the Change Password button and the Customer Community Home Page will be displayed. 
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:18px;color:#13C0DF">Registering again or reactivating your account?
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+Please note that your username is your work email address and you will need to reset your password via the Forgot Password link. 
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:18px;color:#13C0DF">Knowledge Articles for more information
+</p>
+<ul  >
+  <li style = "font-family:calibri;font-size:16px;"><a href="https://customercommunity.technologyonecorp.com/s/article/TechnologyOne-Customer-Community-Getting-Started" target="_blank" style="color:#3355FF">Customer Community - Getting Started</a></li>
+  <li style = "font-family:calibri;font-size:16px;"><a href="https://customercommunity.technologyonecorp.com/s/article/Collaborating-in-the-Customer-Community" target="_blank" style="color:#3355FF">Collaborating in the Customer Community</a></li>
+</ul>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Refer to the <a href="https://customercommunity.technologyonecorp.com/s/topic/0TO0f00000091QIGAY/customer-community-user-guides?tabset-53436=2" target="_blank" style="color:#3355FF">Community User & Support Guides</a> topic for more.<br><br>
+We look forward to seeing you in the Community! So make sure you click the link before it expires.<br><br>
+TechnologyOne Community Team
+</p>
+</div>
+</body>
+</html>

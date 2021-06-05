@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>STP Further Info</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: STP Further information Required</name>
+    <style>none</style>
+    <subject>Proposal Single Touch Payroll: Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},   
+
+Thank you for choosing us to help you through your Single Touch Payroll journey. In order to ensure a seamless transition we require the following information:
+
+Remote access/details Test &amp; Prod for configuration changes and data/business process reviews.
+The contact details for API key -  System Admin or similar who has access to server console administration.  Please include email and phone details.
+A copy of your payroll checklist/payroll guide.  This will give the consultant an understanding of how you currently work.
+Pay Period End Dates for month of Go-Live
+Preferred Go Live date (in the first instance recommend day after payroll processing is completed)
+Preferred method of contact for Go-Live eg:  Webex/Skype
+Public IP address for DP server for white listing with TechnologyOne Cloud
+
+Case Number: {!Case.CaseNumber} 
+Case Subject: {!Case.Subject} 
+Customer Reference: {!Case.Customer_Reference__c}  
+
+You can provide this information via your case at any time using the following link, or by responding to this email.   
+
+Kind regards,
+
+{!Case.EmailSig__c}
+
+Ph: AUS 1300 735 130/ NZ 0800 174 091/ MAL 1800 818 451/ UK 0808 1012 743/ FIJI 008 002 188  
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c} {!$Setup.EmailTemplateFields__c.FooterText2__c} {!$Setup.EmailTemplateFields__c.FooterURL__c} {!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for any damage caused by this email or its attachments.  The information in this email is only for the intended recipient and may contain confidential and/or  privileged material. If you received this in error, please kindly notify the sender by return email  and delete this email and any attachments from your system.  Opinions, conclusions and other information in this message that do not relate to the official business of the company shall  be understood as neither given nor endorsed by it.  If you believe that you have been spammed please email Stop_Spam@TechnologyOneCorp.com to report your complaint.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

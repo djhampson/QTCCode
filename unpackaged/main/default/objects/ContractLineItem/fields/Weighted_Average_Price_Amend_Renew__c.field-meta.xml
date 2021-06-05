@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weighted_Average_Price_Amend_Renew__c</fullName>
+    <description>Weighted Average Price used for Amendment and/ or Renewals.</description>
+    <externalId>false</externalId>
+    <formula>IF(Latest_Weighted_Average_Price__c = 0,   Weighted_Average_Price__c,  Latest_Weighted_Average_Price__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Weighted Average Price Amend/ Renew</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BSC__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Project Variation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Project Variation</inlineHelpText>
+    <label>Project Variation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

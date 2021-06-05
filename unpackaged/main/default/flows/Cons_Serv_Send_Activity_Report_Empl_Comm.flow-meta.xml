@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Activity_report</name>
+        <label>Send Activity report</label>
+        <locationX>299</locationX>
+        <locationY>54</locationY>
+        <actionName>Case.Send_Activity_Report_for_Consulting_Services</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Update_Case</targetReference>
+        </connector>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>var_CaseId</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Cons Serv - Send Activity Report Empl Comm {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Cons Serv - Send Activity Report Empl Comm</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Case</name>
+        <label>Update Case</label>
+        <locationX>301</locationX>
+        <locationY>205</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_CaseId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Reason</field>
+            <value>
+                <stringValue>Work Complete</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Resolution__c</field>
+            <value>
+                <stringValue>Work Complete</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Resolved</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <startElementReference>Send_Activity_report</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>var_CaseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

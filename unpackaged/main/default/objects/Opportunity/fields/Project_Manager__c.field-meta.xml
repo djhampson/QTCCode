@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Manager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Project Manager</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Please select a TechnologyOne Contact Name</errorMessage>
+        <filterItems>
+            <field>Contact.Account_Name_Hidden__c</field>
+            <operation>contains</operation>
+            <value>TechnologyOne</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Opportunities (Project Manager)</relationshipLabel>
+    <relationshipName>Opportunities_PM</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

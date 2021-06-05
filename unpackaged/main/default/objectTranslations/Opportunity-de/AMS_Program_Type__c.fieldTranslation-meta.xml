@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- AMS Type --></label>
+        <name>AMS_Program_Type__c</name>
+        <picklistValues>
+            <masterLabel>New Program</masterLabel>
+            <translation><!-- New Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requests</masterLabel>
+            <translation><!-- Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation><!-- Uplift --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

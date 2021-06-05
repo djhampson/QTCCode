@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_SaaS_Platform_Products_Detail__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Purchased by contract or variation e.g. DRaaS, EdgeDB</inlineHelpText>
+    <label>Additional SaaS Platform Products Detail</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

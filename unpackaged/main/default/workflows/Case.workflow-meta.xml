@@ -1,0 +1,2723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Alert_Cloud_Customer_Case_is_P1</fullName>
+        <description>Alert when Cloud Customer Case is a P1 (Critical)</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cloud_Team_Critical_Case_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CLOUD_Cloud_Customer_P1_Critical_Case_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_when_Case_is_upgraded_to_P1_Critical_Case</fullName>
+        <description>Alert when Case is upgraded to P1 (Critical) Case</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>AMS_Consulting</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Development_Managers</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Exec_Support</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>HQ_Support_Ops</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>P1_New_and_Upgrade_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>SDM_CAM</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>UK_Support_Ops</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_P1_Critical_Case_Upgraded</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_when_Cloud_Customer_Case_is_upgraded_to_P1_Critical_Case</fullName>
+        <description>Alert when Cloud Customer Case is upgraded to P1 (Critical) Case</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cloud_Team_Critical_Case_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CLOUD_Cloud_Customer_P1_Critical_Case_Upgraded</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_when_Cloud_Customer_P1_Critical_Case_is_closed</fullName>
+        <description>Alert when Cloud Customer P1 (Critical) Case is closed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cloud_Team_Critical_Case_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CLOUD_P1_Critical_Case_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_when_Cloud_Customer_P1_Critical_Case_is_downgraded</fullName>
+        <description>Alert when Cloud Customer P1 (Critical) Case is downgraded</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cloud_Team_Critical_Case_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CLOUD_P1_Critical_Case_Downgraded</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_when_a_P1_Critical_Case_Closed</fullName>
+        <description>Alert when P1 (Critical) Case is closed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>AMS_Consulting</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Development_Managers</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Exec_Support</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>HQ_Support_Ops</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>SDM_CAM</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_P1_Critical_Case_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_when_a_P1_Critical_Case_downgraded</fullName>
+        <description>Alert when P1 (Critical) Case is downgraded</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>AMS_Consulting</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Development_Managers</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Exec_Support</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>HQ_Support_Ops</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>SDM_CAM</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_P1_Critical_Case_Downgraded</template>
+    </alerts>
+    <alerts>
+        <fullName>Alert_when_a_P1_Critical_Case_has_been_logged</fullName>
+        <description>Alert when Case is a P1 (Critical)</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>AMS_Consulting</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Development_Managers</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Exec_Support</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>HQ_Support_Ops</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>P1_New_and_Upgrade_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>SDM_CAM</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>UK_Support_Ops</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_New_P1_Critical_Case_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Creation</fullName>
+        <description>Case Creation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Creation_AUTO</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Creation_AMS</fullName>
+        <description>Case Creation AMS</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Creation_AUTO_AMS</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Creation_Consulting_Services</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Case Creation - Consulting Services</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Consulting_Quote_being_prepared</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Creation_Question</fullName>
+        <description>Case Creation - Question</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Creation_AUTO_Question</template>
+    </alerts>
+    <alerts>
+        <fullName>Closure_due_to_nil_information</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Closure due to nil information</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Closure_due_to_no_information_AUTO</template>
+    </alerts>
+    <alerts>
+        <fullName>Closure_due_to_no_quote_response</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Closure due to no quote response</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Closure_due_to_no_quote_response_AUTO</template>
+    </alerts>
+    <alerts>
+        <fullName>Critical_Case_Milestone_Violated</fullName>
+        <description>Critical Case Milestone Violated</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_P1_Critical_Case_Violated</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Case_Owner_that_Change_Request_approved_for_UAT</fullName>
+        <description>Email Case Owner that Change Request approved for UAT</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Approved_UAT</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Sales_Cloud_Approvers_when_pending_PROD</fullName>
+        <description>Email Sales Cloud Approvers when pending PROD</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Sales_Cloud_Approvers</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Pending_PROD</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Sales_Cloud_Approvers_when_pending_UAT</fullName>
+        <description>Email Sales Cloud Approvers when pending UAT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Sales_Cloud_Approvers</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Pending_UAT</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Service_Cloud_Approvers_when_pending_PROD</fullName>
+        <description>Email Service Cloud Approvers when pending PROD</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Service_Cloud_Approvers</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Pending_PROD</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Service_Cloud_Approvers_when_pending_UAT</fullName>
+        <description>Email Service Cloud Approvers when pending UAT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Service_Cloud_Approvers</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Pending_UAT</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Case_owner_when_Approved_PROD</fullName>
+        <description>Email to Case Owner when Approved PROD</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Approved_PROD</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Case_owner_when_change_request_REJECTED</fullName>
+        <description>Email to Case Owner when change request REJECTED</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Case_owner_when_change_request_set_back_to_DEV</fullName>
+        <description>Email to Case owner when change request set back to DEV</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_DEV</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_to_Contact_when_change_request_applied_to_PROD</fullName>
+        <description>Notify Contact (tester) that change is applied to PROD</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Applied_PROD</template>
+    </alerts>
+    <alerts>
+        <fullName>Engagement_Reminder_for_Consulting_Services</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Engagement Reminder for Consulting Services</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Engagement_Reminder</template>
+    </alerts>
+    <alerts>
+        <fullName>Final_Request_for_more_information</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Final Request for more information</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Final_request_for_information_Auto</template>
+    </alerts>
+    <alerts>
+        <fullName>Final_Resolution_Milestone_Warning_Case_Owner</fullName>
+        <description>Final Resolution Milestone Warning - Case Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Final_Resolution_Milestone_Warning_Case_Owner</template>
+    </alerts>
+    <alerts>
+        <fullName>Final_Resolution_Milestone_Warning_Management</fullName>
+        <description>Final Resolution Milestone Warning - Management</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Final_Resolution_Milestone_Warning_Management</template>
+    </alerts>
+    <alerts>
+        <fullName>Follow_up_request_for_more_information</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Follow up request for more information</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Follow_up_request_for_information_auto</template>
+    </alerts>
+    <alerts>
+        <fullName>Interim_Resolution_Milestone_Warning_Case_Owner</fullName>
+        <description>Interim Resolution Milestone Warning - Case Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Interim_Resolution_Milestone_Warning_Case_Owner</template>
+    </alerts>
+    <alerts>
+        <fullName>Interim_Resolution_Milestone_Warning_Management</fullName>
+        <description>Interim Resolution Milestone Warning - Management</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Interim_Resolution_Milestone_Warning_Management</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_CR_Owner_the_day_before_Implementation_is_due</fullName>
+        <description>Notify CR Owner the day before Implementation is due</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_CR_Implementation_Due</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Contact_that_change_is_applied_to_UAT_and_required_testing</fullName>
+        <description>Notify Contact (tester) that change is applied to UAT</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Applied_UAT</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Contact_that_change_is_completed_in_Dev_and_required_testing</fullName>
+        <description>Notify Contact (tester) that change is completed in Dev</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ChangeRequest/SFCAB_Dev_Completed</template>
+    </alerts>
+    <alerts>
+        <fullName>Reminder_for_Quote_for_Consulting_Services</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Reminder for Quote for Consulting Services</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Reminder_for_Quote_for_Consulting_Services</template>
+    </alerts>
+    <alerts>
+        <fullName>Response_Milestone_Warning_Case_Owner</fullName>
+        <description>Response Milestone Warning - Case Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Response_Milestone_Warning_Case_Owner</template>
+    </alerts>
+    <alerts>
+        <fullName>Response_Milestone_Warning_Management</fullName>
+        <description>Response Milestone Warning - Management</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Response_Milestone_Warning_Management</template>
+    </alerts>
+    <alerts>
+        <fullName>SLA_Pending_Breach_Notification</fullName>
+        <description>SLA Pending Breach Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_New_P1_Critical_Case_SLA_Breach_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>SaaS_Service_Request_Awaiting_Scheduling</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>SaaS Service Request Awaiting Scheduling</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_SaaS_Service_Request_Awaiting_Scheduling</template>
+    </alerts>
+    <alerts>
+        <fullName>SaaS_Service_Request_Scheduled</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>SaaS Service Request Scheduled</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_SaaS_Service_Request_Scheduled</template>
+    </alerts>
+    <alerts>
+        <fullName>Second_Reminder_for_Quote_for_Consulting_Services</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Second Reminder for Quote for Consulting Services</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Second_Reminder_for_Quote_for_Consulting_Services</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Activity_Report_for_Consulting_Services</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Send Activity Report for Consulting Services</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Activity_Report_for_Consulting_Services</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Engagement_Confirmation_for_Consulting_Services</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Send Engagement Confirmation for Consulting Services</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Engagement_Confirm_for_Consulting_Services</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Interim_Solution</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Send Interim Solution</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Interim_Resolution</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Quote_Accepted_Task_Required</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Send Quote Accepted Task Required</description>
+        <protected>false</protected>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Quote_Accepted_Task_required</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Quote_for_Consulting_Services</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Send Quote for Consulting Services</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Quote_for_Consulting_Services</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Resolved_Template_to_Customer</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>Send Resolved Template to Customer</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Resolved</template>
+    </alerts>
+    <alerts>
+        <fullName>Special_Alert_Customer_case_raised</fullName>
+        <description>Special Alert - Customer case raised</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Service_Cloud_Weekend_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_Special_Alert_Customer_Case_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Special_Alert_Customer_case_updated</fullName>
+        <description>Special Alert - Customer case updated</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Service_Cloud_Weekend_Alerts</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/SUPPORT_Special_Alert_Customer_Case_Update_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Update_Milestone_Warning_Case_Owner</fullName>
+        <description>Update Milestone Warning - Case Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Update_Milestone_Warning_Case_Owner</template>
+    </alerts>
+    <alerts>
+        <fullName>Update_Milestone_Warning_Management</fullName>
+        <description>Update Milestone Warning - Management</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Support_Leaders</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/Update_Milestone_Warning_Management</template>
+    </alerts>
+    <alerts>
+        <fullName>Voicemail_Received_Alert</fullName>
+        <description>Voicemail Received Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Voicemail_Alert_Group</recipient>
+            <type>group</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_New_Voicemail_received</template>
+    </alerts>
+    <alerts>
+        <fullName>close_case_email_alert</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>close case email alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Closure_AUTO</template>
+    </alerts>
+    <alerts>
+        <fullName>close_case_email_alert_Cons_Serv</fullName>
+        <ccEmails>t1support_dev2@technologyonecorp.com</ccEmails>
+        <description>close case email alert Cons Serv</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Workflow_Templates/CASE_Closure_AUTO_Cons_Serv</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>CAB_Approval_State_to_Approved_Prod</fullName>
+        <field>Approval_State__c</field>
+        <literalValue>Approved Prod</literalValue>
+        <name>CAB - Approval State to Approved Prod</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAB_Approval_State_to_Approved_UAT</fullName>
+        <field>Approval_State__c</field>
+        <literalValue>Approved UAT</literalValue>
+        <name>CAB - Approval State to Approved UAT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAB_Change_ownership_for_Emergency</fullName>
+        <field>OwnerId</field>
+        <lookupValue>CAB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>CAB - Change ownership for Emergency</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAB_Change_ownership_for_Major_Type</fullName>
+        <field>OwnerId</field>
+        <lookupValue>CAB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>CAB - Change ownership for Major Type</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAB_Change_ownership_for_Standard_Type</fullName>
+        <field>OwnerId</field>
+        <lookupValue>CAB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>CAB - Change ownership for Standard Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAB_Set_Status_to_In_Progress</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>CAB - Set Status to In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CAB_Set_to_Pending_Approval</fullName>
+        <field>Approval_State__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>CAB - Set to Pending Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Case_Reason_Quote_Expired</fullName>
+        <field>Reason</field>
+        <literalValue>Quote Expired</literalValue>
+        <name>CASE: Case Reason Quote Expired</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Case_resolution_Quote_expired</fullName>
+        <field>Resolution__c</field>
+        <formula>&quot;Quote expired&quot;</formula>
+        <name>CASE: Case resolution Quote expired</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Awaiting_Internal_Area</fullName>
+        <field>Awaiting_Internal_Area__c</field>
+        <name>CASE: Clear Awaiting Internal Area</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Case_Age_B_H</fullName>
+        <description>Clear the Case Age</description>
+        <field>Case_Age_In_Business_Hours__c</field>
+        <name>CASE: Clear Case Age (B/H)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Closed_in_Calendar_Days</fullName>
+        <field>Duration_to_Closed_Cal_Days__c</field>
+        <name>CASE: Clear Closed in (Calendar Days)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_New_Customer_Attachment</fullName>
+        <description>Clears the New Customer Attachment field</description>
+        <field>New_Customer_Attachment__c</field>
+        <literalValue>0</literalValue>
+        <name>CASE: Clear New Customer Attachment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_New_Customer_Email</fullName>
+        <description>Clears the New Customer Email field</description>
+        <field>New_Customer_Email__c</field>
+        <literalValue>0</literalValue>
+        <name>CASE: Clear New Customer Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_New_Portal_Case_Comment</fullName>
+        <description>Clears the New Portal Case Comment field</description>
+        <field>New_Portal_Case_Comment__c</field>
+        <literalValue>0</literalValue>
+        <name>CASE: Clear New Portal Case Comment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Quote_Expiry_Date</fullName>
+        <field>Quote_Expiry__c</field>
+        <name>CASE: Clear Quote Expiry Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Quote_Reminder</fullName>
+        <field>Quote_Reminder__c</field>
+        <name>CASE: Clear Quote Reminder</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Quote_Second_Reminder_Date</fullName>
+        <field>Quote_Second_Reminder__c</field>
+        <name>CASE: Clear Quote Second Reminder Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Quote_Status_Date</fullName>
+        <field>Quote_Status_Date__c</field>
+        <name>CASE: Clear Quote Status Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Clear_Resolved_in_Calendar_Days</fullName>
+        <field>Duration_to_Resolved_Cal_Days__c</field>
+        <name>CASE: Clear Resolved in (Calendar Days)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Final_Followup_Due</fullName>
+        <description>Calculates the final followup due date depending on the case Priority. Urgent &amp; Critical are Today + 2 and High &amp; Medium are Today + 3.</description>
+        <field>AwaitInfoFinalFollowupDue__c</field>
+        <formula>IF( TEXT(Priority) = &#39;Urgent&#39;  || TEXT(Priority) = &#39;Critical&#39;,
+CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+3,
+1, NOW()+2,
+2, NOW()+2,
+3, NOW()+2,
+4, NOW()+4,
+5, NOW()+4,
+6, NOW()+4,
+NOW() ),
+CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+4,
+1, NOW()+3,
+2, NOW()+3,
+3, NOW()+5,
+4, NOW()+5,
+5, NOW()+5,
+6, NOW()+5,
+NOW() ))</formula>
+        <name>CASE: Final Followup Due</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_First_Followup_Due</fullName>
+        <description>Calculates the first followup due date depending on the case Priority. Urgent &amp; Critical are Today + 2 and High &amp; Medium are Today + 3.</description>
+        <field>AwaitInfoFirstFollowupDue__c</field>
+        <formula>IF( TEXT(Priority)  = &#39;Urgent&#39; || TEXT(Priority) = &#39;Critical&#39;,
+CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+3,
+1, NOW()+2,
+2, NOW()+2,
+3, NOW()+2,
+4, NOW()+4,
+5, NOW()+4,
+6, NOW()+4,
+NOW() ),
+CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+4,
+1, NOW()+3,
+2, NOW()+3,
+3, NOW()+5,
+4, NOW()+5,
+5, NOW()+5,
+6, NOW()+5,
+NOW() ))</formula>
+        <name>CASE: First Followup Due</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Quote_Expiry_T_30_Work_Days</fullName>
+        <field>Quote_Expiry__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+43,
+1, NOW()+42,
+2, NOW()+42,
+3, NOW()+42,
+4, NOW()+42,
+5, NOW()+42,
+6, NOW()+44,
+NOW() )</formula>
+        <name>CASE: Quote Expiry T+30 Work Days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Quote_First_Reminder_T_5_Work_Days</fullName>
+        <field>Quote_Reminder__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+8,
+1, NOW()+7,
+2, NOW()+7,
+3, NOW()+7,
+4, NOW()+7,
+5, NOW()+7,
+6, NOW()+9,
+NOW() )</formula>
+        <name>CASE: Quote First Reminder T+5 Work Days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Second_Followup_Due</fullName>
+        <description>Calculates the second followup due date depending on the case Priority. Urgent &amp; Critical are Today + 2 and High &amp; Medium are Today + 3.</description>
+        <field>AwaitInfoSecondFollowupDue__c</field>
+        <formula>IF( TEXT(Priority) = &#39;Urgent&#39; || TEXT(Priority) = &#39;Critical&#39;,
+CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+3,
+1, NOW()+2,
+2, NOW()+2,
+3, NOW()+2,
+4, NOW()+4,
+5, NOW()+4,
+6, NOW()+4,
+NOW() ),
+CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+4,
+1, NOW()+3,
+2, NOW()+3,
+3, NOW()+5,
+4, NOW()+5,
+5, NOW()+5,
+6, NOW()+5,
+NOW() ))</formula>
+        <name>CASE: Second Followup Due</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Second_Reminder_T_10_Work_Days</fullName>
+        <field>Quote_Second_Reminder__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+15,
+1, NOW()+14,
+2, NOW()+14,
+3, NOW()+14,
+4, NOW()+14,
+5, NOW()+14,
+6, NOW()+16,
+NOW() )</formula>
+        <name>CASE: Second Reminder T+10 Work Days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Set_Last_Customer_Contact</fullName>
+        <description>Sets the date &amp; time of the last customer contact</description>
+        <field>Last_Customer_Contact__c</field>
+        <formula>NOW()</formula>
+        <name>CASE: Set Last Customer Contact</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Set_Status_to_Pending_Quote</fullName>
+        <field>Status</field>
+        <literalValue>Pending Quote</literalValue>
+        <name>CASE: Set Status to Pending Quote</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Update_Priority_Has_Changed</fullName>
+        <field>Priority_Has_Changed__c</field>
+        <literalValue>1</literalValue>
+        <name>CASE: Update Priority Has Changed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Update_Status_Change_Data</fullName>
+        <description>This field is updated when the status is changed to Resolved</description>
+        <field>Status_Change__c</field>
+        <formula>Now()</formula>
+        <name>CASE: Update Status Change Data</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CASE_Update_Status_to_Closed</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>CASE: Update Status to Closed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Clear_Final_Followup_Due_Date</fullName>
+        <description>Clears the AwaitInfoFinalFollowupDue date on the Case</description>
+        <field>AwaitInfoFinalFollowupDue__c</field>
+        <name>CASE: Clear Final Followup Due Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Clear_First_Followup_Due_Date</fullName>
+        <description>Clears the AwaitInfoFirstFollowupDue date on the Case</description>
+        <field>AwaitInfoFirstFollowupDue__c</field>
+        <name>CASE: Clear First Followup Due Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Clear_Second_Followup_Due_Date</fullName>
+        <description>Clears the AwaitInfoSecondFollowupDue date on the Case</description>
+        <field>AwaitInfoSecondFollowupDue__c</field>
+        <name>CASE: Clear Second Followup Due Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Final_Followup_plus_6_work_days</fullName>
+        <description>Updates the Case field AwaitInfoFinalFollowupDue date as 6 work days from today</description>
+        <field>AwaitInfoFinalFollowupDue__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+9,
+1, NOW()+8,
+2, NOW()+8,
+3, NOW()+8,
+4, NOW()+8,
+5, NOW()+10,
+6, NOW()+10,
+NOW() )</formula>
+        <name>CASE: Final Followup T + 6 work days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Final_Followup_plus_9_work_days</fullName>
+        <description>Updates the Case field AwaitInfoFinalFollowupDue date as 9 work days from today</description>
+        <field>AwaitInfoFinalFollowupDue__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+12,
+1, NOW()+11,
+2, NOW()+13,
+3, NOW()+13,
+4, NOW()+13,
+5, NOW()+13,
+6, NOW()+13,
+NOW() )</formula>
+        <name>CASE: Final Followup T + 9 work days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_First_Followup_plus_2_work_days</fullName>
+        <description>Updates the Case field AwaitInfoFirstFollowupDue date as 2 work days from today</description>
+        <field>AwaitInfoFirstFollowupDue__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+3,
+1, NOW()+2,
+2, NOW()+2,
+3, NOW()+2,
+4, NOW()+4,
+5, NOW()+4,
+6, NOW()+4,
+NOW() )</formula>
+        <name>CASE: First Followup T + 2 work days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_First_Followup_plus_3_work_days</fullName>
+        <description>Updates the Case field AwaitInfoFirstFollowupDue date as 3 work days from today</description>
+        <field>AwaitInfoFirstFollowupDue__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+4,
+1, NOW()+3,
+2, NOW()+3,
+3, NOW()+5,
+4, NOW()+5,
+5, NOW()+5,
+6, NOW()+5,
+NOW() )</formula>
+        <name>CASE: First Followup T + 3 work days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Second_Followup_plus_4_work_days</fullName>
+        <description>Updates the Case field AwaitInfoSecondFollowupDue date as 4 work days from today</description>
+        <field>AwaitInfoSecondFollowupDue__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+5,
+1, NOW()+4,
+2, NOW()+6,
+3, NOW()+6,
+4, NOW()+6,
+5, NOW()+6,
+6, NOW()+6,
+NOW() )</formula>
+        <name>CASE: Second Followup T + 4 work days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Second_Followup_plus_6_work_days</fullName>
+        <description>Updates the Case field AwaitInfoSecondFollowupDue date as 6 work days from today</description>
+        <field>AwaitInfoSecondFollowupDue__c</field>
+        <formula>CASE( MOD( TODAY() - DATE(1900, 1, 7), 7),
+0, NOW()+9,
+1, NOW()+8,
+2, NOW()+8,
+3, NOW()+8,
+4, NOW()+8,
+5, NOW()+10,
+6, NOW()+10,
+NOW() )</formula>
+        <name>CASE: Second Followup T + 6 work days</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Set_Quote_Status_to_Lapsed</fullName>
+        <field>Quote_Status__c</field>
+        <literalValue>Lapsed</literalValue>
+        <name>Case: Set Quote Status to Lapsed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Set_Resolved_Date</fullName>
+        <description>Sets the Resolved Date when the Case Status is changed to Resolved</description>
+        <field>Resolved_Date__c</field>
+        <formula>NOW()</formula>
+        <name>CASE: Set Resolved Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Set_Resolved_Date_to_Closed_Date</fullName>
+        <description>Sets the Resolved Date to Closed Date when necessary</description>
+        <field>Resolved_Date__c</field>
+        <formula>ClosedDate</formula>
+        <name>Case: Set Resolved Date to Closed Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Update_Reason_for_Close</fullName>
+        <description>Update Case Reason to allow close</description>
+        <field>Reason</field>
+        <literalValue>No Response From Customer</literalValue>
+        <name>Case Update Reason for Close</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Update_Resolution_for_Close</fullName>
+        <description>Set Resolution to allow close</description>
+        <field>Resolution__c</field>
+        <formula>&quot;Customer did not respond to requests for information&quot;</formula>
+        <name>Case Update Resolution for Close</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Record_Type_to_Incident</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Incident</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Change Record Type to Incident</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Clear_Awaiting_Internal_Follow_up_Date</fullName>
+        <field>Awaiting_Internal_Follow_up_Date__c</field>
+        <name>Clear Awaiting Internal Follow-up Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Feature_Update_Case_Type</fullName>
+        <field>Type</field>
+        <literalValue>Feature Request</literalValue>
+        <name>Feature Update Case Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Final_Resolution_MS_Warning_False</fullName>
+        <description>Sets Final Resolution MS Warning to false</description>
+        <field>Final_Resolution_MS_Warning__c</field>
+        <literalValue>0</literalValue>
+        <name>Final Resolution MS Warning False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Final_Resolution_MS_Warning_True</fullName>
+        <description>Sets Final Resolution MS Warning to true</description>
+        <field>Final_Resolution_MS_Warning__c</field>
+        <literalValue>1</literalValue>
+        <name>Final Resolution MS Warning True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>First_Response_True</fullName>
+        <description>Used to indicate that the First Response Milestone has been successfully completed.</description>
+        <field>First_Response_Complete__c</field>
+        <literalValue>1</literalValue>
+        <name>First Response True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Incident_Case_Type_Update</fullName>
+        <field>Type</field>
+        <literalValue>Incident</literalValue>
+        <name>Incident Case Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Interim_Resolution_MS_Warning_False</fullName>
+        <description>Sets Interim Resolution MS Warning to false</description>
+        <field>Interim_Resolution_MS_Warning__c</field>
+        <literalValue>0</literalValue>
+        <name>Interim Resolution MS Warning False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Interim_Resolution_MS_Warning_True</fullName>
+        <description>Sets Interim Resolution MS Warning to true</description>
+        <field>Interim_Resolution_MS_Warning__c</field>
+        <literalValue>1</literalValue>
+        <name>Interim Resolution MS Warning True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Interim_Solution_Provided_True</fullName>
+        <description>Sets Case Interim Solution Provided to true</description>
+        <field>Interim_Solution_Provided__c</field>
+        <literalValue>1</literalValue>
+        <name>Interim Solution Provided True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Problem_Case_Type_Update</fullName>
+        <field>Type</field>
+        <literalValue>Problem</literalValue>
+        <name>Problem Case Type Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Question_Update_Case_Type</fullName>
+        <field>Type</field>
+        <literalValue>Question</literalValue>
+        <name>Question Update Case Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Response_MS_Warning_False</fullName>
+        <description>Sets Response MS Warning to False</description>
+        <field>Response_MS_Warning__c</field>
+        <literalValue>0</literalValue>
+        <name>Response MS Warning False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Response_MS_Warning_True</fullName>
+        <description>Sets Response Milestone Warning to True</description>
+        <field>Response_MS_Warning__c</field>
+        <literalValue>1</literalValue>
+        <name>Response MS Warning True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetDevAnalysisFalse</fullName>
+        <description>Set DevAnalysisTrue checkbox to false if the &quot;Developer Analysis&quot; field on the case is cleared</description>
+        <field>DevAnalysisVal__c</field>
+        <literalValue>0</literalValue>
+        <name>SetDevAnalysisFalse</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SetDevAnalysisTrue</fullName>
+        <description>Set DevAnalysisTrue to True</description>
+        <field>DevAnalysisVal__c</field>
+        <literalValue>1</literalValue>
+        <name>SetDevAnalysisTrue</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Case_Status_In_Progress</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Set Case Status In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Stopped_True</fullName>
+        <description>Sets the Case Stopped field to true</description>
+        <field>IsStopped</field>
+        <literalValue>1</literalValue>
+        <name>Set Stopped True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Stopped_false</fullName>
+        <description>Sets the Stopped checkbox on case to false</description>
+        <field>IsStopped</field>
+        <literalValue>0</literalValue>
+        <name>Set Stopped False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_MS_Warning_False</fullName>
+        <description>Sets Update MS Warning to false</description>
+        <field>Update_MS_Warning__c</field>
+        <literalValue>0</literalValue>
+        <name>Update MS Warning False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_MS_Warning_True</fullName>
+        <description>Sets Update MS Warning to true</description>
+        <field>Update_MS_Warning__c</field>
+        <literalValue>1</literalValue>
+        <name>Update MS Warning True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Priority_to_Medium</fullName>
+        <field>Priority</field>
+        <literalValue>Medium</literalValue>
+        <name>Update Priority to Medium</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_In_Progress_when_Take_Ow</fullName>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Update Status = In Progress when Take Ow</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Type</fullName>
+        <field>Type</field>
+        <literalValue>Question</literalValue>
+        <name>Update Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_status_to_new</fullName>
+        <field>Status</field>
+        <literalValue>New</literalValue>
+        <name>Update status to new</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_to_Question</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Question</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Update to Question</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>CASE%3A Calculate Quote Reminders</fullName>
+        <actions>
+            <name>CASE_Quote_Expiry_T_30_Work_Days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Quote_First_Reminder_T_5_Work_Days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Second_Reminder_T_10_Work_Days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Processes the calculations for the quote reminders</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Quote Approval&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Clear Awaiting Internal Area</fullName>
+        <actions>
+            <name>CASE_Clear_Awaiting_Internal_Area</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Clear the Awaiting Internal Area field when they case is changed from In Progress to Awaiting Customer, Resolved, Closed, With Customer or Scheduled.</description>
+        <formula>ISCHANGED(Status) &amp;&amp; ISPICKVAL(PRIORVALUE(Status), &#39;In Progress&#39;) &amp;&amp; ISPICKVAL(Status, &#39;Awaiting Customer&#39;) || ISPICKVAL(Status, &#39;Resolved&#39;) || ISPICKVAL(Status, &#39;Closed&#39;) || ISPICKVAL(Status, &#39;With Customer&#39;) || ISPICKVAL(Status, &#39;Scheduled&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Clear Awaiting Internal Follow-up Date</fullName>
+        <actions>
+            <name>Clear_Awaiting_Internal_Follow_up_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Clear Awaiting Internal Follow-up date when Awaiting Internal Area is set to None</description>
+        <formula>ISCHANGED(Awaiting_Internal_Area__c) &amp;&amp; ISBLANK(TEXT(Awaiting_Internal_Area__c)) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Clear Closed Durations</fullName>
+        <actions>
+            <name>CASE_Clear_Case_Age_B_H</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Clear_Closed_in_Calendar_Days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Clear the calculated durations when the associated date is nullified</description>
+        <formula>ISCHANGED( ClosedDate ) &amp;&amp; ISNULL(ClosedDate) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Clear Quote Status Date</fullName>
+        <actions>
+            <name>CASE_Clear_Quote_Status_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Clears the Quote Status Date when Quote Status is cleared</description>
+        <formula>ISCHANGED( Quote_Status__c ) &amp;&amp;  ISBLANK(TEXT(Quote_Status__c)) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Clear Resolved Durations</fullName>
+        <actions>
+            <name>CASE_Clear_Resolved_in_Calendar_Days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Clear the calculated durations when the associated date is nullified</description>
+        <formula>ISCHANGED(Resolved_Date__c) &amp;&amp; ISNULL(Resolved_Date__c) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Engagement Reminder</fullName>
+        <active>true</active>
+        <description>Processes the reminder regarding engagement</description>
+        <formula>ISBLANK( Engagement_Start_Date__c ) = False &amp;&amp; ISBLANK( Engagement_Start_Reminder__c ) = False &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; TEXT( Status ) = &#39;Scheduled&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Engagement_Reminder_for_Consulting_Services</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Engagement_Start_Reminder__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Quote Lapsed</fullName>
+        <active>false</active>
+        <description>Closes the Case when the Quote has reached its Expiry date</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Quote Approval&#39;) &amp;&amp;  ISBLANK(Quote_Sent__c) = False &amp;&amp;  ISPICKVAL(Quote_Status__c, &#39;&#39;) &amp;&amp;  New_Portal_Case_Comment__c = False &amp;&amp;  New_Customer_Email__c = False &amp;&amp;   ISBLANK(Quote_Expiry__c) = False &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Case_Set_Quote_Status_to_Lapsed</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.Quote_Expiry__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Quote Reminder</fullName>
+        <active>false</active>
+        <description>Processes the reminder regarding Quote sent to customer when no response</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Quote Approval&#39;) &amp;&amp;  ISPICKVAL(Quote_Status__c, &#39;&#39;) &amp;&amp;  New_Portal_Case_Comment__c = False &amp;&amp;  New_Customer_Email__c = False &amp;&amp;   ISBLANK(Quote_Reminder__c) = False &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Reminder_for_Quote_for_Consulting_Services</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Clear_Quote_Reminder</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.Quote_Reminder__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Send Quote Expiry</fullName>
+        <active>true</active>
+        <description>Send expiry email for quote, close case</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Quote Approval&#39;) &amp;&amp; ISPICKVAL(Quote_Status__c, &#39;&#39;) &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; New_Customer_Email__c = False &amp;&amp; ISBLANK(Quote_Expiry__c) = False &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Closure_due_to_no_quote_response</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Case_Reason_Quote_Expired</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Case_resolution_Quote_expired</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Clear_Quote_Expiry_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Update_Status_to_Closed</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Set_Quote_Status_to_Lapsed</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.Quote_Expiry__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Send Quote First Reminder</fullName>
+        <active>true</active>
+        <description>Send first reminder for quote after case has been set to &#39;Awaiting Quote Approval&#39;</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Quote Approval&#39;) &amp;&amp; ISPICKVAL(Quote_Status__c, &#39;&#39;) &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; New_Customer_Email__c = False &amp;&amp; ISBLANK(Quote_Reminder__c) = False &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Reminder_for_Quote_for_Consulting_Services</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Clear_Quote_Reminder</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.Quote_Reminder__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Send Quote Second Reminder</fullName>
+        <active>true</active>
+        <description>Send second reminder for quote after case has been set to &#39;Awaiting Quote Approval&#39;</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Quote Approval&#39;) &amp;&amp; ISPICKVAL(Quote_Status__c, &#39;&#39;) &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; New_Customer_Email__c = False &amp;&amp; ISBLANK( Quote_Second_Reminder__c) = False &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Second_Reminder_for_Quote_for_Consulting_Services</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Clear_Quote_Second_Reminder_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.Quote_Second_Reminder__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Set In Progress Engagement Start</fullName>
+        <active>true</active>
+        <description>Sets Status to In Progress when Engagement starts</description>
+        <formula>ISPICKVAL(Status, &#39;Scheduled&#39;) &amp;&amp;  ISPICKVAL(Quote_Status__c, &#39;Accepted&#39;) &amp;&amp;  ISBLANK(Engagement_Start_Date__c) = False &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Set_Case_Status_In_Progress</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.Engagement_Start_Date__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Set Resolved Date</fullName>
+        <actions>
+            <name>Case_Set_Resolved_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Set the Resolved Date when Case Status is set to Resolved</description>
+        <formula>ISCHANGED(Status) &amp;&amp; ISPICKVAL( Status , &#39;Resolved&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Set Resolved Date on Close</fullName>
+        <actions>
+            <name>Case_Set_Resolved_Date_to_Closed_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Set the Resolved Date when Case Status is Closed and Resolved not yet set</description>
+        <formula>IsClosed &amp;&amp; ISNULL(Resolved_Date__c)  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info</fullName>
+        <actions>
+            <name>CASE_First_Followup_Due</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_Clear_Final_Followup_Due_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_Clear_Second_Followup_Due_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Manages followup reminder emails when more information requested and customer has not obliged</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;) &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; (RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info Final Followup</fullName>
+        <active>false</active>
+        <description>Processes the Final Followup for Request for further information from Customer</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;) &amp;&amp;  (ISPICKVAL( Priority , &#39;High&#39;) || ISPICKVAL( Priority , &#39;Medium&#39;) || ISPICKVAL( Priority , &#39;Urgent&#39;)) &amp;&amp;  New_Portal_Case_Comment__c = False &amp;&amp; ( RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39;|| RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False &amp;&amp;  NOT(ISBLANK(AwaitInfoFinalFollowupDue__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Closure_due_to_nil_information</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Update_Status_to_Closed</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Clear_Final_Followup_Due_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Update_Reason_for_Close</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Update_Resolution_for_Close</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.AwaitInfoFinalFollowupDue__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info Final Followup v2</fullName>
+        <active>true</active>
+        <description>Processes the Final Followup for Request for further information from Customer</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;) &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; ( RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39;|| RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False &amp;&amp;  NOT(ISBLANK(AwaitInfoFinalFollowupDue__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Closure_due_to_nil_information</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Update_Status_to_Closed</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Update_Reason_for_Close</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Update_Resolution_for_Close</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.AwaitInfoFinalFollowupDue__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info First Followup</fullName>
+        <active>false</active>
+        <description>Processes the First Followup for Request for further information from Customer</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;) &amp;&amp;  (ISPICKVAL( Priority , &#39;High&#39;) || ISPICKVAL( Priority , &#39;Medium&#39;) || ISPICKVAL( Priority , &#39;Urgent&#39;)) &amp;&amp;  New_Portal_Case_Comment__c = False &amp;&amp; ( RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False &amp;&amp;  NOT(ISBLANK(AwaitInfoFirstFollowupDue__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Follow_up_request_for_more_information</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Clear_First_Followup_Due_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.AwaitInfoFirstFollowupDue__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info First Followup v2</fullName>
+        <active>true</active>
+        <description>Processes the First Followup for Request for further information from Customer</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;) &amp;&amp;  New_Portal_Case_Comment__c = False &amp;&amp; ( RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False &amp;&amp;  NOT(ISBLANK(AwaitInfoFirstFollowupDue__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Follow_up_request_for_more_information</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Second_Followup_Due</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.AwaitInfoFirstFollowupDue__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info High</fullName>
+        <actions>
+            <name>Case_Final_Followup_plus_9_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_First_Followup_plus_3_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_Second_Followup_plus_6_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Manages followup reminder emails when more information requested and customer has not obliged</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;)  &amp;&amp; ISPICKVAL( Priority , &#39;High&#39;)  &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; (RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info Medium</fullName>
+        <actions>
+            <name>Case_Final_Followup_plus_9_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_First_Followup_plus_3_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_Second_Followup_plus_6_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Manages followup reminder emails when more information requested and customer has not obliged</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;)  &amp;&amp; ISPICKVAL( Priority , &#39;Medium&#39;)  &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; (RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info Second Followup</fullName>
+        <active>false</active>
+        <description>Processes the Second Followup for Request for further information from Customer</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;) &amp;&amp;  (ISPICKVAL( Priority , &#39;High&#39;) || ISPICKVAL( Priority , &#39;Medium&#39;) || ISPICKVAL( Priority , &#39;Urgent&#39;)) &amp;&amp;  New_Portal_Case_Comment__c = False &amp;&amp; ( RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False &amp;&amp;  NOT(ISBLANK(AwaitInfoSecondFollowupDue__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Final_Request_for_more_information</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Case_Clear_Second_Followup_Due_Date</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.AwaitInfoSecondFollowupDue__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info Second Followup v2</fullName>
+        <active>true</active>
+        <description>Processes the Second Followup for Request for further information from Customer</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;) &amp;&amp;  New_Portal_Case_Comment__c = False &amp;&amp; ( RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False &amp;&amp;  NOT(ISBLANK(AwaitInfoSecondFollowupDue__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Final_Request_for_more_information</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>CASE_Final_Followup_Due</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>CASE_Set_Last_Customer_Contact</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <offsetFromField>Case.AwaitInfoSecondFollowupDue__c</offsetFromField>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CASE%3A Waiting for Info Urgent</fullName>
+        <actions>
+            <name>Case_Final_Followup_plus_6_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_First_Followup_plus_2_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Case_Second_Followup_plus_4_work_days</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Manages followup reminder emails when more information requested and customer has not obliged</description>
+        <formula>ISPICKVAL(Status, &#39;Awaiting Customer&#39;)  &amp;&amp; ISPICKVAL( Priority , &#39;Urgent&#39;)  &amp;&amp; New_Portal_Case_Comment__c = False &amp;&amp; (RecordType.Name = &#39;I have a Question&#39; || RecordType.Name = &#39;I am experiencing an issue&#39; || RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp;  New_Customer_Email__c = False  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Applied PROD</fullName>
+        <actions>
+            <name>Email_to_Contact_when_change_request_applied_to_PROD</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Applied_PROD</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Change Request is changed to Applied PROD, notify the Contact (tester)</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp; ISPICKVAL(SFCAB_Status__c, &quot;Applied PROD&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Applied UAT</fullName>
+        <actions>
+            <name>Notify_Contact_that_change_is_applied_to_UAT_and_required_testing</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Applied_UAT</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Change Request is changed to Applied UAT notify Contact (Tester)</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp; ISPICKVAL(SFCAB_Status__c, &quot;Applied UAT&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Approved PROD</fullName>
+        <actions>
+            <name>Email_to_Case_owner_when_Approved_PROD</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Approved_PROD</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Change Request is changed to Approved PROD notify the Case Owner (Admin)</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp; ISPICKVAL(SFCAB_Status__c, &quot;Approved PROD&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Approved UAT</fullName>
+        <actions>
+            <name>Email_Case_Owner_that_Change_Request_approved_for_UAT</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Approved_UAT</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Change Request is changed to Approved UAT, notify Case Owner (Admin)</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp; ISPICKVAL(SFCAB_Status__c, &quot;Approved UAT&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR COMPLETE</fullName>
+        <actions>
+            <name>CASE_Update_Status_to_Closed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_COMPLETE</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Change Request is changed to Complete set Status to Closed</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp; ISPICKVAL(SFCAB_Status__c, &quot;COMPLETE&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Dev Completed</fullName>
+        <actions>
+            <name>Notify_Contact_that_change_is_completed_in_Dev_and_required_testing</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Dev_completed</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Change Request is changed to Dev Completed notify Contact (Tester)</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp; ISPICKVAL(SFCAB_Status__c, &quot;Dev Completed&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Implementation Due</fullName>
+        <active>true</active>
+        <description>Notify the case owner of a Change Request the day before it&#39;s due to be implemented</description>
+        <formula>RecordType.Name = &quot;Change Control&quot; &amp;&amp;  IsClosed = False &amp;&amp;  NOT(ISNULL(Implementation_Date_Time__c))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Notify_CR_Owner_the_day_before_Implementation_is_due</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Case.Implementation_Date_Time__c</offsetFromField>
+            <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>CR Sales DEV to Pending UAT</fullName>
+        <actions>
+            <name>Email_Sales_Cloud_Approvers_when_pending_UAT</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Pending_UAT</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Sales Cloud Change Request is changed from DEV to Pending UAT notify the Sales Cloud Approvers Group</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp;  ISPICKVAL(SFCAB_Status__c, &quot;Pending UAT&quot;) &amp;&amp; ISPICKVAL(System__c, &quot;Sales Cloud&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Sales to Pending Prod</fullName>
+        <actions>
+            <name>Email_Sales_Cloud_Approvers_when_pending_PROD</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Pending_PROD</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Sales Cloud Change Request is changed to Pending PROD notify the Sales Cloud Approvers Group</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp;  ISPICKVAL(SFCAB_Status__c, &quot;Pending PROD&quot;) &amp;&amp; ISPICKVAL(System__c, &quot;Sales Cloud&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Service DEV to Pending UAT</fullName>
+        <actions>
+            <name>Email_Service_Cloud_Approvers_when_pending_UAT</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Pending_UAT</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Service Cloud Change Request is changed from DEV to Pending UAT notify the Service Cloud Approvers Group</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp;  ISPICKVAL(SFCAB_Status__c, &quot;Pending UAT&quot;) &amp;&amp; ISPICKVAL(System__c, &quot;Service Cloud&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR Service to Pending Prod</fullName>
+        <actions>
+            <name>Email_Service_Cloud_Approvers_when_pending_PROD</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Pending_PROD</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Service Cloud Change Request is changed to Pending PROD notify the Service Cloud Approvers Group</description>
+        <formula>ISCHANGED( SFCAB_Status__c ) &amp;&amp; RecordType.Name = &quot;Change Control&quot; &amp;&amp;  ISPICKVAL(SFCAB_Status__c, &quot;Pending PROD&quot;) &amp;&amp; ISPICKVAL(System__c, &quot;Service Cloud&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR to DEV</fullName>
+        <actions>
+            <name>Email_to_Case_owner_when_change_request_set_back_to_DEV</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_Dev</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Salesforce Change Request is changed to Dev, case owner is notified</description>
+        <formula>AND (ISCHANGED( SFCAB_Status__c ), RecordType.Name = &quot;Change Control&quot;, ISPICKVAL(SFCAB_Status__c, &quot;Dev&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>CR to Rejected</fullName>
+        <actions>
+            <name>Email_to_Case_owner_when_change_request_REJECTED</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CR_Case_set_to_REJECTED</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <description>When a Salesforce Change Request is changed to Rejected, Case Owner is notified and Status is changed back to Dev</description>
+        <formula>AND (ISCHANGED( SFCAB_Status__c ), RecordType.Name = &quot;Change Control&quot;, ISPICKVAL(SFCAB_Status__c, &quot;REJECTED&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Close notify contact</fullName>
+        <actions>
+            <name>close_case_email_alert</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CASE_Clear_New_Customer_Attachment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Clear_New_Customer_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Clear_New_Portal_Case_Comment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Set_Last_Customer_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Generate an email to Contact when one of the Status equates to Case being Closed</description>
+        <formula>IsClosed = True &amp;&amp; RecordType.Name &lt;&gt; &#39;Change Control&#39; &amp;&amp; RecordType.Name &lt;&gt; &#39;I require Consulting services&#39; &amp;&amp;  Resolution__c &lt;&gt; &#39;Customer did not respond to requests for information&#39; &amp;&amp; Resolution__c &lt;&gt; &#39;Quote expired&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Close notify contact Cons Serv</fullName>
+        <actions>
+            <name>close_case_email_alert_Cons_Serv</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CASE_Clear_New_Customer_Attachment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Clear_New_Customer_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Clear_New_Portal_Case_Comment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>CASE_Set_Last_Customer_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Generate an email to Contact when one of the Status equates to Case being Closed when record type is I require Consulting services</description>
+        <formula>IsClosed = True &amp;&amp; RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; Resolution__c &lt;&gt; &#39;Quote expired&#39; &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Priority Has Changed</fullName>
+        <actions>
+            <name>CASE_Update_Priority_Has_Changed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updates Case: Priority Has Changed flag when a customer changes the priority on an open Case.</description>
+        <formula>AND(     IsClosed = False,     ISCHANGED(Priority),     BEGINS(LOWER($Profile.Name), &#39;customer&#39;), NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Rec Type to Cons Serv</fullName>
+        <actions>
+            <name>CASE_Set_Status_to_Pending_Quote</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Set status to Pending Quote when record type changed to I require Consulting Services.</description>
+        <formula>IsClosed = False &amp;&amp;  ISCHANGED( RecordTypeId ) &amp;&amp;  RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case given P1 %28Critical%29 Case Priority</fullName>
+        <actions>
+            <name>Alert_when_a_P1_Critical_Case_has_been_logged</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send an email to appropriate staff advising of Case given a Critical Priority</description>
+        <formula>ISPICKVAL( Priority , &#39;Critical&#39;) &amp;&amp; NOT( RecordType.Name = &#39;Change Control&#39;) &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>DeveloperAnalysisCleared</fullName>
+        <actions>
+            <name>SetDevAnalysisFalse</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Set DevAnalysisTrue checkbox to False if the &quot;Developer Analysis&quot; field on the case is cleared</description>
+        <formula>ISBLANK( Developer_Analysis__c ) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>DeveloperAnalysisEntered</fullName>
+        <actions>
+            <name>SetDevAnalysisTrue</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Set DevAnalysisTrue checkbox if the &quot;Developer Analysis&quot; field on the case has a value</description>
+        <formula>NOT( ISBLANK( Developer_Analysis__c ) ) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify Contact On case creation</fullName>
+        <actions>
+            <name>Case_Creation</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>Send email to Contact when new Case is created</description>
+        <formula>ISPICKVAL(Status, &#39;New&#39;) &amp;&amp; (NOT(Account.QUEUE_Allocation__c = &#39;AMS&#39;) || (Account.QUEUE_Allocation__c = &#39;AMS&#39; &amp;&amp; RecordType.Name = &#39;I am experiencing an issue&#39;) || (Account.QUEUE_Allocation__c = &#39;AMS&#39; &amp;&amp; RecordType.Name = &#39;I have a Question&#39;) || (Account.QUEUE_Allocation__c = &#39;AMS&#39; &amp;&amp; RecordType.Name = &#39;I require a TechnologyOne Cloud service&#39;) ) &amp;&amp; NOT(RecordType.Name = &#39;Change Control&#39;) &amp;&amp; NOT(RecordType.Name = &#39;I require Consulting services&#39;) &amp;&amp; NOT(RecordType.Name = &#39;Consulting - Question&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify Contact On case creation - AMS</fullName>
+        <actions>
+            <name>Case_Creation_AMS</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>Send email to Contact when new Case is created and routed to the AMS queues</description>
+        <formula>ISPICKVAL(Status, &#39;New&#39;) &amp;&amp; (Account.QUEUE_Allocation__c = &#39;AMS&#39;) &amp;&amp; (RecordType.Name = &#39;I require an AMS service&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Notify Contact On case creation - Consulting Services</fullName>
+        <actions>
+            <name>Case_Creation_Consulting_Services</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>Send email to Contact when new Consulting Services Case is created</description>
+        <formula>ISPICKVAL(Status, &#39;New&#39;) &amp;&amp; 
+RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp;
+NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>P1 %28Critical%29 Case Closed</fullName>
+        <actions>
+            <name>Alert_when_a_P1_Critical_Case_Closed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send an email to appropriate staff advising when a Critical Case is closed</description>
+        <formula>IsClosed = True &amp;&amp; NOT( RecordType.Name = &#39;Change Control&#39;) &amp;&amp;  ISPICKVAL( Priority , &#39;Critical&#39;)  &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>P1 %28Critical%29 Case Priority downgraded</fullName>
+        <actions>
+            <name>Alert_when_a_P1_Critical_Case_downgraded</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send an email to appropriate staff advising when Case Critical Priority downgraded</description>
+        <formula>ISCHANGED(Priority) &amp;&amp; ISPICKVAL(PRIORVALUE(Priority) , &quot;Critical&quot;) &amp;&amp; NOT(ISPICKVAL(Priority, &quot;Critical&quot;)) &amp;&amp;  NOT( RecordType.Name = &#39;Change Control&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>P1 %28Critical%29 Case Priority upgraded</fullName>
+        <actions>
+            <name>Alert_when_Case_is_upgraded_to_P1_Critical_Case</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send an email to appropriate staff advising when a Case is upgraded to Critical Priority</description>
+        <formula>ISCHANGED(Priority) &amp;&amp; NOT(ISPICKVAL(PRIORVALUE(Priority) , &quot;Critical&quot;)) &amp;&amp; ISPICKVAL(Priority, &quot;Critical&quot;) &amp;&amp; NOT( RecordType.Name = &#39;Change Control&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Restart Case Milestones</fullName>
+        <actions>
+            <name>Set_Stopped_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Restarts the Case Milestones</description>
+        <formula>AND(  ISCHANGED(Status),  OR (ISPICKVAL(PRIORVALUE(Status) , &#39;On Hold&#39;),  ISPICKVAL(PRIORVALUE(Status) , &#39;Awaiting Customer&#39;)), ISPICKVAL(Status, &#39;In Progress&#39;), NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Interim Solution</fullName>
+        <actions>
+            <name>Send_Interim_Solution</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CASE_Set_Last_Customer_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Interim_Solution_Provided_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( Interim_Solution__c ) &amp;&amp;
+NOT(ISBLANK(Interim_Solution__c )) &amp;&amp; 
+NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Resolved Template to Customer</fullName>
+        <actions>
+            <name>Send_Resolved_Template_to_Customer</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>CASE_Set_Last_Customer_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Send email to Case Contact when Status is Resolved</description>
+        <formula>ISPICKVAL( Status , &#39;Resolved&#39;) &amp;&amp; 
+NOT(RecordType.Name = &#39;I require Consulting services&#39;) &amp;&amp; 
+NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Special alert for case raised</fullName>
+        <actions>
+            <name>Special_Alert_Customer_case_raised</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send an email to appropriate staff advising of Case raised by specific customers</description>
+        <formula>Account.Id = &#39;001G000001JbFx4&#39; || Account.Id = &#39;001G000001JbFhg&#39; || Account.Id = &#39;001G000001z8hlh&#39;  &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Special alert for case updates</fullName>
+        <actions>
+            <name>Special_Alert_Customer_case_updated</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Send an email to appropriate staff advising of Case updated for specific customers</description>
+        <formula>(Account.Id = &#39;001G000001JbFx4&#39; || Account.Id = &#39;001G000001JbFhg&#39; || Account.Id = &#39;001G000001z8hlh&#39;) &amp;&amp; 
+((ISCHANGED(New_Customer_Attachment__c) &amp;&amp; New_Customer_Attachment__c = true) || 
+(ISCHANGED(New_Customer_Email__c) &amp;&amp; New_Customer_Email__c = true) || 
+(ISCHANGED(Priority_Has_Changed__c) &amp;&amp; Priority_Has_Changed__c = true) || 
+(ISCHANGED(New_Portal_Case_Comment__c) &amp;&amp; New_Portal_Case_Comment__c = true)) 
+&amp;&amp; (Case_Age_in_Minutes__c &gt; 3) 
+&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Stop Case Milestones</fullName>
+        <actions>
+            <name>Set_Stopped_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Stops the Case Milestones</description>
+        <formula>AND(  ISCHANGED(Status),  OR (ISPICKVAL(Status , &#39;On Hold&#39;),  ISPICKVAL(Status , &#39;Awaiting Customer&#39;)), ISPICKVAL(PRIORVALUE(Status), &#39;In Progress&#39;), NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Chatter Answers to Question Record Type</fullName>
+        <actions>
+            <name>Update_Priority_to_Medium</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_status_to_new</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Update_to_Question</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>Sets specific Case field values for any Case added via Chatter Answers</description>
+        <formula>ISPICKVAL(Origin, &#39;Chatter Answers&#39;) &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Status %3D In Progress when Take Ownership</fullName>
+        <actions>
+            <name>Update_Status_In_Progress_when_Take_Ow</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Status to In Progress when the take ownership button is pressed</description>
+        <formula>(ISPICKVAL(Status, &quot;New&quot;) &amp;&amp; LEFT(Owner:User.Id, 3) = &#39;005&#39; &amp;&amp; Owner:User.ContactId = &#39;&#39; &amp;&amp;  NOT($Setup.T1_Control_Settings__c.Bypass_Workflow__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <tasks>
+        <fullName>CR_Case_set_to_Applied_PROD</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to Applied PROD</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_Applied_UAT</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to Applied UAT</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_Approved_PROD</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to Approved PROD</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_Approved_UAT</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to Approved UAT</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_COMPLETE</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to COMPLETE</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_Dev</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR Set to Dev</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_Dev_completed</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to Dev completed</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_Pending_PROD</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to Pending PROD</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_Pending_UAT</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to Pending UAT</subject>
+    </tasks>
+    <tasks>
+        <fullName>CR_Case_set_to_REJECTED</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Task for tracking email alert</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Closed</status>
+        <subject>CR set to REJECTED</subject>
+    </tasks>
+</Workflow>

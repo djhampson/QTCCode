@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_77125045</developerName>
+        <masterLabel>Pipeline vs Won</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>STAGE_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>1 - Discovery</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>2 - Qualify</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>3 - Proposal</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>4 - Shortlisted</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>5 - Preferred</sourceValue>
+            </sourceValues>
+            <value>Pipeline</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>6 - Sales Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>7 - Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stage 9 - Won</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lost</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Opt Out / No Bid</sourceValue>
+            </sourceValues>
+            <value>Lost / Opt Out</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity.Primary_Campaign_Name__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Licence_Model__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.ARR1__c.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.Amount_1__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Forecast_Level__c</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_TYPE</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND (7 OR 8)</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Opportunity.Licence_Fee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Sales Operations</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Customer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>TechnologyOne</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>apples ltd (TEST)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.SaaS_Cloud_Hosting__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Licence_Model__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>SaaS,SaaS Flip,Cloud</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OPPORTUNITY_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>SaaS Flip</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Group_Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Vertical_Market__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>fy20_q4_one-effect New Opportunities</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

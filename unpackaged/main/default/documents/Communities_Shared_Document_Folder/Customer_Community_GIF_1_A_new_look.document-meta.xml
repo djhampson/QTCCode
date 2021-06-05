@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>GIF 1 - A new look is coming</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Customer Community GIF 1 - A new look</name>
+    <public>true</public>
+</Document>

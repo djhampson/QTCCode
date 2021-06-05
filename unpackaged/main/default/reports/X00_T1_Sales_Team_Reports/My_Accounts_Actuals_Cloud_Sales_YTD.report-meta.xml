@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Opportunities$Cloud_Service_Fee_per_year__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Opportunities$Annual_SaaS_Cloud_Fee__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Opportunities$First_Year_Cloud_Fee__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$CloseDate</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account.Opportunities$First_Year_Cloud_Fee__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>AUD 0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Type</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No business fit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Opportunities$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Stage 9 - Won</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Opportunities$T1_Close_Month__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>My Accounts Actuals Cloud Sales YTD</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Opportunities__c</reportType>
+    <scope>accountteamteam</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Opportunities$CloseDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

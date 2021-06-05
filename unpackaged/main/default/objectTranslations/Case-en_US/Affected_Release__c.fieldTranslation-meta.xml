@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate the software release your case relates to. For guidance on how to set this field, please see the Knowledge Article &apos;How to Identify Your Current Release.&quot; --></help>
+        <label><!-- Affected Release --></label>
+        <name>Affected_Release__c</name>
+        <picklistValues>
+            <masterLabel>2017A</masterLabel>
+            <translation><!-- 2017A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018A</masterLabel>
+            <translation><!-- 2018A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018B</masterLabel>
+            <translation><!-- 2018B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019A</masterLabel>
+            <translation><!-- 2019A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019B</masterLabel>
+            <translation><!-- 2019B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020A</masterLabel>
+            <translation><!-- 2020A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020B</masterLabel>
+            <translation><!-- 2020B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021A</masterLabel>
+            <translation><!-- 2021A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

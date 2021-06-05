@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Consulting Approval Status --></label>
+        <name>Consulting_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved after deal signed</masterLabel>
+            <translation><!-- Approved after deal signed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved before deal signed</masterLabel>
+            <translation><!-- Approved before deal signed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No approval submitted</masterLabel>
+            <translation><!-- No approval submitted --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

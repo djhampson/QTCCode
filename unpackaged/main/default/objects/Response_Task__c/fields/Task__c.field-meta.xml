@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Task__c</fullName>
+    <externalId>false</externalId>
+    <label>Task</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Appendices</fullName>
+                <default>false</default>
+                <label>Appendices</label>
+            </value>
+            <value>
+                <fullName>Appendix C - Roles and Deliverables</fullName>
+                <default>false</default>
+                <label>Appendix C - Roles and Deliverables</label>
+            </value>
+            <value>
+                <fullName>Appendix D - Indicative Project Plan</fullName>
+                <default>false</default>
+                <label>Appendix D - Indicative Project Plan</label>
+            </value>
+            <value>
+                <fullName>Cloud Pricing</fullName>
+                <default>false</default>
+                <label>Cloud Pricing</label>
+            </value>
+            <value>
+                <fullName>Cloud Responses</fullName>
+                <default>false</default>
+                <label>Cloud Responses</label>
+            </value>
+            <value>
+                <fullName>Collate Responses</fullName>
+                <default>false</default>
+                <label>Collate Responses</label>
+            </value>
+            <value>
+                <fullName>Corporate Responses</fullName>
+                <default>false</default>
+                <label>Corporate Responses</label>
+            </value>
+            <value>
+                <fullName>Cover Letter</fullName>
+                <default>false</default>
+                <label>Cover Letter</label>
+            </value>
+            <value>
+                <fullName>Document Schedule</fullName>
+                <default>false</default>
+                <label>Document Schedule</label>
+            </value>
+            <value>
+                <fullName>Executive Summary</fullName>
+                <default>false</default>
+                <label>Executive Summary</label>
+            </value>
+            <value>
+                <fullName>Format Documents</fullName>
+                <default>false</default>
+                <label>Format Documents</label>
+            </value>
+            <value>
+                <fullName>Implementation Pricing</fullName>
+                <default>false</default>
+                <label>Implementation Pricing</label>
+            </value>
+            <value>
+                <fullName>Investment Summary</fullName>
+                <default>false</default>
+                <label>Investment Summary</label>
+            </value>
+            <value>
+                <fullName>Legal Terms and Conditions</fullName>
+                <default>false</default>
+                <label>Legal Terms and Conditions</label>
+            </value>
+            <value>
+                <fullName>License Pricing</fullName>
+                <default>false</default>
+                <label>License Pricing</label>
+            </value>
+            <value>
+                <fullName>Product Responses</fullName>
+                <default>false</default>
+                <label>Product Responses</label>
+            </value>
+            <value>
+                <fullName>Services Pricing</fullName>
+                <default>false</default>
+                <label>Services Pricing</label>
+            </value>
+            <value>
+                <fullName>Services Responses</fullName>
+                <default>false</default>
+                <label>Services Responses</label>
+            </value>
+            <value>
+                <fullName>Solution Overview</fullName>
+                <default>false</default>
+                <label>Solution Overview</label>
+            </value>
+            <value>
+                <fullName>T1 Standard Response Document, Section 3, SIM 9 update</fullName>
+                <default>false</default>
+                <label>T1 Standard Response Document, Section 3, SIM 9 update</label>
+            </value>
+            <value>
+                <fullName>Technical Responses</fullName>
+                <default>false</default>
+                <label>Technical Responses</label>
+            </value>
+            <value>
+                <fullName>AMS Pricing and Responses</fullName>
+                <default>false</default>
+                <label>AMS Pricing and Responses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

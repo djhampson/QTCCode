@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pricing --></label>
+        <name>Pricing__c</name>
+        <picklistValues>
+            <masterLabel>Contracted Pricing from the Parent</masterLabel>
+            <translation><!-- Contracted Pricing from the Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Contracted Pricing</masterLabel>
+            <translation><!-- No Contracted Pricing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

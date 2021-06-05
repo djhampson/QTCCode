@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EscalationRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <escalationRule>
+        <fullName>Set Business Hours</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <businessHours>24x7</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>Mercy Health and Aged Care Incorporated</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Customer_Product__c</field>
+                <operation>equals</operation>
+                <value>Human Resource &amp; Payroll (HRP)</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I am experiencing an issue</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Victoria 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>Mercy Health and Aged Care Incorporated</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>CAA - TAFE Queensland</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>CAA - TAFE Queensland</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>Department of Education &amp; Training</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>Department of Education &amp; Training</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>New Zealand 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>Wellington City Council</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>United Kingdom 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>University of Lincoln</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>24x7</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>La Trobe University</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>TAFE Queensland</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Victoria 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+            <formula>Account.Name = &#39;University of Melbourne&#39; &amp;&amp;
+RecordType.Name = &#39;I am experiencing an issue&#39;</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>United Kingdom 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+            <formula>Account.Name = &#39;The University of Dundee&#39; &amp;&amp;
+RecordType.Name = &#39;I am experiencing an issue&#39;</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+            <formula>Account.Name = &#39;Moreton Bay Regional Council&#39; &amp;&amp;
+RecordType.Name = &#39;I am experiencing an issue&#39;</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Victoria 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.Name</field>
+                <operation>equals</operation>
+                <value>Victoria University</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I am experiencing an issue</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Customer_Product__c</field>
+                <operation>equals</operation>
+                <value>Student Management (SM)</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Australian Capital Territory 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>ACT</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>New South Wales 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>New South Wales</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Tasmania 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Tasmania</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Northern Territory 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Northern Territory</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Queensland</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>South Australia 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>South Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Victoria 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Victoria</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Western Australia 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Western Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>United Kingdom 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>United Kingdom</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Pacific 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Pacific</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>New Zealand 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>New Zealand</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>SE Asia 7-7 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Asia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Cloud_Hosting__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>notEqual</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Australian Capital Territory 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>ACT</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>New South Wales 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>New South Wales</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Tasmania 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Tasmania</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Northern Territory 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Northern Territory</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Queensland</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>South Australia 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>South Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Victoria 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Victoria</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Western Australia 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Western Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>United Kingdom 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>United Kingdom</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Pacific 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Pacific</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>New Zealand 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>New Zealand</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>SE Asia 8-6 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Asia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>I require an AMS service</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Australian Capital Territory 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>ACT</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>New South Wales 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>New South Wales</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Tasmania 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Tasmania</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Northern Territory 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Northern Territory</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Queensland 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Queensland</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>South Australia 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>South Australia</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Victoria 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Victoria</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Western Australia 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Australia</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Account.Region__c</field>
+                <operation>equals</operation>
+                <value>Western Australia</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>United Kingdom 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>United Kingdom</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>Pacific 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Pacific</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>New Zealand 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>New Zealand</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+        <ruleEntry>
+            <businessHours>SE Asia 9-5 M-F</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Account.CountryArea__c</field>
+                <operation>equals</operation>
+                <value>Asia</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+</EscalationRules>

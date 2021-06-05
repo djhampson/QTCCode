@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Detail of any non-standard terms relating to Customer data access --></help>
+        <label><!-- Non-Standard Data Access Detail --></label>
+        <name>Non_Standard_Data_Access_Detail__c</name>
+    </CustomFieldTranslation>

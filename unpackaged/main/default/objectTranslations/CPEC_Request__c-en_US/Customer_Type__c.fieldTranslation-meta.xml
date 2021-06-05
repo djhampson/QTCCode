@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Customer Type --></label>
+        <name>Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Enterprise Licence</masterLabel>
+            <translation><!-- Enterprise Licence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Prem</masterLabel>
+            <translation><!-- On Prem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual On Cloud</masterLabel>
+            <translation><!-- Perpetual On Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual On Prem</masterLabel>
+            <translation><!-- Perpetual On Prem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS</masterLabel>
+            <translation><!-- SaaS --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

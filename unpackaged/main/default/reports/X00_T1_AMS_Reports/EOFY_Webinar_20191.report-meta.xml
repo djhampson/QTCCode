@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_76824239</developerName>
+        <masterLabel>Green Flag</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Customer_Reply_Action_Needed__c</sourceColumnName>
+        <useOther>false</useOther>
+    </buckets>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>Case.Customer_Reference__c</field>
+    </columns>
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Case.Total_Excl_Tax__c</field>
+    </columns>
+    <columns>
+        <field>RECORDTYPE</field>
+    </columns>
+    <columns>
+        <field>Case.Last_Customer_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Case.Customer_Reply_Action_Needed__c</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>EOFY Webinar registrations 2019</description>
+    <filter>
+        <booleanFilter>((((((1 OR 2) AND 3) AND 4) AND 5) AND 6) AND 7) AND 8</booleanFilter>
+        <criteriaItems>
+            <column>Case.Customer_Reference__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>EOFY Webinar,EOFY,EOY,End of year,HRP EOFY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>EOFY,EOY,HRP EOFY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Scheduled,On Hold,Closed,Resolved,Quote Declined</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CREATED_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>5/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Case.Change_Control,Case.Incident,Case.Problem,Case.Question,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CASE_NUMBER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>00242259,00242494,00242499,00244978,00245680,0245934,00246484,00246660,00247084,00247183,00247268,00247452,00247496,00244821,00244927,00242051,00241724,00242282,00244033,00241746,00242404</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Customer_Product__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Technical</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>AMS Technical</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <name>EOFY Webinar 2019</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>STATUS</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

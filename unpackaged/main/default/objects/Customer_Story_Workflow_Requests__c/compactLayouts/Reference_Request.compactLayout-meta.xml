@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_Request</fullName>
+    <fields>Name</fields>
+    <fields>Customer_Story__c</fields>
+    <fields>Reference_Customer__c</fields>
+    <fields>Approximate_Date__c</fields>
+    <fields>Type__c</fields>
+    <fields>Request_Status__c</fields>
+    <label>Reference Request</label>
+</CompactLayout>

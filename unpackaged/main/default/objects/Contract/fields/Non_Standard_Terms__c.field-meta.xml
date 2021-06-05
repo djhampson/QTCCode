@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Standard_Terms__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL( Extended_Cloud_SLAs__c , &#39;Yes&#39;) || 
+( Non_Standard_Support_Terms_Formula__c = TRUE) ||
+ISPICKVAL( Non_standard_Payment_Terms__c , &#39;Yes&#39;) ||
+ISPICKVAL( Refund_Clause__c , &#39;Yes&#39;) ||
+ISPICKVAL( Non_standard_Liability_Cap_2X__c , &#39;Yes&#39;) ||
+ISPICKVAL( Non_standard_Liability_Cap_2X__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Non_Standard_Indemnity__c , &#39;Yes&#39;) ||
+ISPICKVAL( Performance_Parent_Bank_Guarantees__c , &#39;Yes&#39;) ||
+ISPICKVAL( Performance_Parent_Bank_Guarantees__c, &#39;Yes - On Request&#39;) ||
+ISPICKVAL( Non_Standard_Warranties__c , &#39;Yes&#39;) ||
+ISPICKVAL( Non_Standard_Warranties__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Liquidated_Damages__c , &#39;Yes&#39;) ||
+ISPICKVAL( Future_Functionality__c , &#39;Yes&#39;) ||
+NOT ISBLANK( Other_Non_Standard_Clauses__c )</formula>
+    <label>Non-Standard Terms</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

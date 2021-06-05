@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>IEUser</audienceName>
+    <container>T1 Customer Community</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <entityField>$User.IE_Compatibility_for_Community__c</entityField>
+                <entityType>User</entityType>
+                <fieldValue>true</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>3c9c986e-2552-4177-af19-703d5005bd19</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Idea_List_Idea_List_IE_Page</targetValue>
+        </target>
+    </targets>
+</Audience>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fee Type --></label>
+        <name>Fee_Type__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licence</masterLabel>
+            <translation><!-- Licence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS Platform</masterLabel>
+            <translation><!-- SaaS Platform --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

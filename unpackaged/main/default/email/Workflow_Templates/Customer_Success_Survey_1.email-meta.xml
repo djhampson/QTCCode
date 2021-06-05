@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Customer Success Surveys</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Customer Success Survey 1</name>
+    <style>none</style>
+    <subject>Customer Success Program</subject>
+    <textOnly>Hi  {!P_S_Survey_Recipient__c.Contact_First_Name__c},
+
+As discussed, with the roll-out of Customer Success we are trying to get an early indicator on our impact and effectiveness.
+
+I’d really value your responses to our questions and then I’ll follow up in about 90 days to see if we have moved the dial at all.
+
+COMPLETE THE SURVEY
+
+
+
+Finally, please feel free to reach out to me at any point moving forward.
+
+Thanks again
+
+Regards,
+Stephen Williams
+Director - Customer Success
+TechnologyOne
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

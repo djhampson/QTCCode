@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count down days if Bid is Under Qualification or In Progress --></help>
+        <label><!-- Days to Complete --></label>
+        <name>Days_to_Complete__c</name>
+    </CustomFieldTranslation>

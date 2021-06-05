@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Apps --></label>
+        <name>Apps__c</name>
+        <picklistValues>
+            <masterLabel>Accounts Receivable Processing</masterLabel>
+            <translation><!-- Accounts Receivable Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Animals</masterLabel>
+            <translation><!-- Animals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Booking</masterLabel>
+            <translation><!-- Asset Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assets Core</masterLabel>
+            <translation><!-- Assets Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business ETL</masterLabel>
+            <translation><!-- Business ETL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Intelligence</masterLabel>
+            <translation><!-- Business Intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMIS</masterLabel>
+            <translation><!-- CMIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPM Core</masterLabel>
+            <translation><!-- CPM Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRM System Management</masterLabel>
+            <translation><!-- CRM System Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalogues and Suppliers</masterLabel>
+            <translation><!-- Catalogues and Suppliers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charts</masterLabel>
+            <translation><!-- Charts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci Anywhere Compatibility</masterLabel>
+            <translation><!-- Ci Anywhere Compatibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci Anywhere Hybrid Runtime</masterLabel>
+            <translation><!-- Ci Anywhere Hybrid Runtime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci Anywhere Web Runtime</masterLabel>
+            <translation><!-- Ci Anywhere Web Runtime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Common Business</masterLabel>
+            <translation><!-- Common Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connected Content</masterLabel>
+            <translation><!-- Connected Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracts</masterLabel>
+            <translation><!-- Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Directory</masterLabel>
+            <translation><!-- Corporate Directory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crystal Reports</masterLabel>
+            <translation><!-- Crystal Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Entry</masterLabel>
+            <translation><!-- Data Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debtors</masterLabel>
+            <translation><!-- Debtors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributed Processor</masterLabel>
+            <translation><!-- Distributed Processor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dynamic Entities</masterLabel>
+            <translation><!-- Dynamic Entities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECM Core</masterLabel>
+            <translation><!-- ECM Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECM Tasks</masterLabel>
+            <translation><!-- ECM Tasks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Budgeting</masterLabel>
+            <translation><!-- Enterprise Budgeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expense Reporting</masterLabel>
+            <translation><!-- Expense Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financials Management</masterLabel>
+            <translation><!-- Financials Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financials Security</masterLabel>
+            <translation><!-- Financials Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Assets</masterLabel>
+            <translation><!-- Fixed Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forms</masterLabel>
+            <translation><!-- Forms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRP Core</masterLabel>
+            <translation><!-- HRP Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infringements</masterLabel>
+            <translation><!-- Infringements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory</masterLabel>
+            <translation><!-- Inventory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave</masterLabel>
+            <translation><!-- Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ledgers</masterLabel>
+            <translation><!-- Ledgers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My CRM</masterLabel>
+            <translation><!-- My CRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My Workflow</masterLabel>
+            <translation><!-- My Workflow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nucleus</masterLabel>
+            <translation><!-- Nucleus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Assets</masterLabel>
+            <translation><!-- Operating Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organisation Management</masterLabel>
+            <translation><!-- Organisation Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;R Management</masterLabel>
+            <translation><!-- P&amp;R Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>People Management</masterLabel>
+            <translation><!-- People Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Planning</masterLabel>
+            <translation><!-- Performance Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posting</masterLabel>
+            <translation><!-- Posting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projects</masterLabel>
+            <translation><!-- Projects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Core</masterLabel>
+            <translation><!-- Property Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Regulatory</masterLabel>
+            <translation><!-- Property Regulatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property | Land | Address | Name</masterLabel>
+            <translation><!-- Property | Land | Address | Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Cards</masterLabel>
+            <translation><!-- Purchase Cards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchasing</masterLabel>
+            <translation><!-- Purchasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reconciliation</masterLabel>
+            <translation><!-- Reconciliation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rendering</masterLabel>
+            <translation><!-- Rendering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCM Core</masterLabel>
+            <translation><!-- SCM Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety</masterLabel>
+            <translation><!-- Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Requisitions</masterLabel>
+            <translation><!-- Stock Requisitions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stored Scripts</masterLabel>
+            <translation><!-- Stored Scripts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Core</masterLabel>
+            <translation><!-- Student Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Curriculum</masterLabel>
+            <translation><!-- Student Curriculum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Finance</masterLabel>
+            <translation><!-- Student Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Portal Configuration</masterLabel>
+            <translation><!-- Student Portal Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Progressions</masterLabel>
+            <translation><!-- Student Progressions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Scholarships</masterLabel>
+            <translation><!-- Student Scholarships --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Studies</masterLabel>
+            <translation><!-- Student Studies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Timetabling</masterLabel>
+            <translation><!-- Student Timetabling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Integration</masterLabel>
+            <translation><!-- System Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Management</masterLabel>
+            <translation><!-- System Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Security</masterLabel>
+            <translation><!-- System Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent Management</masterLabel>
+            <translation><!-- Talent Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timesheets</masterLabel>
+            <translation><!-- Timesheets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Management</masterLabel>
+            <translation><!-- Water Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Orders</masterLabel>
+            <translation><!-- Work Orders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Requests</masterLabel>
+            <translation><!-- Work Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workplace</masterLabel>
+            <translation><!-- Workplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Works Core</masterLabel>
+            <translation><!-- Works Core --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XLOne</masterLabel>
+            <translation><!-- XLOne --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

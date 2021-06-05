@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Classification__c</fullName>
+    <externalId>false</externalId>
+    <label>Employee Classification</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bid Manager</fullName>
+                <default>false</default>
+                <label>Bid Manager</label>
+            </value>
+            <value>
+                <fullName>Business Development Manager</fullName>
+                <default>false</default>
+                <label>Business Development Manager</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Consulting Director</fullName>
+                <default>false</default>
+                <label>Consulting Director</label>
+            </value>
+            <value>
+                <fullName>Customer Account Manager</fullName>
+                <default>false</default>
+                <label>Customer Account Manager</label>
+            </value>
+            <value>
+                <fullName>Customer Development Manager</fullName>
+                <default>false</default>
+                <label>Customer Development Manager</label>
+            </value>
+            <value>
+                <fullName>Executive</fullName>
+                <default>false</default>
+                <label>Executive</label>
+            </value>
+            <value>
+                <fullName>General Manager</fullName>
+                <default>false</default>
+                <label>General Manager</label>
+            </value>
+            <value>
+                <fullName>Marketing Partner</fullName>
+                <default>false</default>
+                <label>Marketing Partner</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Practice Lead</fullName>
+                <default>false</default>
+                <label>Practice Lead</label>
+            </value>
+            <value>
+                <fullName>Presales Consultant</fullName>
+                <default>false</default>
+                <label>Presales Consultant</label>
+            </value>
+            <value>
+                <fullName>Product Customer Service Manager</fullName>
+                <default>false</default>
+                <label>Product Customer Service Manager</label>
+            </value>
+            <value>
+                <fullName>Regional Manager</fullName>
+                <default>false</default>
+                <label>Regional Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Administrator</fullName>
+                <default>false</default>
+                <label>Sales Administrator</label>
+            </value>
+            <value>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+                <label>Sales Operations</label>
+            </value>
+            <value>
+                <fullName>Solution Manager</fullName>
+                <default>false</default>
+                <label>Solution Manager</label>
+            </value>
+            <value>
+                <fullName>Telemarketing Partner</fullName>
+                <default>false</default>
+                <label>Telemarketing Partner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sentiment_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Sentiment Category</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Response</fullName>
+                <default>false</default>
+                <label>Response</label>
+            </value>
+            <value>
+                <fullName>Resolution</fullName>
+                <default>false</default>
+                <label>Resolution</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Incorrect Resolution</fullName>
+                <default>false</default>
+                <label>Incorrect Resolution</label>
+            </value>
+            <value>
+                <fullName>Case Closed Before Resolution</fullName>
+                <default>false</default>
+                <label>Case Closed Before Resolution</label>
+            </value>
+            <value>
+                <fullName>Insufficient Information in Resolution</fullName>
+                <default>false</default>
+                <label>Insufficient Information in Resolution</label>
+            </value>
+            <value>
+                <fullName>Unhappy with Solution Provided</fullName>
+                <default>false</default>
+                <label>Unhappy with Solution Provided</label>
+            </value>
+            <value>
+                <fullName>Development / Product Issue</fullName>
+                <default>false</default>
+                <label>Development / Product Issue</label>
+            </value>
+            <value>
+                <fullName>Auto Close</fullName>
+                <default>false</default>
+                <label>Auto Close</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

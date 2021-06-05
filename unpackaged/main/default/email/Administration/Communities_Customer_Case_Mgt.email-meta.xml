@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification that user has been given Case Management within the Customer community.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Communities: Customer Case Mgt</name>
+    <style>none</style>
+    <subject>Your Customer Community access</subject>
+    <textOnly>Dear {!Receiving_User.FirstName},
+
+Your Customer Community profile has been updated to include case management so the next time you log in you will see a tab for Cases.
+
+Key features for your updated profile
+
+Access knowledge articles
+Suggest ideas for product enhancements
+Engage with product experts and customers
+Ask questions, and help answer other customer questions
+Keep up to date on trending topics, articles and more
+Raise and manage support cases
+
+Now that you have access to case management please ensure you have familiarised yourself with the Customer Support Guide (on-premise or SaaS) and have reviewed the Customer Community - Cases knowledge article.
+
+Kind Regards
+
+TechnologyOne Community Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

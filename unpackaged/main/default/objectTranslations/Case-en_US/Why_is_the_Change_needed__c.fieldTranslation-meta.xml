@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Business Justification --></help>
+        <label><!-- Why is the Change needed? --></label>
+        <name>Why_is_the_Change_needed__c</name>
+    </CustomFieldTranslation>

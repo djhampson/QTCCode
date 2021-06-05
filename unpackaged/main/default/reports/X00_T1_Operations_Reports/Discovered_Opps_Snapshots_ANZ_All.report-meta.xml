@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_6968811</developerName>
+        <masterLabel>Stage Label</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Discovered_Opportunity_Snapshot__c.Stage__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Stage 3 - Discovery</sourceValue>
+            </sourceValues>
+            <value>S3</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Stage 4 - Qualified</sourceValue>
+            </sourceValues>
+            <value>S4</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Stage 5 - Bid</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stage 6 - Demo</sourceValue>
+            </sourceValues>
+            <value>S5/6</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Stage 7 - Shortlisted</sourceValue>
+            </sourceValues>
+            <value>S7</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Stage 8 - Preferred Vendor</sourceValue>
+            </sourceValues>
+            <value>S8</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Group_Region__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Vertical_Market__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Account_Name__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Opportunity_Name__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Forecast_Level__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Stage__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Close_Date__c</field>
+    </columns>
+    <columns>
+        <field>Discovered_Opportunity_Snapshot__c.Amount__c.CONVERT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Discovered_Opportunity_Snapshot__c.Amount__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>BucketField_6968811</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Discovered_Opportunity_Snapshot__c.Record_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Licence Fee</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Discovered_Opportunity_Snapshot__c.Country_Area__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>United Kingdom</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Discovered Opps Snapshots ANZ All</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Discovered_Opportunity_Snapshot__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_LASTWEEK</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Audience --></label>
+        <name>Audience__c</name>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Management</masterLabel>
+            <translation><!-- Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Analyst</masterLabel>
+            <translation><!-- Business Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chairman / Board</masterLabel>
+            <translation><!-- Chairman / Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Executive Officer / MD</masterLabel>
+            <translation><!-- Chief Executive Officer / MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Financial Officer</masterLabel>
+            <translation><!-- Chief Financial Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Information Officer</masterLabel>
+            <translation><!-- Chief Information Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Operating Officer</masterLabel>
+            <translation><!-- Chief Operating Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Performance Management</masterLabel>
+            <translation><!-- Corporate Performance Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Services Management</masterLabel>
+            <translation><!-- Corporate Services Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance - Senior</masterLabel>
+            <translation><!-- Finance - Senior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance Officer</masterLabel>
+            <translation><!-- Finance Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fleet Management</masterLabel>
+            <translation><!-- Fleet Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundraising Manager</masterLabel>
+            <translation><!-- Fundraising Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grants Management</masterLabel>
+            <translation><!-- Grants Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - Junior</masterLabel>
+            <translation><!-- HR - Junior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR - Senior</masterLabel>
+            <translation><!-- HR - Senior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Safety</masterLabel>
+            <translation><!-- HR Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Training and Development</masterLabel>
+            <translation><!-- HR Training and Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head of Transformation</masterLabel>
+            <translation><!-- Head of Transformation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health</masterLabel>
+            <translation><!-- Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Housing Manager</masterLabel>
+            <translation><!-- Housing Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT - Junior &amp; Systems Admin</masterLabel>
+            <translation><!-- IT - Junior &amp; Systems Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT - Senior</masterLabel>
+            <translation><!-- IT - Senior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayor and Councillors</masterLabel>
+            <translation><!-- Mayor and Councillors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ministerial Liaison</masterLabel>
+            <translation><!-- Ministerial Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll - Junior</masterLabel>
+            <translation><!-- Payroll - Junior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll - Senior</masterLabel>
+            <translation><!-- Payroll - Senior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning Management</masterLabel>
+            <translation><!-- Planning Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio and Project Management</masterLabel>
+            <translation><!-- Portfolio and Project Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procurement / Contracts</masterLabel>
+            <translation><!-- Procurement / Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property &amp; Facilities Management</masterLabel>
+            <translation><!-- Property &amp; Facilities Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rates</masterLabel>
+            <translation><!-- Rates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Records and Information Management</masterLabel>
+            <translation><!-- Records and Information Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales &amp; Marketing</masterLabel>
+            <translation><!-- Sales &amp; Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spatial/GIS</masterLabel>
+            <translation><!-- Spatial/GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work Management</masterLabel>
+            <translation><!-- Work Management --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

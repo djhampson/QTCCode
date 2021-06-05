@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology__c</fullName>
+    <externalId>false</externalId>
+    <label>Fixed Technology</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ci</fullName>
+                <default>false</default>
+                <label>Ci</label>
+            </value>
+            <value>
+                <fullName>CiAnywhere</fullName>
+                <default>false</default>
+                <label>CiAnywhere</label>
+            </value>
+            <value>
+                <fullName>Ci³</fullName>
+                <default>false</default>
+                <label>Ci³</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

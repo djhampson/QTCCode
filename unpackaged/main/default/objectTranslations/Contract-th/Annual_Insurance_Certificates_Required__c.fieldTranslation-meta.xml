@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If Yes - T1 to send Annually, T1 must send insurance certificates to customer regardless of request. For frequency, see Insurance Requirements Detail --></help>
+        <label><!-- Annual Insurance Certificates Required --></label>
+        <name>Annual_Insurance_Certificates_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - On Request</masterLabel>
+            <translation><!-- Yes - On Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes - T1 to Send Annually</masterLabel>
+            <translation><!-- Yes - T1 to Send Annually --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

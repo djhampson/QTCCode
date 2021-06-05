@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>KnowledgeArticle$Title</field>
+    </columns>
+    <columns>
+        <field>KnowledgeArticle$LastPublishedDate</field>
+    </columns>
+    <columns>
+        <field>KnowledgeArticle$LastModifiedDate</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>This report shows all Knowledge Articles by Type that have been last published since 01/01/14</description>
+    <filter>
+        <criteriaItems>
+            <column>KnowledgeArticle$LastPublishedDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>1/1/2014 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>KnowledgeArticle$ArticleType</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>All Knowledge Articles by Type</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Knowledge_Articles_Types__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KnowledgeArticle$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

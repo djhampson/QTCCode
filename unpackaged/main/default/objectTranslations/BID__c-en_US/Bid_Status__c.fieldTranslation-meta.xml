@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bid Status --></label>
+        <name>Bid_Status__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Next Stage</masterLabel>
+            <translation><!-- Next Stage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Bid Qualified Out</masterLabel>
+            <translation><!-- No Bid Qualified Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Shortlisted</masterLabel>
+            <translation><!-- Not Shortlisted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Release</masterLabel>
+            <translation><!-- Pre Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Process</masterLabel>
+            <translation><!-- Re-Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Qualification</masterLabel>
+            <translation><!-- Under Qualification --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

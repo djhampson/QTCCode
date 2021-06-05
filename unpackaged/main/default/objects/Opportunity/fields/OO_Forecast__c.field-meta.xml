@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OO_Forecast__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>OO Forecast</description>
+    <externalId>false</externalId>
+    <inlineHelpText>RMs tick only.</inlineHelpText>
+    <label>RM Forecast</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

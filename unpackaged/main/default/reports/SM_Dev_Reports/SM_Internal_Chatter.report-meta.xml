@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CollaborationGroup.FeedItems$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup.FeedItems$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup.FeedItems$Type</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup.FeedItems.Comments$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup.FeedItems.Comments$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>CollaborationGroup.FeedItems.Comments$CommentBody</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>SM Internal Chatter</description>
+    <filter>
+        <criteriaItems>
+            <column>CollaborationGroup$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>Student Management - Internal</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <aggregateType>RowCount</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>CollaborationGroup.FeedItems$Title</field>
+        <sortByName>RowCount</sortByName>
+        <sortOrder>Asc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CollaborationGroup.FeedItems$Body</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>SM Internal Chatter</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Chatter_Groups_with_Group_Feed_and_Comments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CollaborationGroup.FeedItems$CreatedDate</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

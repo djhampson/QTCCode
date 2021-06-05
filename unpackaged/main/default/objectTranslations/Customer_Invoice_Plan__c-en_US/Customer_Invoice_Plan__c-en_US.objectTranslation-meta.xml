@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Invoice Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Invoice Plans</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Customer Invoice Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Customer Invoice Plan cannot be link to a quote with ‘AMS’ as the deal type. --></errorMessage>
+        <name>AMS_Quote_Not_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To activate the plan, please ensure there is at least one customer invoice plan line. --></errorMessage>
+        <name>At_Least_One_Line_for_Active_Plan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Each plan should have maximum one line of which Type is Remainder. --></errorMessage>
+        <name>Max_One_Remainder_Line</name>
+    </validationRules>
+</CustomObjectTranslation>

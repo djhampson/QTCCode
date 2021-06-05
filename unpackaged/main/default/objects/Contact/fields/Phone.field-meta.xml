@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone</fullName>
+    <inlineHelpText>Phone Numbers must be International format. Country Code (eg +61) followed by Area Code without leading 0 (eg 7) then subscriber (local) number. Examples - Aus +61 7 3167 7600, NZ +64 4 913 8300, UK +44 1628 591160</inlineHelpText>
+    <trackHistory>true</trackHistory>
+</CustomField>

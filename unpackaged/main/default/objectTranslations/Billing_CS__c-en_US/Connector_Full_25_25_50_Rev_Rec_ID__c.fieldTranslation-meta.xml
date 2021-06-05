@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Connector Full 25/25/50 Rev Rec ID --></label>
+        <name>Connector_Full_25_25_50_Rev_Rec_ID__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- RM Forecast AUD Amount used by UK on licence fee and AMS manager on AMS page layout --></help>
+        <label><!-- Forecast AUD Amount --></label>
+        <name>RM_Forecast_AUD_Amount__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Im_the_CDM_CAM__c</fullName>
+    <externalId>false</externalId>
+    <formula>NOT(ISBLANK(Account.Owner.Id)) &amp;&amp; ( Account.Owner.Id  =  $User.Id )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Im the CDM/CAM</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Prospect | Known</fullName>
+        <default>false</default>
+        <label>Prospect | Known</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | Engaged</fullName>
+        <default>false</default>
+        <label>Prospect | Engaged</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | MQL</fullName>
+        <default>false</default>
+        <label>Prospect | MQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | SDR AL</fullName>
+        <default>false</default>
+        <label>Prospect | SDR AL</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | SDR QL</fullName>
+        <default>false</default>
+        <label>Prospect | SDR QL</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | SAL</fullName>
+        <default>false</default>
+        <label>Prospect | SAL</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | SQL</fullName>
+        <default>false</default>
+        <label>Prospect | SQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | Won</fullName>
+        <default>false</default>
+        <label>Prospect | Won</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | Lost</fullName>
+        <default>false</default>
+        <label>Prospect | Lost</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | Disqualified</fullName>
+        <default>false</default>
+        <label>Prospect | Disqualified</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect | Recycled</fullName>
+        <default>false</default>
+        <label>Prospect | Recycled</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | Known</fullName>
+        <default>false</default>
+        <label>Customer | Known</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | Engaged</fullName>
+        <default>false</default>
+        <label>Customer | Engaged</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | MQL</fullName>
+        <default>false</default>
+        <label>Customer | MQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | SAL</fullName>
+        <default>false</default>
+        <label>Customer | SAL</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | SQL</fullName>
+        <default>false</default>
+        <label>Customer | SQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | Won</fullName>
+        <default>false</default>
+        <label>Customer | Won</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | Disqualified</fullName>
+        <default>false</default>
+        <label>Customer | Disqualified</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | Recycled</fullName>
+        <default>false</default>
+        <label>Customer | Recycled</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | Ex-customer</fullName>
+        <default>false</default>
+        <label>Customer | Ex-customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer | Lost Opportunity</fullName>
+        <default>false</default>
+        <label>Customer | Lost Opportunity</label>
+    </customValue>
+    <masterLabel>Lifecycle Stage</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

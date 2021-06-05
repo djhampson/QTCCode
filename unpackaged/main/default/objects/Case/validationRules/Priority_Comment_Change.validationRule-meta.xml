@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Comment_Change</fullName>
+    <active>true</active>
+    <description>Please make sure you add a new comment.</description>
+    <errorConditionFormula>AND(ISCHANGED(Priority),
+NOT(ISCHANGED( Priority_Change_Comment__c )),
+NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c ))</errorConditionFormula>
+    <errorMessage>Please provide a reason for changing the Priority.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad data</fullName>
+        <default>false</default>
+        <label>Bad data</label>
+    </customValue>
+    <customValue>
+        <fullName>No interest</fullName>
+        <default>false</default>
+        <label>No interest</label>
+    </customValue>
+    <customValue>
+        <fullName>No business fit</fullName>
+        <default>false</default>
+        <label>No business fit</label>
+    </customValue>
+    <customValue>
+        <fullName>No authority</fullName>
+        <default>false</default>
+        <label>No authority</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to reach</fullName>
+        <default>false</default>
+        <label>Unable to reach</label>
+    </customValue>
+    <customValue>
+        <fullName>No budget</fullName>
+        <default>false</default>
+        <label>No budget</label>
+    </customValue>
+    <customValue>
+        <fullName>Not ready to buy</fullName>
+        <default>false</default>
+        <label>Not ready to buy</label>
+    </customValue>
+    <customValue>
+        <fullName>Needs further qualification</fullName>
+        <default>false</default>
+        <label>Needs further qualification</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Used for Lead and Contact</description>
+    <masterLabel>Status Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

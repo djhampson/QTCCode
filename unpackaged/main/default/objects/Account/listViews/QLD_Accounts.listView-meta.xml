@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QLD_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Region__c</columns>
+    <columns>Vertical_Market__c</columns>
+    <columns>T1_Industry__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Account_Status_indicator__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+        <value>Queensland</value>
+    </filters>
+    <label>QLD Accounts</label>
+    <sharedTo>
+        <group>QLD_Sales</group>
+    </sharedTo>
+</ListView>

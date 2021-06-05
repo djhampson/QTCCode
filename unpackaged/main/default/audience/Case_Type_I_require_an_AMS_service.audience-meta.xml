@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>Case Type - I require an AMS service</audienceName>
+    <container>T1 Employee Community</container>
+    <criteria>
+        <criterion>
+            <criterionValue>
+                <entityField>RecordType.Id</entityField>
+                <entityType>Case</entityType>
+                <fieldValue>Case.I_require_an_AMS_service</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>b65368a1-4480-4494-b931-4bdc7a415889</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Case_Detail_Case_Detail_AMS_Service_Request_Page</targetValue>
+        </target>
+    </targets>
+</Audience>

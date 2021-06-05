@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reference Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reference Customers</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Reference Customer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Story --></label>
+            <section>Customer Story</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Details --></label>
+            <section>Reference Details</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Subject --></label>
+            <section>Reference Subject</section>
+        </sections>
+        <sections>
+            <label><!-- Snapshot --></label>
+            <section>Snapshot</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

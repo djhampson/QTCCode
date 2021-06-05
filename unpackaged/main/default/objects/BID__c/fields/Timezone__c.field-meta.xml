@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timezone__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the destination (where the bid is lodged) timezone</inlineHelpText>
+    <label>Bid Timezone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Australian Capital Territory - GMT+10:00 (daylight saving time GMT+11:00)</fullName>
+                <default>false</default>
+                <label>Australian Capital Territory - GMT+10:00 (daylight saving time GMT+11:00)</label>
+            </value>
+            <value>
+                <fullName>Victoria - GMT+10:00 (daylight saving time GMT+11:00)</fullName>
+                <default>false</default>
+                <label>Victoria - GMT+10:00 (daylight saving time GMT+11:00)</label>
+            </value>
+            <value>
+                <fullName>New South Wales - GMT+10:00 (daylight saving time GMT+11:00)</fullName>
+                <default>false</default>
+                <label>New South Wales - GMT+10:00 (daylight saving time GMT+11:00)</label>
+            </value>
+            <value>
+                <fullName>Queensland - GMT +10:00</fullName>
+                <default>false</default>
+                <label>Queensland - GMT +10:00</label>
+            </value>
+            <value>
+                <fullName>New Zealand - GMT +12 (daylight saving time GMT +13:00)</fullName>
+                <default>false</default>
+                <label>New Zealand - GMT +12 (daylight saving time GMT +13:00)</label>
+            </value>
+            <value>
+                <fullName>South Australia and Northern Territory - GMT+9:30 (daylight saving time GMT +10:30)</fullName>
+                <default>false</default>
+                <label>South Australia and Northern Territory - GMT+9:30 (daylight saving time GMT +10:30)</label>
+            </value>
+            <value>
+                <fullName>Tasmania - GMT +10:00 (daylight savings time GMT +11:00)</fullName>
+                <default>false</default>
+                <label>Tasmania - GMT +10:00 (daylight savings time GMT +11:00)</label>
+            </value>
+            <value>
+                <fullName>Western Australia GMT +8:00 (daylight savings time GMT +9:00)</fullName>
+                <default>false</default>
+                <label>Western Australia GMT +8:00 (daylight savings time GMT +9:00)</label>
+            </value>
+            <value>
+                <fullName>Papua New Guinea - GMT +10:00</fullName>
+                <default>false</default>
+                <label>Papua New Guinea - GMT +10:00</label>
+            </value>
+            <value>
+                <fullName>Fiji - GMT +12:00</fullName>
+                <default>false</default>
+                <label>Fiji - GMT +12:00</label>
+            </value>
+            <value>
+                <fullName>Solomon Islands - GMT+11:00</fullName>
+                <default>false</default>
+                <label>Solomon Islands - GMT+11:00</label>
+            </value>
+            <value>
+                <fullName>Samoa - GMT+13:00</fullName>
+                <default>false</default>
+                <label>Samoa - GMT+13:00</label>
+            </value>
+            <value>
+                <fullName>Vanuatu - GMT+11:00</fullName>
+                <default>false</default>
+                <label>Vanuatu - GMT+11:00</label>
+            </value>
+            <value>
+                <fullName>United Kingdom - GMT +1</fullName>
+                <default>false</default>
+                <label>United Kingdom - GMT +1</label>
+            </value>
+            <value>
+                <fullName>Malaysia - GMT+8:00</fullName>
+                <default>false</default>
+                <label>Malaysia - GMT+8:00</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

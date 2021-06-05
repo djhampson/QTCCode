@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Customer_Contact__c</fullName>
+    <description>The most recent outbound contact with the Customer regarding this Case.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The most recent outbound contact with the Customer regarding this Case.</inlineHelpText>
+    <label>Last Customer Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

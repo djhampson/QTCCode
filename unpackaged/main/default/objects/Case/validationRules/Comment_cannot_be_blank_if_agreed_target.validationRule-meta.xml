@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comment_cannot_be_blank_if_agreed_target</fullName>
+    <active>true</active>
+    <description>Comment cannot be blank if agreed target</description>
+    <errorConditionFormula>AND (NOT (ISBLANK (Customer_Agreed_Date__c)), ISBLANK( Customer_Agreed_Date_Comment__c ), NOT(RecordType.Name = &#39;I require Consulting services&#39;), NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c ))</errorConditionFormula>
+    <errorDisplayField>Customer_Agreed_Date_Comment__c</errorDisplayField>
+    <errorMessage>An Agreed date is set. You must have a comment.</errorMessage>
+</ValidationRule>

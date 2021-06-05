@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Audience__c</fullName>
+    <externalId>false</externalId>
+    <label>Audience</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administration</fullName>
+                <default>false</default>
+                <label>Administration</label>
+            </value>
+            <value>
+                <fullName>Asset Management</fullName>
+                <default>false</default>
+                <label>Asset Management</label>
+            </value>
+            <value>
+                <fullName>Business Analyst</fullName>
+                <default>false</default>
+                <label>Business Analyst</label>
+            </value>
+            <value>
+                <fullName>Chairman / Board</fullName>
+                <default>false</default>
+                <label>Chairman / Board</label>
+            </value>
+            <value>
+                <fullName>Chief Executive Officer / MD</fullName>
+                <default>false</default>
+                <label>Chief Executive Officer / MD</label>
+            </value>
+            <value>
+                <fullName>Chief Financial Officer</fullName>
+                <default>false</default>
+                <label>Chief Financial Officer</label>
+            </value>
+            <value>
+                <fullName>Chief Information Officer</fullName>
+                <default>false</default>
+                <label>Chief Information Officer</label>
+            </value>
+            <value>
+                <fullName>Chief Operating Officer</fullName>
+                <default>false</default>
+                <label>Chief Operating Officer</label>
+            </value>
+            <value>
+                <fullName>Corporate Performance Management</fullName>
+                <default>false</default>
+                <label>Corporate Performance Management</label>
+            </value>
+            <value>
+                <fullName>Corporate Services Management</fullName>
+                <default>false</default>
+                <label>Corporate Services Management</label>
+            </value>
+            <value>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+                <label>Customer Service</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Finance Officer</fullName>
+                <default>false</default>
+                <label>Finance Officer</label>
+            </value>
+            <value>
+                <fullName>Finance - Senior</fullName>
+                <default>false</default>
+                <label>Finance - Senior</label>
+            </value>
+            <value>
+                <fullName>Fleet Management</fullName>
+                <default>false</default>
+                <label>Fleet Management</label>
+            </value>
+            <value>
+                <fullName>Fundraising Manager</fullName>
+                <default>false</default>
+                <label>Fundraising Manager</label>
+            </value>
+            <value>
+                <fullName>Grants Management</fullName>
+                <default>false</default>
+                <label>Grants Management</label>
+            </value>
+            <value>
+                <fullName>Head of Transformation</fullName>
+                <default>false</default>
+                <label>Head of Transformation</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Housing Manager</fullName>
+                <default>false</default>
+                <label>Housing Manager</label>
+            </value>
+            <value>
+                <fullName>HR - Junior</fullName>
+                <default>false</default>
+                <label>HR - Junior</label>
+            </value>
+            <value>
+                <fullName>HR - Senior</fullName>
+                <default>false</default>
+                <label>HR - Senior</label>
+            </value>
+            <value>
+                <fullName>HR Safety</fullName>
+                <default>false</default>
+                <label>HR Safety</label>
+            </value>
+            <value>
+                <fullName>HR Training and Development</fullName>
+                <default>false</default>
+                <label>HR Training and Development</label>
+            </value>
+            <value>
+                <fullName>IT - Junior &amp; Systems Admin</fullName>
+                <default>false</default>
+                <label>IT - Junior &amp; Systems Admin</label>
+            </value>
+            <value>
+                <fullName>IT - Senior</fullName>
+                <default>false</default>
+                <label>IT - Senior</label>
+            </value>
+            <value>
+                <fullName>Mayor and Councillors</fullName>
+                <default>false</default>
+                <label>Mayor and Councillors</label>
+            </value>
+            <value>
+                <fullName>Ministerial Liaison</fullName>
+                <default>false</default>
+                <label>Ministerial Liaison</label>
+            </value>
+            <value>
+                <fullName>Payroll - Junior</fullName>
+                <default>false</default>
+                <label>Payroll - Junior</label>
+            </value>
+            <value>
+                <fullName>Payroll - Senior</fullName>
+                <default>false</default>
+                <label>Payroll - Senior</label>
+            </value>
+            <value>
+                <fullName>Planning Management</fullName>
+                <default>false</default>
+                <label>Planning Management</label>
+            </value>
+            <value>
+                <fullName>Portfolio and Project Management</fullName>
+                <default>false</default>
+                <label>Portfolio and Project Management</label>
+            </value>
+            <value>
+                <fullName>Procurement / Contracts</fullName>
+                <default>false</default>
+                <label>Procurement / Contracts</label>
+            </value>
+            <value>
+                <fullName>Property &amp; Facilities Management</fullName>
+                <default>false</default>
+                <label>Property &amp; Facilities Management</label>
+            </value>
+            <value>
+                <fullName>Rates</fullName>
+                <default>false</default>
+                <label>Rates</label>
+            </value>
+            <value>
+                <fullName>Records and Information Management</fullName>
+                <default>false</default>
+                <label>Records and Information Management</label>
+            </value>
+            <value>
+                <fullName>Sales &amp; Marketing</fullName>
+                <default>false</default>
+                <label>Sales &amp; Marketing</label>
+            </value>
+            <value>
+                <fullName>Spatial/GIS</fullName>
+                <default>false</default>
+                <label>Spatial/GIS</label>
+            </value>
+            <value>
+                <fullName>Work Management</fullName>
+                <default>false</default>
+                <label>Work Management</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

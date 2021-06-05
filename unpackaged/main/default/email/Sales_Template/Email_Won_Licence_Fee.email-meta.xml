@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Closed Won Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>Email Won Opportunity</name>
+    <style>freeForm</style>
+    <subject>Notification of new sales order for {!Opportunity.Account} - {!Opportunity.Licence_Model__c}</subject>
+    <textOnly>Hi,
+
+Please be notified a closed won {!Opportunity.Record_Type__c} opportunity as below:
+
+Customer Name: {!Opportunity.Account}
+Opportunity Name: {!Opportunity.Name}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Opportunity ARR: {!Opportunity.ARR__c}
+Opportunity Close Date: {!Opportunity.CloseDate}
+Licence Model: {!Opportunity.Licence_Model__c}
+Opportunity description:
+{!Opportunity.Overview__c}
+
+Link to Salesforce Opportunity:
+{!Opportunity.Link}
+
+
+Regards,
+{!User.Name}
+{!User.Title}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

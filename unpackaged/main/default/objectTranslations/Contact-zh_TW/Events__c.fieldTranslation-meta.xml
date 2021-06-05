@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Hear about upcoming events in your region --></help>
+        <label><!-- Events --></label>
+        <name>Events__c</name>
+    </CustomFieldTranslation>

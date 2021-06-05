@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How long T1 is required to retain a copy of the customer&apos;s data after termination e.g. 30 days --></help>
+        <label><!-- Retention of Data Post Termination --></label>
+        <name>Retention_of_Data_Post_Termination__c</name>
+    </CustomFieldTranslation>

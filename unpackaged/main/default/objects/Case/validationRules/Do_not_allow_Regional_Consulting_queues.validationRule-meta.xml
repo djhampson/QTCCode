@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_allow_Regional_Consulting_queues</fullName>
+    <active>true</active>
+    <description>Stops the user choosing one of the obsolete Regional Consulting Queues</description>
+    <errorConditionFormula>ISCHANGED( OwnerId )  &amp;&amp; CONTAINS(Owner:Queue.QueueName, &#39;Regional Consulting&#39;)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Regional Consulting queues are no longer in use.</errorMessage>
+</ValidationRule>

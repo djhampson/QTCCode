@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMS_Units_per_Service_Period__c</fullName>
+    <defaultValue>40</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of Requests - Minimum 40
+Standard Service Period 40, 50, 60, 70, 80, 90,100,150,200</inlineHelpText>
+    <label>AMS Units per Service Period</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

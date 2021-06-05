@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConsultingReqProfile</fullName>
+    <active>true</active>
+    <description>Ensure user has Community Access for Consulting Request Quote Approval process</description>
+    <errorConditionFormula>RecordType.Name = &#39;I require Consulting services&#39; &amp;&amp;
+(ISNEW()  ||  ISCHANGED( ContactId )) &amp;&amp; 
+NOT (Contact.RecordType.Name = &#39;Technology One Employee&#39;) &amp;&amp;
+NOT ($Profile.Name  = &#39;Customer Community Login - Case Only&#39; ||
+$Profile.Name = &#39;Customer Community Login User Support&#39; ||
+$Profile.Name = &#39;Customer Support Community&#39; ||
+$Profile.Name = &#39;Customer Support Community Plus&#39;) &amp;&amp;
+(CONTAINS(Contact.Profile_Name__c, &#39;Customer&#39;) ||  ISBLANK(Contact.Profile_Name__c))  &amp;&amp;
+NOT(Contact.Profile_Name__c = &#39;Customer Community Login - Case Only&#39; ||
+Contact.Profile_Name__c = &#39;Customer Community Login User Support&#39; ||
+Contact.Profile_Name__c = &#39;Customer Support Community&#39; ||
+Contact.Profile_Name__c = &#39;Customer Support Community Plus&#39;) &amp;&amp;
+NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorMessage>Please select a Contact that has access to the Case via the Customer Community.</errorMessage>
+</ValidationRule>

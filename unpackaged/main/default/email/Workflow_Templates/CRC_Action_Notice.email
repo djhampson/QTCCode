@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<body>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi {!CRC_Request_Action__c.Actioner_First_Name__c},
+<br>
+
+<br>
+This is an automated email to advise that you have been assigned an action for a Request.<br><br>
+You can access your Action using the following <a href="{!CRC_Request_Action__c.Action_URL__c}">link</a>.<br>
+<br>
+To examine the Request details you can navigate to the Request from the Action page.
+<br><br>
+Kind regards, Governance Risk and Compliance Team
+</p>
+</body>
+</html>

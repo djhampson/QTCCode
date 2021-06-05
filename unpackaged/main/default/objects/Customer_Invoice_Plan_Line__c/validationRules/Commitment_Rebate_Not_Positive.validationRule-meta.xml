@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commitment_Rebate_Not_Positive</fullName>
+    <active>true</active>
+    <description>Commitment Rebate should not be positive.</description>
+    <errorConditionFormula>Commitment_Rebate__c &gt; 0</errorConditionFormula>
+    <errorDisplayField>Commitment_Rebate__c</errorDisplayField>
+    <errorMessage>Commitment Rebate should not be positive.</errorMessage>
+</ValidationRule>

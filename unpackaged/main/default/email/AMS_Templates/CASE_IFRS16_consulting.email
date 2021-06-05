@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<body>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">Hi {!Contact.FirstName},
+<br>
+<br>
+Thank you for the opportunity to provide you with a GOLD/SILVER/BRONZE proposal for supporting you with IFRS16 Compliance and reporting.<br><br>
+
+Please use the following <a href="{!Case.CaseURL__c}">link</a> to review the attached proposal details. <br><br>
+
+Please accept or decline this quote by replying to this email with "ACCEPT" or "DECLINE"<br><br>
+<b>Case Number: </b>{!Case.CaseNumber}<br>
+<b>Case Subject: </b>{!Case.Subject}<br>
+<b>Customer Reference: </b>{!Case.Customer_Reference__c}<br>
+<b>Scope of Work: </b>As per attached proposal<br>
+<b>Assumptions: </b>Remote access provided a minimum of 2 days prior to engagement.<br><br>
+If you have a purchase order number, this can be added to the Customer Reference field on the case.<br><br>
+Once your have approved the quote, a consultant from our specialist IFRS16 team will be in contact to work through next steps with you.<br>
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:12px;">
+Terms and Conditions:<br>
+1. Acceptance of this quote means that you have authority within your organisation to approve purchasing the consulting services described.<br>
+2. The services will be provided in accordance with the terms of the written agreement already in place between you and TechnologyOne providing for consulting services, and if no such agreement exists then TechnologyOne's standard terms for the supply of consulting services (a copy of which is available from TechnologyOne upon request) shall apply.<br> 
+3. All Service Requests should be accompanied by a purchase order. Any inclusion of or reference to terms and conditions (other than the existing contract between you and TechnologyOne) in the purchase order shall not apply to the provision of the consulting services described.<br>
+4. TechnologyOne will invoice you, and you agree to pay for all reasonable travel expenses incurred in carrying out the consulting services (including airfares, accommodation, mileage, daily allowances and parking).<br>
+5. Where consultants are required to travel by air to site they will work in minimum three (3) day blocks and, unless otherwise specifically agreed in advance, will return home for weekends.<br>
+6. A normal working day means 7.5 hours, inclusive of time spent travelling to and from customer premises, where this travel time exceeds one (1) hour each way.<br> 
+7. Where a consultant spends more than 7.5 hours in any normal day then additional time will be charged at hourly rates without any additional loading or penalties.
+</p>
+<p style = "font-family:calibri;font-size:16px;">Kind regards,<br>
+</p>
+<p style = "font-family:calibri;font-size:20px;"><b>{!Case.EmailSig__c}</b></p>
+<p style = "font-family:calibri;font-size:16px;">Ph: AUS 1300 735 130/ NZ 0800 174 091/ MAL 1800 818 451/ UK 0808 1012 743/ FIJI 008 002 188<br>
+<br>
+{!$Setup.EmailTemplateFields__c.FooterText1__c}<br> 
+{!$Setup.EmailTemplateFields__c.FooterText2__c}<br>
+{!$Setup.EmailTemplateFields__c.FooterURL__c}<br><br>
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_2__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_3__c}
+{!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+</p>
+
+<p style = "line-height:100%;font-family:arial;font-size:10px;">
+TechnologyOne accepts no liability for any damage caused by this email or its attachments. <br>
+The information in this email is only for the intended recipient and may contain confidential and/or <br>
+privileged material. If you received this in error, please kindly notify the sender by return email <br>
+and delete this email and any attachments from your system.  Opinions, conclusions and other<br>
+information in this message that do not relate to the official business of the company shall <br>
+be understood as neither given nor endorsed by it.  If you believe that you have been spammed please <br>email <a href="mailto:Stop_Spam@TechnologyOneCorp.com">Stop_Spam@TechnologyOneCorp.com</a> to report your complaint.</p>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Payment_Terms</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>ContractNumber</fields>
+    <fields>AccountId</fields>
+    <fields>ContactId</fields>
+    <label>Contract Payment Terms</label>
+</CompactLayout>

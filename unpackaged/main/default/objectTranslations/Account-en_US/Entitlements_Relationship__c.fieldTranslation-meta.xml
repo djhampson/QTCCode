@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Entitlements Relationship --></label>
+        <name>Entitlements_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Children own Entitlements</masterLabel>
+            <translation><!-- Children own Entitlements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Children own Saas Platform only (all entitlements in parent)</masterLabel>
+            <translation><!-- Children own Saas Platform only (all entitlements in parent) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

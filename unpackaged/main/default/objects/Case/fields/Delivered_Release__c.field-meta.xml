@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivered_Release__c</fullName>
+    <description>The delivered release relating to the resolution of this case</description>
+    <externalId>false</externalId>
+    <label>Delivered Release</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2021B</fullName>
+                <default>false</default>
+                <label>2021B</label>
+            </value>
+            <value>
+                <fullName>2021A</fullName>
+                <default>false</default>
+                <label>2021A</label>
+            </value>
+            <value>
+                <fullName>2020B</fullName>
+                <default>false</default>
+                <label>2020B</label>
+            </value>
+            <value>
+                <fullName>2020A</fullName>
+                <default>false</default>
+                <label>2020A</label>
+            </value>
+            <value>
+                <fullName>2019B</fullName>
+                <default>false</default>
+                <label>2019B</label>
+            </value>
+            <value>
+                <fullName>2019A</fullName>
+                <default>false</default>
+                <label>2019A</label>
+            </value>
+            <value>
+                <fullName>2018B</fullName>
+                <default>false</default>
+                <label>2018B</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

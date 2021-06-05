@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This represents the number of 30 min blocks for the Total Hours resulting from Timed Items against this Case. --></help>
+        <label><!-- Actual Service Requests --></label>
+        <name>Actual_Service_Requests__c</name>
+    </CustomFieldTranslation>

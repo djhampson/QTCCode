@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Region__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(TEXT(Region__c), &#39;ACT&#39;, &#39;06 - ACT&#39;, 
+&#39;New South Wales&#39;, &#39;02 - NSW&#39;, 
+&#39;Northern Territory&#39;, &#39;04 - SA &amp; NT&#39;, 
+&#39;Queensland&#39;, &#39;01 - QLD&#39;, 
+&#39;South Australia&#39;, &#39;04 - SA &amp; NT&#39;, 
+&#39;Tasmania&#39;, &#39;07 - TAS&#39;, 
+&#39;Victoria&#39;, &#39;03 - VIC&#39;, 
+&#39;Western Australia&#39;, &#39;05 - WA&#39;, 
+&#39;New Zealand North&#39;, &#39;11 - NZN&#39;, 
+&#39;New Zealand South&#39;, &#39;12 - NZS&#39;, 
+&#39;United Kingdom South&#39;, &#39;23 - UK&#39;, 
+&#39;United Kingdom North West&#39;, &#39;23 - UK&#39;, 
+&#39;United Kingdom Central&#39;, &#39;23 - UK&#39;, 
+&#39;UK PS South&#39;, &#39;23 - UK&#39;, 
+&#39;UK PS Central&#39;, &#39;23 - UK&#39;, 
+&#39;UK HE&#39;, &#39;23 - UK&#39;, 
+&#39;UK North &amp; Scotland&#39;, &#39;23 - UK&#39;, 
+&#39;UK Other&#39;, &#39;23 - UK&#39;, 
+&#39;Distributors&#39;, &#39;23 - UK&#39;, 
+
+&#39;20 - SEAP&#39;)</formula>
+    <label>Group Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

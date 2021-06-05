@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>T1_Survey_Response__c$Account__c</field>
+    </columns>
+    <columns>
+        <field>T1_Survey_Response__c$Name</field>
+    </columns>
+    <columns>
+        <field>T1_Survey_Response__c$Answer_1__c</field>
+    </columns>
+    <columns>
+        <field>T1_Survey_Response__c$Answer_3__c</field>
+    </columns>
+    <columns>
+        <field>T1_Survey_Response__c$Answer_5__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>All Customer Success Engagement Survey Responses</description>
+    <filter>
+        <criteriaItems>
+            <column>T1_Survey_Response__c$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>GetFeedback Survey Response: Customer Success Engagement NPS</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Customer Success Engagement Surveys</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Customer_Success_Engagement_Surveys__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>T1_Survey_Response__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

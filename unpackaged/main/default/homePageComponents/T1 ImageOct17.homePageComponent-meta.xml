@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;div style=&quot;text-align: center;&quot;&gt;&lt;img alt=&quot;Welcome&quot; src=&quot;https://technologyone--c.na63.content.force.com/servlet/servlet.ImageServer?id=0150f00002NW0PV&amp;amp;oid=00DG0000000jBju&amp;amp;lastMod=1508399293000&quot;&gt;&lt;/img&gt;&lt;br&gt; &lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt; A&lt;span style=&quot;text-align: center;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://customercommunity.technologyonecorp.com/articles/AT_General_Information/TechnologyOne-Customer-Community-Getting-Started&quot; style=&quot;text-align: center;&quot;&gt;Getting Started&lt;/a&gt;&lt;span style=&quot;text-align: center;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://customercommunity.technologyonecorp.com/articles/AT_General_Information/TechnologyOne-Customer-Community-User-Guide&quot; style=&quot;text-align: center;&quot;&gt;User Guide&lt;/a&gt;&lt;span style=&quot;text-align: center;&quot;&gt;, and other important information for the TechnologyOne Customer Community&lt;/span&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;can be found in the left hand panel under &amp;quot;Custom Links&amp;quot;.&lt;br&gt; &lt;br&gt;&lt;a href=&quot;https://customercommunity.technologyonecorp.com/_ui/core/chatter/groups/GroupProfilePage?g=0F90f000000DEHl&quot;&gt;&lt;img alt=&quot;Group Announcement&quot; src=&quot;https://technologyone--c.na63.content.force.com/servlet/servlet.ImageServer?id=0150f00002NW0PQ&amp;amp;oid=00DG0000000jBju&amp;amp;lastMod=1508399252000&quot;&gt;&lt;/img&gt;&lt;/a&gt;&lt;br&gt; &lt;/div&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

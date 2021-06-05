@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The total work days to resolve the case. T1 daily business hours are calculated using the default Business Hours. Using the example of 7am to 7pm gives a 12 hour day for which a value of 0.5 equals 6 hours. --></help>
+        <label><!-- Work Days to Resolve --></label>
+        <name>Duration_to_Resolved_Cal_Days__c</name>
+    </CustomFieldTranslation>

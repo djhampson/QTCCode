@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloud_Customer__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((Account.Cloud_Hosting__c = TRUE ||  Account.SaaS__c = TRUE), true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cloud Customer</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

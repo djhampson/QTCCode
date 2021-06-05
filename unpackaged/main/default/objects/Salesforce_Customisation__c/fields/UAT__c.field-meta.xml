@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UAT__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date of affect in UAT</inlineHelpText>
+    <label>UAT</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

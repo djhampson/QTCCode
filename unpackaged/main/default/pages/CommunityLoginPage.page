@@ -1,0 +1,155 @@
+<apex:page standardStylesheets="false" sidebar="false" showHeader="false" docType="html-5.0" controller="SiteLoginController">
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+    
+        <title>TechnologyOne Customer Community Login</title>
+
+    <!-- Bootstrap core CSS -->
+        <apex:stylesheet value="{!URLFOR($Resource.BootstrapCommLoginPage,'bootstrap-3.3.4-dist/css/bootstrap.min.css')}" />
+
+    <!-- Additional style sheet required for this page-->  
+        <apex:stylesheet value="{!URLFOR($Resource.BootstrapCommLoginPage,'bootstrap-3.3.4-dist/morestyles/signin.css')}"/>
+      
+    <!-- java script to change the background of the page on every refresh -->
+        <script type='text/javascript'>
+            
+            // count will change depends on the no.of images 
+            var totalCount = 2;
+            function ChangeIt() 
+            {
+                var num = Math.ceil( Math.random() * totalCount );
+                // position cursor to our login name input field
+                document.getElementsByClassName("form-control un")[0].focus()
+                
+                if (num == 1){
+                    document.getElementById('header').style.background="url({!$Resource.T1CCBackgroundImage})  no-repeat center top";
+                    document.getElementById('header').style.backgroundAttachment= "relative";
+                    document.getElementById('header').style.backgroundPosition= "center center";
+                    document.getElementById('header').style.width= "100%";
+                    document.getElementById('header').style.backgroundSize="100%";
+                    document.getElementById('header').style.backgroundSize="cover";
+                    document.getElementById('header').style.height= "100%";
+                    document.getElementById('header').style.minheight= "850px";
+                }
+                
+                //Add the below else if content as the value of the totalCount changes
+                else if(num==2){
+                    document.getElementById('header').style.background="url({!$Resource.T1CCBackgroundImage}) no-repeat center top";
+                    document.getElementById('header').style.backgroundAttachment= "relative";
+                    document.getElementById('header').style.backgroundPosition= "center center";
+                    document.getElementById('header').style.width= "100%";
+                    document.getElementById('header').style.backgroundSize="100%";
+                    document.getElementById('header').style.backgroundSize="cover";
+                    document.getElementById('header').style.height= "100%";
+                    document.getElementById('header').style.minheight= "850px";
+                }
+            }
+        </script>
+    </head>
+    
+    <body onLoad="ChangeIt()">
+
+        <!-- Fixed navbar -->
+        <!--<div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle" aria-expanded="false" aria-controls="nav-toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="nav-toggle" class="navbar-collapse collapse" aria-expanded="true">
+              <ul class="nav navbar-nav">
+                <li><a href="./AboutPage">About</a></li>
+                <li><a href="./Terms&ConditionsPage">Terms and Conditions</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="{!$Site.CurrentSiteUrl}SelfRegisterPageName">Sign Up</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          <!--</div>
+        </div> -->
+    
+        <div id="wrapper"> 
+            <div id="header">
+                <div class="container-fixed pull-left" id = "build-location">
+                    <div class= "text-left" id="build-text"> </div>
+                </div> <!-- /container -->
+        
+                <br/><br/><br/>
+                
+                <div class="container">
+                    <!--<strong>TechnologyOne Customer Community</strong>-->
+                    <!--<img alt="" src="url({!$Resource.T1CCT1Logo})" align="middle"/>-->
+                    <form id="login_wrapper" >
+                    <!-- To make the page as a secured login page -->
+                        <table style="cellpadding:30;">
+                            <tr>
+                                <td style="align:center">
+                                    <apex:form id="loginForm" forceSSL="true" styleClass="form-signin">
+                                        <apex:image value="{!$Resource.T1CCT1Logo}"/>
+                                    
+                                        <!-- All the error messages are displayed here and can add custom styles -->
+                                        <apex:messages styleClass="page-messages text-center" layout="table"/>
+                
+                                        <apex:inputText required="true" id="login-email" styleClass="form-control un" value="{!username}" label="Username"/>
+                                        <apex:inputSecret id="login-password" styleClass="form-control pw" value="{!password}" label="Pasword"/>
+                                        <apex:commandButton action="{!login}" value="Log in" id="login-submit" styleClass="btn btn-lg btn-primary btn-block"/>
+                                        
+                                        <!--<a class="btn btn-lg btn-block btn-info" href="PasteURLforSingleSignOn_here">
+                                            Single Sign On
+                                        </a> -->
+                                        
+                                        <a class="btn btn-md btn-block btn-Link" href="{!$Site.CurrentSiteUrl}secur/forgotpassword.jsp?locale=us">
+                                            <strong> Forgot Password? </strong>
+                                        </a>
+                                    </apex:form>
+                                </td>
+                                <td style="text-align:center">
+                                    <br/>  
+                                    <apex:image value="{!$Resource.T1CCPhoto}" />
+                                    <apex:image value="{!$Resource.T1CCLabel}" />
+                                </td>
+                            </tr>    
+                        </table>
+                    </form>
+                </div> <!-- /container -->
+            </div> <!-- /Header -->   
+            
+            <div >
+                <!--<div class="container-fluid text-center">
+                     <div class="row">-->
+                <div >
+                     <div >
+                        <font color="black" >
+                            <p style="text-align:center" class="copyright">Copyright &copy; TechnologyOne Limited</p>
+                        </font>        
+                    </div>     
+                </div> <!-- /container -->  
+            </div> <!-- /footer -->
+        </div>  <!-- Wrapper -->
+    </body>
+  
+<script src="{!URLFOR($Resource.BootstrapCommLoginPage, 'bootstrap-3.3.4-dist/morestyles/jquery-1.10.2.min.js')}"></script>
+<script src="{!URLFOR($Resource.BootstrapCommLoginPage, 'bootstrap-3.3.4-dist/js/bootstrap.min.js')}"></script>
+
+<!-- jQuery script to show the Username and password labels on respective fields -->
+<script>
+$(document).ready(function() {
+    $('.un').attr('placeholder','{!$Label.site.username}');
+    $('.pw').attr('placeholder','{!$Label.site.password}');
+});
+</script>   
+
+  
+</html>
+
+</apex:page>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Executive Response or Customer Success Engagement Type --></help>
+        <label><!-- Engagement Type --></label>
+        <name>Engagement_Type__c</name>
+        <picklistValues>
+            <masterLabel>Debtors Management</masterLabel>
+            <translation><!-- Debtors Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Engagement</masterLabel>
+            <translation><!-- Executive Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Touch Customer Success</masterLabel>
+            <translation><!-- High Touch Customer Success --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Touch Customer Success</masterLabel>
+            <translation><!-- Low Touch Customer Success --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Reviews</masterLabel>
+            <translation><!-- Product Reviews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remediation Program</masterLabel>
+            <translation><!-- Remediation Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Touch Customer Success</masterLabel>
+            <translation><!-- Tech Touch Customer Success --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

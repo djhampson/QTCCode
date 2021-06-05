@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create and Edit Internal Users (no access to modify profiles, etc)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Create_Edit_Internal_Users</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageInternalUsers</name>
+    </userPermissions>
+</PermissionSet>

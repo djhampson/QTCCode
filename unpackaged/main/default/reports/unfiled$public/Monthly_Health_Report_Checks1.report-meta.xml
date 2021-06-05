@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Product_Health_Report__c.Report_Date__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Product_Health_Report__c.Products_SDM_Visit_Cycle__c</field>
+    </columns>
+    <columns>
+        <field>Product_Health_Report__c.Account__c</field>
+    </columns>
+    <columns>
+        <field>Product_Health_Report__c.Risks_Issues__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <format>Tabular</format>
+    <name>Monthly Health Report Checks</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Product_Health_Report__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Product_Health_Report__c.Account__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Product_Health_Report__c.Report_Date__c</dateColumn>
+        <interval>INTERVAL_THISMONTH</interval>
+    </timeFrameFilter>
+</Report>

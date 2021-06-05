@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Code_Name__c</fullName>
+    <description>Tax code assigned to the customer, max 1 per customer/account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tax code assigned to this customer, max 1.</inlineHelpText>
+    <label>Tax Code Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Tax_Code_Name</valueSetName>
+    </valueSet>
+</CustomField>

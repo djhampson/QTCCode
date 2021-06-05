@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Product Health Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Product Health Reports</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Product Health Report Layout</layout>
+        <sections>
+            <label><!-- Budget &amp; Resourcing --></label>
+            <section>Budget &amp; Resourcing</section>
+        </sections>
+        <sections>
+            <label><!-- CCE &amp; Debtors --></label>
+            <section>CCE &amp; Debtors</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Risks &amp; Issues --></label>
+            <section>Risks &amp; Issues</section>
+        </sections>
+        <sections>
+            <label><!-- T1 Product &amp; Benefits --></label>
+            <section>T1 Product &amp; Benefits</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Budget Action Plan is Required for Red/Amber Budget Status --></errorMessage>
+        <name>Budget_Action_Plan_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- CCE Action Plan is Required for Red/Amber CCE Status --></errorMessage>
+        <name>CCE_Action_Plan_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Resourcing Action Plan is Required for Red/Amber Resourcing Status --></errorMessage>
+        <name>Resourcing_Action_Plan_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Risks &amp; Issues Action Plan is Required for Red/Amber Risks &amp; Issues Status --></errorMessage>
+        <name>Risks_Issues_Action_Plan_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- T1 Benefits Action Plan is Required for Red/Amber T1 Benefits Status --></errorMessage>
+        <name>T1_Benefits_Action_Plan_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- T1 Product Action Plan is Required for Red/Amber T1 Product Status --></errorMessage>
+        <name>T1_Product_Action_Plan_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

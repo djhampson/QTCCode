@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACT</fullName>
+        <default>false</default>
+        <label>ACT</label>
+    </customValue>
+    <customValue>
+        <fullName>ER Report</fullName>
+        <default>false</default>
+        <label>ER Report</label>
+    </customValue>
+    <customValue>
+        <fullName>NSW</fullName>
+        <default>false</default>
+        <label>NSW</label>
+    </customValue>
+    <customValue>
+        <fullName>NT</fullName>
+        <default>false</default>
+        <label>NT</label>
+    </customValue>
+    <customValue>
+        <fullName>NZ</fullName>
+        <default>false</default>
+        <label>NZ</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific</fullName>
+        <default>false</default>
+        <label>Pacific</label>
+    </customValue>
+    <customValue>
+        <fullName>Qld</fullName>
+        <default>false</default>
+        <label>Qld</label>
+    </customValue>
+    <customValue>
+        <fullName>SA</fullName>
+        <default>false</default>
+        <label>SA</label>
+    </customValue>
+    <customValue>
+        <fullName>SE Asia</fullName>
+        <default>false</default>
+        <label>SE Asia</label>
+    </customValue>
+    <customValue>
+        <fullName>T1Direct</fullName>
+        <default>false</default>
+        <label>T1Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>Tas</fullName>
+        <default>false</default>
+        <label>Tas</label>
+    </customValue>
+    <customValue>
+        <fullName>UK</fullName>
+        <default>false</default>
+        <label>UK</label>
+    </customValue>
+    <customValue>
+        <fullName>Vic</fullName>
+        <default>false</default>
+        <label>Vic</label>
+    </customValue>
+    <customValue>
+        <fullName>WA</fullName>
+        <default>false</default>
+        <label>WA</label>
+    </customValue>
+    <masterLabel>CRC Business Unit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_From_Case__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the Case from which this Case was created from. For example, when viewing a Problem Case, this would contain the Incident the Problem was initiated from when it was created.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the Case from which this Case was created. For example, when viewing a Problem Case, this would contain the Incident the Problem was initiated from when it was created.</inlineHelpText>
+    <label>Created From Case</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Cases (Created From Case)</relationshipLabel>
+    <relationshipName>CasesProbtoInc</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

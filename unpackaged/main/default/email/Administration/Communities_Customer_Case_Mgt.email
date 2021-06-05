@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<div style="background-image: url(https://customercommunity.technologyonecorp.com/resource/1583972501000/FY20CustomerCommunityLoginLogo);background-size: 800px;background-repeat: no-repeat; background-position: center;width: 800px;height: 70px">
+</div>
+<div style="width: 800px;">
+
+
+<p style = "line-height:100%;font-family:calibri;font-size:16px;font-weight:bold;">Dear {!Receiving_User.FirstName},
+</p>
+<p style = "font-family:calibri;font-size:16px;">
+Your Customer Community profile has been updated to include case management so the next time you log in you will see a tab for Cases.  
+</p>
+<p style = "line-height:100%;font-family:calibri;font-size:18px;color:#13C0DF">Key features for your updated profile
+<br>
+</p>
+<ul  style = "font-family:calibri;font-size:16px;">
+  <li>Access knowledge articles</li>
+  <li>Suggest ideas for product enhancements </li>
+  <li>Engage with product experts and customers</li>
+  <li>Ask questions, and help answer other customer questions</li>
+  <li>Keep up to date on trending topics, articles and more</li>
+  <li>Raise and manage support cases</li>
+</ul>
+<p style = "line-height:100%;font-family:calibri;font-size:16px;">
+Now that you have access to case management please ensure you have familiarised yourself with the Customer Support Guide (<a href="https://customercommunity.technologyonecorp.com/s/article/Customer-Support-Guide" target="_blank" style="color:#3355FF">on-premise</a> or <a href="https://customercommunity.technologyonecorp.com/s/article/SaaS-Customer-Support-Guide" target="_blank" style="color:#3355FF">SaaS</a>) and have reviewed the <a href="https://customercommunity.technologyonecorp.com/s/article/Cases" target="_blank" style="color:#3355FF">Customer Community - Cases</a> knowledge article.<br><br>
+
+Kind Regards<br><br>
+TechnologyOne Community Team
+</p>
+</div>
+</body>
+</html>

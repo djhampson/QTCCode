@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Segment --></label>
+        <name>T1_Industry__c</name>
+        <picklistValues>
+            <masterLabel>Aged, Disability and Community Care</masterLabel>
+            <translation><!-- Aged, Disability and Community Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banks, Credit Unions, Building Societies</masterLabel>
+            <translation><!-- Banks, Credit Unions, Building Societies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Government</masterLabel>
+            <translation><!-- Central Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Services</masterLabel>
+            <translation><!-- Community Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education Research Institution</masterLabel>
+            <translation><!-- Education Research Institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal Government</masterLabel>
+            <translation><!-- Federal Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health</masterLabel>
+            <translation><!-- Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Higher Education - University</masterLabel>
+            <translation><!-- Higher Education - University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Housing</masterLabel>
+            <translation><!-- Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K-12/Schools</masterLabel>
+            <translation><!-- K-12/Schools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Government</masterLabel>
+            <translation><!-- Local Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Facilities &amp; Fleet</masterLabel>
+            <translation><!-- Major Facilities &amp; Fleet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media, Entertainment, Events and Facilities Managers</masterLabel>
+            <translation><!-- Media, Entertainment, Events and Facilities Managers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership-based</masterLabel>
+            <translation><!-- Membership-based --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mining &amp; Processing</masterLabel>
+            <translation><!-- Mining &amp; Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Resources Management</masterLabel>
+            <translation><!-- Natural Resources Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Asset Intensive</masterLabel>
+            <translation><!-- Other Asset Intensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Corporate</masterLabel>
+            <translation><!-- Other Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Education</masterLabel>
+            <translation><!-- Other Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Finance</masterLabel>
+            <translation><!-- Other Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Government</masterLabel>
+            <translation><!-- Other Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Local Government</masterLabel>
+            <translation><!-- Other Local Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Project Intensive</masterLabel>
+            <translation><!-- Other Project Intensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Utilities</masterLabel>
+            <translation><!-- Other Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Training Provider</masterLabel>
+            <translation><!-- Private Training Provider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project-centric, Engineering and Mining</masterLabel>
+            <translation><!-- Project-centric, Engineering and Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property &amp; Infrastructure</masterLabel>
+            <translation><!-- Property &amp; Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property Investment</masterLabel>
+            <translation><!-- Property Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Infrastructure</masterLabel>
+            <translation><!-- Public Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Providers</masterLabel>
+            <translation><!-- Service Providers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Government</masterLabel>
+            <translation><!-- State Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superannuation</masterLabel>
+            <translation><!-- Superannuation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VET Sector - TAFE/Polytech</masterLabel>
+            <translation><!-- VET Sector - TAFE/Polytech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wealth Management (Funds and Financial Advisors)</masterLabel>
+            <translation><!-- Wealth Management (Funds and Financial Advisors) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

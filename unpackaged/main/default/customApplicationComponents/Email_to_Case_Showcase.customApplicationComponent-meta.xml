@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplicationComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buttonIconUrl>https://c.cs10.content.force.com/servlet/servlet.FileDownload?file=015J0000000FIuA</buttonIconUrl>
+    <buttonText>Email-to-Case Showcase</buttonText>
+    <height>300</height>
+    <isHeightFixed>false</isHeightFixed>
+    <isHidden>false</isHidden>
+    <isWidthFixed>false</isWidthFixed>
+    <visualforcePage>showcase</visualforcePage>
+    <width>300</width>
+</CustomApplicationComponent>

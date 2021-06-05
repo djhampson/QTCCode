@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Balance__c</fullName>
+    <description>Yi: Debits__c, Payments__c removed</description>
+    <externalId>false</externalId>
+    <formula>TotalAmount__c - Credits__c + NegativeLineConversion__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Amount (with tax) - Payments - Credits + Debits + Negative Line Conversion</inlineHelpText>
+    <label>Balance</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

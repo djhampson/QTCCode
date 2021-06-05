@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InternalIdeasIdeaRecordType</fullName>
+    <active>true</active>
+    <description>Record Type used to associate ideas with a specific community</description>
+    <label>Internal Community: Idea Record Type</label>
+    <picklistValues>
+        <picklist>Categories</picklist>
+        <values>
+            <fullName>%7E Asset Intensive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Employee Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Enterprise App Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Enterprise Asset Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Enterprise Budgeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Enterprise Cash Receipting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Enterprise Content Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Eplanning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Financial %26 Corporate Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Financials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Health %26 Community Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Human Resource %26 Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E OneCouncil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E OneEducation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E OneGov Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Performance Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Platform %26 Product Enablement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Product Practice Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Property %26 Rating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Reporting %26 Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E SaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Service Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Spatial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Student Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E Supply Chain Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%7E TechnologyOne University</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industry Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R%26D CiA Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Alternate Solution Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bug or Support Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Considered for Future Roadmap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Feature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Planned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Roadmap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Consideration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

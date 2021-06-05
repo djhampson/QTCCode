@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Win Or Lost Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Win Or Lost Reports</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Win Or Lost Report Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement --></label>
+            <section>Engagement</section>
+        </sections>
+        <sections>
+            <label><!-- Functionality --></label>
+            <section>Functionality</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation and Support --></label>
+            <section>Implementation and Support</section>
+        </sections>
+        <sections>
+            <label><!-- Key Decision Makers --></label>
+            <section>Key Decision Makers</section>
+        </sections>
+        <sections>
+            <label><!-- Key Reasons for Win/Loss --></label>
+            <section>Key Reasons for Win/Loss</section>
+        </sections>
+        <sections>
+            <label><!-- Price --></label>
+            <section>Price</section>
+        </sections>
+        <sections>
+            <label><!-- Proposal and Presentation --></label>
+            <section>Proposal and Presentation</section>
+        </sections>
+        <sections>
+            <label><!-- Reference Sites --></label>
+            <section>Reference Sites</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Generate_Documents --></label>
+        <name>Generate_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Generate_Document --></label>
+        <name>Mass_Generate_Document</name>
+    </webLinks>
+</CustomObjectTranslation>

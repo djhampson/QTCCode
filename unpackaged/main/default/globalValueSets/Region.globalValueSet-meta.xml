@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACT</fullName>
+        <default>false</default>
+        <label>ACT</label>
+    </customValue>
+    <customValue>
+        <fullName>New South Wales</fullName>
+        <default>false</default>
+        <label>New South Wales</label>
+    </customValue>
+    <customValue>
+        <fullName>Northern Territory</fullName>
+        <default>false</default>
+        <label>Northern Territory</label>
+    </customValue>
+    <customValue>
+        <fullName>Queensland</fullName>
+        <default>false</default>
+        <label>Queensland</label>
+    </customValue>
+    <customValue>
+        <fullName>South Australia</fullName>
+        <default>false</default>
+        <label>South Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>Tasmania</fullName>
+        <default>false</default>
+        <label>Tasmania</label>
+    </customValue>
+    <customValue>
+        <fullName>Victoria</fullName>
+        <default>false</default>
+        <label>Victoria</label>
+    </customValue>
+    <customValue>
+        <fullName>Western Australia</fullName>
+        <default>false</default>
+        <label>Western Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>New Zealand North</fullName>
+        <default>false</default>
+        <label>New Zealand North</label>
+    </customValue>
+    <customValue>
+        <fullName>New Zealand South</fullName>
+        <default>false</default>
+        <label>New Zealand South</label>
+    </customValue>
+    <customValue>
+        <fullName>UK PS South</fullName>
+        <default>false</default>
+        <label>UK PS South</label>
+    </customValue>
+    <customValue>
+        <fullName>UK PS Central</fullName>
+        <default>false</default>
+        <label>UK PS Central</label>
+    </customValue>
+    <customValue>
+        <fullName>UK HE</fullName>
+        <default>false</default>
+        <label>UK HE</label>
+    </customValue>
+    <customValue>
+        <fullName>UK North &amp; Scotland</fullName>
+        <default>false</default>
+        <label>UK North &amp; Scotland</label>
+    </customValue>
+    <customValue>
+        <fullName>UK Other</fullName>
+        <default>false</default>
+        <label>UK Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Indonesia</fullName>
+        <default>false</default>
+        <label>Indonesia</label>
+    </customValue>
+    <customValue>
+        <fullName>Malaysia</fullName>
+        <default>false</default>
+        <label>Malaysia</label>
+    </customValue>
+    <customValue>
+        <fullName>Mongolia</fullName>
+        <default>false</default>
+        <label>Mongolia</label>
+    </customValue>
+    <customValue>
+        <fullName>Philippines</fullName>
+        <default>false</default>
+        <label>Philippines</label>
+    </customValue>
+    <customValue>
+        <fullName>Singapore</fullName>
+        <default>false</default>
+        <label>Singapore</label>
+    </customValue>
+    <customValue>
+        <fullName>Sri Lanka</fullName>
+        <default>false</default>
+        <label>Sri Lanka</label>
+    </customValue>
+    <customValue>
+        <fullName>Vietnam</fullName>
+        <default>false</default>
+        <label>Vietnam</label>
+    </customValue>
+    <customValue>
+        <fullName>Cook Islands</fullName>
+        <default>false</default>
+        <label>Cook Islands</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiji</fullName>
+        <default>false</default>
+        <label>Fiji</label>
+    </customValue>
+    <customValue>
+        <fullName>Kiribati</fullName>
+        <default>false</default>
+        <label>Kiribati</label>
+    </customValue>
+    <customValue>
+        <fullName>Nauru</fullName>
+        <default>false</default>
+        <label>Nauru</label>
+    </customValue>
+    <customValue>
+        <fullName>PNG</fullName>
+        <default>false</default>
+        <label>PNG</label>
+    </customValue>
+    <customValue>
+        <fullName>Samoa</fullName>
+        <default>false</default>
+        <label>Samoa</label>
+    </customValue>
+    <customValue>
+        <fullName>Solomon Islands</fullName>
+        <default>false</default>
+        <label>Solomon Islands</label>
+    </customValue>
+    <customValue>
+        <fullName>Timor-Leste</fullName>
+        <default>false</default>
+        <label>Timor-Leste</label>
+    </customValue>
+    <customValue>
+        <fullName>Tonga</fullName>
+        <default>false</default>
+        <label>Tonga</label>
+    </customValue>
+    <customValue>
+        <fullName>Vanuatu</fullName>
+        <default>false</default>
+        <label>Vanuatu</label>
+    </customValue>
+    <customValue>
+        <fullName>Distributors</fullName>
+        <default>false</default>
+        <label>Distributors</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>PNG (AUD)</fullName>
+        <default>false</default>
+        <label>PNG (AUD)</label>
+    </customValue>
+    <customValue>
+        <fullName>PNG (USD)</fullName>
+        <default>false</default>
+        <label>PNG (USD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Distributors (AUD)</fullName>
+        <default>false</default>
+        <label>Distributors (AUD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Distributors (USD)</fullName>
+        <default>false</default>
+        <label>Distributors (USD)</label>
+    </customValue>
+    <masterLabel>Region</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

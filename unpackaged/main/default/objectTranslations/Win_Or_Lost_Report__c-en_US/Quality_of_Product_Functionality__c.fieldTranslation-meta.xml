@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Were our products considered functionally superior to our competitors? --></help>
+        <label><!-- Quality of Product Functionality --></label>
+        <name>Quality_of_Product_Functionality__c</name>
+    </CustomFieldTranslation>

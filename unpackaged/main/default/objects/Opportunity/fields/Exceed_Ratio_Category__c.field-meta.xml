@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exceed_Ratio_Category__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Reason for exceeding target licence or SaaS services ratio</inlineHelpText>
+    <label>Exceed Ratio Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Licence Discount</fullName>
+                <default>false</default>
+                <label>Licence Discount</label>
+            </value>
+            <value>
+                <fullName>Low Concurrent User Count</fullName>
+                <default>false</default>
+                <label>Low Concurrent User Count</label>
+            </value>
+            <value>
+                <fullName>Customer Additional Requirements</fullName>
+                <default>false</default>
+                <label>Customer Additional Requirements</label>
+            </value>
+            <value>
+                <fullName>Complex Implementation</fullName>
+                <default>false</default>
+                <label>Complex Implementation</label>
+            </value>
+            <value>
+                <fullName>Product Readiness.</fullName>
+                <default>false</default>
+                <label>Product Readiness.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

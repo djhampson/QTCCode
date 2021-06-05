@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contract Type --></label>
+        <name>Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer Contract</masterLabel>
+            <translation><!-- Customer Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote to be signed</masterLabel>
+            <translation><!-- Quote to be signed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TechOne Contract</masterLabel>
+            <translation><!-- TechOne Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variation to existing agreement</masterLabel>
+            <translation><!-- Variation to existing agreement --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>StageName</field>
+        <field>Type</field>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Account</field>
+        <field>CurrencyIsoCode</field>
+        <field>Amount</field>
+        <field>CloseDate</field>
+        <field>Vertical_Market__c</field>
+        <field>T1_Industry__c</field>
+        <field>Country_Area__c</field>
+        <field>Region__c</field>
+        <field>Description</field>
+        <field>Solution__c</field>
+        <field>CreatedBy</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>adhoc</type>
+            </approver>
+        </assignedApprover>
+        <description>CDM Approval required for Stage 3</description>
+        <entryCriteria>
+            <formula>$Profile.Name &lt;&gt; &quot;Sales&quot;</formula>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>CDM Approval - Stage 3</label>
+        <name>CDM_Approval_Stage_3</name>
+    </approvalStep>
+    <description>For new business opportunities, this approval process allows telemarketers to submit the opportunity for approval to the CDM. This in turn will change the stage to 3 upon approval.</description>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Opportunity.RecordType</field>
+            <operation>equals</operation>
+            <value>Licence Fee</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Stage 3  Discovery Approval</label>
+    <processOrder>2</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

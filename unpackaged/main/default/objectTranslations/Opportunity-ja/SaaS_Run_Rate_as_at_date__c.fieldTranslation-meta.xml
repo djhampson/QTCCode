@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date of SaaS Run Rate Calculation --></help>
+        <label><!-- SaaS Run Rate as at date --></label>
+        <name>SaaS_Run_Rate_as_at_date__c</name>
+    </CustomFieldTranslation>

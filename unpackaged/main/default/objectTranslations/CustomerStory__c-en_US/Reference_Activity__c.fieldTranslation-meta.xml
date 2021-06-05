@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reference Activity --></label>
+        <name>Reference_Activity__c</name>
+        <picklistValues>
+            <masterLabel>Articles or Publications</masterLabel>
+            <translation><!-- Articles or Publications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case study material</masterLabel>
+            <translation><!-- Case study material --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logo usage</masterLabel>
+            <translation><!-- Logo usage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media announcements</masterLabel>
+            <translation><!-- Media announcements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quotes</masterLabel>
+            <translation><!-- Quotes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference calls</masterLabel>
+            <translation><!-- Reference calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site visits</masterLabel>
+            <translation><!-- Site visits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speaking at events</masterLabel>
+            <translation><!-- Speaking at events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usage of name in tenders</masterLabel>
+            <translation><!-- Usage of name in tenders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Testimonials</masterLabel>
+            <translation><!-- Video Testimonials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira_Dev_Issue_CT_Count__c</fullName>
+    <externalId>false</externalId>
+    <label>Jira Dev Issue CT Count</label>
+    <summaryFilterItems>
+        <field>Jira_Dev_Issue__c.Name</field>
+        <operation>startsWith</operation>
+        <value>CT</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Jira_Dev_Issue__c.Case__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

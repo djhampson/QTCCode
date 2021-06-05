@@ -1,0 +1,14 @@
+{!Case.Link}
+Case Number: {!Case.CaseNumber}
+Priority: {!Case.Priority} 
+Account: {!Case.Account}
+{!Case.Contact}
+{!Contact.Phone}
+
+Type: {!Case.Type}
+Product: {!Case.Customer_Product__c} 
+Functional Area: {!Case.CFunctional_Area__c}
+Currently Assigned To: {!Case.OwnerFullName}
+
+Subject: {!Case.Subject}
+Details: {!Case.Description}

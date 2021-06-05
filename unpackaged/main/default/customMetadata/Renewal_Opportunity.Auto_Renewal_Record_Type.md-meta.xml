@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Auto Renewal RT</label>
+    <protected>false</protected>
+    <values>
+        <field>Amount_of_Days__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Days_Specified__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Increase_Rate__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Opportunity_Record_Type__c</field>
+        <value xsi:type="xsd:string">0122O000000e3HCQAY</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Grouped amount from Opportunity Item Split --></help>
+        <label><!-- Product Amount --></label>
+        <name>Amount__c</name>
+    </CustomFieldTranslation>

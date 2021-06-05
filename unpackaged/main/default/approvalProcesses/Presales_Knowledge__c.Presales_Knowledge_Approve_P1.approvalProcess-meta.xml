@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Module__c</field>
+        <field>Product__c</field>
+        <field>Approval_Status__c</field>
+        <field>Platform__c</field>
+        <field>Business_Process__c</field>
+        <field>Question__c</field>
+        <field>Answer__c</field>
+        <field>Requirement__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>tim_finch@technologyonecorp.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <description>Approver - Tim Finch</description>
+    <emailTemplate>Sales_Template/Approve_New_Q_A</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Presales_Knowledge__c.Product__c</field>
+            <operation>equals</operation>
+            <value>Business Intelligence,Corporate Performance Management,Enterprise Cash Receipting,Financials,Supply Chain Management,Performance Planning</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Presales_Knowledge_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Presales_Knowledge_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Presales_Knowledge_Pending</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Presales Knowledge - Approve P1</label>
+    <processOrder>1</processOrder>
+    <recallActions>
+        <action>
+            <name>Presales_Knowledge_Not_Submitted</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

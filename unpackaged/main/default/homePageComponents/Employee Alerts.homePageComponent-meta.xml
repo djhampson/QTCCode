@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;span style=&quot;color: #FF0000;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;PLEASE NOTE - The Employee and Customer Community will be unavailable from Sunday 11 January 2015 3:00PM AEST to Sunday 11 January 2015 9:30PM AEST due to scheduled server maintenance.&lt;/span&gt;&lt;/span&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

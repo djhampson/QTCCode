@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_5706592</developerName>
+        <masterLabel>Program/ProdPack</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.CR_Product__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>AMS Package</sourceValue>
+            </sourceValues>
+            <value>AMS Program</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Asset Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Business Intelligence</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Business Process Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Corporate Performance Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Enterprise Content Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Financials</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Human Resources and Payroll</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Performance Planning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Property and Rating</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Stakeholder Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Student Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Supply Chain Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ePlanning</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Spatial</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Multi-Product</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>AMS ProdPack</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>JRA AM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Technical</sourceValue>
+            </sourceValues>
+            <value>AMS ProdPack</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Account_Owner__c</field>
+    </columns>
+    <columns>
+        <field>Account.SDM__c</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>Opportunity.CR_Product__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT.CONVERT</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.T1_Close_Month__c</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Opportunity.Application_Managed_Services</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Stage 9 - Won,Lost,Opt Out / No Bid</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No business fit</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_5706592</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FULL_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.AMS_Program_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>AMS Pipeline Breakdown</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

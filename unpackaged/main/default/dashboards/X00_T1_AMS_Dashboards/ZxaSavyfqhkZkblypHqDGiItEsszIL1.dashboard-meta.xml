@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Athena Cornish</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Debie Thompson</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Yadushani Rajapakse</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Samantha Carrasco</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Mare Marais</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Mark Patane</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Marlies Frew</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Raylene Waterson</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Samuel Kitoto</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sue Barnewall</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Steve Hanna</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Theodore Mihaelidis</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>AMS P&amp;R</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Lee Manning</values>
+        </dashboardFilterOptions>
+        <name>Case Owner</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Julie Holwell</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Kelly</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Alan Uzarevic</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Imraan Alexander</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Warren Sullivan</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Paula Taylor</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Wansink</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Diane Keough</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Niki Johnson</values>
+        </dashboardFilterOptions>
+        <name>SDM</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Blacktown City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Bland Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Burdekin Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Campaspe Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Campbelltown City Council (SA)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Cassowary Coast Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>City of Casey</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>City of Charles Sturt</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>City of Holdfast Bay</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>City of Mitcham</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Clarence City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Coffs Harbour City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Edward River Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Georges River Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Glenorchy City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Goulburn Murray Water</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Hepburn Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Hilltops Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Hinchinbrook Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Hutt City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Hume City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Inner West Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Lockyer Valley Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Lower Murray Water</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Mareeba Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Marlborough District Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Mid Western Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Mitchell Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Mount Alexander Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Murrumbidgee Irrigation Limited</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Narrabri Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>New Plymouth District Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Noosa Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Northern Beaches Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Parkes Shire Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Queenstown Lakes District Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Devonport City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Scenic Rim Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Shellharbour Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Snowy Monaro Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Snowy Valleys Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>South Burnett Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>South East Water Corporation</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Sunshine Coast Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Tablelands Regional Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Townsville City Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Waimakariri District Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Waipa District Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Whangarei District Council</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Wyndham City Council</values>
+        </dashboardFilterOptions>
+        <name>Account Name</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>FORMULA1</column>
+                </chartSummary>
+                <componentType>BarGrouped</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <groupingColumn>STATUS</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>FORMULA1</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                    <groupingSorts>
+                        <groupingLevel>g2</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>P&amp;R cases- ALL</header>
+                <legendPosition>Right</legendPosition>
+                <report>X00_T1_AMS_Reports/P_R_cases2</report>
+                <showPercentage>false</showPercentage>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>15</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>FORMULA1</column>
+                </chartSummary>
+                <componentType>BarGrouped</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <groupingColumn>CASE_NUMBER</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>FORMULA1</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                    <groupingSorts>
+                        <groupingLevel>g2</groupingLevel>
+                        <sortColumn>FORMULA1</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>P&amp;R WIP</header>
+                <legendPosition>Right</legendPosition>
+                <report>X00_T1_AMS_Reports/P_R_cases_1</report>
+                <showPercentage>false</showPercentage>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>9</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Integer</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>true</expandOthers>
+                <groupingColumn>STATUS</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>RowCount</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header># of Cases by Consultant</header>
+                <legendPosition>Right</legendPosition>
+                <maxValuesDisplayed>6</maxValuesDisplayed>
+                <report>X00_T1_AMS_Reports/P_R_cases1</report>
+                <showPercentage>false</showPercentage>
+                <showTotal>true</showTotal>
+                <showValues>true</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>9</rowIndex>
+            <rowSpan>10</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>PRIORITY</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>SUBJECT</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>CASE_NUMBER</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>P&amp;R cases with green flags</header>
+                <report>X00_T1_AMS_RB_Reports/P_R_cases_with_green_flags</report>
+            </dashboardComponent>
+            <rowIndex>15</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingSortProperties/>
+                <header>P&amp;R by Score</header>
+                <report>X00_T1_AMS_Reports/P_R_cases_age_and_score</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>true</useReportChart>
+            </dashboardComponent>
+            <rowIndex>19</rowIndex>
+            <rowSpan>9</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>1</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties/>
+                <header>Cases Closed This Week</header>
+                <indicatorBreakpoint1>1.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>2.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <report>X00_T1_AMS_Reports/Cases_Closed_This_Week2</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>23</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>1</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <column>vftimer__TimedItem__c$vftimer__Time__c</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <dashboardFilterColumns>
+                    <column>vftimer__TimedItem__c$Owner</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>vftimer__TimedItem__c$CreatedBy</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>vftimer__TimedItem__c$vftimer__Case__c.Contact.Account</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <groupingSortProperties/>
+                <header>Timed Items This Week</header>
+                <indicatorBreakpoint1>15.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>30.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <report>X00_T1_AMS_RB_Reports/Timed_Items_This_Week1</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>23</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Account.SDM__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>AMS customers- programs exceeeded</header>
+                <report>X00_T1_AMS_RB_Reports/AMS_customers_programs_exceeeded</report>
+            </dashboardComponent>
+            <rowIndex>23</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>7</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.AMS_Case_Score__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>SUBJECT</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.AMS_Number_of_Requests__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>STATUS</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Account_SDM__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.AMS_Comment__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>Case.AMS_Case_Score__c</sortColumn>
+                        <sortOrder>2</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>P&amp;R TaskForce - SDM_Escalations</header>
+                <report>X00_T1_AMS_Reports/P_R_TaskForce_SDM_Escalations1</report>
+            </dashboardComponent>
+            <rowIndex>28</rowIndex>
+            <rowSpan>11</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>5</colSpan>
+            <columnIndex>7</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>SUBJECT</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Customer_Agreed_Date__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>OWNER</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>Customer Agreed Date</header>
+                <report>X00_T1_AMS_RB_Reports/P_R_cases_customer_agreed_date</report>
+            </dashboardComponent>
+            <rowIndex>28</rowIndex>
+            <rowSpan>11</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>7</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>SUBJECT</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.AMS_Number_of_Requests__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>STATUS</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.AMS_Comment__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>ACCOUNT.NAME</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>P&amp;R TaskForce - SDM_Escalations ALL</header>
+                <report>X00_T1_AMS_Reports/P_R_TaskForce_SDM_Escalations_ALL</report>
+            </dashboardComponent>
+            <rowIndex>39</rowIndex>
+            <rowSpan>9</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>5</colSpan>
+            <columnIndex>7</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Account.SDM__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>ACCOUNT.NAME</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>STATUS</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>P&amp;R consulting cases</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>X00_T1_AMS_Reports/P_R_consulting_cases</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>39</rowIndex>
+            <rowSpan>9</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>AMS case management - P&amp;R</description>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>tania_howarth@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>AMS P&amp;R Taskforce dashboard T</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

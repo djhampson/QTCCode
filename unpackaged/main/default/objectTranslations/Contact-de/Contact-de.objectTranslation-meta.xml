@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contact Layout - Customer Community</layout>
+        <sections>
+            <label><!-- Email Preferences --></label>
+            <section>Email Preferences</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout - Employee Community</layout>
+        <sections>
+            <label><!-- Communication Information --></label>
+            <section>Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Email Preferences --></label>
+            <section>Email Preferences</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout - LEX</layout>
+        <sections>
+            <label><!-- Communication Information --></label>
+            <section>Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Management --></label>
+            <section>Contact Management</section>
+        </sections>
+        <sections>
+            <label><!-- Marketo Sales Insights --></label>
+            <section>Marketo Sales Insights</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Employee Layout</layout>
+        <sections>
+            <label><!-- Employee Information --></label>
+            <section>Employee Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Case --></label>
+        <name>Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Contact Details --></label>
+        <name>Contact_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Contacts for Customers --></description>
+        <label><!-- Customer Contact --></label>
+        <name>Customer_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Partner/Associate/Consultant/Other --></description>
+        <label><!-- Other --></label>
+        <name>Other</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Employees of Technology one --></description>
+        <label><!-- Technology One Employee --></label>
+        <name>Technology_One_Employee</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- International format required. AU numbers must have prefix +61. Area Code to exclude leading 0. Examples: +61 7 3167 7300 or +61 1300 784 388 or +61 13 12 12 or +61 439 545 333 --></errorMessage>
+        <name>Phone_No_Format_Aus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. NZ numbers must have prefix +64. Area Code to exclude leading 0. Examples: +64 4 913 8300, +64 800 123 456, +64 21 345 6879 --></errorMessage>
+        <name>Phone_No_Format_NZ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. UK numbers must have prefix +44. Area Code to exclude leading 0. Examples: +44 1628 591160, +44 7911 123456, +44 800 123 4567, +44 800 1111 --></errorMessage>
+        <name>Phone_No_Format_UK</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- International format required. Phone numbers must have Country code prefix followed by Area Code (where applicable) excluding leading 0, followed by subscriber number. Examples: +60 3 1234 5678, +675 123 5678 --></errorMessage>
+        <name>Phone_No_Format_for_AsiaPacific</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Status Reason --></errorMessage>
+        <name>Status_Reason_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

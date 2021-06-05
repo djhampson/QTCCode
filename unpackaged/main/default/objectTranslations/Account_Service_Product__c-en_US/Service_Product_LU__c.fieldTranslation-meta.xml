@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Service Product --></label>
+        <name>Service_Product_LU__c</name>
+        <relationshipLabel><!-- Account Service Products --></relationshipLabel>
+    </CustomFieldTranslation>

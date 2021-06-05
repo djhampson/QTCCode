@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CampaignActiveTick</fullName>
+        <description>Ticks the &#39;Active&#39; tick</description>
+        <field>IsActive</field>
+        <literalValue>1</literalValue>
+        <name>CampaignActiveTick</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Campaign Planning Status is Locked In</fullName>
+        <actions>
+            <name>CampaignActiveTick</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Campaign.Planning_Status__c</field>
+            <operation>equals</operation>
+            <value>Locked in</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Campaign.IsActive</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>When Campaign Planning Status is locked in, set Active= true</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

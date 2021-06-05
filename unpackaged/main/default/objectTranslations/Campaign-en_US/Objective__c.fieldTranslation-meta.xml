@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Objective --></label>
+        <name>Objective__c</name>
+        <picklistValues>
+            <masterLabel>1. Lead creation</masterLabel>
+            <translation><!-- 1. Lead creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2. Lead progression</masterLabel>
+            <translation><!-- 2. Lead progression --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3. Loyalty</masterLabel>
+            <translation><!-- 3. Loyalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4. Awareness</masterLabel>
+            <translation><!-- 4. Awareness --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

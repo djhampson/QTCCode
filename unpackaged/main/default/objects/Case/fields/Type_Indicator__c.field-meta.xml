@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>Case(  RecordType.DeveloperName , &quot;Question&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000BUdw8&amp;oid=00DG0000000jBju&quot;, &quot;Question&quot;),
+&quot;Service_Request&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000BUdw9&amp;oid=00DG0000000jBju&quot;, &quot;Service Request&quot;),
+&quot;TechnologyOne_Cloud_Service_Request&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=0150f00002l3xWP&amp;oid=00DG0000000jBju&quot;, &quot;TechnologyOne Cloud Service Request&quot;),
+&quot;I_require_an_AMS_service&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000BUdw9&amp;oid=00DG0000000jBju&quot;, &quot;AMS  Service Request&quot;),
+&quot;Incident&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000BUdw3&amp;oid=00DG0000000jBju&quot;, &quot;Incident&quot;),
+&quot;Problem&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000BUdw7&amp;oid=00DG0000000jBju&quot;, &quot;Problem&quot;),
+&quot;Change_Control&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000BUdw0&amp;oid=00DG0000000jBju&quot;, &quot;Change Control&quot;),
+&quot;Consulting_Question&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G0000001kql3&amp;oid=00DG0000000jBju&quot;, &quot;Consulting Question&quot;),
+&quot;Consulting_Request&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=0150f00002l3xWe&amp;oid=00DG0000000jBju&quot;, &quot;Consulting Request&quot;),
+&quot;Cons_Q_or_I&quot;, Image(&quot;https://technologyone.my.salesforce.com/servlet/servlet.ImageServer?id=015G000000BUdw8&amp;oid=00DG0000000jBju&quot;, &quot;Question&quot;), &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Type Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Ending point for Dec 2016 is 263</footer>
+            <groupingSortProperties/>
+            <header>CPM Total Open Cases - Targeting 260 Week End</header>
+            <indicatorBreakpoint1>261.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>270.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>CPM Total Open Cases</metricLabel>
+            <report>Product_Support/CPM_Total_Cases_exl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Ending point for Dec 2016 is 115</footer>
+            <groupingSortProperties/>
+            <header>ECR Total Open Cases - Targeting 110 Week End</header>
+            <indicatorBreakpoint1>111.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>120.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>ECR Total Open Cases</metricLabel>
+            <report>Product_Support/ECR_Total_Cases_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Integer</displayUnits>
+            <footer>Ending point for Dec 2016 is 1514</footer>
+            <groupingSortProperties/>
+            <header>FIN Total Open Cases - Targeting 1485 Week End</header>
+            <indicatorBreakpoint1>1485.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>1505.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>FIN Total Open Cases</metricLabel>
+            <report>Product_Support/FIN_Total_Cases_excl_Service_Reqeusts</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Ending point for Dec 2016 is 736</footer>
+            <groupingSortProperties/>
+            <header>HRP Total Open Cases - Targeting 750 Week End</header>
+            <indicatorBreakpoint1>751.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>760.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>HRP Total Open Cases</metricLabel>
+            <report>Product_Support/HRP_Total_Cases_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Ending point for Dec 2016 is 345</footer>
+            <groupingSortProperties/>
+            <header>SCM Total Open Cases - Targeting 350 Week End</header>
+            <indicatorBreakpoint1>351.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>360.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>SCM Total Open Cases</metricLabel>
+            <report>Product_Support/SCM_Total_Cases_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>BarGrouped</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>CREATED_DATEONLY</groupingColumn>
+            <groupingColumn>Case.Customer_Product__c</groupingColumn>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Product_Support/Weekly_Incoming</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Weekly Incoming Last Month &amp; Current</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for less then 144 each month</footer>
+            <groupingSortProperties/>
+            <header>CPM Cases Opened This Month</header>
+            <indicatorBreakpoint1>135.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>144.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>CPM Cases Opened This Month</metricLabel>
+            <report>Product_Support/CPM_opened_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for less then 56 each month</footer>
+            <groupingSortProperties/>
+            <header>ECR Cases Opened This Month</header>
+            <indicatorBreakpoint1>50.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>55.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>ECR Cases Opened This Month</metricLabel>
+            <report>Product_Support/ECR_Opened_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for less then 852 each month</footer>
+            <groupingSortProperties/>
+            <header>FIN Cases Opened This Month</header>
+            <indicatorBreakpoint1>800.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>851.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>FIN Cases Opened This Month</metricLabel>
+            <report>Product_Support/FIN_opened_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for less then 400 each month</footer>
+            <groupingSortProperties/>
+            <header>HRP Cases Opened This Month</header>
+            <indicatorBreakpoint1>350.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>400.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>HRP Cases Opened This Month</metricLabel>
+            <report>Product_Support/HRP_opened_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for less then 171 each month</footer>
+            <groupingSortProperties/>
+            <header>SCM Cases Opened This Month</header>
+            <indicatorBreakpoint1>160.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>171.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>SCM Cases Opened This Month</metricLabel>
+            <report>Product_Support/SCM_opened_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>BarGrouped</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingColumn>Case.Resolved_Date__c</groupingColumn>
+            <groupingColumn>Case.Customer_Product__c</groupingColumn>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>Product_Support/Weekly_Closed</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Weekly Resolved Last Month &amp; Current</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for 144+ each month to eat into backlog</footer>
+            <groupingSortProperties/>
+            <header>CPM Cases Closed This Month</header>
+            <indicatorBreakpoint1>140.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>143.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>CPM Cases Closed MTD</metricLabel>
+            <report>Product_Support/CPM_Closed_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for 56+ each month to eat into backlog</footer>
+            <groupingSortProperties/>
+            <header>ECR Cases Closed This Month</header>
+            <indicatorBreakpoint1>50.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>55.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>ECR Cases Closed MTD</metricLabel>
+            <report>Product_Support/ECR_closed_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for 852+ each month to eat into backlog</footer>
+            <groupingSortProperties/>
+            <header>FIN Cases Closed This Month</header>
+            <indicatorBreakpoint1>850.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>855.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>FIN Cases Closed MTD</metricLabel>
+            <report>Product_Support/FIN_Closed_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for 400+ each month to eat into backlog</footer>
+            <groupingSortProperties/>
+            <header>HRP Cases Closed This Month</header>
+            <indicatorBreakpoint1>395.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>399.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>HRP Cases Closed MTD</metricLabel>
+            <report>Product_Support/HRP_Closed_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Metric</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>Aiming for 171+ each month to eat into backlog</footer>
+            <groupingSortProperties/>
+            <header>SCM Cases Closed This Month</header>
+            <indicatorBreakpoint1>168.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>170.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <metricLabel>SCM Cases Closed MTD</metricLabel>
+            <report>Product_Support/SCM_Closed_MTD_excl_Service_Requests</report>
+            <showRange>false</showRange>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Start: CPM:60 ECR:81 FIN:179 HRP:326 SCM:131</footer>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Cases_with_last_cust_comms_1_month</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Customer communication &gt; 1 month ago</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Start: CPM:43 ECR:58 FIN:182 HRP:253 SCM:118</footer>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Cases_without_Interim_Solution</report>
+            <showPicturesOnTables>false</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Cases without Interim Solutions</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Should be 0</footer>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Product_Support/Cases_Missing_Found_Technology</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Cases missing Found Technology</title>
+        </components>
+    </rightSection>
+    <runningUser>roxanne_hoare@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Product Leaderboard</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

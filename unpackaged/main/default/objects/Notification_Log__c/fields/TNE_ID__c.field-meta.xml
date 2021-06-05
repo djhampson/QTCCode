@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TNE_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>TNE-generated GUID that uniquely identifies the notification so that TNE can update the notification later once it has been processed (TOCB-1615)</description>
+    <externalId>true</externalId>
+    <label>TNE ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

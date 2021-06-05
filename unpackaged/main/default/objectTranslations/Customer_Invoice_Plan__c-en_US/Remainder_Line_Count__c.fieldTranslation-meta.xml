@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is a field to assist data quality validation which one plan should have maximum 1 line with Type = Remainder. --></help>
+        <label><!-- Remainder Line Count --></label>
+        <name>Remainder_Line_Count__c</name>
+    </CustomFieldTranslation>

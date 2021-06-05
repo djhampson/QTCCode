@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_WonLoss_and_report_not_created</fullName>
+    <active>true</active>
+    <description>If stage is Won or Loss and amount is &gt;=100K or ARR &gt;=50K, then Win loss Report needs to be completed</description>
+    <errorConditionFormula>(IsWon || ISPICKVAL( StageName , &quot;Lost&quot;)
+)
+&amp;&amp;
+(
+ Win_Loss_Report__c &lt; 1
+)
+&amp;&amp;
+ (Amount &gt;= 100000 || ARR__c &gt;= 50000)
+&amp;&amp;
+(RecordType.Name)=&#39;Licence Fee&#39; 
+&amp;&amp; $Profile.Name &lt;&gt; &#39;System Administrator&#39;
+&amp;&amp; $Profile.Name &lt;&gt; &quot;Operations&quot;
+&amp;&amp; $Profile.Name &lt;&gt; &quot;Exec - Finance&quot;</errorConditionFormula>
+    <errorMessage>Please create a Win/loss Report before move the Stage to be Won or Lost.</errorMessage>
+</ValidationRule>

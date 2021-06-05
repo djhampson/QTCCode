@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify customer that case is now confirmed with development</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Confirmed With Development</name>
+    <style>none</style>
+    <subject>Case Confirmed With Development {!Case.CaseNumber} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+The development team have completed their initial analysis on this issue and have confirmed this requires more work.
+
+Until a resolution is provided for this issue it has been noted that the following actions can be taken as a workaround/alternate solution:
+
+(INSERT WORKAROUND HERE)
+
+
+Case Number:  {!Case.CaseNumber}
+Product:  {!Case.Customer_Product__c}
+Functional Area:  {!Case.Functional_Area__c}
+Case Subject:  {!Case.Subject}
+Priority:  {!Case.Priority}
+Customer Reference:  {!Case.Customer_Reference__c}
+
+
+A further update will be provided when the issue is resolved. Please note that for High &amp; Medium issues these are expected to be scheduled in a future release.
+
+Kind regards,
+{!User.Name}
+
+{!Case.EmailSig__c}
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending commencement</fullName>
+                <default>false</default>
+                <label>Pending commencement</label>
+            </value>
+            <value>
+                <fullName>In progress</fullName>
+                <default>false</default>
+                <label>In progress</label>
+            </value>
+            <value>
+                <fullName>On hold</fullName>
+                <default>false</default>
+                <label>On hold</label>
+            </value>
+            <value>
+                <fullName>Live</fullName>
+                <default>false</default>
+                <label>Live</label>
+            </value>
+            <value>
+                <fullName>Installed in Test/Dev</fullName>
+                <default>false</default>
+                <label>Installed in Test/Dev</label>
+            </value>
+            <value>
+                <fullName>Installed in Prod</fullName>
+                <default>false</default>
+                <label>Installed in Prod</label>
+            </value>
+            <value>
+                <fullName>Installed in both Dev and Prod</fullName>
+                <default>false</default>
+                <label>Installed in both Dev and Prod</label>
+            </value>
+            <value>
+                <fullName>Registered Interest</fullName>
+                <default>false</default>
+                <label>Registered Interest</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

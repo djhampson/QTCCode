@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Sub_grouping_update</fullName>
+        <description>Updates the region sub-grouping field for Lee Thompson&#39;s report</description>
+        <field>Sub_group__c</field>
+        <formula>CASE(  Region__c  , 
+&quot;ACT&quot;, &quot;ACT&quot;,
+&quot;New South Wales&quot;, &quot;New South Wales&quot;,
+&quot;Northern Territory&quot;, &quot;Northern Territory&quot;,
+&quot;Queensland&quot;, &quot;Queensland&quot;,
+&quot;South Australia&quot;, &quot;South Australia&quot;,
+&quot;Tasmania&quot;,&quot;Tasmania&quot;,
+&quot;Victoria&quot;, &quot;Victoria&quot;,
+&quot;Western Australia&quot;, &quot;Western Australia&quot;,
+&quot;New Zealand North&quot;, &quot;New Zealand North&quot;,
+&quot;New Zealand South&quot;, &quot;New Zealand South&quot;,
+&quot;Indonesia&quot;,&quot;Asia&quot;,
+&quot;Malaysia&quot;,&quot;Asia&quot;,
+&quot;Mongolia&quot;,&quot;Asia&quot;,
+&quot;Singapore&quot;,&quot;Asia&quot;,
+&quot;Timor-Leste&quot;,&quot;Asia&quot;,
+&quot;Vietnam&quot;,&quot;Asia&quot;,
+&quot;Cook Islands&quot;, &quot;Pacific&quot;,
+&quot;Kiribati&quot;, &quot;Pacific&quot;,
+&quot;Marshall Islands&quot;, &quot;Pacific&quot;,
+&quot;Nauru&quot;, &quot;Pacific&quot;,
+&quot;Norfolk Island&quot;, &quot;Pacific&quot;,
+&quot;Niue&quot;, &quot;Pacific&quot;,
+&quot;Solomon Islands&quot;, &quot;Pacific&quot;,
+&quot;Tonga&quot;, &quot;Pacific&quot;,
+&quot;Fiji&quot;, &quot;Pacific&quot;,
+&quot;Samoa&quot;, &quot;Pacific&quot;,
+&quot;PNG&quot;, &quot;Pacific&quot;,
+&quot;Tuvalu&quot;, &quot;Pacific&quot;,
+&quot;Vanuatu&quot;, &quot;Pacific&quot;,
+&quot;United Kingdom North West&quot;, &quot;United Kingdom - North&quot;,
+&quot;United Kingdom South&quot;, &quot;United Kingdom - South&quot;,
+&quot;United Kingdom Central&quot;, &quot;United Kingdom - Central&quot;,
+&quot;Other Regions&quot;)</formula>
+        <name>Sub-grouping update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Region sub-grouping</fullName>
+        <actions>
+            <name>Sub_grouping_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Creates the sub-grouping for regions, for Lee Thompson&#39;s report</description>
+        <formula>ISCHANGED( Region__c ) ||  ISNEW()</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

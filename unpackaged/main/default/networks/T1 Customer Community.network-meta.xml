@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>true</allowInternalUserLogin>
+    <allowMembersToFlag>true</allowMembersToFlag>
+    <changePasswordTemplate>Administration/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles/>
+    <description>The ONLY Customer community for T1 customers.</description>
+    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <emailFooterLogo>Communities_Shared_Document_Folder/CustomerCommunityHeaderBlueText_300x55.png</emailFooterLogo>
+    <emailFooterText>Copyright TechnologyOne Limited. All rights reserved.</emailFooterText>
+    <emailSenderAddress>T1CustomerCommunityAdmin@technologyonecorp.com</emailSenderAddress>
+    <emailSenderName>T1 Customer Community DEV</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>true</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>true</enableKnowledgeable>
+    <enableMemberVisibility>true</enableMemberVisibility>
+    <enableNicknameDisplay>false</enableNicknameDisplay>
+    <enablePrivateMessages>true</enablePrivateMessages>
+    <enableReputation>true</enableReputation>
+    <enableShowAllNetworkSettings>true</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>Administration/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>true</gatherCustomerSentimentData>
+    <networkMemberGroups>
+        <permissionSet>AdditionalCustomerCommunityUsers</permissionSet>
+        <profile>Customer Support Community</profile>
+        <profile>Support</profile>
+        <profile>Product Owners</profile>
+        <profile>Customer Community Contributor</profile>
+        <profile>Customer Community Login User Contributor</profile>
+        <profile>Customer Community Login User Support</profile>
+        <profile>R%26D</profile>
+        <profile>Customer Support Community Plus</profile>
+        <profile>Product</profile>
+        <profile>Sales</profile>
+        <profile>Product Manager</profile>
+        <profile>Admin</profile>
+        <profile>Marketing</profile>
+        <profile>Consulting</profile>
+        <profile>Customer Community Login AMS UAT</profile>
+        <profile>SFDC Sys Admin Clone</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Designer</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Standard</homePageOverrideSetting>
+        <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>T1_Customer_Community_C</picassoSite>
+    <reputationLevels>
+        <level>
+            <label>Observer to Community</label>
+            <lowerThreshold>0.0</lowerThreshold>
+        </level>
+        <level>
+            <label>Active in Community</label>
+            <lowerThreshold>51.0</lowerThreshold>
+        </level>
+        <level>
+            <label>Community Enthusiast</label>
+            <lowerThreshold>801.0</lowerThreshold>
+        </level>
+        <level>
+            <label>Community Champion</label>
+            <lowerThreshold>2501.0</lowerThreshold>
+        </level>
+        <level>
+            <label>Community Legend</label>
+            <lowerThreshold>6001.0</lowerThreshold>
+        </level>
+        <level>
+            <label>Community Evangelist</label>
+            <lowerThreshold>10001.0</lowerThreshold>
+        </level>
+    </reputationLevels>
+    <reputationPointsRules>
+        <pointsRule>
+            <eventType>FeedItemReceiveALike</eventType>
+            <points>3</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemMentionSomeone</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemReceiveAMention</eventType>
+            <points>3</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemYourAnswerMarkedBest</eventType>
+            <points>5</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemReceiveAnAnswer</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemAnswerAQuestion</eventType>
+            <points>3</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemPostQuestion</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemMarkAnswerAsBest</eventType>
+            <points>2</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>EndorseSomeoneForKnowledgeOnATopic</eventType>
+            <points>0</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>EndorsedForKnowledgeOnATopic</eventType>
+            <points>0</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemWriteAPost</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemLikeSomething</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemWriteAComment</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemReceiveAComment</eventType>
+            <points>3</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemShareAPost</eventType>
+            <points>1</points>
+        </pointsRule>
+        <pointsRule>
+            <eventType>FeedItemSomeoneSharesYourPost</eventType>
+            <points>5</points>
+        </pointsRule>
+    </reputationPointsRules>
+    <selfRegProfile>Customer Community Login User Contributor</selfRegProfile>
+    <selfRegistration>true</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>T1_Customer_Community</site>
+    <status>Live</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>home</standardTab>
+        <standardTab>UserProfile</standardTab>
+        <standardTab>ChatterAnswers</standardTab>
+        <standardTab>Knowledge</standardTab>
+        <standardTab>Case</standardTab>
+        <standardTab>Idea</standardTab>
+        <standardTab>IdeaTheme</standardTab>
+        <standardTab>Chatter</standardTab>
+        <standardTab>Dashboard</standardTab>
+        <standardTab>report</standardTab>
+    </tabs>
+    <urlPathPrefix>community</urlPathPrefix>
+    <welcomeTemplate>Administration/Communities_New_Customer_Welcome_Email_New</welcomeTemplate>
+</Network>

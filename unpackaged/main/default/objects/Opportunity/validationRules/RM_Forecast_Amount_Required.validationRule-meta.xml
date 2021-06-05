@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RM_Forecast_Amount_Required</fullName>
+    <active>true</active>
+    <description>RM Forecast Amount Required while RM Forecast is checked.</description>
+    <errorConditionFormula>(OO_Forecast__c)&amp;&amp;   
+(ISBLANK(RM_Forecast_Amount__c) ||  RM_Forecast_Amount__c=0)
+&amp;&amp;  Text(Licence_Model__c) &lt;&gt; &#39;Cloud&#39; 
+&amp;&amp; ($Profile.Name = &#39;Sales Manager&#39;)</errorConditionFormula>
+    <errorDisplayField>RM_Forecast_Amount__c</errorDisplayField>
+    <errorMessage>Please enter RM Forecast Amount while RM Forecast is checked.</errorMessage>
+</ValidationRule>

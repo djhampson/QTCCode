@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Changes_waiting_to_be_progressed</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Reference__c</columns>
+    <columns>Item_Name__c</columns>
+    <columns>Related_Object__c</columns>
+    <columns>DEV__c</columns>
+    <columns>UAT__c</columns>
+    <columns>PROD__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>UAT__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>PROD__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Changes waiting to be progressed</label>
+</ListView>

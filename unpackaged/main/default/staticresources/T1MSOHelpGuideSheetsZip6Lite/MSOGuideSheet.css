@@ -1,0 +1,13 @@
+﻿body				{ font-family:Arial, Helvetica, Verdana, sans-serif; margin-top:0px; font-size:75% }
+h1					{ background-color:#737e96; color:#fff; font-size:140%; font-weight:bold; padding:10px 0px 11px 8px; margin-top:0px }
+
+.sheetTitle			{ font-size:12px; font-weight:bold; padding-left:20px; color:#333 }
+.mainTitle			{ font-size:18px; font-weight:bold; background-color:#737e96; color:#fff; padding:4px }
+.subTitle			{ font-size:16px; font-weight:bold; background-color:#deedff; padding:2px; color:#333 }
+.meaningText		{ font-family:Georgia, "Times New Roman", Times, serif; font-size:100%; margin: 5px; color: #000099; width:150px }
+.itemText			{ font-family:Verdana, Tahoma, arial, sans-serif; margin:10px }
+.itemText li		{ margin-bottom:4px }
+
+table.main 			{ border-width:1px; border-spacing:0px; border-style:outset; border-color:gray; border-collapse:collapse; background-color:white }
+table.main th	 	{ border-width:1px; padding:1px; border-style:inset; border-color:gray; background-color:white; vertical-align:top; text-align:center }
+table.main td 		{ border-width:1px; padding:1px; border-style:inset; border-color:gray; background-color:white }

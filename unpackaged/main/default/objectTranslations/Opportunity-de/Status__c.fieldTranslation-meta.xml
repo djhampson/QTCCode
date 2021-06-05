@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approval Received</masterLabel>
+            <translation><!-- Approval Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR sent to customer for approval</masterLabel>
+            <translation><!-- CR sent to customer for approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dependent on Licence Fee Sale</masterLabel>
+            <translation><!-- Dependent on Licence Fee Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to ACD / Scheduler</masterLabel>
+            <translation><!-- Sent to ACD / Scheduler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Infrastructure Services for input</masterLabel>
+            <translation><!-- Sent to Infrastructure Services for input --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Opportunity Owner for Input</masterLabel>
+            <translation><!-- Sent to Opportunity Owner for Input --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Practice Lead for input</masterLabel>
+            <translation><!-- Sent to Practice Lead for input --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent to Return Business</masterLabel>
+            <translation><!-- Sent to Return Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Code Received / Finalised</masterLabel>
+            <translation><!-- Task Code Received / Finalised --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Code Requested</masterLabel>
+            <translation><!-- Task Code Requested --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

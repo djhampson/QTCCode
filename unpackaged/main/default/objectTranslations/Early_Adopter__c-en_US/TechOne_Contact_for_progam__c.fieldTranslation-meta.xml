@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- TechOne Contact for Program --></label>
+        <name>TechOne_Contact_for_progam__c</name>
+        <relationshipLabel><!-- Early Adopter (TechOne Contact for Program) --></relationshipLabel>
+    </CustomFieldTranslation>

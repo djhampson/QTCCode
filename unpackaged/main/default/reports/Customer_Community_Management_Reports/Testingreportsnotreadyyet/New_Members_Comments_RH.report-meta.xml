@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Network.NetworkCollaborationGroups.FeedItems$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Network.NetworkCollaborationGroups.FeedItems$DerivedFeedItem</field>
+    </columns>
+    <columns>
+        <field>Network.NetworkCollaborationGroups.FeedItems$CommentCount</field>
+    </columns>
+    <columns>
+        <field>Network.NetworkCollaborationGroups.FeedItems$LikeCount</field>
+    </columns>
+    <columns>
+        <field>Network.NetworkCollaborationGroups.FeedItems$CreatedBy.CreatedDate</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Group comments created in the last 7 days by a member who registered in the last 30 days. This report is sorted by the highest number of likes.</description>
+    <filter>
+        <criteriaItems>
+            <column>Network.NetworkCollaborationGroups.FeedItems.Comments$OriginNetwork</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>customer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Network.NetworkCollaborationGroups.FeedItems$CommentCount</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>0</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>New Members&#39; Comments RH</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ca_collab_2_0__Network_Groups_Activity_3_0__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Network.NetworkCollaborationGroups.FeedItems$CreatedBy.CreatedDate</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Network.NetworkCollaborationGroups.FeedItems$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST7</interval>
+    </timeFrameFilter>
+</Report>

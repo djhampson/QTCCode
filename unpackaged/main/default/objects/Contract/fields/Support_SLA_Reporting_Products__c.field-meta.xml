@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_SLA_Reporting_Products__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select from list which products Support SLA Reporting applies to (if applies to all, leave blank)</inlineHelpText>
+    <label>Support SLA Reporting Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset Management (AM)</fullName>
+                <default>false</default>
+                <label>Asset Management (AM)</label>
+            </value>
+            <value>
+                <fullName>Business Process Management (BPM)</fullName>
+                <default>false</default>
+                <label>Business Process Management (BPM)</label>
+            </value>
+            <value>
+                <fullName>Corporate Performance Management (CPM)</fullName>
+                <default>false</default>
+                <label>Corporate Performance Management (CPM)</label>
+            </value>
+            <value>
+                <fullName>Customer Relationship Management (CRM)</fullName>
+                <default>false</default>
+                <label>Customer Relationship Management (CRM)</label>
+            </value>
+            <value>
+                <fullName>Enterprise Cash Receipting (ECR)</fullName>
+                <default>false</default>
+                <label>Enterprise Cash Receipting (ECR)</label>
+            </value>
+            <value>
+                <fullName>Enterprise Content Management (ECM)</fullName>
+                <default>false</default>
+                <label>Enterprise Content Management (ECM)</label>
+            </value>
+            <value>
+                <fullName>Financials (FIN)</fullName>
+                <default>false</default>
+                <label>Financials (FIN)</label>
+            </value>
+            <value>
+                <fullName>Human Resource &amp; Payroll (HRP)</fullName>
+                <default>false</default>
+                <label>Human Resource &amp; Payroll (HRP)</label>
+            </value>
+            <value>
+                <fullName>Property &amp; Rating (P&amp;R)</fullName>
+                <default>false</default>
+                <label>Property &amp; Rating (P&amp;R)</label>
+            </value>
+            <value>
+                <fullName>Spatial</fullName>
+                <default>false</default>
+                <label>Spatial</label>
+            </value>
+            <value>
+                <fullName>Student Management (SM)</fullName>
+                <default>false</default>
+                <label>Student Management (SM)</label>
+            </value>
+            <value>
+                <fullName>Supply Chain Management (SCM)</fullName>
+                <default>false</default>
+                <label>Supply Chain Management (SCM)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

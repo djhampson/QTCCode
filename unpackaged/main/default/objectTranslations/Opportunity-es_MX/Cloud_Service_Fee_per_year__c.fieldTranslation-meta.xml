@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Customer ASM*1.25 if it&apos;s blank for a Cloud Opportunity --></help>
+        <label><!-- Annual Cloud Fee --></label>
+        <name>Cloud_Service_Fee_per_year__c</name>
+    </CustomFieldTranslation>

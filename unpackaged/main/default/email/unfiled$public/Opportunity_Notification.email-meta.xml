@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Opportunity Notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Opportunity Notification</name>
+    <style>none</style>
+    <subject>{!Opportunity.Vertical_Market__c} - {!Opportunity.Name} has reached {!Opportunity.StageName} for {!Opportunity.Account}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>When sending an email to a customer free format</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Generic Communication with Attached Articles as PDF</name>
+    <style>none</style>
+    <subject>Case {!Case.CaseNumber} {!Case.Subject}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I have attached a Knowledge Article covering &#39;XXXXXX’ Please let me know if this solves the issue?
+
+Case Number:  {!Case.CaseNumber}
+Product:  {!Case.Customer_Product__c}
+Functional Area:  {!Case.Functional_Area__c}
+Case Subject:  {!Case.Subject}
+Priority:  {!Case.Priority}
+Customer Reference:  {!Case.Customer_Reference__c}
+
+
+
+Kind regards,
+{!User.Name}
+
+{!Case.EmailSig__c}
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

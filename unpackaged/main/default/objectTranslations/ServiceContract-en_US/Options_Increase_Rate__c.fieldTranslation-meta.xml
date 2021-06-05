@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Options Increase Rate --></label>
+        <name>Options_Increase_Rate__c</name>
+        <relationshipLabel><!-- Service Contracts (Options Increase Rate) --></relationshipLabel>
+    </CustomFieldTranslation>

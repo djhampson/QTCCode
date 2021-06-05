@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Agreement --></label>
+        <lookupFilter>
+            <errorMessage><!-- Agreement Account must match the Enterprise Basis Account --></errorMessage>
+        </lookupFilter>
+        <name>Agreement__c</name>
+        <relationshipLabel><!-- Enterprise Basis --></relationshipLabel>
+    </CustomFieldTranslation>

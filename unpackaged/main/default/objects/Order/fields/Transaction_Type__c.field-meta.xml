@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Transaction Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Module Swap</fullName>
+                <default>false</default>
+                <label>Module Swap</label>
+            </value>
+            <value>
+                <fullName>Flip to SaaS</fullName>
+                <default>false</default>
+                <label>Flip to SaaS</label>
+            </value>
+            <value>
+                <fullName>Full Termination</fullName>
+                <default>false</default>
+                <label>Full Termination</label>
+            </value>
+            <value>
+                <fullName>Settlement Revenue Adjustment</fullName>
+                <default>false</default>
+                <label>Settlement Revenue Adjustment</label>
+            </value>
+            <value>
+                <fullName>Perpetual on Cloud</fullName>
+                <default>false</default>
+                <label>Perpetual on Cloud</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

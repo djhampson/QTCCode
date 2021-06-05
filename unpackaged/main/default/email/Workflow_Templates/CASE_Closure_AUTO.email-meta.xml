@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic email sent on case closure; includes link to survey</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Closure AUTO</name>
+    <style>none</style>
+    <subject>Case {!Case.CaseNumber} {!Case.Subject} has been closed {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Your case has now been closed.
+
+Resolution: {!Case.Resolution__c}
+
+Your feedback regarding the management of this case is important to us, please enter your Service Star Rating here.
+
+Case Number:  {!Case.CaseNumber}
+Product:  {!Case.Customer_Product__c}
+Functional Area:  {!Case.Functional_Area__c}
+Case Subject:  {!Case.Subject}
+Priority:  {!Case.Priority}
+Customer Reference:  {!Case.Customer_Reference__c}
+
+
+
+Kind regards,
+
+{!Case.EmailSig__c}
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,4 @@
+A new voicemail from inContact has been received and a case created. 
+
+Case Number: {!Case.CaseNumber}
+{!Case.Link}

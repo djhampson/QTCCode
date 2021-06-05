@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Department or region most relevant to user --></help>
+        <label><!-- Department/Region --></label>
+        <name>Department_Region__c</name>
+        <picklistValues>
+            <masterLabel>ACT</masterLabel>
+            <translation><!-- ACT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM</masterLabel>
+            <translation><!-- AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM, P&amp;R, CRM</masterLabel>
+            <translation><!-- AM, P&amp;R, CRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BSC</masterLabel>
+            <translation><!-- BSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bid Management</masterLabel>
+            <translation><!-- Bid Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORE</masterLabel>
+            <translation><!-- CORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPM</masterLabel>
+            <translation><!-- CPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRM</masterLabel>
+            <translation><!-- CRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud</masterLabel>
+            <translation><!-- Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECM</masterLabel>
+            <translation><!-- ECM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fin</masterLabel>
+            <translation><!-- Fin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fin, SCM, CPM</masterLabel>
+            <translation><!-- Fin, SCM, CPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial and Managed Services</masterLabel>
+            <translation><!-- Financial and Managed Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HQ</masterLabel>
+            <translation><!-- HQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRP</masterLabel>
+            <translation><!-- HRP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Government</masterLabel>
+            <translation><!-- Local Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAL</masterLabel>
+            <translation><!-- MAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSW</masterLabel>
+            <translation><!-- NSW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZN</masterLabel>
+            <translation><!-- NZN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZS</masterLabel>
+            <translation><!-- NZS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;R</masterLabel>
+            <translation><!-- P&amp;R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNG</masterLabel>
+            <translation><!-- PNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QLD</masterLabel>
+            <translation><!-- QLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANT</masterLabel>
+            <translation><!-- SANT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEAP</masterLabel>
+            <translation><!-- SEAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STM</masterLabel>
+            <translation><!-- STM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Operations</masterLabel>
+            <translation><!-- Sales Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions</masterLabel>
+            <translation><!-- Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAS</masterLabel>
+            <translation><!-- TAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UKN</masterLabel>
+            <translation><!-- UKN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UKS</masterLabel>
+            <translation><!-- UKS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VC</masterLabel>
+            <translation><!-- VC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VIC</masterLabel>
+            <translation><!-- VIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

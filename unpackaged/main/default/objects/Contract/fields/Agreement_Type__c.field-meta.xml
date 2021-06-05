@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Agreement Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Service Order Form</fullName>
+                <default>false</default>
+                <label>T1 Service Order Form</label>
+            </value>
+            <value>
+                <fullName>Solutions Agreement</fullName>
+                <default>false</default>
+                <label>T1 Solutions Agreement</label>
+            </value>
+            <value>
+                <fullName>Licence Agreement</fullName>
+                <default>false</default>
+                <label>T1 Licence Agreement</label>
+            </value>
+            <value>
+                <fullName>Customer Contract</fullName>
+                <default>false</default>
+                <label>Customer Contract</label>
+            </value>
+            <value>
+                <fullName>QITC</fullName>
+                <default>false</default>
+                <label>QITC</label>
+            </value>
+            <value>
+                <fullName>GITC</fullName>
+                <default>false</default>
+                <label>GITC</label>
+            </value>
+            <value>
+                <fullName>ProcureIT</fullName>
+                <default>false</default>
+                <label>ProcureIT</label>
+            </value>
+            <value>
+                <fullName>SourceIT</fullName>
+                <default>false</default>
+                <label>SourceIT</label>
+            </value>
+            <value>
+                <fullName>WALGA</fullName>
+                <default>false</default>
+                <label>WALGA</label>
+            </value>
+            <value>
+                <fullName>G-Cloud</fullName>
+                <default>false</default>
+                <label>G-Cloud</label>
+            </value>
+            <value>
+                <fullName>APUC</fullName>
+                <default>false</default>
+                <label>APUC</label>
+            </value>
+            <value>
+                <fullName>AMS - Application Managed Services Agreement</fullName>
+                <default>false</default>
+                <label>AMS Agreement</label>
+            </value>
+            <value>
+                <fullName>AMS - Temporary Uplift</fullName>
+                <default>false</default>
+                <label>AMS Temporary Uplift</label>
+            </value>
+            <value>
+                <fullName>Deed</fullName>
+                <default>false</default>
+                <label>Deed</label>
+            </value>
+            <value>
+                <fullName>Variation/Change Order</fullName>
+                <default>false</default>
+                <label>Variation/Change Order</label>
+            </value>
+            <value>
+                <fullName>Letter of Agreement</fullName>
+                <default>false</default>
+                <label>Letter of Agreement (Not Varying Existing Contract)</label>
+            </value>
+            <value>
+                <fullName>Heads of Agreement</fullName>
+                <default>false</default>
+                <label>Heads of Agreement</label>
+            </value>
+            <value>
+                <fullName>Data Access Agreement</fullName>
+                <default>false</default>
+                <label>Data Access Agreement</label>
+            </value>
+            <value>
+                <fullName>Reseller Order (e.g. Chartis/XY Mapping)</fullName>
+                <default>false</default>
+                <label>Reseller Order (e.g. Chartis/XY Mapping)</label>
+            </value>
+            <value>
+                <fullName>Data Processor Agreement</fullName>
+                <default>false</default>
+                <label>Data Processor Agreement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

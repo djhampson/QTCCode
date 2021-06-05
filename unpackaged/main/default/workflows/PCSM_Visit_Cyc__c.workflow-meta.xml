@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>PS_Survey_2</fullName>
+        <field>Survey_2__c</field>
+        <formula>IF( ISBLANK(Survey_1__c ) , null, Survey_1__c + 90)</formula>
+        <name>PS Survey 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PS_Survey_3</fullName>
+        <field>Survey_3__c</field>
+        <formula>IF( ISBLANK(Survey_1__c ) , null, Survey_1__c + 180)</formula>
+        <name>PS Survey 3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>PS Survey 1 updated</fullName>
+        <actions>
+            <name>PS_Survey_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>PS_Survey_3</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>ISCHANGED( Survey_1__c ) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

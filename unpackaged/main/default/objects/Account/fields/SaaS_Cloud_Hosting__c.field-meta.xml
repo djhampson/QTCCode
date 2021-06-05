@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SaaS_Cloud_Hosting__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(SaaS__c &amp;&amp; Cloud_Hosting__c, &#39;SaaS/Cloud Hosting&#39;,
+IF(SaaS__c, &#39;SaaS&#39;, 
+IF(Cloud_Hosting__c, &#39;Cloud Hosting&#39;,
+&#39;&#39;)))</formula>
+    <label>SaaS/Cloud Hosting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

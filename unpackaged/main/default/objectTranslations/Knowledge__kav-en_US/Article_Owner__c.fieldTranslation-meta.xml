@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Article Owner is the author of an article and will be responsible for managing article reviews and feedback. --></help>
+        <label><!-- Article Owner --></label>
+        <name>Article_Owner__c</name>
+        <relationshipLabel><!-- Knowledge --></relationshipLabel>
+    </CustomFieldTranslation>

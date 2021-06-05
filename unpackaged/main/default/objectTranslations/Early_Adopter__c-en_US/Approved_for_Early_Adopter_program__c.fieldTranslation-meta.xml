@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Approved for Early Adopter program? --></label>
+        <name>Approved_for_Early_Adopter_program__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved prior to Evolve</masterLabel>
+            <translation><!-- Approved prior to Evolve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer not participated</masterLabel>
+            <translation><!-- Customer not participated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation><!-- Under Review --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

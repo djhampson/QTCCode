@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Y or N formula based on whether the Case is closed, the Closed Date &lt; Custom Setting Closed Date for Archiving Email, archiving has already occurred and it has no related Jira Dev Issues. --></help>
+        <label><!-- Email Archive Candidate --></label>
+        <name>Email_Archive_Candidate__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timed_Item_Total__c</fullName>
+    <description>Sum of the Time from related Timed Item records</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of the Time from related Timed Item records</inlineHelpText>
+    <label>Timed Item Total</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

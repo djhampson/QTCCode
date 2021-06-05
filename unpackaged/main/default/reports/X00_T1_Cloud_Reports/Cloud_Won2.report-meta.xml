@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_2730438</developerName>
+        <masterLabel>Cloud BDM</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Group_Region__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>02 - NSW</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>01 - QLD</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>06 - ACT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>05 - WA</sourceValue>
+            </sourceValues>
+            <value>Zack</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>07 - TAS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>03 - VIC</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>04 - SA &amp; NT</sourceValue>
+            </sourceValues>
+            <value>Ameet</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>11 - NZN</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>12 - NZS</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>20 - SEAP</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>23 - UK</sourceValue>
+            </sourceValues>
+            <value>Paul</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity.Region__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_OWNER</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.First_Year_Cloud_Fee__c.CONVERT</field>
+    </columns>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.ARR__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>ACCOUNT_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No business fit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Licence_Model__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Perpetual &amp; Cloud Uplift,SaaS,SaaS Flip,Cloud</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Acquisition,Acquisition Renewal</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Licence_Model__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Group_Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>All Cloud/SaaS Flip/SaaS - Won</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_not_change_to_closed_won_by_MthEnd</fullName>
+    <active>true</active>
+    <description>The Amount, Stage, Close Date fields are blocked for changing to be closed Won Opportunities by month end.</description>
+    <errorConditionFormula>$Profile.Name &lt;&gt; &quot;System Administrator&quot; 
+&amp;&amp; $Profile.Name &lt;&gt; &quot;Operations&quot;
+&amp;&amp; $UserRole.Name &lt;&gt; &quot;Sales BA&quot;
+ &amp;&amp; ( 
+ISCHANGED(Amount) 
+|| 
+ISCHANGED(StageName) 
+|| 
+ISCHANGED(CloseDate) 
+) 
+
+&amp;&amp;  IsClosed 
+ 
+&amp;&amp;  (RecordType.Name)=&#39;Licence Fee&#39; 
+&amp;&amp; 
+( 
+(Today() &lt; DATE( YEAR(TODAY()), MONTH(TODAY()),5) 
+&amp;&amp; 
+(CloseDate) &lt; IF(MONTH(TODAY())&gt;1, DATE(YEAR(TODAY()),MONTH(TODAY())-1,1), 
+DATE(YEAR(TODAY())-1,12,1) 
+) 
+|| 
+(Today() &gt;= DATE( YEAR(TODAY()), MONTH(TODAY()),5) 
+&amp;&amp; 
+(CloseDate) &lt; DATE( YEAR(TODAY()), MONTH(TODAY()),1) 
+) 
+) 
+)</errorConditionFormula>
+    <errorMessage>Not allowed to change the stage to be Closed Won with previous month close date for reconciliation purposes. Please Contact t1salesandmarketinghelpdesk@technologyonecorp.com for assistance or @Mention SalesOperations from the relevant opportunity.</errorMessage>
+</ValidationRule>

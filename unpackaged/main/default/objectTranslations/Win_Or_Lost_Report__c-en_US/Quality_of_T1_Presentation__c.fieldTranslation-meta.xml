@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What did the customer/prospect think of our presentation? --></help>
+        <label><!-- Quality of TechOne Presentation --></label>
+        <name>Quality_of_T1_Presentation__c</name>
+    </CustomFieldTranslation>

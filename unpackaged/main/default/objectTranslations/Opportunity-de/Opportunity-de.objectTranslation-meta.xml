@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>AMS Opportunity Layout</layout>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Mobilisation Plan --></label>
+            <section>Mobilisation Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Opt Out Details (only for Opt-out ) --></label>
+            <section>Opt Out Details (only for Opt-out )</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Opportunity Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Neuberechnung</label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+        <sections>
+            <label>Salesforce CPQ-Informationen</label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Licence Fee Opportunity Layout</layout>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Cloud Information --></label>
+            <section>Cloud Information</section>
+        </sections>
+        <sections>
+            <label><!-- Commercial Checklist --></label>
+            <section>Commercial Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Consulting Estimate --></label>
+            <section>Consulting Estimate</section>
+        </sections>
+        <sections>
+            <label><!-- Consulting Project --></label>
+            <section>Consulting Project</section>
+        </sections>
+        <sections>
+            <label><!-- Enablement --></label>
+            <section>Enablement</section>
+        </sections>
+        <sections>
+            <label><!-- Forecast Details --></label>
+            <section>Forecast Details</section>
+        </sections>
+        <sections>
+            <label><!-- Mobilisation Plan --></label>
+            <section>Mobilisation Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+        <sections>
+            <label><!-- Solution Details --></label>
+            <section>Solution Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Services/Consulting Opportunity Layout</layout>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Consulting Project --></label>
+            <section>Consulting Project</section>
+        </sections>
+        <sections>
+            <label><!-- Consulting Request --></label>
+            <section>Consulting Request</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Contact --></label>
+            <section>Customer Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Renewal Process --></label>
+            <section>Renewal Process</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- AMS Opportunity --></label>
+        <name>AMS_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close Opportunity --></label>
+        <name>Close_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Quote --></label>
+        <name>Create_Quote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New MP Task --></label>
+        <name>Create_a_Close_Plan</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Flip to SaaS --></label>
+        <name>Flip_to_SaaS</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Report --></label>
+        <name>Generate_Report</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Operations --></label>
+        <name>Operations</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Quote --></label>
+        <name>T1NewQuote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Mobilisation Plan --></label>
+        <name>Update_Evaluation_Plan</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Auto created opportunities for the auto renewal contracts --></description>
+        <label><!-- AMS Auto Renewal --></label>
+        <name>AMS_Auto_Renewal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Adapt Opportunity --></label>
+        <name>Adapt_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Application Managed Services --></label>
+        <name>Application_Managed_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Auto created opportunities for the auto renewal contracts --></description>
+        <label><!-- Auto Renewal --></label>
+        <name>Auto_Renewal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cloud --></label>
+        <name>Cloud</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Licence Fee --></label>
+        <name>Licence_Fee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Services Only / Consulting request --></label>
+        <name>Services_Only_Consulting_request</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- ARR Movement Category values can only be altered on Won opportunities --></errorMessage>
+        <name>ARR_Movement_restrictions</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product, Amount, Stage, Close Date fields are blocked for editing at month end for reconciliation purposes. Please Contact t1salesandmarketinghelpdesk@technologyonecorp.com for assistance or @Mention SalesOperations from the relevant opportunity. --></errorMessage>
+        <name>Can_not_change_Closed_Won_by_MthEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Not allowed to change the stage to be Closed Won with previous month close date for reconciliation purposes. Please Contact t1salesandmarketinghelpdesk@technologyonecorp.com for assistance or @Mention SalesOperations from the relevant opportunity. --></errorMessage>
+        <name>Can_not_change_to_closed_won_by_MthEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- AMS Program Start Date can&apos;t be less than Opportunity Close Date --></errorMessage>
+        <name>Check_AMS_Program_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Close date must be after today for open opportunities. Please contact t1salesandmarketinghelpdesk@technologyonecorp.com for assistance or @Mention SalesOperations from the relevant opportunity. --></errorMessage>
+        <name>Check_Close_Date_Past</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cloud Assessment Sent Requires Cloud/SaaS Flip Opportunity Model and Product BDM --></errorMessage>
+        <name>Check_Cloud_Assessment_Sent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Project Start Date can&apos;t be less than Opportunity Close Date + 8 weeks --></errorMessage>
+        <name>Check_Project_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Term when SaaS or Subscription or Cloud selected --></errorMessage>
+        <name>Check_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter project start date,implementations services estimate ($) and effort (days) --></errorMessage>
+        <name>Consulting_Mandatory_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a no consulting reason. --></errorMessage>
+        <name>Consulting_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must specify if this opportunity requires Consulting. --></errorMessage>
+        <name>Consulting_Required_Stage_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract type Is required. --></errorMessage>
+        <name>Contract_Type_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add customer contact and email address. --></errorMessage>
+        <name>Customer_Contact_Email_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Overwrite the currency on the account, to create a new opportunity with the relevant currency. --></errorMessage>
+        <name>DELETE_Can_not_change_Opp_Currency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the Final Cloud Ratio which is required when move stage to 6 - Sales Closed. --></errorMessage>
+        <name>Final_Cloud_Ratio_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Final discount % is required when  move stage to 6 - Sales Closed. Please enter 0% if no discount. --></errorMessage>
+        <name>Final_Discount_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lead Source is mandatory when opportunity is new business --></errorMessage>
+        <name>Lead_Source_Mandatory_for_New_opps</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opt Out Restricted to Stage 1, 2, 3 --></errorMessage>
+        <name>Opt_Out_Restrict_to_Stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter reason and comments for Opting Out --></errorMessage>
+        <name>Opt_out_Reason_comments_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Add Product and Module from Pricebook first when the opportunity is over stage 2 --></errorMessage>
+        <name>Product_Is_Required_After_Stage_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter RM Forecast Amount while RM Forecast is checked. --></errorMessage>
+        <name>RM_Forecast_Amount_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Stage &quot;7 - Closed&quot; is used by Finance Team. --></errorMessage>
+        <name>Stage_Restricted_To_Finance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please create a Win/loss Report before move the Stage to be Won or Lost. --></errorMessage>
+        <name>Stage_WonLoss_and_report_not_created</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Product_s --></label>
+        <name>Add_Product_s</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Amend_Quote --></label>
+        <name>Create_Amend_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Bid_Team --></label>
+        <name>Email_Bid_Team</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Resource_Request --></label>
+        <name>Email_Resource_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_SaaS_Synopsis --></label>
+        <name>Email_SaaS_Synopsis</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Synopsis --></label>
+        <name>Email_Synopsis</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Field_History_Report --></label>
+        <name>Field_History_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Product_Split --></label>
+        <name>Generate_Product_Split</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Quote --></label>
+        <name>Generate_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opportunity_History_Report --></label>
+        <name>Opportunity_History_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quote_Comparison_Report --></label>
+        <name>Quote_Comparison_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SaaS_Quote --></label>
+        <name>SaaS_Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Handover_to_PMO --></label>
+        <name>Sales_Handover_to_PMO</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Service_Request_Document --></label>
+        <name>Service_Request_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- T1_Contract --></label>
+        <name>T1_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- T1_Contracts --></label>
+        <name>T1_Contracts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- T1_Licencing --></label>
+        <name>T1_Licencing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- T1_RMC --></label>
+        <name>T1_RMC</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Email sent to the contact with the Cloud Assessment templates to be completed for review. --></description>
+        <name>Cloud_Assessment_Email_Sent</name>
+        <subject><!-- Cloud Assessment Email Sent --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

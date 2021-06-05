@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreatedDate_Mod__c</fullName>
+    <description>A version of CreatedDate that allows us to manipulate data to suit. CreatedDate is a timestamp that we cannot change. This field is required to affect time-based processes. It is set in the after insert trigger of the Case.</description>
+    <externalId>false</externalId>
+    <label>Created Date Modifiable</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

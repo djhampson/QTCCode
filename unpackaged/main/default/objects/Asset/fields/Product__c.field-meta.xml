@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Earnie IQ</fullName>
+                <default>false</default>
+                <label>Earnie IQ</label>
+            </value>
+            <value>
+                <fullName>Escrow</fullName>
+                <default>false</default>
+                <label>Escrow</label>
+            </value>
+            <value>
+                <fullName>Health Metrics</fullName>
+                <default>false</default>
+                <label>Health Metrics</label>
+            </value>
+            <value>
+                <fullName>IT Glovebox</fullName>
+                <default>false</default>
+                <label>IT Glovebox</label>
+            </value>
+            <value>
+                <fullName>ScanWatcher</fullName>
+                <default>false</default>
+                <label>ScanWatcher</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Adaptive Solutions</fullName>
+                <default>false</default>
+                <label>TechnologyOne Adaptive Solutions</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne ADF</fullName>
+                <default>false</default>
+                <label>TechnologyOne ADF</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Breakout Packs</fullName>
+                <default>false</default>
+                <label>TechnologyOne Breakout Packs</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Corporate Performance Management</fullName>
+                <default>false</default>
+                <label>TechnologyOne Corporate Performance Management</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne CPM External Systems Connectors</fullName>
+                <default>false</default>
+                <label>TechnologyOne CPM External Systems Connectors</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne ECM</fullName>
+                <default>false</default>
+                <label>TechnologyOne ECM</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne ECR External Systems</fullName>
+                <default>false</default>
+                <label>TechnologyOne ECR External Systems</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Enterprise Asset Management</fullName>
+                <default>false</default>
+                <label>TechnologyOne Enterprise Asset Management</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Enterprise Cash Receipting</fullName>
+                <default>false</default>
+                <label>TechnologyOne Enterprise Cash Receipting</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Fax Gateway</fullName>
+                <default>false</default>
+                <label>TechnologyOne Fax Gateway</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Financials</fullName>
+                <default>false</default>
+                <label>TechnologyOne Financials</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Fleet Solution</fullName>
+                <default>false</default>
+                <label>TechnologyOne Fleet Solution</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne HR and Payroll</fullName>
+                <default>false</default>
+                <label>TechnologyOne HR and Payroll</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Mobile</fullName>
+                <default>false</default>
+                <label>TechnologyOne Mobile</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Performance Planning</fullName>
+                <default>false</default>
+                <label>TechnologyOne Performance Planning</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne PLUS</fullName>
+                <default>false</default>
+                <label>TechnologyOne PLUS</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Property</fullName>
+                <default>false</default>
+                <label>TechnologyOne Property</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Publisher</fullName>
+                <default>false</default>
+                <label>TechnologyOne Publisher</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne R &amp; D</fullName>
+                <default>false</default>
+                <label>TechnologyOne R &amp; D</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Services Only</fullName>
+                <default>false</default>
+                <label>TechnologyOne Services Only</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Solution Fee</fullName>
+                <default>false</default>
+                <label>TechnologyOne Solution Fee</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Solution Template</fullName>
+                <default>false</default>
+                <label>TechnologyOne Solution Template</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Stock Usage</fullName>
+                <default>false</default>
+                <label>TechnologyOne Stock Usage</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Student Management</fullName>
+                <default>false</default>
+                <label>TechnologyOne Student Management</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Supply Chain Management</fullName>
+                <default>false</default>
+                <label>TechnologyOne Supply Chain Management</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Cloud Hosting Fee</fullName>
+                <default>false</default>
+                <label>TechnologyOne Cloud Service Fee</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Stakeholder Management</fullName>
+                <default>false</default>
+                <label>TechnologyOne Stakeholder Management</label>
+            </value>
+            <value>
+                <fullName>Technology One Contracts</fullName>
+                <default>false</default>
+                <label>Technology One Contracts</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne SaaS - Commercial</fullName>
+                <default>false</default>
+                <label>TechnologyOne SaaS - Commercial</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Saas - Additional Environment</fullName>
+                <default>false</default>
+                <label>TechnologyOne Saas - Additional Environment</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne SaaS - Additional Storage</fullName>
+                <default>false</default>
+                <label>TechnologyOne SaaS - Additional Storage</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne SaaS - EdgheDb Standard</fullName>
+                <default>false</default>
+                <label>TechnologyOne SaaS - EdgheDb Standard</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne SaaS - Additional Environ. Refresh</fullName>
+                <default>false</default>
+                <label>TechnologyOne SaaS - Additional Environ. Refresh</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne SaaS - Long Term Data Retention 7yr+</fullName>
+                <default>false</default>
+                <label>TechnologyOne SaaS - Long Term Data Retention 7yr+</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne SaaS - Additional File Integration</fullName>
+                <default>false</default>
+                <label>TechnologyOne SaaS - Additional File Integration</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne SaaS - EdgheDb Premium</fullName>
+                <default>false</default>
+                <label>TechnologyOne SaaS - EdgheDb Premium</label>
+            </value>
+            <value>
+                <fullName>Tanda</fullName>
+                <default>false</default>
+                <label>Tanda</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Premium Cloud</fullName>
+                <default>false</default>
+                <label>TechnologyOne Premium Cloud</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Cloud Storage (ECM)</fullName>
+                <default>false</default>
+                <label>TechnologyOne Cloud Storage (ECM)</label>
+            </value>
+            <value>
+                <fullName>TechnologyOne Spatial Cloud</fullName>
+                <default>false</default>
+                <label>TechnologyOne Spatial Cloud</label>
+            </value>
+            <value>
+                <fullName>Additional Cloud - Different Anniversary Date</fullName>
+                <default>false</default>
+                <label>Additional Cloud - Different Anniversary Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

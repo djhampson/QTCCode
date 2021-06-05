@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMS_Quote_Not_Allowed</fullName>
+    <active>true</active>
+    <description>Customer Invoice Plan cannot be link to a quote with ‘AMS’ as the deal type.</description>
+    <errorConditionFormula>Quote__r.Deal_Type__c = &#39;AMS&#39;</errorConditionFormula>
+    <errorDisplayField>Quote__c</errorDisplayField>
+    <errorMessage>Customer Invoice Plan cannot be link to a quote with ‘AMS’ as the deal type.</errorMessage>
+</ValidationRule>

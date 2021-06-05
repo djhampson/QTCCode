@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_End_Date_in_next_contract_year</fullName>
+    <active>true</active>
+    <description>Scheduled End Date has to fall within 12 months after the contract end date.</description>
+    <errorConditionFormula>OR(
+Scheduled_End_Date__c &lt; SBQQSC__QuoteLine__r.SBQQ__Quote__r.SBQQ__EndDate__c +1 , 
+Scheduled_End_Date__c &gt; ADDMONTHS(SBQQSC__QuoteLine__r.SBQQ__Quote__r.SBQQ__EndDate__c +1,12) 
+)</errorConditionFormula>
+    <errorDisplayField>Scheduled_End_Date__c</errorDisplayField>
+    <errorMessage>Scheduled End Date not within 12 months after the contract end date.</errorMessage>
+</ValidationRule>

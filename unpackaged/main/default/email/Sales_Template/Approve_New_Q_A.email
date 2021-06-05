@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><font face="arial">Hi {!Approval_Requesting_User.FirstName},</font></div><div><font face="arial"><br></font></div><div><font face="arial">Could you please approve the new Presales Q &amp; A:</font></div><div><font face="arial"><br></font></div><div><font face="arial">Record LInk:{!Presales_Knowledge__c.Link}</font></div><div><font face="arial"><br></font></div><div><font face="arial">Record Created by {!Presales_Knowledge__c.OwnerFullName}</font></div><div><font face="arial"><br></font></div><div><font face="arial">Question:&nbsp;</font></div><div><font face="arial">{!Presales_Knowledge__c.Question__c}</font></div><div><font face="arial"><br></font></div><div><font face="arial">Answer:</font></div><div><font face="arial">{!Presales_Knowledge__c.Answer__c}</font></div><div><font face="arial"><br></font></div><div><font face="arial">Kind Regards</font></div><div><font face="arial">{!User.Name}</font></div>]]></td>
+</tr>
+</table>

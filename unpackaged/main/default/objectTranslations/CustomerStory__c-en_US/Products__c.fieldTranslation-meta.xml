@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reference For --></label>
+        <name>Products__c</name>
+        <picklistValues>
+            <masterLabel>Application Managed Services</masterLabel>
+            <translation><!-- Application Managed Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Analytics</masterLabel>
+            <translation><!-- Business Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ci -&gt; CiA</masterLabel>
+            <translation><!-- Ci -&gt; CiA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracts</masterLabel>
+            <translation><!-- Contracts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DxP</masterLabel>
+            <translation><!-- DxP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Asset Management</masterLabel>
+            <translation><!-- Enterprise Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Budgeting</masterLabel>
+            <translation><!-- Enterprise Budgeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Cash Receipting</masterLabel>
+            <translation><!-- Enterprise Cash Receipting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Content Management</masterLabel>
+            <translation><!-- Enterprise Content Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financials</masterLabel>
+            <translation><!-- Financials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneAsset</masterLabel>
+            <translation><!-- OneAsset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneCare</masterLabel>
+            <translation><!-- OneCare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneCorporate</masterLabel>
+            <translation><!-- OneCorporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneCouncil</masterLabel>
+            <translation><!-- OneCouncil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneEducation</masterLabel>
+            <translation><!-- OneEducation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OneGovernment</masterLabel>
+            <translation><!-- OneGovernment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance Planning</masterLabel>
+            <translation><!-- Performance Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Lifecycle Management</masterLabel>
+            <translation><!-- Project Lifecycle Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property and Rating</masterLabel>
+            <translation><!-- Property and Rating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS</masterLabel>
+            <translation><!-- SaaS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spatial</masterLabel>
+            <translation><!-- Spatial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stakeholder Management</masterLabel>
+            <translation><!-- Stakeholder Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Asset Management</masterLabel>
+            <translation><!-- Strategic Asset Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Management</masterLabel>
+            <translation><!-- Student Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain Management</masterLabel>
+            <translation><!-- Supply Chain Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support.</masterLabel>
+            <translation><!-- Support. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

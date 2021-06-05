@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Requests_Approved_UAT_or_Prod</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>SFCAB_Status__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Priority_Indicator__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Change_Type__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Change_Control</value>
+    </filters>
+    <filters>
+        <field>SFCAB_Status__c</field>
+        <operation>equals</operation>
+        <value>Approved PROD</value>
+    </filters>
+    <filters>
+        <field>SFCAB_Status__c</field>
+        <operation>equals</operation>
+        <value>Approved UAT</value>
+    </filters>
+    <label>Change Requests (Approved UAT or Prod)</label>
+    <sharedTo>
+        <group>Change_Advisory_Board</group>
+    </sharedTo>
+</ListView>

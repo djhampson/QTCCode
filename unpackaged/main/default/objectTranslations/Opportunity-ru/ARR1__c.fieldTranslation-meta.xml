@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Won Deal: Finance Rev Rec ARR if not blank
+Open or Lost Forecast Deal: RM/Upside ARR if not blank
+Otherwise: ARR (Formula) --></help>
+        <label><!-- ARR1 --></label>
+        <name>ARR1__c</name>
+    </CustomFieldTranslation>

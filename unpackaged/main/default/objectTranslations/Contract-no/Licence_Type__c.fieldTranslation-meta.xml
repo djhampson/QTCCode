@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Licence/Service Type --></label>
+        <name>Licence_Type__c</name>
+        <picklistValues>
+            <masterLabel>AMS only</masterLabel>
+            <translation><!-- AMS only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cloud Services only</masterLabel>
+            <translation><!-- Cloud Services only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting only</masterLabel>
+            <translation><!-- Consulting only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DRaaS Standalone</masterLabel>
+            <translation><!-- DRaaS Standalone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Adopter Program</masterLabel>
+            <translation><!-- Early Adopter Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip to SaaS (new contract)</masterLabel>
+            <translation><!-- Flip to SaaS (new contract) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip to SaaS (variation)</masterLabel>
+            <translation><!-- Flip to SaaS (variation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip to Subscription (variation)</masterLabel>
+            <translation><!-- Flip to Subscription (variation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flip to Subscription On Premise (new contract)</masterLabel>
+            <translation><!-- Flip to Subscription On Premise (new contract) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licence Agreement only</masterLabel>
+            <translation><!-- Licence Agreement only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual On Premise</masterLabel>
+            <translation><!-- Perpetual On Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual on Cloud</masterLabel>
+            <translation><!-- Perpetual on Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual on Cloud (new contract)</masterLabel>
+            <translation><!-- Perpetual on Cloud (new contract) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perpetual on Cloud (variation)</masterLabel>
+            <translation><!-- Perpetual on Cloud (variation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SaaS</masterLabel>
+            <translation><!-- SaaS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription On Premise</masterLabel>
+            <translation><!-- Subscription On Premise --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

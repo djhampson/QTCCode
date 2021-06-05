@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_Activity__c</fullName>
+    <externalId>false</externalId>
+    <label>Reference Activity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Articles or Publications</fullName>
+                <default>false</default>
+                <label>Articles or Publications</label>
+            </value>
+            <value>
+                <fullName>Case study material</fullName>
+                <default>false</default>
+                <label>Case study material</label>
+            </value>
+            <value>
+                <fullName>Logo usage</fullName>
+                <default>false</default>
+                <label>Logo usage</label>
+            </value>
+            <value>
+                <fullName>Media announcements</fullName>
+                <default>false</default>
+                <label>Media announcements</label>
+            </value>
+            <value>
+                <fullName>Quotes</fullName>
+                <default>false</default>
+                <label>Quotes</label>
+            </value>
+            <value>
+                <fullName>Reference calls</fullName>
+                <default>false</default>
+                <label>Reference calls</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Site visits</fullName>
+                <default>false</default>
+                <label>Site visits</label>
+            </value>
+            <value>
+                <fullName>Speaking at events</fullName>
+                <default>false</default>
+                <label>Speaking at events</label>
+            </value>
+            <value>
+                <fullName>Usage of name in tenders</fullName>
+                <default>false</default>
+                <label>Usage of name in tenders</label>
+            </value>
+            <value>
+                <fullName>Video Testimonials</fullName>
+                <default>false</default>
+                <label>Video Testimonials</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

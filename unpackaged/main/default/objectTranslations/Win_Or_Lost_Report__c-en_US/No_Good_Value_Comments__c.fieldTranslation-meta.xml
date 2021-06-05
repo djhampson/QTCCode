@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Was it considered that our price represented good value for money? If &apos;No&apos;, add comments. --></help>
+        <label><!-- No to Good Value Comments --></label>
+        <name>No_Good_Value_Comments__c</name>
+    </CustomFieldTranslation>

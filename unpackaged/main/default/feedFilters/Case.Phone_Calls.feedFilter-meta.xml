@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFeedFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteria>
+        <feedItemType>CallLogPost</feedItemType>
+        <relatedSObjectType>Task</relatedSObjectType>
+    </criteria>
+    <description>Activity History subset of Type &#39;Call&#39;</description>
+    <label>Phone Calls</label>
+</CustomFeedFilter>

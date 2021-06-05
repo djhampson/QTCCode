@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sent to customers when an opportunity is qualified</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TechOne_LH</letterhead>
+    <name>Cloud Assessment</name>
+    <style>freeForm</style>
+    <subject>SaaS Platform Readiness</subject>
+    <textOnly>Dear {!Opportunity.Customer_Contact_First_Name__c}
+
+
+Thank you for considering TechnologyOne for your Enterprise SaaS requirements. Transitioning to TechnologyOne Enterprise SaaS (T1SaaS) will eliminate the internal complexity of managing software and infrastructure, and align IT to strategic initiatives and innovation within your organisation.
+
+
+The following questionnaires would need to be completed and returned to assess your current-state, complete a migration risk review, and ensure a successful migration to T1SaaS:
+
+1.  T1SaaS Readiness Assessment Questionnaire
+
+Link: https://drive.google.com/open?id=1ni1kZ-gfPQsISOBmVKe7DkQScUFnnF1z
+
+2.  T1SaaS Interface Inventory List
+
+Link: https://drive.google.com/open?id=1BakGvthTNYJAVdfFns_DvLlsr1rP1RBe
+
+
+
+As soon as we have these, we will communicate next steps which could include:
+
+A teleconference to confirm our understanding of your TechnologyOne environment, or
+Facilitate a free onsite workshop to verify the information, and provide guidelines for a successful transition
+
+
+Once the above is complete, we can provide a final proposal for consideration.
+
+
+
+With thanks
+
+
+
+{!User.Name}
+
+P: {!User.Phone}
+
+E: {!User.Email}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

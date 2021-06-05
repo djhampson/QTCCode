@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Organisation_Support_Key_Suffix__c</fullName>
+    <description>Optional 10 character alphanumeric field that is appended to the Account ID to form the unique Support Key</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Optional 10 character alphanumeric field that is appended to the Account ID to form the unique Support Key.</inlineHelpText>
+    <label>Organisation Support Key Suffix</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

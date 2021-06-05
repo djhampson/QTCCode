@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Brent Dacre</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Chris Kelly</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Paula Taylor</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Julie Holwell</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Christopher Wansink</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Ross Humphreys</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Christine Erskine</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Peter Crisp</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Warren Sullivan</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Eva Milonas</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Imraan Alexander</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>John Ambados</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Danida Rinaldi</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Michael Scollo</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jamie Heasman</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Jacqueline Stokes</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Lucy Gima</values>
+        </dashboardFilterOptions>
+        <name>SDM</name>
+    </dashboardFilters>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>X00_T1_AMS_Pipeline_Reports/Snapshot_All_AMS_Current_and_Next_Qtr</report>
+            <showPercentage>false</showPercentage>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>AMS Sales Opportunities</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Donut</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>true</expandOthers>
+            <groupingSortProperties/>
+            <legendPosition>Bottom</legendPosition>
+            <report>X00_T1_AMS_RB_Reports/Open_consulting_cases</report>
+            <showPercentage>false</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Open Cases by Status</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>Case.Customer_Product__c</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>Case.Total_Excl_Tax__c</column>
+                <decimalPlaces>0</decimalPlaces>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <decimalPrecision>0</decimalPrecision>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Relates to the Awaiting Quote Approval section of the pie chart</footer>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>X00_T1_AMS_RB_Reports/Awaiting_Quote_Approval_Consulting</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>$ Awaiting Quote Approval</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>Case.Customer_Product__c</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>Case.Total_Engagement_Days__c</column>
+                <decimalPlaces>0</decimalPlaces>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <decimalPrecision>0</decimalPrecision>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Relates to the Awaiting Quote Approval section of the pie chart</footer>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>X00_T1_AMS_RB_Reports/Awaiting_Approval_Consulting_Days</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Days Awaiting Quote Approval</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>Account.SDM__c</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>X00_T1_AMS_RB_Reports/Awaiting_Approval_By_SDM</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Quotes Awaiting Approval by SDM</title>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>Case.Customer_Product__c</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>Case.Total_Excl_Tax__c</column>
+                <decimalPlaces>0</decimalPlaces>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <decimalPrecision>0</decimalPrecision>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Relates to Awaiting Resource Allocation section of the pie chart</footer>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>X00_T1_AMS_RB_Reports/Outstanding_Approved_Consulting</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Approved $ Not Yet Resourced</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>Case.Customer_Product__c</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <aggregateType>Sum</aggregateType>
+                <calculatePercent>false</calculatePercent>
+                <column>Case.Total_Engagement_Days__c</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <footer>Relates to Awaiting Resource Allocation section of the pie chart</footer>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>X00_T1_AMS_RB_Reports/Outstanding_Approved_Consulting_Days</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Approved Days Not Yet Resourced</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Table</componentType>
+            <dashboardFilterColumns>
+                <column>Account.SDM__c</column>
+            </dashboardFilterColumns>
+            <dashboardTableColumn>
+                <column>Account.SDM__c</column>
+            </dashboardTableColumn>
+            <dashboardTableColumn>
+                <calculatePercent>false</calculatePercent>
+                <column>RowCount</column>
+                <showTotal>true</showTotal>
+                <sortBy>RowValueDescending</sortBy>
+            </dashboardTableColumn>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <groupingSortProperties/>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>X00_T1_AMS_RB_Reports/Pending_Quote_By_SDM</report>
+            <showPicturesOnTables>true</showPicturesOnTables>
+            <title>Cases Pending Quote by SDM</title>
+        </components>
+    </rightSection>
+    <runningUser>nicholas_doyle@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>AMS GM Overview</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

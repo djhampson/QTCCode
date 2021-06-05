@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Will be default value from account once saved. Can override if needed for total charge which will be shown on CR form. --></help>
+        <label><!-- Estimated Travel Charge --></label>
+        <name>Estimated_Daily_Travel_Charge__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;a href=&quot;http://www.technologyonecorp.com/evolve2016&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Evolve 2016&quot; src=&quot;https://c.na11.content.force.com/servlet/servlet.ImageServer?id=015G000001LKxTj&amp;amp;oid=00D2O0000009e0J&amp;amp;lastMod=1465429280000&quot;&gt;&lt;/img&gt;&lt;/a&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

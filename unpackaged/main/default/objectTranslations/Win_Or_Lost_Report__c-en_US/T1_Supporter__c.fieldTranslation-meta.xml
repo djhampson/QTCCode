@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- TechOne Supporter --></label>
+        <name>T1_Supporter__c</name>
+        <relationshipLabel><!-- Win Or Lost Reports (T1 Supporter) --></relationshipLabel>
+    </CustomFieldTranslation>

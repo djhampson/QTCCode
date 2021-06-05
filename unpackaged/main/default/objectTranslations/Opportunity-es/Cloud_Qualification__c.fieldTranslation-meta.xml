@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What is the customer&apos;s pain?
+Business driver ie. Ci Anywhere
+Exec sponsor
+Timeframe
+Compelling Event eg. End of contract
+Budget eg. capex/opex --></help>
+        <label><!-- Cloud Qualification --></label>
+        <name>Cloud_Qualification__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Environment_Upgrade</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(SaaS_Service_Request_Type__c, &#39;Environment Upgrade&#39;) &amp;&amp;
+ (ISBLANK(Target_Environment__c) ||
+ ISBLANK(TEXT(Environment_Upgrade_Version__c)) )
+&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c)</errorConditionFormula>
+    <errorMessage>Please complete the target environment, and version for the environment upgrade</errorMessage>
+</ValidationRule>

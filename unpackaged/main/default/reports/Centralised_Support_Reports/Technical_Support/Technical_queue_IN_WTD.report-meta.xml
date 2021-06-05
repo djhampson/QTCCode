@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CASE_NUMBER</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Case.Support_Analysis__c</field>
+    </columns>
+    <columns>
+        <field>Case.Priority_Indicator__c</field>
+    </columns>
+    <columns>
+        <field>PRIORITY</field>
+    </columns>
+    <columns>
+        <field>RECORDTYPE</field>
+    </columns>
+    <columns>
+        <field>Case.Support_SLA_Customer_Indicator__c</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CREATED</field>
+    </columns>
+    <columns>
+        <field>CASE_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>Case queue transfer history</description>
+    <filter>
+        <criteriaItems>
+            <column>field_key</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>case owner</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CASE_OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Prince Gomes,Travis Perry,Technical Support,Grant Godley,Matthew Finch,Kent Yeo,Thomas Shortt</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>NEWVAL</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Technical Support</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CASE_OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Prince Gomes,Travis Perry,Technical Support,Grant Godley,Matthew Finch,Kent Yeo,Thomas Shortt</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CASE_OWNER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Prince Gomes,Technical Support,Grant Godley,Matthew Finch,Kent Yeo,Thomas Shortt</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CASE_OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Technical queue IN WTD</name>
+    <params>
+        <name>units</name>
+        <value>m</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseAuditHistory</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CREATED_DATE</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

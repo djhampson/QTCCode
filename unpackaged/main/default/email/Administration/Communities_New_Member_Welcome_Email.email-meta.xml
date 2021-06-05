@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification that user has been added to the Customer community.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>Communities: New Customer Welcome Email</name>
+    <style>freeForm</style>
+    <subject>Welcome to {!Community_Name}</subject>
+    <textOnly>Welcome to the TechnologyOne Customer Community 
+
+Your TechnologyOne Customer Community is the central hub to connect, chat and collaborate with TechnologyOne and with other customers. 
+
+The Customer Community takes the support experience to an entirely new level, delivering a modern, clean and engaging user experience, anywhere, any time, on any device. 
+
+Key features 
+
+Raise and manage support cases 
+Access knowledge articles 
+Suggest ideas for product enhancements 
+Engage with product experts and customers 
+Ask questions, and help answer other customer questions 
+Keep up to date on trending topics, articles and more 
+
+New to the Customer Community? 
+As you log in, you will be asked to create and confirm a password, then click on the Change Password button and the Customer Community Home Page will be displayed. 
+
+Refer to these Knowledge Articles for more information: 
+
+Customer Support Guide 
+Customer Community - Getting Started 
+Customer Community - Groups 
+
+Refer to the Customer Community User Guides topic for more. 
+
+We look forward to seeing you in the Community! 
+
+TechnologyOne Support Centre</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

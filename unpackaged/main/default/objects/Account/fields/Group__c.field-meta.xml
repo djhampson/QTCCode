@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Sub_group__c , 
+&quot;Queensland&quot;, &quot;Top Three&quot;, 
+&quot;New South Wales&quot;, &quot;Top Three&quot;, 
+&quot;Victoria&quot;, &quot;Top Three&quot;, 
+&quot;Western Australia&quot;, &quot;Rest of Australia&quot;,
+&quot;South Australia&quot;, &quot;Rest of Australia&quot;,
+&quot;Northern Territory&quot;, &quot;Rest of Australia&quot;,
+&quot;ACT&quot;, &quot;Rest of Australia&quot;,
+&quot;Tasmania&quot;,  &quot;Rest of Australia&quot;,
+&quot;New Zealand North&quot;, &quot;New Zealand&quot;,
+&quot;New Zealand South&quot;, &quot;New Zealand&quot;,
+&quot;Asia&quot;, &quot;International&quot;,
+&quot;Pacific&quot;, &quot;International&quot;,
+&quot;Distributors&quot;, &quot;International&quot;,
+&quot;United Kingdom - North&quot;, &quot;United Kingdom&quot;,
+&quot;United Kingdom - South&quot;, &quot;United Kingdom&quot;,
+&quot;United Kingdom - Central&quot;, &quot;United Kingdom&quot;,
+&quot;Other&quot;)</formula>
+    <label>z_Group</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

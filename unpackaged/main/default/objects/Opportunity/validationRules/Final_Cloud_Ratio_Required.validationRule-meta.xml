@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Cloud_Ratio_Required</fullName>
+    <active>true</active>
+    <description>Final Cloud Ratio is required when  move stage to 6 - Sales Closed</description>
+    <errorConditionFormula>AND($Profile.Name &lt;&gt; &#39;System Administrator&#39;,
+$Profile.Name &lt;&gt; &#39;Operations&#39;,
+RecordType.DeveloperName = &#39;Licence_Fee&#39;,
+ISPICKVAL(StageName, &#39;6 - Sales Closed&#39;),
+ISCHANGED(StageName), 
+ISBLANK(Final_Cloud_Ratio__c ),
+TEXT(Licence_Model__c) &lt;&gt; &#39;Perpetual&#39;
+)</errorConditionFormula>
+    <errorDisplayField>Final_Cloud_Ratio__c</errorDisplayField>
+    <errorMessage>Please enter the Final Cloud Ratio which is required when move stage to 6 - Sales Closed.</errorMessage>
+</ValidationRule>

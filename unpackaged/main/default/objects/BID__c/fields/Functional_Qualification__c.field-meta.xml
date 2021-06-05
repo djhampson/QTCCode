@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Functional_Qualification__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Functionality to be added.
+
+Identify the products, including 3rd parties that will provide the functionality requested.
+Product specialists (Pre-sales, Practice Leads) to determine and respond to functional fit.</inlineHelpText>
+    <label>Functional Qualification</label>
+    <length>80</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

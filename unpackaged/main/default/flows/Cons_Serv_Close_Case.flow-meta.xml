@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <name>BypassWorkflow</name>
+        <label>BypassWorkflow</label>
+        <locationX>72</locationX>
+        <locationY>44</locationY>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>WorkflowStatus</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>UpdateCaseStatus</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>Include bypass workflow check</description>
+    <formulas>
+        <name>WorkflowStatus</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$Setup.T1_Control_Settings__c.Bypass_Workflow__c}</expression>
+    </formulas>
+    <interviewLabel>Cons Serv - Close Case {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Cons Serv - Close Case</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>UpdateCaseStatus</name>
+        <label>UpdateCaseStatus</label>
+        <locationX>74</locationX>
+        <locationY>168</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>var_CaseId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Closed</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <startElementReference>BypassWorkflow</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>var_CaseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

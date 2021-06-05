@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of Hours or Requests based on Program Type --></help>
+        <label><!-- AMS Units per Service Period --></label>
+        <name>AMS_No_of_Requests_per_month__c</name>
+    </CustomFieldTranslation>

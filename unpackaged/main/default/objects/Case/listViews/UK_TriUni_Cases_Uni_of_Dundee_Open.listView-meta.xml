@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UK_TriUni_Cases_Uni_of_Dundee_Open</fullName>
+    <booleanFilter>(1 OR 2) AND 3 AND 4 AND 5</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Priority_Indicator__c</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>CTechnology__c</columns>
+    <columns>Customer_Product__c</columns>
+    <columns>Jira_Issue_No__c</columns>
+    <columns>Customer_Reference__c</columns>
+    <columns>NAME</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Customer_Product__c</field>
+        <operation>equals</operation>
+        <value>Business Process Management (BPM),Customer Relationship Management (CRM)</value>
+    </filters>
+    <filters>
+        <field>Customer_Product__c</field>
+        <operation>equals</operation>
+        <value>Student Management (SM)</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>The University of Dundee</value>
+    </filters>
+    <filters>
+        <field>CASES.CREATED_DATE_DATE_ONLY</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2017 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <label>UK TriUni Cases - Uni of Dundee Open</label>
+    <sharedTo>
+        <group>UK_SM_Consulting</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;i&gt;&lt;img alt=&quot;Question&quot; src=&quot;https://c.na11.content.force.com/servlet/servlet.ImageServer?id=015G000000BUdw8&amp;amp;oid=00D2O0000009e0J&amp;amp;lastMod=1408347380000&quot;&gt;&lt;/img&gt;Chatter Questions is here! The latest feature in the Customer Community includes the ability to ask questions of TechnologyOne and other customers within Chatter.&lt;br&gt;&lt;br&gt;&lt;br&gt;To stay connected don&amp;#39;t forget to register in our Community Chatter groups for your relevant product.&lt;/i&gt;&lt;br&gt;&lt;img alt=&quot;Stay Connected&quot; src=&quot;https://c.na11.content.force.com/servlet/servlet.ImageServer?id=015G0000010RIEh&amp;amp;oid=00D2O0000009e0J&amp;amp;lastMod=1451860644000&quot;&gt;&lt;/img&gt;&lt;br&gt; </body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

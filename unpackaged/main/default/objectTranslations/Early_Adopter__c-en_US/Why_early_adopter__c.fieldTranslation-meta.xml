@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter details as to why this account should be an earlier adopter --></help>
+        <label><!-- Why early adopter? --></label>
+        <name>Why_early_adopter__c</name>
+    </CustomFieldTranslation>

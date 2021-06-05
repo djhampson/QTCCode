@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Order_with_RenewalReduction_Creation</fullName>
+        <description>Order with RenewalReduction Creation</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>edo_manik@technologyonecorp.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>t1support_dev2@technologyonecorp.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Order_with_RenewalReduction_Notification</template>
+    </alerts>
+</Workflow>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Bid_Team</fullName>
+    <availability>online</availability>
+    <description>Email Bid Team for opportunity</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Email Bid Team</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/_ui/core/email/author/EmailAuthor?rtype=003&amp;p2_lkid=003G000002CaXzI&amp;p3_lkid={!Opportunity.Id}&amp;retURL=%2F{!Opportunity.Id}&amp;p5=&amp;template_id=00XG0000002JpaX</url>
+</WebLink>

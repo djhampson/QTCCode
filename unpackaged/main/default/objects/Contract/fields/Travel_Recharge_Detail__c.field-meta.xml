@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Travel_Recharge_Detail__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What T1 can and cannot charge for, if prior approval required, how to request payment, if receipts are to be provided, minimum days on site, customer to book travel, estimates provided and process to manage estimates etc.</inlineHelpText>
+    <label>Travel Recharge Detail</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

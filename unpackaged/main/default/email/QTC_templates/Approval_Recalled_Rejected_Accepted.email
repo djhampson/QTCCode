@@ -1,0 +1,29 @@
+<messaging:emailTemplate subject="Your approval request for {!relatedTo.Quote_Number__c} has been {!relatedTo.sbaa__Status__c}. " recipientType="User" relatedToType="sbaa__Approval__c">
+<messaging:plainTextEmailBody >
+Dear,
+
+Please note that your approval request has been {!relatedTo.sbaa__Status__c}. Please find more information below:
+
+Opportunity Name: {!relatedTo.Opportunity_Name__c}
+Opportunity Owner: {!relatedTo.Opportunity_Owner__c}
+Opportunity Amount: {!relatedTo.Opportunity_Amount__c}
+
+Account Name: {!relatedTo.Account_Name__c}
+Quote Number: {!relatedTo.Quote_Number__c}
+Requested By: {!relatedTo.Requested_by_Name__c} 
+Approval Chain: {!relatedTo.Approval_Chain_Name__c}
+Approval Number: {!relatedTo.Name}
+Approval Status: {!relatedTo.sbaa__Status__c}
+Approved By: {!relatedTo.Approved_by_Name__c}
+Rejected By: {!relatedTo.Rejected_by_Name__c} 
+
+Comments: {!relatedTo.sbaa__CommentsLong__c}
+
+Link to approval :  {!relatedTo.Approval_URL__c}/lightning/r/sbaa__Approval__c/{!relatedTo.Id}/view
+
+Kind Regards,
+
+<p> “style=color:white” ”apex:outputText” value=”” </p>
+
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

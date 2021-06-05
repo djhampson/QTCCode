@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inline_Edit_Open_Cloud_Opps</fullName>
+    <columns>Region__c</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>ARR__c</columns>
+    <columns>First_Year_Cloud_Fee__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OO_Forecast__c</columns>
+    <columns>GM_Forecast__c</columns>
+    <columns>Cloud_BDM__c</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>Overview__c</columns>
+    <columns>Cloud_Qualification__c</columns>
+    <columns>Cloud_Status_Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Licence_Model__c</field>
+        <operation>equals</operation>
+        <value>Cloud</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notEqual</operation>
+        <value>apples ltd (TEST)</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Licence_Fee</value>
+    </filters>
+    <label>Inline Edit - Open Cloud Opps</label>
+    <sharedTo>
+        <group>Cloud_team</group>
+    </sharedTo>
+</ListView>

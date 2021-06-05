@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Initial term of agreement (months) --></label>
+        <name>Initial_term_of_agreement_months__c</name>
+    </CustomFieldTranslation>

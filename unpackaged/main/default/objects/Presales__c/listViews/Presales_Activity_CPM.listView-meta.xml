@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presales_Activity_CPM</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Activity_Date__c</columns>
+    <columns>Activity_Duration__c</columns>
+    <columns>Activity_Type__c</columns>
+    <columns>Product__c</columns>
+    <columns>Solution__c</columns>
+    <columns>Attendees__c</columns>
+    <columns>Notes__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product__c</field>
+        <operation>includes</operation>
+        <value>Corporate Performance Management</value>
+    </filters>
+    <label>Presales Activity - CPM</label>
+</ListView>

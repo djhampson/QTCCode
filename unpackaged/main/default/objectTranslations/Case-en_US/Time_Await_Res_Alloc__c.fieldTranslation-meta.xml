@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The total work days to resource the case after the customer has approved the quote, calculated using the default business hours. --></help>
+        <label><!-- Time Awaiting Resource Allocation --></label>
+        <name>Time_Await_Res_Alloc__c</name>
+    </CustomFieldTranslation>

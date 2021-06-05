@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Details__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide details on why and what your requirements from the reference are. Please enter NA if no details.</inlineHelpText>
+    <label>Requirement Overview</label>
+    <length>1000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>8</visibleLines>
+</CustomField>

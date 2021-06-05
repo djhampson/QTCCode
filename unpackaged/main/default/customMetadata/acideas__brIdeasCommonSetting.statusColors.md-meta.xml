@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>statusColors</label>
+    <protected>false</protected>
+    <values>
+        <field>acideas__Value__c</field>
+        <value xsi:type="xsd:string">{&quot;Under Consideration&quot;:&quot;f45197&quot;,&quot;In Development&quot;:&quot;09B5D1&quot;,&quot;Delivered&quot;:&quot;00b189&quot;,&quot;Alternate Solution Available&quot;:&quot;2a7de1&quot;,&quot;Existing Feature&quot;:&quot;2a7de1&quot;,&quot;On Roadmap&quot;:&quot;e54360&quot;,&quot;Considered for Future Roadmap&quot;:&quot;e54360&quot;,&quot;Bug or Support Issue&quot;:&quot;ff7f40&quot;}</value>
+    </values>
+</CustomMetadata>

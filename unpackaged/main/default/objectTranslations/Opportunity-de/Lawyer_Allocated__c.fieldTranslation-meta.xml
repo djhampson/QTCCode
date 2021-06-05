@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- T1 Lawyer Allocated --></help>
+        <label><!-- Lawyer Allocated --></label>
+        <name>Lawyer_Allocated__c</name>
+        <relationshipLabel><!-- Opportunities (Lawyer Allocated) --></relationshipLabel>
+    </CustomFieldTranslation>

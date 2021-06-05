@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Related entity / third party use permitted detail --></help>
+        <label><!-- Related Entity / 3P Use Detail --></label>
+        <name>Related_Entity_3P_Use_Detail__c</name>
+    </CustomFieldTranslation>

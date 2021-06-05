@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to T1 Contract - Used in Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letter_Head</letterhead>
+    <name>Email T1 Contract</name>
+    <style>freeForm</style>
+    <subject>Contract Requested for {!Opportunity.Account} {!Opportunity.Opportunity_ID__c}</subject>
+    <textOnly>Dear T1 Contract,
+
+Customer Business Name: {!Opportunity.Account}
+Customer ABN:
+Customer Address (full address, not PO Box):
+
+Customer Rep Name: {!Opportunity.Customer_Contact__c}
+Customer Rep Title:
+
+Deal Type: {!Opportunity.Licence_Model__c}
+Number of Environments:
+Third Party Software/Services:
+[specify any proposed use of 3rdparty software or services (e.g. shared service; bureau service; use by subsidiaries; etc)
+
+Licence Fee Value: {!Opportunity.Amount}
+Total Contract Value:
+Licence Fee Discount: [specify amount &amp; attach approvals as required]
+
+
+Additional commercial instructions:
+[specify &amp; attach approvals as required]
+
+Pricing Spreadsheet: [Please attach]
+
+Implementation Services:
+
+[Please provide details &amp; attach, as approved by Consulting Services]
+
+If SaaS/Subscription/Cloud - Initial Period: {!Opportunity.SaaS_Term__c}
+
+If SaaS/Subscription - Pricing Structure:
+If Cloud - Annual Cloud Fee: {!Opportunity.Cloud_Service_Fee_per_year__c}
+
+Primary Campaign: {!Opportunity.Primary_Campaign_Name__c}
+
+Opportunity Name: {!Opportunity.Name}
+Opportunity Link: {!Opportunity.Link}
+
+Regards,
+{!Opportunity.OwnerFullName}
+{!Opportunity.OwnerTitle}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

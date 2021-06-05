@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_or_Module__c</fullName>
+    <externalId>false</externalId>
+    <label>Hierarchy Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Module</fullName>
+                <default>true</default>
+                <label>Module</label>
+            </value>
+            <value>
+                <fullName>Solution</fullName>
+                <default>false</default>
+                <label>Solution</label>
+            </value>
+            <value>
+                <fullName>Service Pack</fullName>
+                <default>false</default>
+                <label>Service Pack</label>
+            </value>
+            <value>
+                <fullName>AMS Program</fullName>
+                <default>false</default>
+                <label>AMS Program</label>
+            </value>
+            <value>
+                <fullName>Saas Platform</fullName>
+                <default>false</default>
+                <label>Saas Platform</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

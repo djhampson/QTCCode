@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Explanation_of_Priority__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Priority , &quot;Critical&quot;, &quot;Critical production issue including system unavailability and data integrity issues with no workaround available.&quot;, &quot;Urgent&quot;, &quot;Major functionality is impacted or significant performance degradation is experienced. Issue is persistent and affects many users and/or major functionality. No reasonable workaround available. Also includes time sensitive requests.&quot;, &quot;High&quot;, &quot;Software issue affecting some but not all users. Short term workaround is available, but not sustainable.&quot;, &quot;Medium&quot;, &quot;Inquiry regarding software functionality, navigation, installation or configuration; software issue affecting a small number of users with a reasonable workaround available.&quot;, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Explanation of Priority</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

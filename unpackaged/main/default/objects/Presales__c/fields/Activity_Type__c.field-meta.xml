@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Activity Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Planning</fullName>
+                <default>false</default>
+                <label>Account Planning</label>
+            </value>
+            <value>
+                <fullName>Bid Meeting</fullName>
+                <default>false</default>
+                <label>Bid Meeting</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+            <value>
+                <fullName>Customer Meeting/Call</fullName>
+                <default>false</default>
+                <label>Customer Meeting/Call</label>
+            </value>
+            <value>
+                <fullName>Demo Follow Up</fullName>
+                <default>false</default>
+                <label>Demo Follow Up</label>
+            </value>
+            <value>
+                <fullName>Demonstration</fullName>
+                <default>false</default>
+                <label>Demonstration</label>
+            </value>
+            <value>
+                <fullName>Demo Prep</fullName>
+                <default>false</default>
+                <label>Demo Prep</label>
+            </value>
+            <value>
+                <fullName>Demo Prep - Assistance</fullName>
+                <default>false</default>
+                <label>Demo Prep - Assistance</label>
+            </value>
+            <value>
+                <fullName>Demo Shadowing</fullName>
+                <default>false</default>
+                <label>Demo Shadowing</label>
+            </value>
+            <value>
+                <fullName>Demo System Maintenance</fullName>
+                <default>false</default>
+                <label>Demo System Maintenance</label>
+            </value>
+            <value>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+                <label>Discovery</label>
+            </value>
+            <value>
+                <fullName>Internal Meeting</fullName>
+                <default>false</default>
+                <label>Internal Meeting</label>
+            </value>
+            <value>
+                <fullName>Mentoring</fullName>
+                <default>false</default>
+                <label>Mentoring</label>
+            </value>
+            <value>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+                <label>Proposal</label>
+            </value>
+            <value>
+                <fullName>R&amp;D Work No Sales Opportunity</fullName>
+                <default>false</default>
+                <label>R&amp;D Work</label>
+            </value>
+            <value>
+                <fullName>T1 Events (e.g. showcase etc)</fullName>
+                <default>false</default>
+                <label>T1 Events (e.g. showcase etc)</label>
+            </value>
+            <value>
+                <fullName>Tender</fullName>
+                <default>false</default>
+                <label>Tender</label>
+            </value>
+            <value>
+                <fullName>Training Attending</fullName>
+                <default>false</default>
+                <label>Training Attending</label>
+            </value>
+            <value>
+                <fullName>Training Prep</fullName>
+                <default>false</default>
+                <label>Training Prep</label>
+            </value>
+            <value>
+                <fullName>Training Teaching</fullName>
+                <default>false</default>
+                <label>Training Teaching</label>
+            </value>
+            <value>
+                <fullName>Travel time</fullName>
+                <default>false</default>
+                <label>Travel time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

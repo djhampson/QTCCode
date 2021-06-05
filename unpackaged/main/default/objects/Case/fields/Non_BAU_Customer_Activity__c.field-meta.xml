@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_BAU_Customer_Activity__c</fullName>
+    <description>Support’s workload can be impacted by non scheduled events or non BAU activities occurring within a Customer&#39;s World. As the Support Team Member is triaging/analysing the case should the case be identified as a non BAU activity the Indicator field will be updated by the Support Team Member.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What non-scheduled event or non-BAU customer activity is the driver/cause/reason for this case?
+Please select N/A if unsure.</inlineHelpText>
+    <label>Non-BAU Customer Activity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Ci to CiA Conversion - Data Migration</fullName>
+                <default>false</default>
+                <label>Ci to CiA Conversion - Data Migration</label>
+            </value>
+            <value>
+                <fullName>Ci to CiA Conversion - Functionality Gaps</fullName>
+                <default>false</default>
+                <label>Ci to CiA Conversion - Functionality Gaps</label>
+            </value>
+            <value>
+                <fullName>Ci to CiA Conversion - Go Live/Showstopper</fullName>
+                <default>false</default>
+                <label>Ci to CiA Conversion - Go Live/Showstopper</label>
+            </value>
+            <value>
+                <fullName>Performance - On Premise</fullName>
+                <default>false</default>
+                <label>Performance - On Premise</label>
+            </value>
+            <value>
+                <fullName>Performance - Product</fullName>
+                <default>false</default>
+                <label>Performance - Product</label>
+            </value>
+            <value>
+                <fullName>Performance - SaaS</fullName>
+                <default>false</default>
+                <label>Performance - SaaS</label>
+            </value>
+            <value>
+                <fullName>Projects - SaaS Transition</fullName>
+                <default>false</default>
+                <label>Projects - SaaS Transition</label>
+            </value>
+            <value>
+                <fullName>Projects - T1 PMO Run</fullName>
+                <default>false</default>
+                <label>Projects - T1 PMO Run</label>
+            </value>
+            <value>
+                <fullName>Projects - Sponsor Driven</fullName>
+                <default>false</default>
+                <label>Projects - Sponsor Driven</label>
+            </value>
+            <value>
+                <fullName>Release Upgrade - Early Adopter</fullName>
+                <default>false</default>
+                <label>Release Upgrade - Early Adopter</label>
+            </value>
+            <value>
+                <fullName>Release Upgrade - On Premise</fullName>
+                <default>false</default>
+                <label>Release Upgrade - On Premise</label>
+            </value>
+            <value>
+                <fullName>Release Upgrade - SaaS</fullName>
+                <default>false</default>
+                <label>Release Upgrade - SaaS</label>
+            </value>
+            <value>
+                <fullName>SaaS Outage - Emergency</fullName>
+                <default>false</default>
+                <label>SaaS Outage - Emergency</label>
+            </value>
+            <value>
+                <fullName>SaaS Outage - Infrastructure Upgrade</fullName>
+                <default>false</default>
+                <label>SaaS Outage - Infrastructure Upgrade</label>
+            </value>
+            <value>
+                <fullName>SaaS Outage - Undocumented</fullName>
+                <default>false</default>
+                <label>SaaS Outage - Undocumented</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

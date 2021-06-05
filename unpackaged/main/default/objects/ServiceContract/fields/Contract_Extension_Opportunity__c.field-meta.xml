@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Extension_Opportunity__c</fullName>
+    <description>To identify a contract extension for an existing SaaS Contract.</description>
+    <externalId>false</externalId>
+    <formula>SBQQSC__Opportunity__r.Contract_Extension__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is a contract extension for an existing SaaS Contract.</inlineHelpText>
+    <label>Agreement Extension</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

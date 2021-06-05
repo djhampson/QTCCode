@@ -1,0 +1,33 @@
+<apex:page controller="MultiYearContractController" lightningStylesheets="true" showHeader="true"> 
+    <apex:form >   
+        <apex:pageMessages id="errormsg" />
+        <apex:pageBlock >
+            <apex:pageBlockSection title="Select the Multi-Year Plan" showHeader="true" columns="1">
+                <apex:pageBlockSectionItem >
+                    <apex:selectList value="{!incentiveTypeval}" size="1" style="width:120px;">
+                        <apex:selectOptions value="{!incentiveType}"/>
+                    </apex:selectList>
+                    <apex:outputLabel value="Incentive - {!$ObjectType.SBQQ__QuoteLineGroup__c.Fields.Period_Type__c.InlineHelpText}"></apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br /><br />
+                
+                <apex:pageBlockSectionItem >
+                    <apex:selectList value="{!monthsval}" size="1" style="width:120px;">
+                        <apex:selectOptions value="{!months}"/>
+                    </apex:selectList>
+                    <apex:outputLabel value="Incentive Period - {!$ObjectType.SBQQ__QuoteLineGroup__c.Fields.Months__c.InlineHelpText}"></apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br /><br />
+                
+                <apex:pageBlockSectionItem >
+                    <apex:selectList value="{!yearsval}" size="1" style="width:120px">
+                        <apex:selectOptions value="{!years}"/>
+                    </apex:selectList>
+                    <apex:outputLabel value="Standard Term - {!$ObjectType.SBQQ__QuoteLineGroup__c.Fields.Standard_Term__c.InlineHelpText}"></apex:outputLabel>
+                </apex:pageBlockSectionItem>
+                <br /><br />
+                <apex:commandButton action="{! applyquote }" value="Apply to Quote"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

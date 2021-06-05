@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatic email sent on question case creation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: Creation AUTO Question</name>
+    <style>none</style>
+    <subject>Case Created {!Case.CaseNumber} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+A new question case has been raised with TechnologyOne Support Centre. As an alternative, the Customer Community is a hub for users like yourself using TechnologyOne software and they may have the answer that you are looking for. 
+ Please consider asking the community using the ‘Ask a Question’ button for future questions or even this one. 
+
+Please find the following details for your question case:
+
+Case Number:  {!Case.CaseNumber}
+Product:  {!Case.Customer_Product__c}
+Functional Area:  {!Case.Functional_Area__c}
+Case Subject:  {!Case.Subject}
+Case Type:  {!Case.Type}
+Customer Reference:  {!Case.Customer_Reference__c}
+
+Your new question case will be assigned to a specialised Support Consultant for review in due course. Please note that I am experiencing an issue cases (Incidents) will take priority over questions for a response. We recommend you use the Customer Community to self-help or ask your question through that collaboration channel. 
+
+
+Kind regards,
+
+{!Case.EmailSig__c}
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

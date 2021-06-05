@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preferred_Date__c</fullName>
+    <defaultValue>DATETIMEVALUE(
+CASE( 
+  MOD( TODAY() - DATE( 1900, 1, 7 ), 7 ),
+  1, TODAY() + 2 + 5,
+  2, TODAY() + 2 + 5,
+  3, TODAY() + 2 + 5,
+  4, TODAY() + 2 + 5,
+  5, TODAY() + 2 + 5,
+  6, TODAY() + 1 + 5,
+  TODAY() + 5
+)
+) +(12/24)</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Please note this a preference only, and is subject to confirmation. Minimum 5 working days notice is required for a request to be scheduled.</inlineHelpText>
+    <label>Preferred Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

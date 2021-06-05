@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Include_Commitment_Fee__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When this checkbox is true, include the quote lines with Fee Type = Commitment Fee in the invoice split</description>
+    <externalId>false</externalId>
+    <label>Include Commitment Fee</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

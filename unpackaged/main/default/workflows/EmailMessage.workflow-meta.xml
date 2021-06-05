@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Case_update_status_field</fullName>
+        <description>This will update the status field to in progress is the criteria is met when an email comes in.</description>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Case: update status field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_Clear_New_Customer_AttachmEmail</fullName>
+        <field>New_Customer_Attachment__c</field>
+        <literalValue>0</literalValue>
+        <name>Email: Clear New Customer Attachment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_Clear_New_Customer_Email</fullName>
+        <field>New_Customer_Email__c</field>
+        <literalValue>0</literalValue>
+        <name>Email: Clear New Customer Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_Clear_New_Portal_Case_Comment</fullName>
+        <field>New_Portal_Case_Comment__c</field>
+        <literalValue>0</literalValue>
+        <name>Email: Clear New Portal Case Comment</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_Set_Case_Proceed_with_Quote</fullName>
+        <description>Sets Proceed with Quote on Case</description>
+        <field>Proceed_with_Quote__c</field>
+        <literalValue>1</literalValue>
+        <name>Email: Set Case Proceed with Quote</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_Set_Case_Status_to_Pending_Quote</fullName>
+        <description>Sets the Case Status to Pending Quote when email is sent</description>
+        <field>Status</field>
+        <literalValue>Pending Quote</literalValue>
+        <name>Email: Set Case Status to Pending Quote</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Email_Set_Last_Customer_Contact</fullName>
+        <description>Sets the datetime for last customer contact</description>
+        <field>Last_Customer_Contact__c</field>
+        <formula>NOW()</formula>
+        <name>Email: Set Last Customer Contact</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Case_field_New_Email_True</fullName>
+        <description>Set Flag to TRUE on new customer reply on email</description>
+        <field>New_Customer_Email__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Case field New Email = True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Awaiting_Customer_on_Req</fullName>
+        <field>Status</field>
+        <literalValue>Awaiting Customer</literalValue>
+        <name>Update Status = Awaiting Customer on Req</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_With_Customer_on_Testing</fullName>
+        <description>Update case status to With Customer</description>
+        <field>Status</field>
+        <literalValue>With Customer</literalValue>
+        <name>Update Status = With Customer on Testing</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_With_Development</fullName>
+        <description>Update case status to With Development when confirmed With Development email sent</description>
+        <field>Status</field>
+        <literalValue>With Development</literalValue>
+        <name>Update Status = With Development</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>Change Status with incoming email</fullName>
+        <actions>
+            <name>Case_update_status_field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Change the status to &quot;in progress&quot; from either &quot;Await customer&quot; or &quot;With Customer&quot;  status when incoming email is received from any email address other than t1support.</description>
+        <formula>Incoming = True &amp;&amp; (ISPICKVAL( Parent.Status , &#39;Awaiting Customer&#39;) || ISPICKVAL( Parent.Status , &#39;With Customer&#39;)) &amp;&amp;  NOT(BEGINS(LOWER(FromAddress), &#39;t1support&#39;)) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Email sent to Customer from Employee Community</fullName>
+        <actions>
+            <name>Email_Clear_New_Customer_AttachmEmail</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Email_Clear_New_Customer_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Email_Clear_New_Portal_Case_Comment</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Email_Set_Last_Customer_Contact</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This rule assumes any inbound email from T1Support results from an email sent by an Employee within a Community. It&#39;s purpose is to clear the New Customer Info flags.</description>
+        <formula>BEGINS( LOWER(FromAddress) , &#39;t1support&#39;) &amp;&amp;  CONTAINS(LOWER(ToAddress), LOWER( Parent.Contact.Email )) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Case field New Email %3D True</fullName>
+        <actions>
+            <name>Update_Case_field_New_Email_True</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updates the New Email Response flag to true when an email response is received except when email is from t1support</description>
+        <formula>Incoming = True &amp;&amp; 
+NOT(BEGINS(LOWER(FromAddress), &#39;t1support&#39;)) &amp;&amp; 
+NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Status %3D Awaiting Customer on Referred to Consulting</fullName>
+        <actions>
+            <name>Update_Status_Awaiting_Customer_on_Req</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Status = Awaiting Customer on Referred to Consulting email</description>
+        <formula>(BEGINS(LOWER(Subject), &#39;your request is outside annual support and maintenance&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: your request is outside annual support and maintenance&#39;) || BEGINS(LOWER(Subject), &#39;consulting services required&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: consulting services required&#39;) || BEGINS(LOWER(Subject), &#39;datafix provided:&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: datafix provided:&#39;)) &amp;&amp; BEGINS( LOWER(FromAddress) , &#39;t1support&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Status %3D Awaiting Customer on Req for more Info</fullName>
+        <actions>
+            <name>Update_Status_Awaiting_Customer_on_Req</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Status = Awaiting Customer on Request for more Info email</description>
+        <formula>(BEGINS(LOWER(Subject), &#39;request for more information:&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: request for more information:&#39;)) &amp;&amp; BEGINS( LOWER(FromAddress) , &#39;t1support&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Status %3D Awaiting Customer on Service Request Estimate Approval</fullName>
+        <actions>
+            <name>Update_Status_Awaiting_Customer_on_Req</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Status = Awaiting Customer on Service Request Estimate Approval email</description>
+        <formula>(BEGINS(LOWER(Subject), &#39;service request estimate approval required:&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: service request estimate approval required:&#39;)) &amp;&amp; BEGINS( LOWER(FromAddress) , &#39;t1support&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Status %3D Pending Quote when Referred to Consulting team for quote</fullName>
+        <actions>
+            <name>Email_Set_Case_Proceed_with_Quote</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Email_Set_Case_Status_to_Pending_Quote</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Status = Pending Quote when Referred to Consulting team for quote</description>
+        <formula>(BEGINS(LOWER(Subject), &#39;referred to consulting team&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: referred to consulting team&#39;)) &amp;&amp; BEGINS( LOWER(FromAddress) , &#39;t1support&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Status %3D With Customer on Testing</fullName>
+        <actions>
+            <name>Update_Status_With_Customer_on_Testing</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Status = With Customer on Service Request Customer Testing Required email</description>
+        <formula>(BEGINS(LOWER(Subject), &#39;service request testing required:&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: service request testing required:&#39;)) &amp;&amp; BEGINS( LOWER(FromAddress) , &#39;t1support&#39;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Status %3D With Development once advised</fullName>
+        <actions>
+            <name>Update_Status_With_Development</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Status = With Development after With Development email sent</description>
+        <formula>(BEGINS(LOWER(Subject), &#39;case confirmed with development&#39;) || BEGINS(LOWER(Subject), &#39;sandbox: case confirmed with development&#39;)) &amp;&amp; BEGINS( LOWER(FromAddress) , &#39;t1support&#39;) &amp;&amp; (Parent.RecordType.DeveloperName == &quot;Incident&quot; || Parent.RecordType.DeveloperName == &quot;Question&quot;) &amp;&amp; NOT( $Setup.T1_Control_Settings__c.Bypass_Workflow__c )</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

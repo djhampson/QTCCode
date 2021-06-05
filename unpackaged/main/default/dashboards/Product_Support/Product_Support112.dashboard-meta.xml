@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Asset Management (AM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Business Process Management (BPM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Corporate Performance Management (CPM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Customer Relationship Management (CRM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Enterprise Cash Receipting (ECR),Supply Chain Management (SCM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Enterprise Content Management (ECM)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Financials (FIN)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Human Resource &amp; Payroll (HRP)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Property &amp; Rating (P&amp;R)</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>equals</operator>
+            <values>Student Management (SM)</values>
+        </dashboardFilterOptions>
+        <name>Product</name>
+    </dashboardFilters>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Geoff W,FIN,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Suzanne W,FIN,SCM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Kim S,SCM,ECR</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Stephen M,SCM,ECR</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Parvin K,HRP</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>William M,FIN,SCM,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Peter G,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Josh S,FIN,SCM,CPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Manjinder B,HRP</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Ajay,SM,CRM,BPM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Ruth A,FIN,SCM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Samantha W,HRP</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Maggy,FIN</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>contains</operator>
+            <values>Phil N,SCM,FIN,ECR</values>
+        </dashboardFilterOptions>
+        <name>Person</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>MT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CM.TARGET_DATE</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>STATUS</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>ACCOUNT.NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>Case.Customer_Product__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>CM.TARGET_DATE</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <groupingSortProperties />
+                <header>Milestones to hit TODAY (Product)</header>
+                <report>Product_Support/Milestones_to_hit_TODAY_Product</report>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <footer>to be reviewed and updated daily</footer>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>Case.Customer_Product__c</groupingColumn>
+                <groupingSortProperties />
+                <header>Critical Cases in Product</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Critical_Cases</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>for review daily</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <footer>to be reviewed, acknowledged and flag removed when actioned</footer>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>Case.Customer_Product__c</groupingColumn>
+                <groupingSortProperties />
+                <header>Our Customers are Escalating</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Priority_has_Changed</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>For action daily</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <footer>to be reviewed and missing Jira number added or picked up and triaged</footer>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>PRIORITY</groupingColumn>
+                <groupingSortProperties />
+                <header>Product Queue Triage</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Cases_by_Product_Q</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>In Product with No Jira (action daily)</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <footer>acknowledge the customer update (email, post, comment) and set yourself a task if you can&#39;t provide an immediate update/fix</footer>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>PRIORITY</groupingColumn>
+                <groupingSortProperties />
+                <header>Customers have taken action on Product Queues</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Case_Activity_Product</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>for action daily</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>PRIORITY</groupingColumn>
+                <groupingSortProperties />
+                <header>Customers still responding despite case being closed</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Customer_Activity_on_Closed_Product</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <title>for action daily</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <dashboardFilterColumns>
+                    <column>FK_$Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>CUST_OWNER_NAME</column>
+                </dashboardFilterColumns>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>true</expandOthers>
+                <groupingColumn>FK_CASE_OWNER_NAME</groupingColumn>
+                <groupingSortProperties />
+                <header>And the Survey Says:</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Surveys_Prdouct</report>
+                <showPercentage>false</showPercentage>
+                <showTotal>true</showTotal>
+                <showValues>true</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>How compelling were we?</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <footer>acknowledge the customer update (email, post, comment) and set yourself a task if you can&#39;t provide an immediate update/fix</footer>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>PRIORITY</groupingColumn>
+                <groupingSortProperties />
+                <header>Our Customers are responding</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Product_Queue_Activity</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>Let&#39;s keep up the momentum daily</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>5</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>ColumnStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <footer>Over 50 and some cases are lost? Do others need to help out?</footer>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>STATUS</groupingColumn>
+                <groupingSortProperties />
+                <header>How is our case load?</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Cases_Currently_Open_by_agent2</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>Is the load healthy?</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>12</rowIndex>
+            <rowSpan>6</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>5</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Gauge</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$Owner</column>
+                </dashboardFilterColumns>
+                <displayUnits>Auto</displayUnits>
+                <footer>If resolved in patch and it is available to customer resolve case. If a future release advise customer it has been scheduled for release X and as it progresses an update will be provided.</footer>
+                <gaugeMax>100.0</gaugeMax>
+                <gaugeMin>0.0</gaugeMin>
+                <groupingSortProperties />
+                <header>Development is done</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#00FF00</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <report>Product_Support/Dev_Items_Closed_with_Package</report>
+                <showPercentage>false</showPercentage>
+                <showRange>false</showRange>
+                <showTotal>true</showTotal>
+                <showValues>false</showValues>
+                <title>Have we told the customer?</title>
+            </dashboardComponent>
+            <rowIndex>12</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>2</colSpan>
+            <columnIndex>7</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Gauge</componentType>
+                <dashboardFilterColumns>
+                    <column>Case$Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>Case$Owner</column>
+                </dashboardFilterColumns>
+                <displayUnits>Auto</displayUnits>
+                <footer>Check if this was a rejection and work with customer / Dev to get a result and case closed.</footer>
+                <gaugeMax>100.0</gaugeMax>
+                <gaugeMin>0.0</gaugeMin>
+                <groupingSortProperties />
+                <header>No Software change! What has R&amp;D decided?</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#FF0000</indicatorHighColor>
+                <indicatorLowColor>#00FF00</indicatorLowColor>
+                <indicatorMiddleColor>#E2CE7D</indicatorMiddleColor>
+                <report>Product_Support/Dev_Items_Closed_without_Package</report>
+                <showPercentage>false</showPercentage>
+                <showRange>false</showRange>
+                <showTotal>true</showTotal>
+                <showValues>false</showValues>
+                <title>Must update Customer</title>
+            </dashboardComponent>
+            <rowIndex>12</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>5</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <footer>Aiming for 20+</footer>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>PRIORITY</groupingColumn>
+                <groupingSortProperties />
+                <header>Success - Case Closed</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Cases_Closed_WTD_Product</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>How are you tracking?</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>16</rowIndex>
+            <rowSpan>7</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>5</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <displayUnits>Integer</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>OWNER</groupingColumn>
+                <groupingColumn>STATUS</groupingColumn>
+                <groupingSortProperties />
+                <header>Cases firmly with us</header>
+                <legendPosition>Right</legendPosition>
+                <report>Product_Support/Cases_Open_by_Agent_not_Jira</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>No Jira - do I need to lend a hand?</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>18</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>OWNER</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <footer>Update Internal Functional Area, this is used by many teams and yourselves when performing functional area analysis.</footer>
+                <groupingSortProperties />
+                <header>Ooops Looks like we missed a field</header>
+                <report>Product_Support/Missing_Functional_Areas</report>
+                <title>Missing Internal FAs (for action weekly)</title>
+            </dashboardComponent>
+            <rowIndex>23</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <flexTableColumn>
+                        <reportColumn>OWNER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>CASE_NUMBER</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>OWNER</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <footer>Update found technology on each applicable case this appears in board reports.</footer>
+                <groupingSortProperties />
+                <header>Ooops Found Technology Missing</header>
+                <report>Product_Support/Missing_Found_Technology</report>
+                <title>Missing Found Tech (for action weekly)</title>
+            </dashboardComponent>
+            <rowIndex>23</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>9</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>BarStacked</componentType>
+                <dashboardFilterColumns>
+                    <column>Case.Customer_Product__c</column>
+                </dashboardFilterColumns>
+                <dashboardFilterColumns>
+                    <column>OWNER</column>
+                </dashboardFilterColumns>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <groupingColumn>Case.Customer_Product__c</groupingColumn>
+                <groupingSortProperties />
+                <header>Customer Care - Are they Hurting?</header>
+                <legendPosition>Right</legendPosition>
+                <maxValuesDisplayed>20</maxValuesDisplayed>
+                <report>Product_Support/Top_Customers_by_Open_Cases3</report>
+                <showPercentage>false</showPercentage>
+                <showValues>false</showValues>
+                <sortBy>RowValueDescending</sortBy>
+                <title>Top Customers by Open Cases (info)</title>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>27</rowIndex>
+            <rowSpan>5</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>9</numberOfColumns>
+        <rowHeight>80</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>true</isGridLayout>
+    <runningUser>greg_mccormack@technologyonecorp.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Copy of Product Support - Lightning Version</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

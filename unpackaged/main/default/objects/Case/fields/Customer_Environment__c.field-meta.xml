@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Environment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Customer Environment</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Customer_Environment__c.AccountId__r.Id</field>
+            <operation>equals</operation>
+            <valueField>$Source.AccountId</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Customer_Environment__c</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexTestSuite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <testClassName>AnyServiceMockImpl</testClassName>
+    <testClassName>AssetTriggerHandler_Test</testClassName>
+    <testClassName>AsyncFrameworkUtilTest</testClassName>
+    <testClassName>DM_ApplicationLogTest</testClassName>
+    <testClassName>DS_QuoteLineTest</testClassName>
+    <testClassName>DS_QuoteTest</testClassName>
+    <testClassName>MultiYearDealContractControllerTest</testClassName>
+    <testClassName>NotificationServiceTest</testClassName>
+    <testClassName>OrderAndContractOpportunityBatchTest</testClassName>
+    <testClassName>OrderProductTriggerHandlerTest</testClassName>
+    <testClassName>OrderTriggerHandlerTest</testClassName>
+    <testClassName>QuoteExtControllerTests</testClassName>
+    <testClassName>QuoteLineTriggerHandler_Test</testClassName>
+    <testClassName>QuoteTriggerHandler_Test</testClassName>
+    <testClassName>RenewalServiceContractsBatchTest</testClassName>
+    <testClassName>ServiceContractTriggerHandler_Test</testClassName>
+    <testClassName>SM_CloneInvoiceTest</testClassName>
+    <testClassName>SM_PerpetualOnCloudBatchTest</testClassName>
+    <testClassName>SM_SplitInvoiceTest</testClassName>
+    <testClassName>T1_AutoAmendmentBatchTest2</testClassName>
+    <testClassName>T1_CaseEntitlementServiceTest</testClassName>
+    <testClassName>T1_CreditNoteLineServiceTest</testClassName>
+    <testClassName>T1_FlipToSaaSBatch_Test</testClassName>
+    <testClassName>T1_FlipToSaasController_Test</testClassName>
+    <testClassName>T1_InvoiceSyncBatch_Test</testClassName>
+    <testClassName>T1_InvoiceTrigger_Test</testClassName>
+    <testClassName>T1_RenewalServiceBatchSchedulableTest</testClassName>
+    <testClassName>T1_RevRecognitionServiceTest</testClassName>
+    <testClassName>TestDataFactory</testClassName>
+    <testClassName>TestUtility</testClassName>
+</ApexTestSuite>

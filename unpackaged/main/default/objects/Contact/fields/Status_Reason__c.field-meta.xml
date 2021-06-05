@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Status Reason</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Contact_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Status_Reason</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>Bad data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>No interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>No business fit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <valueName>No authority</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualified</controllingFieldValue>
+            <controllingFieldValue>Returned to Marketing</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Returned to Marketing</controllingFieldValue>
+            <valueName>Unable to reach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Returned to Marketing</controllingFieldValue>
+            <valueName>No budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Returned to Marketing</controllingFieldValue>
+            <valueName>Not ready to buy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Returned to Marketing</controllingFieldValue>
+            <valueName>Needs further qualification</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount</calculatedFormula>
+        <datatype>number</datatype>
+        <description>Number of Cases</description>
+        <developerName>FORMULA1</developerName>
+        <isActive>false</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Number of Cases</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>((GetFeedback_Survey_Responses__c.Our_People_Rating__c:SUM/RowCount)/5)*100</calculatedFormula>
+        <datatype>number</datatype>
+        <description>Avg People Rating %</description>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Avg People Rating %</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_29932438</developerName>
+        <masterLabel>Support Lead</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>GetFeedback_Survey_Responses__c.Case_Owner_Reporting_Tags__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, CD</sourceValue>
+            </sourceValues>
+            <value>Craig</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB</sourceValue>
+            </sourceValues>
+            <value>Tracey</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM</sourceValue>
+            </sourceValues>
+            <value>Greg</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, GF</sourceValue>
+            </sourceValues>
+            <value>Gab</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, LB</sourceValue>
+            </sourceValues>
+            <value>Lea-Anne</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, MV</sourceValue>
+            </sourceValues>
+            <value>Mel</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, GG</sourceValue>
+            </sourceValues>
+            <value>Grant</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>UK</sourceValue>
+            </sourceValues>
+            <value>UK</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, PM</sourceValue>
+            </sourceValues>
+            <value>Pram</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>TB, RH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>RH</sourceValue>
+            </sourceValues>
+            <value>Rox</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM, PK</sourceValue>
+            </sourceValues>
+            <value>Parvin</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_17860578</developerName>
+        <masterLabel>Support Team</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>GetFeedback_Survey_Responses__c.Case_Owner_Reporting_Tags__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>TB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, CD</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, GG</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, MV</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, PM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>TB, RH</sourceValue>
+            </sourceValues>
+            <value>Central Support</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>GM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>GM, GF</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>GM, LB</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>GM, PK</sourceValue>
+            </sourceValues>
+            <value>Product Support</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>RH</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>UK</sourceValue>
+            </sourceValues>
+            <value>UK Support</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_CREATED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>FK_$Case.Customer_Product__c</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Survey_Responses__c.Feedback__c</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_TYPE</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_CLOSED_DATEONLY</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Support_SLA_Customer__c</field>
+    </columns>
+    <columns>
+        <field>GetFeedback_Survey_Responses__c.Our_People_Rating__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <customDetailFormulas>
+        <calculatedFormula>CASE(MONTH(DATEVALUE(CUST_CREATED_DATE) ),
+10, &quot;Q1&quot; ,
+11, &quot;Q1&quot;,
+12, &quot;Q1&quot;,
+1, &quot;Q2&quot;,
+2, &quot;Q2&quot;,
+3, &quot;Q2&quot;,
+4, &quot;Q3&quot;,
+5, &quot;Q3&quot;,
+6, &quot;Q3&quot;,
+7, &quot;Q4&quot;,
+8, &quot;Q4&quot;,
+9, &quot;Q4&quot;,
+&quot;None&quot;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <description>Quarter</description>
+        <developerName>CDF1</developerName>
+        <label>Quarter</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Support - Survey Responses for Achievement Plans (Our People Rating Only)</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <criteriaItems>
+            <column>FK_CASE_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Consulting_Question,Case.Incident,Case.Question,Case.TechnologyOne_Cloud_Service_Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CASE_STATUS</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Resolved,Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Case.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>TB,GM,RH,UK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GetFeedback_Survey_Responses__c.Our_People_Rating__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>GetFeedback_Survey_Responses__c.Case_Owner_Reporting_Tags__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notContain</operator>
+            <value>AMS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_ACC_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value>TechnologyOne TEST2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_CASE_OWNER_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notContain</operator>
+            <value>Greg McCormack,Tracey Bulley,Roxanne Hoare</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_CREATED_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>10/1/2019 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>CDF1</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_29932438</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_CASE_OWNER_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Support - CSat People Rating</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntity$GetFeedback_Survey_Responses__c@GetFeedback_Survey_Responses__c.Case_Number__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>FK_CASE_CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

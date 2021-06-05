@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Amend_Quote</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Create/Amend Quote</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>https://syd0201.cis.t1cloud.com/cgi-bin/launch.exe?url=https%3A%2F%2Ftne-srs-prod.saas.t1cloud.com%2FT1SRSPROD%2FSmartclient%2FT1.tb.start.app.application%3Fd%3DTechnologyOne%20Cloud%20ntier%26action%3Dsfun%26f%3D%24SO.PBK.QOT.SEL%26s%3DSOPBK.sf_opportunity_id%3D{!Opportunity.Id}</url>
+</WebLink>

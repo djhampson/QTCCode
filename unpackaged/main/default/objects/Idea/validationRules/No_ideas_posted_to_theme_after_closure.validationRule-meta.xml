@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_ideas_posted_to_theme_after_closure</fullName>
+    <active>false</active>
+    <description>Prevent the customer from posting an idea to a theme after the theme&#39;s status is set to closed. Note the End Date field is not considered in this validation rule. Internal users can make adjustments to Idea Themes as normal regardless of status.</description>
+    <errorConditionFormula>ISNEW() &amp;&amp;
+ISPICKVAL( IdeaTheme.Status ,&quot;Closed&quot;) &amp;&amp; 
+$Profile.Name &lt;&gt; &quot;Support&quot; &amp;&amp;
+$Profile.Name &lt;&gt; &quot;Product Owners&quot; &amp;&amp; 
+IdeaTheme.Title &lt;&gt; Idea_Theme_History__c &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c)</errorConditionFormula>
+    <errorMessage>This Idea Theme is now Closed. You can no longer post new ideas to this theme.</errorMessage>
+</ValidationRule>

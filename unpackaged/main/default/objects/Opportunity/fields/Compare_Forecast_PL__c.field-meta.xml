@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compare_Forecast_PL__c</fullName>
+    <description>A process flow to update this field</description>
+    <externalId>false</externalId>
+    <label>Compare Forecast PL</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SDI_Forecast_Ticked_Only</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>SDI Forecast Ticked Only</label>
+            </value>
+            <value>
+                <fullName>RM_Forecast_Ticked_Only</fullName>
+                <color>#3366FF</color>
+                <default>false</default>
+                <label>RM Forecast Ticked Only</label>
+            </value>
+            <value>
+                <fullName>Both_Forecast_Ticked</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Both Forecast Ticked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

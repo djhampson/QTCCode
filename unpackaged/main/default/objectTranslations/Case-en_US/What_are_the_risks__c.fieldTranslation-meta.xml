@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Document the risks associated with this change --></help>
+        <label><!-- What are the risks? --></label>
+        <name>What_are_the_risks__c</name>
+    </CustomFieldTranslation>

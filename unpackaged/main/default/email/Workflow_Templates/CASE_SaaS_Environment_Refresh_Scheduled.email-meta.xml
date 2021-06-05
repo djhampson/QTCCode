@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>SaaS Environment Refresh Scheduled</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CASE: SaaS Environment Refresh Scheduled</name>
+    <style>none</style>
+    <subject>Environment Refresh Scheduled {!Case.CaseNumber} {!Case.Thread_Id}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Your requested refresh of {!Case.Destination_Environment_for_Refresh__c} from {!Case.Source_Environment_for_Refresh__c} has been scheduled for {!Case.Confirmed_Scheduled_Date_Time__c}. Please see details below. Whilst the environment refresh is occurring the destination environment will not be available.
+
+Case Number:  {!Case.CaseNumber}
+Case Subject:  {!Case.Subject}
+Priority:  {!Case.Priority}
+Customer Reference:  {!Case.Customer_Reference__c}
+Case Type:  {!Case.Type}
+SaaS Service Request Type:  {!Case.SaaS_Service_Request_Type__c}
+Confirmed Scheduled Date:  {!Case.Confirmed_Scheduled_Date__c}
+Target Environment:  {!Case.Target_Environment__c}
+Source Environment:  {!Case.Source_Environment__c}
+
+
+
+Note: Configuration within the destination environment will be overridden with the configuration from the source.
+
+
+Kind regards,
+{!Case.EmailSig__c}
+
+{!$Setup.EmailTemplateFields__c.Phone_Nos__c}
+
+VIEW THE CASE
+
+
+{!$Setup.EmailTemplateFields__c.FooterText1__c}
+{!$Setup.EmailTemplateFields__c.FooterText2__c}
+{!$Setup.EmailTemplateFields__c.FooterURL__c}
+
+{!$Setup.EmailTemplateFields__c.HTML_Block_1__c} {!$Setup.EmailTemplateFields__c.HTML_Block_2__c} {!$Setup.EmailTemplateFields__c.HTML_Block_3__c} {!$Setup.EmailTemplateFields__c.HTML_Block_4__c}
+
+TechnologyOne accepts no liability for this email or its attachments.
+It is for the intended recipient only.  More info
+Stop_Spam@TechnologyOneCorp.com
+{!Case.Thread_Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

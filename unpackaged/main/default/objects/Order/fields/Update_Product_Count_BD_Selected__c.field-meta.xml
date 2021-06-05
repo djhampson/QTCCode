@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update_Product_Count_BD_Selected__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When amendment product count is higher than original product count, update the Product Count BD Selected field on the Service Contract.</description>
+    <externalId>false</externalId>
+    <label>DEL Update Product Count BD Selected</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

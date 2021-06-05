@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_3_Approval_Date__c</fullName>
+    <description>Stage 3 Movement Date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically updated when Stage is changed to 3 or above and the Movement Date is blank.</inlineHelpText>
+    <label>Stage 3 Movement Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

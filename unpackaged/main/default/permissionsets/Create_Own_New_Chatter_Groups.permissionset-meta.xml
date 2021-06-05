@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assigned to specific users with permission to create chat groups.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Create &amp; Own New Chatter Groups</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
+    </userPermissions>
+</PermissionSet>

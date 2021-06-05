@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Choose the type of action to be processed. Statistics Only will generate an Action Process record containing the number of records affected and it will not delete any data. --></help>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+        <picklistValues>
+            <masterLabel>Delete</masterLabel>
+            <translation><!-- Delete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Statistics Only - No delete</masterLabel>
+            <translation><!-- Statistics Only - No delete --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

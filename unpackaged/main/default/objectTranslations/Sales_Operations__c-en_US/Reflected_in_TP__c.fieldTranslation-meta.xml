@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reflected in Territory Plan --></help>
+        <label><!-- Reflected in TP --></label>
+        <name>Reflected_in_TP__c</name>
+    </CustomFieldTranslation>

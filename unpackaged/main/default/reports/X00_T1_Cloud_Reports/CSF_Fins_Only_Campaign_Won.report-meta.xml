@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_92570662</developerName>
+        <masterLabel>BDM Region</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.Region__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Queensland</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ACT</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Western Australia</sourceValue>
+            </sourceValues>
+            <value>Zack</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>New South Wales</sourceValue>
+            </sourceValues>
+            <value>Julie</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>New Zealand North</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>New Zealand South</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tasmania</sourceValue>
+            </sourceValues>
+            <value>Paul</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Victoria</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>South Australia</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Northern Territory</sourceValue>
+            </sourceValues>
+            <value>Vic/SA/NT</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CLOSE_DATE</field>
+    </columns>
+    <columns>
+        <field>FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.First_Year_Cloud_Fee__c.CONVERT</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_SOURCE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>BDM_FY19_Cloud_Financials customers Cloud transition</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Vertical_Market__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Group_Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CSF Fins Only Campaign - Won</name>
+    <params>
+        <name>terr</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>open</name>
+        <value>closedwon</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityCampaign</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CAMPAIGN_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

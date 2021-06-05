@@ -1,0 +1,27 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <p><font size="4"><h1>Email-to-Case</h1></font></p>
+  
+  <p><apex:image id="theImage" value="https://c.cs10.content.force.com/servlet/servlet.FileDownload?file=015J0000000G9fB" width="70" height="55"/></p>
+  
+      <font size="3"><p>Allan Benson, Workshop Supervisor at River City Council</p></font>
+   
+   <font size="3">1. Allan experienced an issue when trying to run his XLOne Inventory Report.<br></br> 
+      He has three morning teas to attend today, so he doesn't have time to log into the Support Portal to log the incident.<br></br> 
+      As a very busy person, Allan wants to be able to just send an email to Support in order to get some assistance. <br> </br>
+      <i>Conditions of satisfaction</i>
+      <ul>
+      <li>T1 Support doesn't want to manually create a Case in Salesforce</li>
+      <li>Allan's Organisation and Contact details should automatically be added to the Case, based on his email address</li>
+      <li>If Allan replies to T1 Support's email correspondence about his case, the email should automatically be added to his Case in Salesforce</li>
+      </ul></font>
+      
+   <!--2. Allan is asked to send Support a copy of his XLOne report, but because Allan is a Technically challenged, he forgets to reply to the same email, and instead creates a new email<br></br>
+      Support needs to import his email and the XLOne attachment into the correct Case in Salesforce.<br> </br>
+      <i>Conditions of satisfaction</i>
+      <ul>
+      <li>Support should not have to copy and paste any information between Gmail and Salesforce</li>
+      <li>Emails and attachments should appear as such in Salesforce, and not just as a Comment or Note</li>
+      </ul-->
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

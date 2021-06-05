@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Awaiting_Internal_Area__c</fullName>
+    <description>Internal area the case owner is awaiting a response</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the internal area you are awaiting a response from</inlineHelpText>
+    <label>Awaiting Internal Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cloud</fullName>
+                <default>false</default>
+                <label>Cloud</label>
+            </value>
+            <value>
+                <fullName>R&amp;D</fullName>
+                <default>false</default>
+                <label>R&amp;D</label>
+            </value>
+            <value>
+                <fullName>SDM</fullName>
+                <default>false</default>
+                <label>SDM</label>
+            </value>
+            <value>
+                <fullName>CAM</fullName>
+                <default>false</default>
+                <label>CAM</label>
+            </value>
+            <value>
+                <fullName>PM</fullName>
+                <default>false</default>
+                <label>PM</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

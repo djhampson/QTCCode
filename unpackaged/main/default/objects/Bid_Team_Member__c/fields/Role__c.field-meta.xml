@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <description>Roles - Bid Team</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Typical TechnologyOne roles that are allocated to form a Bid Team.</inlineHelpText>
+    <label>Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Regional Manager</fullName>
+                <color>#003300</color>
+                <default>false</default>
+                <label>Regional Manager</label>
+            </value>
+            <value>
+                <fullName>Customer Development Manager</fullName>
+                <color>#006600</color>
+                <default>false</default>
+                <label>Customer Development Manager</label>
+            </value>
+            <value>
+                <fullName>Customer Account Manager</fullName>
+                <color>#009900</color>
+                <default>false</default>
+                <label>Customer Account Manager</label>
+            </value>
+            <value>
+                <fullName>Solutions Manager</fullName>
+                <color>#6600CC</color>
+                <default>false</default>
+                <label>Solutions Manager</label>
+            </value>
+            <value>
+                <fullName>Bid Coordinator</fullName>
+                <color>#CC66CC</color>
+                <default>false</default>
+                <label>Bid Coordinator</label>
+            </value>
+            <value>
+                <fullName>Bid Manager</fullName>
+                <color>#6633FF</color>
+                <default>false</default>
+                <label>Bid Manager</label>
+            </value>
+            <value>
+                <fullName>Consulting Director</fullName>
+                <color>#663333</color>
+                <default>false</default>
+                <label>Consulting Director</label>
+            </value>
+            <value>
+                <fullName>General Manager Product</fullName>
+                <color>#CC6600</color>
+                <default>false</default>
+                <label>General Manager Product</label>
+            </value>
+            <value>
+                <fullName>Business Development Manager</fullName>
+                <color>#FF6600</color>
+                <default>false</default>
+                <label>Business Development Manager</label>
+            </value>
+            <value>
+                <fullName>Pre-Sales Consultant</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>Pre-Sales Consultant</label>
+            </value>
+            <value>
+                <fullName>AMS Practice Lead</fullName>
+                <color>#CC9933</color>
+                <default>false</default>
+                <label>AMS Practice Lead</label>
+            </value>
+            <value>
+                <fullName>General Manager Cloud</fullName>
+                <color>#993300</color>
+                <default>false</default>
+                <label>General Manager Cloud</label>
+            </value>
+            <value>
+                <fullName>Technical Cloud Pre-Sales</fullName>
+                <color>#996633</color>
+                <default>false</default>
+                <label>Technical Cloud Pre-Sales</label>
+            </value>
+            <value>
+                <fullName>Technical Pre-Sales</fullName>
+                <color>#2F5D85</color>
+                <default>false</default>
+                <label>Technical Pre-Sales</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <color>#000000</color>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Executive Sponsor</fullName>
+                <color>#333333</color>
+                <default>false</default>
+                <label>Executive Sponsor</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <color>#BBBBBB</color>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

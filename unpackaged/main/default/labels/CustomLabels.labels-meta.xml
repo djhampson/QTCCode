@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>TLS_Warning_Help_URL_Link_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TLS Warning Help URL Link Text</shortDescription>
+        <value>Instructions</value>
+    </labels>
+    <labels>
+        <fullName>TLS_Warning_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TLS Warning Message</shortDescription>
+        <value>This device is using TLS 1.0 to access Salesforce, and TLS 1.0 will no longer work after {effective_date}.</value>
+    </labels>
+</CustomLabels>

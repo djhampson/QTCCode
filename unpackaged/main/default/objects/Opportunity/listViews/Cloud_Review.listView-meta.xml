@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cloud_Review</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>GM_Forecast__c</columns>
+    <columns>Cloud_Service_Fee_per_year__c</columns>
+    <columns>Cloud_Assessment_Type__c</columns>
+    <columns>Cloud_Complexity_Level__c</columns>
+    <columns>Cloud_Complexity_Reason__c</columns>
+    <columns>Cloud_Status_Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SaaS__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Cloud</value>
+    </filters>
+    <label>Cloud Review</label>
+    <sharedTo>
+        <group>Cloud_team</group>
+    </sharedTo>
+</ListView>

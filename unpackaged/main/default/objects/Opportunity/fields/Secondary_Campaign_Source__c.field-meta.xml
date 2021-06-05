@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Campaign_Source__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Secondary Product BDM only</inlineHelpText>
+    <label>Secondary Campaign Source</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Campaign.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Campaign.Status</field>
+            <operation>equals</operation>
+            <value>Locked In</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Opportunities (Secondary Campaign Source)</relationshipLabel>
+    <relationshipName>Opportunities1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

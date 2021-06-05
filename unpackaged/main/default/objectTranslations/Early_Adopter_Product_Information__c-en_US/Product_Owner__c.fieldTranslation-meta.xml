@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Owner --></label>
+        <name>Product_Owner__c</name>
+        <picklistValues>
+            <masterLabel>Brendan Andrea</masterLabel>
+            <translation><!-- Brendan Andrea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iain Rouse</masterLabel>
+            <translation><!-- Iain Rouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jarad Evans</masterLabel>
+            <translation><!-- Jarad Evans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Julian Marshall</masterLabel>
+            <translation><!-- Julian Marshall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ken Donohoe</masterLabel>
+            <translation><!-- Ken Donohoe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kris Brown</masterLabel>
+            <translation><!-- Kris Brown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lachlan Aldred</masterLabel>
+            <translation><!-- Lachlan Aldred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matthew Deshon</masterLabel>
+            <translation><!-- Matthew Deshon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matthew Mahoney</masterLabel>
+            <translation><!-- Matthew Mahoney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Luhrs</masterLabel>
+            <translation><!-- Michael Luhrs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peter Blackford</masterLabel>
+            <translation><!-- Peter Blackford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roy de Bruin</masterLabel>
+            <translation><!-- Roy de Bruin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scott Gilmour</masterLabel>
+            <translation><!-- Scott Gilmour --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

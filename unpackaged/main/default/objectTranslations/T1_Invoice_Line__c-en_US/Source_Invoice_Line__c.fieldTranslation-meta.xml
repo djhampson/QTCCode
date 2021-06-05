@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Source Invoice Line --></label>
+        <name>Source_Invoice_Line__c</name>
+        <relationshipLabel><!-- T1 Invoice Lines --></relationshipLabel>
+    </CustomFieldTranslation>

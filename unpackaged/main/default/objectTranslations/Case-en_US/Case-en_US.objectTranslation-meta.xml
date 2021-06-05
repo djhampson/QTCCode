@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>AMS Service Request Case Feed Layout</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AMS Service Request Case Feed Layout Employee Community</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>AMS Service Request Case Feed Layout for Console</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Milestone and SLA Monitor --></label>
+            <section>Milestone and SLA Monitor</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cloud Service Request Case Feed Layout</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Service Request Detail --></label>
+            <section>Service Request Detail</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cloud Service Request Case Feed Layout Employee Community</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Service Request Detail --></label>
+            <section>Service Request Detail</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Cloud Service Request Case Feed Layout for Console</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Milestone and SLA Monitor --></label>
+            <section>Milestone and SLA Monitor</section>
+        </sections>
+        <sections>
+            <label><!-- Service Request Detail --></label>
+            <section>Service Request Detail</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consultant Question or Issue for Console</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Flag Information --></label>
+            <section>Flag Information</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consulting Question Case Feed Layout Employee Community</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Developer Item Details --></label>
+            <section>Developer Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consulting Question Case Feed Layout for Console</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Milestone and SLA Monitor --></label>
+            <section>Milestone and SLA Monitor</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consulting Request Case Feed Layout Employee Community</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Consulting Activity Report - AMS Team use only --></label>
+            <section>Consulting Activity Report - AMS Team use only</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Details - AMS Team use only --></label>
+            <section>Engagement Details - AMS Team use only</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details - AMS Team use only --></label>
+            <section>Quote Details - AMS Team use only</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Consulting Request Case Feed Layout for Console</layout>
+        <sections>
+            <label><!-- Consulting Activity Report - AMS Team use only --></label>
+            <section>Consulting Activity Report - AMS Team use only</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Details - AMS Team use only --></label>
+            <section>Engagement Details - AMS Team use only</section>
+        </sections>
+        <sections>
+            <label><!-- Milestone and SLA Monitor --></label>
+            <section>Milestone and SLA Monitor</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details - AMS Team use only --></label>
+            <section>Quote Details - AMS Team use only</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Converted: Problem Case Feed Layout</layout>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Problem --></label>
+            <section>Development Problem</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Jira Link --></label>
+            <section>Jira Link</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution Details --></label>
+            <section>Resolution Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Community - Cloud Service Request</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Service Request Detail --></label>
+            <section>Service Request Detail</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Community - Consulting Request Layout</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Consulting Activity Report --></label>
+            <section>Consulting Activity Report</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Details --></label>
+            <section>Engagement Details</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Details --></label>
+            <section>Quote Details</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Community - Incident Case Layout</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Support One Information --></label>
+            <section>Support One Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Community - Question Case Layout</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+        <sections>
+            <label><!-- Support One Information --></label>
+            <section>Support One Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Community - Service Request</layout>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Incident Case Feed Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Flag Information --></label>
+            <section>Flag Information</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Incident Case Feed Layout Employee Community</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Incident Case Feed Layout for Console</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Flag Information --></label>
+            <section>Flag Information</section>
+        </sections>
+        <sections>
+            <label><!-- Investigation --></label>
+            <section>Investigation</section>
+        </sections>
+        <sections>
+            <label><!-- Milestone and SLA Monitor --></label>
+            <section>Milestone and SLA Monitor</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Problem Case Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Staff Details --></label>
+            <section>Staff Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Question Case Feed Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Question Case Feed Layout Employee Community</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Case Description --></label>
+            <section>Case Description</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Question Case Feed Layout for Console</layout>
+        <sections>
+            <label><!-- AMS Details --></label>
+            <section>AMS Details</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Development Item Details --></label>
+            <section>Development Item Details</section>
+        </sections>
+        <sections>
+            <label><!-- Milestone and SLA Monitor --></label>
+            <section>Milestone and SLA Monitor</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Request for Change</layout>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Details --></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Service Request Case Feed Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Details --></label>
+            <section>Customer Details</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Flag Information --></label>
+            <section>Flag Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- AMS Details --></label>
+        <name>AMS_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Case Details --></label>
+        <name>Case_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Case --></label>
+        <name>Child_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close/Resolve --></label>
+        <name>CloseResolveCaseLEX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close/Resolve --></label>
+        <name>Close_or_Resolve_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Close/Resolve --></label>
+        <name>Close_or_Resolve_Case_DR</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Jira Issue --></label>
+        <name>Create_Jira_Issue</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>EmployeeCommunityEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Interim Solution --></label>
+        <name>InterimSolutionLEX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Interim Solution --></label>
+        <name>Interim_Solution_Upd</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Link Jira Issue --></label>
+        <name>Link_Jira_Issue</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>Log_a_Call</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Support Analysis --></label>
+        <name>Support_Analysis</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>T1Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Task --></label>
+        <name>Task</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- RFC Process for implementing changes to Salesforce --></description>
+        <label><!-- Change Control --></label>
+        <name>Change_Control</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Consultant Question or Issue --></label>
+        <name>Cons_Q_or_I</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- When a T1 consultant has a question when working on a customer site. --></description>
+        <label><!-- Consulting - Question --></label>
+        <name>Consulting_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this option to request Consulting services --></description>
+        <label><!-- I require Consulting services --></label>
+        <name>Consulting_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Request for services offered by Application Managed Services --></description>
+        <label><!-- I require an AMS service --></label>
+        <name>I_require_an_AMS_service</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this option if you are experiencing an issue with our software --></description>
+        <label><!-- I am experiencing an issue --></label>
+        <name>Incident</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Problem Record --></description>
+        <label><!-- Problem --></label>
+        <name>Problem</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select this to log a Question Case --></description>
+        <label><!-- I have a Question --></label>
+        <name>Question</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used to log service requests --></description>
+        <label><!-- Service Request --></label>
+        <name>Service_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Request for services offered by  TechnologyOne Cloud --></description>
+        <label><!-- I require a TechnologyOne Cloud service --></label>
+        <name>TechnologyOne_Cloud_Service_Request</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Affected Version is required. --></errorMessage>
+        <name>Affect_Version_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must set a follow-up date for the Awaiting Internal Area --></errorMessage>
+        <name>Awaiting_Internal_Removed_Follow_up_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the area you are awaiting a response --></errorMessage>
+        <name>Awaiting_Internal_Set_Area</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a follow-up date for the Awaiting Internal Area --></errorMessage>
+        <name>Awaiting_Internal_Set_Follow_up_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Change Case State whilst the Case is On Hold --></errorMessage>
+        <name>Cannot_Change_Case_State_if_Case_On_Hold</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot change the case status to &apos;On Hold&apos; if the case state is equal to &apos;Applied Prod&apos; --></errorMessage>
+        <name>Cannot_Change_Case_Status_to_On_Hold</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cases may only be added to Accounts where the Account Type is Customer or Shared Services. --></errorMessage>
+        <name>Case_Customer_Type_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case reason required when closing a case. --></errorMessage>
+        <name>Case_Reason_Required_upon_close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case reason required when resolving a case. --></errorMessage>
+        <name>Case_Reason_Required_upon_resolved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case resolution comments required when closing a case. --></errorMessage>
+        <name>Case_Resolution_Comments_at_Close</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case resolution comments are required when resolving a case. --></errorMessage>
+        <name>Case_Resolution_comments_at_resolved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An Agreed date is set. You must have a comment. --></errorMessage>
+        <name>Comment_cannot_be_blank_if_agreed_target</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Contact that has access to the Case via the Customer Community. --></errorMessage>
+        <name>ConsultingReqProfile</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must indicate the Delivered Release for the Software Change --></errorMessage>
+        <name>Delivered_Release_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Description is required. --></errorMessage>
+        <name>Description_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Regional Consulting queues are no longer in use. --></errorMessage>
+        <name>Do_not_allow_Regional_Consulting_queues</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Engagement Address required when Engagement Location is Onsite. --></errorMessage>
+        <name>EngagementAddressCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the target and source environments for the refresh --></errorMessage>
+        <name>Environment_Refresh</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the target environment, and version for the environment upgrade --></errorMessage>
+        <name>Environment_Upgrade</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the version for the Environment upgrade --></errorMessage>
+        <name>Environment_Upgrade_Version</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please identify the Steps required to reproduce this Incident. Minimum of 10 characters required. --></errorMessage>
+        <name>Incident_Questions_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please refrain from using offensive language. --></errorMessage>
+        <name>Offensive_language</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide a reason for changing the Priority. --></errorMessage>
+        <name>Priority_Comment_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide a reason for changing the Priority. --></errorMessage>
+        <name>Priority_IsChanged</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Priority is required. --></errorMessage>
+        <name>Priority_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product Affected is required. --></errorMessage>
+        <name>Product_Affected_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter/modify comment in the field above if adding/changing the Customer Agreed date --></errorMessage>
+        <name>Revised_date_change_enforce_comment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Consulting Activity Performed must be entered. --></errorMessage>
+        <name>SendActivityReport_ConsActPerf</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Outstanding Activities by Client must be entered. --></errorMessage>
+        <name>SendActivityReport_OSAct</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Recommendations/Discussion must be entered. --></errorMessage>
+        <name>SendActivityReport_RecDisc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the source environment for the environment refresh. --></errorMessage>
+        <name>Source_Environment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subject is required. --></errorMessage>
+        <name>Subject_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Account for this Case Record Type. Please use TechnologyOne - UK for UK region and TechnologyOne for all other regions. --></errorMessage>
+        <name>T1_only_for_Consultant_Q_or_I</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the target environment --></errorMessage>
+        <name>Target_Environment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- We&apos;re having trouble updating the Quote. Please contact us providing the Case Number so we can look into the problem. Thank you. --></errorMessage>
+        <name>VerifyQuote</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Activity_Report --></label>
+        <name>Activity_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Activity_Report_Emp_Com --></label>
+        <name>Activity_Report_Emp_Com</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Answer_Customer_button --></label>
+        <name>Answer_Customer_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close_Resolve --></label>
+        <name>Close_Resolve</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Close_Resolve_Case --></label>
+        <name>Close_Resolve_Case</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_CT_Issue --></label>
+        <name>Create_CT_Issue</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Dev_Ticket --></label>
+        <name>Create_Dev_Ticket</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_SaaS_Request --></label>
+        <name>Create_SaaS_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Customer --></label>
+        <name>Email_Customer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Engagement_Confirmation --></label>
+        <name>Engagement_Confirmation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Interim_Solution --></label>
+        <name>Interim_Solution</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Link_Dev_Ticket --></label>
+        <name>Link_Dev_Ticket</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manual_Update_Dev_Issues --></label>
+        <name>Manual_Update_Dev_Issues</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quote --></label>
+        <name>Quote</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Quote_Emp_Com --></label>
+        <name>Send_Quote_Emp_Com</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- T1EmailButton --></label>
+        <name>T1EmailButton</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Track_Time --></label>
+        <name>Track_Time</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Dev_Ticket --></label>
+        <name>View_Dev_Ticket</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Applied_PROD</name>
+        <subject><!-- CR set to Applied PROD --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Applied_UAT</name>
+        <subject><!-- CR set to Applied UAT --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Approved_PROD</name>
+        <subject><!-- CR set to Approved PROD --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Approved_UAT</name>
+        <subject><!-- CR set to Approved UAT --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_COMPLETE</name>
+        <subject><!-- CR set to COMPLETE --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Dev</name>
+        <subject><!-- CR Set to Dev --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Dev_completed</name>
+        <subject><!-- CR set to Dev completed --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Pending_PROD</name>
+        <subject><!-- CR set to Pending PROD --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_Pending_UAT</name>
+        <subject><!-- CR set to Pending UAT --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Task for tracking email alert --></description>
+        <name>CR_Case_set_to_REJECTED</name>
+        <subject><!-- CR set to REJECTED --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

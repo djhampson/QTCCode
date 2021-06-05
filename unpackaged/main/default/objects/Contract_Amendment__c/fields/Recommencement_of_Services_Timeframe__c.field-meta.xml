@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recommencement_of_Services_Timeframe__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The time period that the Customer is required to recommence suspended consulting services</inlineHelpText>
+    <label>Recommencement of Services Timeframe</label>
+    <length>200</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

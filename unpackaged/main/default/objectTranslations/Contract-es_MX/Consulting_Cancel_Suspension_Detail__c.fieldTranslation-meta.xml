@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Detail the Customers right to suspend/cancel consulting services / the project including minimum notice period, payment obligations on cancellation, obligation of T1 to find alternative bookings/mitigate costs etc. --></help>
+        <label><!-- Consulting Cancel/Suspension Detail --></label>
+        <name>Consulting_Cancel_Suspension_Detail__c</name>
+    </CustomFieldTranslation>

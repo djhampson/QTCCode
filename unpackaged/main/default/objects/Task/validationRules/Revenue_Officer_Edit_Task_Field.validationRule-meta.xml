@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Officer_Edit_Task_Field</fullName>
+    <active>true</active>
+    <description>Task with Subject = &#39;Finance to review the Revenue Recognition Treatment&#39; and Owner:Queue.QueueName = &#39;Revenue_Officer&#39; only can be updated by user with permission</description>
+    <errorConditionFormula>(Subject = &#39;Finance to review the Revenue Recognition Treatment&#39; &amp;&amp; Owner:Queue.DeveloperName = &#39;Revenue_Officer&#39; &amp;&amp;
+ISNEW() = false &amp;&amp;  ISCHANGED( Status) = true  &amp;&amp;
+NOT ( $Permission.Allow_Revenue_Officer_Edit_Task ) &amp;&amp;
+NOT( $Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c  ))
+||
+((PRIORVALUE(Subject) = &#39;Finance to review the Revenue Recognition Treatment&#39; &amp;&amp;
+ISNEW() = false) &amp;&amp;
+(ISCHANGED(Subject) = true || ISCHANGED(OwnerId) = true)) &amp;&amp;
+NOT( $Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorMessage>You do not have permission to process or update this task. if you believe you should be able to process this task please contact your System Administrator.</errorMessage>
+</ValidationRule>

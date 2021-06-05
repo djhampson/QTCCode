@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date/time the quote expires, and the case closed if there is no response from the customer. --></help>
+        <label><!-- Quote Expiry --></label>
+        <name>Quote_Expiry__c</name>
+    </CustomFieldTranslation>

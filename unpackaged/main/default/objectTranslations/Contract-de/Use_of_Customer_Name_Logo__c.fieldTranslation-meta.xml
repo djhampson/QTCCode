@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If Not Specified, consent is recommended. For Other, See Other Non-Standard Legal Terms. --></help>
+        <label><!-- Use of Customer Name/Logo --></label>
+        <name>Use_of_Customer_Name_Logo__c</name>
+        <picklistValues>
+            <masterLabel>Consent always required</masterLabel>
+            <translation><!-- Consent always required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consent not required</masterLabel>
+            <translation><!-- Consent not required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consent required with standard exceptions</masterLabel>
+            <translation><!-- Consent required with standard exceptions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

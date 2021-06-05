@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Holiday_Free_Period_on_original_quote__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR( SBQQSC__Quote__r.Billing_Holidays__c &gt; 0,  SBQQSC__Quote__r.Free_Periods__c &gt; 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Holiday/Free Period on original quote</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

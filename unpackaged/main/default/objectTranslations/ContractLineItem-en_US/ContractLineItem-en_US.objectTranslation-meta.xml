@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agreement Line Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agreement Line Items</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contract Line Item Layout</layout>
+        <sections>
+            <label><!-- Custom Fields CPQ --></label>
+            <section>Custom Fields CPQ</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SC Contract Line Item Layout</layout>
+        <sections>
+            <label><!-- Amendment Pricing --></label>
+            <section>Amendment Pricing</section>
+        </sections>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Specific Discounts --></label>
+            <section>Specific Discounts</section>
+        </sections>
+        <sections>
+            <label><!-- To Delete --></label>
+            <section>To Delete</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TechOne Contract Line Item Layout</layout>
+        <sections>
+            <label><!-- CPQ --></label>
+            <section>CPQ</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Specific Discounts --></label>
+            <section>Specific Discounts</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Scheduled End Date not within 12 months after the contract end date. --></errorMessage>
+        <name>Scheduled_End_Date_in_next_contract_year</name>
+    </validationRules>
+</CustomObjectTranslation>

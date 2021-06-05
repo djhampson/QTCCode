@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Awaiting_Internal_Set_Area</fullName>
+    <active>true</active>
+    <description>If Awaiting Internal Follow-up date is true, you must select an area</description>
+    <errorConditionFormula>ISCHANGED(Awaiting_Internal_Follow_up_Date__c) &amp;&amp; NOT(ISBLANK(Awaiting_Internal_Follow_up_Date__c)) &amp;&amp; ISBLANK(TEXT(Awaiting_Internal_Area__c)) &amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c )</errorConditionFormula>
+    <errorDisplayField>Awaiting_Internal_Area__c</errorDisplayField>
+    <errorMessage>Please select the area you are awaiting a response</errorMessage>
+</ValidationRule>

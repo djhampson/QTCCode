@@ -1,0 +1,18 @@
+Hello {!Case.OwnerFirstName}.
+
+This alert has been triggered to advise you that an Interim Resolution milestone on this Case is open and nearing it's target.
+
+{!Case.Link}
+Case Number: {!Case.CaseNumber}
+Account: {!Case.Account}
+{!Case.Contact}
+{!Contact.Phone}
+
+Type: {!Case.Type}
+Priority: {!Case.Priority}
+Status: {!Case.Status}
+Product: {!Case.Customer_Product__c}
+Functional Area: {!Case.CFunctional_Area__c}
+
+Subject: {!Case.Subject}
+Details: {!Case.Description}

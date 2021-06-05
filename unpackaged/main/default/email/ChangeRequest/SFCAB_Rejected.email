@@ -1,0 +1,9 @@
+Change Request {!Case.CaseNumber} has been rejected.
+
+Subject: {!Case.Subject}
+
+Please refer to case comments for details.
+
+Reset the change request to Dev if the change needs to proceed again.
+
+Link to the case is: {!Case.Link}

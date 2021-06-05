@@ -1,0 +1,45 @@
+<aura:component controller="t1EditController" implements="forceCommunity:availableForAllPageTypes,force:hasRecordId" access="global">
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="case" type="Case"/>
+    <aura:handler event="force:refreshView" action="{!c.isRefreshed}" />
+
+    <lightning:recordEditForm recordId="{!v.recordId}" objectApiName="Case" recordTypeId="{!v.case.RecordTypeId}" aura:id="CloseCase" onsubmit="{!c.handleSubmit}" onsuccess="{!c.navHome}">
+        <lightning:messages />
+            <lightning:card iconName="action:close" title="Close Case">
+             <aura:if isTrue="{!v.case.RecordType.Name == 'I am experiencing an issue'}">
+                 <div style="display: none"> 
+                	<lightning:inputField fieldName="Status" aura:id="caseStatusField"/> 
+                 </div>
+                <lightning:inputField fieldName="Reason" aura:id="caseReasonField"/>
+            </aura:if>           
+             <aura:if isTrue="{!v.case.RecordType.Name == 'I have a Question'}">
+                 <div style="display: none">
+                	<lightning:inputField fieldName="Status" aura:id="caseStatusField"/> 
+                 </div>
+                <lightning:inputField fieldName="Reason" aura:id="caseReasonField"/>
+            </aura:if>           
+             <aura:if isTrue="{!v.case.RecordType.Name == 'I require Consulting services'}">
+                 <div style="display: none">
+                	<lightning:inputField fieldName="Status" aura:id="caseStatusField"/> 
+                 </div>
+                <lightning:inputField fieldName="Reason" aura:id="caseReasonField"/>
+            </aura:if>           
+             <aura:if isTrue="{!v.case.RecordType.Name == 'I require a TechnologyOne Cloud service'}">
+                 <div style="display: none">
+                	<lightning:inputField fieldName="Status" aura:id="caseStatusField"/> 
+                 </div>
+                <lightning:inputField fieldName="Reason" aura:id="caseReasonField"/>
+            </aura:if>           
+             <aura:if isTrue="{!v.case.RecordType.Name == 'I require an AMS service'}">
+                 <div style="display: none">
+                	<lightning:inputField fieldName="Status" aura:id="caseStatusField"/> 
+                 </div>
+                <lightning:inputField fieldName="Reason" aura:id="caseReasonField"/>
+            </aura:if> 
+            <div class="slds-m-top_small slds-align_absolute-center">
+            	<lightning:button variant="brand" type="submit" name="update" label="Save" />
+                <lightning:button variant="brand" label="Cancel" onclick="{!c.navHome}"/>
+            </div>
+        </lightning:card>
+    </lightning:recordEditForm>	
+</aura:component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModerationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>Review</action>
+    <active>true</active>
+    <description>Used to moderated feed posts/comments outside of the case.</description>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedComment</entityName>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedPollChoice</entityName>
+    </entitiesAndFields>
+    <masterLabel>AMS UAT Users</masterLabel>
+    <type>Content</type>
+    <userCriteria>T1 Customer Community.AMS_UAT_Users</userCriteria>
+    <userMessage>You can&#39;t use %BLOCKED_KEYWORD% or other inappropriate words in this community. Review your content and try again.</userMessage>
+</ModerationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SaaS_Run_Rate__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Average of annual SaaS including CPI increase prior to any additional discounts</inlineHelpText>
+    <label>SaaS Run Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For users requiring access to manage and trigger Opportunity Project Surveys</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Project_Stage_Completed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Set Project Stage Completed on Opp</label>
+</PermissionSet>

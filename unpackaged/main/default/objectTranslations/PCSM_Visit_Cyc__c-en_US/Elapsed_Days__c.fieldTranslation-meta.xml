@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Elapsed days between Start Date and End Date (if applicable), or Start Date and Today. --></help>
+        <label><!-- Elapsed Days --></label>
+        <name>Elapsed_Days__c</name>
+    </CustomFieldTranslation>

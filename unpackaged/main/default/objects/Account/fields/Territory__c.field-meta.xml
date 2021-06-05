@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <externalId>false</externalId>
+    <label>z_Territory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SDR - 1</fullName>
+                <default>false</default>
+                <label>SDR - 1</label>
+            </value>
+            <value>
+                <fullName>SDR - 2</fullName>
+                <default>false</default>
+                <label>SDR - 2</label>
+            </value>
+            <value>
+                <fullName>SDR - 3</fullName>
+                <default>false</default>
+                <label>SDR - 3</label>
+            </value>
+            <value>
+                <fullName>T1D - 1</fullName>
+                <default>false</default>
+                <label>T1D - 1</label>
+            </value>
+            <value>
+                <fullName>T1D - 2</fullName>
+                <default>false</default>
+                <label>T1D - 2</label>
+            </value>
+            <value>
+                <fullName>T1D - 3</fullName>
+                <default>false</default>
+                <label>T1D - 3</label>
+            </value>
+            <value>
+                <fullName>T1D - 4</fullName>
+                <default>false</default>
+                <label>T1D - 4</label>
+            </value>
+            <value>
+                <fullName>T1D - 5</fullName>
+                <default>false</default>
+                <label>T1D - 5</label>
+            </value>
+            <value>
+                <fullName>T1D - 6</fullName>
+                <default>false</default>
+                <label>T1D - 6</label>
+            </value>
+            <value>
+                <fullName>T1D - 7</fullName>
+                <default>false</default>
+                <label>T1D - 7</label>
+            </value>
+            <value>
+                <fullName>QLD - EDU - 1</fullName>
+                <default>false</default>
+                <label>QLD - EDU - 1</label>
+            </value>
+            <value>
+                <fullName>QLD - GOV - 1</fullName>
+                <default>false</default>
+                <label>QLD - GOV - 1</label>
+            </value>
+            <value>
+                <fullName>QLD - ASIFINCORP - 1</fullName>
+                <default>false</default>
+                <label>QLD - ASIFINCORP - 1</label>
+            </value>
+            <value>
+                <fullName>QLD - HCSFINCORP - 1</fullName>
+                <default>false</default>
+                <label>QLD - HCSFINCORP - 1</label>
+            </value>
+            <value>
+                <fullName>QLD - LG - 1</fullName>
+                <default>false</default>
+                <label>QLD - LG - 1</label>
+            </value>
+            <value>
+                <fullName>QLD - LG - 2</fullName>
+                <default>false</default>
+                <label>QLD - LG - 2</label>
+            </value>
+            <value>
+                <fullName>QLD - LG - 3</fullName>
+                <default>false</default>
+                <label>QLD - LG - 3</label>
+            </value>
+            <value>
+                <fullName>NSW - ASI - 1</fullName>
+                <default>false</default>
+                <label>NSW - ASI - 1</label>
+            </value>
+            <value>
+                <fullName>NSW - EDU - 1</fullName>
+                <default>false</default>
+                <label>NSW - EDU - 1</label>
+            </value>
+            <value>
+                <fullName>NSW - EDU - 2</fullName>
+                <default>false</default>
+                <label>NSW - EDU - 2</label>
+            </value>
+            <value>
+                <fullName>NSW - GOVCORP - 1</fullName>
+                <default>false</default>
+                <label>NSW - GOVCORP - 1</label>
+            </value>
+            <value>
+                <fullName>NSW - HCS - 1</fullName>
+                <default>false</default>
+                <label>NSW - HCS - 1</label>
+            </value>
+            <value>
+                <fullName>NSW - FIN - 1</fullName>
+                <default>false</default>
+                <label>NSW - FIN - 1</label>
+            </value>
+            <value>
+                <fullName>NSW - LG - 1</fullName>
+                <default>false</default>
+                <label>NSW - LG - 1</label>
+            </value>
+            <value>
+                <fullName>NSW - LG - 2</fullName>
+                <default>false</default>
+                <label>NSW - LG - 2</label>
+            </value>
+            <value>
+                <fullName>NSW - LG - 3</fullName>
+                <default>false</default>
+                <label>NSW - LG - 3</label>
+            </value>
+            <value>
+                <fullName>NSW - LG - 4</fullName>
+                <default>false</default>
+                <label>NSW - LG - 4</label>
+            </value>
+            <value>
+                <fullName>VIC - EDU - 1</fullName>
+                <default>false</default>
+                <label>VIC - EDU - 1</label>
+            </value>
+            <value>
+                <fullName>VIC - EDU - 2</fullName>
+                <default>false</default>
+                <label>VIC - EDU - 2</label>
+            </value>
+            <value>
+                <fullName>VIC - HCS - 1</fullName>
+                <default>false</default>
+                <label>VIC - HCS - 1</label>
+            </value>
+            <value>
+                <fullName>VIC - HCS - 2</fullName>
+                <default>false</default>
+                <label>VIC - HCS - 2</label>
+            </value>
+            <value>
+                <fullName>VIC - LG - 1</fullName>
+                <default>false</default>
+                <label>VIC - LG - 1</label>
+            </value>
+            <value>
+                <fullName>VIC - LG - 2</fullName>
+                <default>false</default>
+                <label>VIC - LG - 2</label>
+            </value>
+            <value>
+                <fullName>VIC - LGGOV - 1</fullName>
+                <default>false</default>
+                <label>VIC - LGGOV - 1</label>
+            </value>
+            <value>
+                <fullName>VIC - ASIFINCORP - 1</fullName>
+                <default>false</default>
+                <label>VIC - ASIFINCORP - 1</label>
+            </value>
+            <value>
+                <fullName>SANT - LG - 1</fullName>
+                <default>false</default>
+                <label>SANT - LG - 1</label>
+            </value>
+            <value>
+                <fullName>SANT - MISC - 1</fullName>
+                <default>false</default>
+                <label>SANT - MISC - 1</label>
+            </value>
+            <value>
+                <fullName>WA - LG - 1</fullName>
+                <default>false</default>
+                <label>WA - LG - 1</label>
+            </value>
+            <value>
+                <fullName>WA - LG - 2</fullName>
+                <default>false</default>
+                <label>WA - LG - 2</label>
+            </value>
+            <value>
+                <fullName>WA - EDU - 1</fullName>
+                <default>false</default>
+                <label>WA - EDU - 1</label>
+            </value>
+            <value>
+                <fullName>WA - MISC - 1</fullName>
+                <default>false</default>
+                <label>WA - MISC - 1</label>
+            </value>
+            <value>
+                <fullName>ACT - GOV - 1</fullName>
+                <default>false</default>
+                <label>ACT - GOV - 1</label>
+            </value>
+            <value>
+                <fullName>ACT - GOV - 2</fullName>
+                <default>false</default>
+                <label>ACT - GOV - 2</label>
+            </value>
+            <value>
+                <fullName>ACT - GOV - 3</fullName>
+                <default>false</default>
+                <label>ACT - GOV - 3</label>
+            </value>
+            <value>
+                <fullName>TAS - 1</fullName>
+                <default>false</default>
+                <label>TAS - 1</label>
+            </value>
+            <value>
+                <fullName>NZ - LG - 1</fullName>
+                <default>false</default>
+                <label>NZ - LG - 1</label>
+            </value>
+            <value>
+                <fullName>NZ - HCS - 1</fullName>
+                <default>false</default>
+                <label>NZ - HCS - 1</label>
+            </value>
+            <value>
+                <fullName>NZ - ASI - 1</fullName>
+                <default>false</default>
+                <label>NZ - ASI - 1</label>
+            </value>
+            <value>
+                <fullName>NZ - LGFINCORP - 1</fullName>
+                <default>false</default>
+                <label>NZ - LGFINCORP - 1</label>
+            </value>
+            <value>
+                <fullName>NZ - EDU - 1</fullName>
+                <default>false</default>
+                <label>NZ - EDU - 1</label>
+            </value>
+            <value>
+                <fullName>NZ - GOV - 1</fullName>
+                <default>false</default>
+                <label>NZ - GOV - 1</label>
+            </value>
+            <value>
+                <fullName>UK - 1</fullName>
+                <default>false</default>
+                <label>UK - 1</label>
+            </value>
+            <value>
+                <fullName>UK - 2</fullName>
+                <default>false</default>
+                <label>UK - 2</label>
+            </value>
+            <value>
+                <fullName>UK - 3</fullName>
+                <default>false</default>
+                <label>UK - 3</label>
+            </value>
+            <value>
+                <fullName>UK - 4</fullName>
+                <default>false</default>
+                <label>UK - 4</label>
+            </value>
+            <value>
+                <fullName>UK - 5</fullName>
+                <default>false</default>
+                <label>UK - 5</label>
+            </value>
+            <value>
+                <fullName>VIC - ASI - 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VIC - ASI - 1</label>
+            </value>
+            <value>
+                <fullName>VIC - FINCORP - 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VIC - FINCORP - 1</label>
+            </value>
+            <value>
+                <fullName>VIC - GOV - 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VIC - GOV - 1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<apex:page standardController="Case" extensions="CaseCommentExtension" showHeader="false">
+    <apex:form >         
+        <apex:pageBlock title="Change Priority">
+            <apex:pageMessages />
+            <apex:pageBlockButtons >
+                <apex:commandLink value="Save" target="_parent" styleClass="btn" action="{!saveandrefresh}" style="text-decoration:none;padding:4px;"/>  
+                
+                <apex:outputPanel id="refreshPanel" rendered="{!refreshPage}">
+                <script>
+                    location.reload();
+                </script>
+        </apex:outputPanel>            
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:inputField value="{!Case.Priority}"/> <br></br>
+                <apex:inputField value="{!Case.Case_Comments_Priority__c}" required="true" style="width:200%; height:150%;"/>    
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

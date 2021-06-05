@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remainder_Line_Count__c</fullName>
+    <description>This is a field to assist data quality validation which one plan should have maximum 1 line with Type = Remainder.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a field to assist data quality validation which one plan should have maximum 1 line with Type = Remainder.</inlineHelpText>
+    <label>Remainder Line Count</label>
+    <summaryFilterItems>
+        <field>Customer_Invoice_Plan_Line__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Remainder</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Customer_Invoice_Plan_Line__c.Customer_Invoice_Plan__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

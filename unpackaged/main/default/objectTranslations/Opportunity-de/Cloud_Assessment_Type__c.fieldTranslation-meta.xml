@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Assessment Sent triggers an assessment email to Customer Contact automatically. --></help>
+        <label><!-- Cloud Assessment Type --></label>
+        <name>Cloud_Assessment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Assessment Sent</masterLabel>
+            <translation><!-- Assessment Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Readiness</masterLabel>
+            <translation><!-- Readiness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workshop</masterLabel>
+            <translation><!-- Workshop --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

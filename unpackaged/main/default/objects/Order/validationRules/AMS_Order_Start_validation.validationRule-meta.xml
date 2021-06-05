@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMS_Order_Start_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>EffectiveDate &lt;&gt;  AMS_Order__r.EffectiveDate</errorConditionFormula>
+    <errorMessage>AMS Order start date must match this Order&#39;s start date.</errorMessage>
+</ValidationRule>

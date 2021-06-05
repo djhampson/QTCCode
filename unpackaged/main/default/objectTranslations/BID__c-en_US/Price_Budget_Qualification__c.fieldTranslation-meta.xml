@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Functionality to be added:
+
+How have the Price/Budget been qualified/determined?
+Based on functional requirements and implementation costing, can we deliver against the win Price/Budget? --></help>
+        <label><!-- Price/Budget Qualification --></label>
+        <name>Price_Budget_Qualification__c</name>
+    </CustomFieldTranslation>

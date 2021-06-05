@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Action takers related to CRC Request</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CRC: Action Notice</name>
+    <style>none</style>
+    <subject>CRC Action Required: Request {!CRC_Request_Action__c.CRC_Request__c}</subject>
+    <textOnly>Hi {!CRC_Request_Action__c.Actioner_First_Name__c},
+
+This is an automated email to advise that you have been assigned an action for a Request.
+
+You can access your Action using the following link.
+
+To examine the Request details you can navigate to the Request from the Action page.
+
+Kind regards, Governance Risk and Compliance Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

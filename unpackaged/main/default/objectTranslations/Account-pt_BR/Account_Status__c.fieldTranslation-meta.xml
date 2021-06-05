@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Account Status --></label>
+        <name>Account_Status__c</name>
+        <picklistValues>
+            <masterLabel>Committed to Pay</masterLabel>
+            <translation><!-- Committed to Pay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Commitment / No Issue</masterLabel>
+            <translation><!-- No Commitment / No Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overdue</masterLabel>
+            <translation><!-- Overdue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remediation</masterLabel>
+            <translation><!-- Remediation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stop Support</masterLabel>
+            <translation><!-- Stop Support --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

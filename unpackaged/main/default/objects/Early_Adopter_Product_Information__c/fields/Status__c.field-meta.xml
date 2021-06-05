@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending commencement</fullName>
+                <default>false</default>
+                <label>Pending commencement</label>
+            </value>
+            <value>
+                <fullName>On hold</fullName>
+                <default>false</default>
+                <label>On hold</label>
+            </value>
+            <value>
+                <fullName>Live</fullName>
+                <default>false</default>
+                <label>Live</label>
+            </value>
+            <value>
+                <fullName>Installed in Test</fullName>
+                <default>false</default>
+                <label>Installed in Test</label>
+            </value>
+            <value>
+                <fullName>Installed in Prod</fullName>
+                <default>false</default>
+                <label>Installed in Prod</label>
+            </value>
+            <value>
+                <fullName>Registered Interest</fullName>
+                <default>false</default>
+                <label>Registered Interest</label>
+            </value>
+            <value>
+                <fullName>Closed - Not Installing</fullName>
+                <default>false</default>
+                <label>Closed - Not Installing</label>
+            </value>
+            <value>
+                <fullName>New Early Adopter</fullName>
+                <default>false</default>
+                <label>New Early Adopter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

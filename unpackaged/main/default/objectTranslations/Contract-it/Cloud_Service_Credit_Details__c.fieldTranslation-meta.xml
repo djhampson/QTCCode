@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This refers to Cloud Availability service credits, refer Support Terms for response, resolution and restore service credits. --></help>
+        <label><!-- Cloud Service Credit Details --></label>
+        <name>Cloud_Service_Credit_Details__c</name>
+    </CustomFieldTranslation>

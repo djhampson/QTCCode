@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_Case_Status_to_On_Hold</fullName>
+    <active>true</active>
+    <description>The user won&#39;t be able to change the case status to &#39;on hold&#39; if the case state is set to &#39;Applied Prod.&#39;</description>
+    <errorConditionFormula>ISPICKVAL( Status, &quot;On Hold&quot;) 
+&amp;&amp;
+(
+ISPICKVAL( SFCAB_Status__c , &quot;Applied PROD&quot;)
+&amp;&amp;  RecordType.Name = &#39;Change Control&#39;
+&amp;&amp; NOT($Setup.T1_Control_Settings__c.Bypass_Validation_Rules__c)
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>You cannot change the case status to &#39;On Hold&#39; if the case state is equal to &#39;Applied Prod&#39;</errorMessage>
+</ValidationRule>

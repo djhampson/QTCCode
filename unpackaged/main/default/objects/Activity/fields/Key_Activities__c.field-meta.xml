@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Activities__c</fullName>
+    <description>Key Milestone Activities</description>
+    <externalId>false</externalId>
+    <label>Key Activities</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Proposal Requested</fullName>
+                <color>#0B6FCE</color>
+                <default>false</default>
+                <label>Proposal Requested</label>
+            </value>
+            <value>
+                <fullName>Proposal Submitted</fullName>
+                <color>#78C953</color>
+                <default>false</default>
+                <label>Proposal Submitted</label>
+            </value>
+            <value>
+                <fullName>Executive Approval</fullName>
+                <color>#E27001</color>
+                <default>false</default>
+                <label>Executive Approval</label>
+            </value>
+            <value>
+                <fullName>Executive Meeting</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Executive Meeting</label>
+            </value>
+            <value>
+                <fullName>Internal Meeting</fullName>
+                <default>false</default>
+                <label>Internal Meeting</label>
+            </value>
+            <value>
+                <fullName>Demo</fullName>
+                <color>#F3D904</color>
+                <default>false</default>
+                <label>Demo</label>
+            </value>
+            <value>
+                <fullName>Reference Checks</fullName>
+                <color>#A53711</color>
+                <default>false</default>
+                <label>Reference Checks</label>
+            </value>
+            <value>
+                <fullName>Contract negotiation</fullName>
+                <color>#66E9BD</color>
+                <default>false</default>
+                <label>Contract negotiation</label>
+            </value>
+            <value>
+                <fullName>Contract Review</fullName>
+                <color>#0B24BE</color>
+                <default>false</default>
+                <label>Contract Review</label>
+            </value>
+            <value>
+                <fullName>Contract signing</fullName>
+                <color>#419249</color>
+                <default>false</default>
+                <label>Contract signing</label>
+            </value>
+            <value>
+                <fullName>Project Initiation</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Project Initiation</label>
+            </value>
+            <value>
+                <fullName>Implementation Project</fullName>
+                <color>#641CCF</color>
+                <default>false</default>
+                <label>Implementation Project</label>
+            </value>
+            <value>
+                <fullName>Go Live</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>Go Live</label>
+            </value>
+            <value>
+                <fullName>Joint Business Case/Strategy and Roadmap</fullName>
+                <default>false</default>
+                <label>Joint Business Case/Strategy and Roadmap</label>
+            </value>
+            <value>
+                <fullName>Consulting Pricing</fullName>
+                <default>false</default>
+                <label>Consulting Pricing</label>
+            </value>
+            <value>
+                <fullName>Provide Initial Pricing and Scope</fullName>
+                <default>false</default>
+                <label>Provide Initial Pricing and Scope</label>
+            </value>
+            <value>
+                <fullName>Cloud Readiness Assessment</fullName>
+                <default>false</default>
+                <label>Cloud Readiness Assessment</label>
+            </value>
+            <value>
+                <fullName>Cloud Security Review</fullName>
+                <default>false</default>
+                <label>Cloud Security Review</label>
+            </value>
+            <value>
+                <fullName>Executive Sponsors Meeting</fullName>
+                <default>false</default>
+                <label>Executive Sponsors Meeting</label>
+            </value>
+            <value>
+                <fullName>Agreed Transition Project Plan</fullName>
+                <default>false</default>
+                <label>Agreed Transition Project Plan</label>
+            </value>
+            <value>
+                <fullName>Decide Contract Method</fullName>
+                <default>false</default>
+                <label>Decide Contract Method</label>
+            </value>
+            <value>
+                <fullName>Finalise Business Case Justification and Pricing</fullName>
+                <default>false</default>
+                <label>Finalise Business Case Justification and Pricing</label>
+            </value>
+            <value>
+                <fullName>Contract generation - agree legal and execution process</fullName>
+                <default>false</default>
+                <label>Contract generation - agree legal and execution process</label>
+            </value>
+            <value>
+                <fullName>Agency Risk and Compliance Assessment Finalisation</fullName>
+                <default>false</default>
+                <label>Agency Risk and Compliance Assessment Finalisation</label>
+            </value>
+            <value>
+                <fullName>Confirm contract signing process and signatory availability</fullName>
+                <default>false</default>
+                <label>Confirm contract signing process and signatory availability</label>
+            </value>
+            <value>
+                <fullName>Cloud Provision</fullName>
+                <default>false</default>
+                <label>Cloud Provision</label>
+            </value>
+            <value>
+                <fullName>Acceptance Testing</fullName>
+                <default>false</default>
+                <label>Acceptance Testing</label>
+            </value>
+            <value>
+                <fullName>Go Live - Business Case Achieved</fullName>
+                <default>false</default>
+                <label>Go Live - Business Case Achieved</label>
+            </value>
+            <value>
+                <fullName>CIO sign off</fullName>
+                <default>false</default>
+                <label>CIO sign off</label>
+            </value>
+            <value>
+                <fullName>Preferred status confirmed</fullName>
+                <default>false</default>
+                <label>Preferred status confirmed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

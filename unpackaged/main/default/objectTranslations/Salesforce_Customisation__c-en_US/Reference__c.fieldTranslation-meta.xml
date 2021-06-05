@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Links the item to a Jira Issue or Change Request Case Number --></help>
+        <label><!-- Reference --></label>
+        <name>Reference__c</name>
+    </CustomFieldTranslation>

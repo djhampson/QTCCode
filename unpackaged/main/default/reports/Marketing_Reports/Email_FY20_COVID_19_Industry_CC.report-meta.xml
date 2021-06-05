@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_95159637</developerName>
+        <masterLabel>Email</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CAMPAIGN_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Email_FY20_COVID-19_Industry CC_Asset Intensive</sourceValue>
+            </sourceValues>
+            <value>Asset Intensive</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email_FY20_COVID-19_Industry CC_Project Intensive</sourceValue>
+            </sourceValues>
+            <value>Project Intensive</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email_FY20_COVID-19_Industry CC_HCS_Hospitals</sourceValue>
+            </sourceValues>
+            <value>Hospitals</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email_FY20_COVID-19_Industry CC_EDU</sourceValue>
+            </sourceValues>
+            <value>Education</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email_FY20_COVID-19_Industry CC_LG</sourceValue>
+            </sourceValues>
+            <value>Local Government</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email_FY20_COVID-19_Industry CC_GOV</sourceValue>
+            </sourceValues>
+            <value>Government</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Email_FY20_COVID-19_Industry CC_HCS_Aged Care and Disability</sourceValue>
+            </sourceValues>
+            <value>Aged Care &amp; Disability</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_52569085</developerName>
+        <masterLabel>Status</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>MEMBER_STATUS</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Sent</sourceValue>
+            </sourceValues>
+            <value>Sent email</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Opened email</sourceValue>
+            </sourceValues>
+            <value>Opened email</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Clicked email</sourceValue>
+            </sourceValues>
+            <value>Clicked email</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>CampaignMember.Industry_Vertical__c</field>
+    </columns>
+    <columns>
+        <field>CAMPAIGN_NAME</field>
+    </columns>
+    <currency>AUD</currency>
+    <description>List of ANZ customers sent the COVID-19 &quot;Industry&quot; emails. Any customers not on this list could not be sent the email (because unsubscribed, or email address now working).</description>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Email_FY20_COVID-19_Industry CC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>EMAIL</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>technologyone,test</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_95159637</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_52569085</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OWNER</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Email_FY20_COVID-19_Industry CC</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CampaignWithCampaignMembers</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>COMPANY</sortColumn>
+    <sortOrder>Asc</sortOrder>
+</Report>

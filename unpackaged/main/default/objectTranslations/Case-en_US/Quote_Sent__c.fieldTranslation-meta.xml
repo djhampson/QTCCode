@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date/time the quote was sent. This field is updated by an email workflow rule that recognises the email by its subject containing the word &apos;quote&apos;. --></help>
+        <label><!-- Quote Sent --></label>
+        <name>Quote_Sent__c</name>
+    </CustomFieldTranslation>

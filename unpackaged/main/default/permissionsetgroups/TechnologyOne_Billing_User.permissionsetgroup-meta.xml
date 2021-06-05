@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>TechnologyOne Billing User</label>
+    <permissionSets>SBQQ__SteelBrickCPQUser</permissionSets>
+    <permissionSets>T1_Billing_user_access</permissionSets>
+    <permissionSets>T1_CPQ_read_access_and_base_field_permissions</permissionSets>
+    <permissionSets>sbaa__AdvancedApprovalsUser</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

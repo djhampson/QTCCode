@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Risk__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL( Implementation_Fee_Type__c , &#39;Fixed Fee&#39;) ||
+ISPICKVAL( Implementation_Fee_Type__c , &#39;Capped Time and Materials&#39;) ||
+ISPICKVAL( Implementation_Fee_Type__c , &#39;Software Live&#39;) ||
+ISPICKVAL( Milestone_Payments__c , &#39;Yes&#39;) ||
+ISPICKVAL( Performance_Parent_Bank_Guarantees__c , &#39;Yes&#39;) ||
+ISPICKVAL( Performance_Parent_Bank_Guarantees__c , &#39;Yes - On Request&#39;) ||
+ISPICKVAL( Liquidated_Damages__c , &#39;Yes&#39;) ||
+ISPICKVAL( Fixed_Date_Retention__c , &#39;Yes&#39;) ||
+ISPICKVAL( High_Risk_Scope_Inclusions__c , &#39;Yes&#39;) ||
+ISPICKVAL( Service_Credit__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Cloud_Service_Credit__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Future_Functionality__c , &#39;Yes&#39;) ||
+ISPICKVAL( Termination_for_Convenience__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Termination_for_Deemed_Material_Breach__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Non_Standard_Warranties__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Non_standard_Liability_Cap_2X__c , &#39;Yes - High Risk&#39;) ||
+ISPICKVAL( Media_Press_Statements__c , &#39;Customer permitted - T1 gagged&#39;)</formula>
+    <inlineHelpText>Calculated in accordance with any high risk register items on this contract</inlineHelpText>
+    <label>High Risk</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

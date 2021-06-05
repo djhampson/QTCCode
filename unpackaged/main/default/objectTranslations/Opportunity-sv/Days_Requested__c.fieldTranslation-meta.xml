@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- #Application Consulting Days Requested --></help>
+        <label><!-- # Days Requested --></label>
+        <name>Days_Requested__c</name>
+    </CustomFieldTranslation>

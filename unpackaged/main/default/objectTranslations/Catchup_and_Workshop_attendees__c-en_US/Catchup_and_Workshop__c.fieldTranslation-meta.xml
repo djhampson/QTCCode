@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Catchup and Workshop --></label>
+        <name>Catchup_and_Workshop__c</name>
+        <relationshipLabel><!-- Catchup and Workshop attendees --></relationshipLabel>
+    </CustomFieldTranslation>

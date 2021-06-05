@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_77102122</developerName>
+        <masterLabel>Stage</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>CampaignMember.Lifecycle_Stage__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | MQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | MQL</sourceValue>
+            </sourceValues>
+            <value>MQL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Prospect | SDR AL</sourceValue>
+            </sourceValues>
+            <value>SDR AL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Prospect | SDR QL</sourceValue>
+            </sourceValues>
+            <value>SDR QL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | SAL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | SAL</sourceValue>
+            </sourceValues>
+            <value>SAL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Prospect | SQL</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | SQL</sourceValue>
+            </sourceValues>
+            <value>SQL</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Prospect | Won</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Customer | Won</sourceValue>
+            </sourceValues>
+            <value>Won</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | Disqualified</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Disqualified</sourceValue>
+            </sourceValues>
+            <value>Disqualified</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Customer | Recycled</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Prospect | Recycled</sourceValue>
+            </sourceValues>
+            <value>Recycled</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumn</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>CampaignMember.MQL_Create_Date__c</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>MEMBER_TYPE</field>
+    </columns>
+    <columns>
+        <field>COMPANY</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>LC_OWNER</field>
+    </columns>
+    <columns>
+        <field>CampaignMember.Lifecycle_Stage__c</field>
+    </columns>
+    <currency>AUD</currency>
+    <filter>
+        <criteriaItems>
+            <column>CAMPAIGN_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>LP_ Prospect MQLs,LP_ Customer MQLs</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CampaignMember.MQL_Create_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>LAST_FISCAL_QUARTER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>EMAIL</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>test.com,technologyonecorp.com</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CampaignMember.MQL_Create_Date__c</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CampaignMember.Industry_Vertical__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CampaignMember.Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>LP_All MQLs_Last Q</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CampaignWithCampaignMembers</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+</Report>

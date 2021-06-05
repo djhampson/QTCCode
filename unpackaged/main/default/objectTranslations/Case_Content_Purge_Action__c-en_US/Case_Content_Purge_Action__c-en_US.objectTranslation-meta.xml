@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Content Purge Action</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Content Purge Action</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Case Content Purge Action Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Closed Date From must be before Closed Date To --></errorMessage>
+        <name>DateFromLTDateTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Date To cannot be within the data retention period --></errorMessage>
+        <name>DateToLimit</name>
+    </validationRules>
+</CustomObjectTranslation>

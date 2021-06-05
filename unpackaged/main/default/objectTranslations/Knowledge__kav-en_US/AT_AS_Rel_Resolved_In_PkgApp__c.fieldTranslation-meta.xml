@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Resolved in Package/App --></label>
+        <name>AT_AS_Rel_Resolved_In_PkgApp__c</name>
+    </CustomFieldTranslation>

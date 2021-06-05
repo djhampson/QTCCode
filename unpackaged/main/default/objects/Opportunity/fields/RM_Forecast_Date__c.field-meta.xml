@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RM_Forecast_Date__c</fullName>
+    <description>It&#39;s updated in process when the RM Forecast check box is ticked and it is cleared if the check is removed.</description>
+    <externalId>false</externalId>
+    <label>RM Forecast Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

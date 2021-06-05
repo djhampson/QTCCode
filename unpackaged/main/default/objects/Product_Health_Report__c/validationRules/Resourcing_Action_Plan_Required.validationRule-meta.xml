@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resourcing_Action_Plan_Required</fullName>
+    <active>true</active>
+    <description>Resourcing Action Plan is Required for Red/Amber Resourcing Status</description>
+    <errorConditionFormula>($Profile.Name &lt;&gt; &quot;System Administrator&quot;) &amp;&amp; 
+TEXT(Resourcing__c) &lt;&gt; &#39;Green&#39; &amp;&amp; 
+ISBLANK(Resourcing_Action_Plan__c)</errorConditionFormula>
+    <errorDisplayField>Resourcing_Action_Plan__c</errorDisplayField>
+    <errorMessage>Resourcing Action Plan is Required for Red/Amber Resourcing Status</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority</fullName>
+    <inlineHelpText>MEDIUM - Normal activity operating inefficiently or a question. HIGH - Important activity unavailable or operating inefficiently. URGENT - Critical activity unavailable or operating inefficiently. CRITICAL - Critical activity unavailable.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+</CustomField>

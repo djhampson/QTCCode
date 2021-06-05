@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Data Storage Location --></label>
+        <name>Data_Storage_Location__c</name>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer&#39;s State or Territory</masterLabel>
+            <translation><!-- Customer&apos;s State or Territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dublin, Ireland</masterLabel>
+            <translation><!-- Dublin, Ireland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU</masterLabel>
+            <translation><!-- EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU &amp; UK</masterLabel>
+            <translation><!-- EU &amp; UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland and UK</masterLabel>
+            <translation><!-- Ireland and UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Competitor</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Competitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer</fullName>
+        <color>#78C953</color>
+        <default>false</default>
+        <label>Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate, see other contact</fullName>
+        <color>#E27001</color>
+        <default>false</default>
+        <label>Duplicate, see other contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ex-Customer</fullName>
+        <color>#A845DC</color>
+        <default>false</default>
+        <label>Ex-Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No business fit</fullName>
+        <color>#F3D904</color>
+        <default>false</default>
+        <label>No business fit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other(industry, partner, consultant etc)</fullName>
+        <color>#A53711</color>
+        <default>false</default>
+        <label>Other(industry, partner, consultant etc)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect</fullName>
+        <color>#66E9BD</color>
+        <default>true</default>
+        <label>Prospect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shared Services</fullName>
+        <color>#0B24BE</color>
+        <default>false</default>
+        <label>Shared Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost Account</fullName>
+        <default>false</default>
+        <label>Lost Account</label>
+    </standardValue>
+</StandardValueSet>

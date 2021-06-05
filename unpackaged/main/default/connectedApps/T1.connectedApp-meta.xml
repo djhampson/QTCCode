@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>abeer.qureshi@simplus.com</contactEmail>
+    <label>T1</label>
+    <oauthConfig>
+        <callbackUrl>https://test.salesforce.com
+https://tne-dev.t1cloud.com/T1Default/CiAnywhere/Web/TNE-DEV/LogOn
+https://tne-dev.t1cloud.com/T1Default/CiAnywhere/Web/TNE-DEV/SystemIntegration/OAuth/AuthCallback
+https://localhost:8443/RestTest/oauth/_callback
+https://oauth.pstmn.io/v1/callback</callbackUrl>
+        <consumerKey>3MVG9mQWF42jKQUrLpYRs8N8lhy1ZXMHA3a5PC0W..VLXtKfgUTk_FqAHjUsub5Pzs7TMx1Y9wrgGuFU7oTGq</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>T1 Integration</permissionSetName>
+    <profileName>Integration Profile</profileName>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

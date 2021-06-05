@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Total_Forecast_Percentage</fullName>
+    <active>true</active>
+    <description>The Total Service Forecast % must be not over 100</description>
+    <errorConditionFormula>IF(ISNEW(), Opportunity__r.Total_Services_Forecast__c +  Forecast__c,  Opportunity__r.Total_Services_Forecast__c +  Forecast__c -  PRIORVALUE(Forecast__c) )    &gt; 1</errorConditionFormula>
+    <errorDisplayField>Forecast__c</errorDisplayField>
+    <errorMessage>The Total Services Forecast percentage is over 100%. Please make an adjustment.</errorMessage>
+</ValidationRule>
